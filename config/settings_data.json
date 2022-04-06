@@ -897,6 +897,7 @@
     "image_overlay_bg": "#000000",
     "image_overlay_opacity": 10,
     "image_overlay_shadow_opacity": 15,
+    "image_overlay_box_opacity": 90,
     "alt_bg_col": "#f7f1f0",
     "alt_bg_head_col": "#171717",
     "alt_bg_text_col": "#707173",
@@ -933,6 +934,9 @@
     "font_size_logo_int": 24,
     "button_style": "caps",
     "button_shape": "slightlyrounded",
+    "coll_grid_image_shape": "portrait-45",
+    "coll_grid_image_position": "center center",
+    "coll_grid_show_count": true,
     "prod_thumb_shape": "portrait-23",
     "prod_thumb_crop": true,
     "prod_thumb_text_align": "left",
@@ -955,25 +959,42 @@
         "type": "announcement-bar",
         "settings": {
           "announcement_show": true,
-          "announcement_bar_col": "#f7f1f0",
-          "announcement_text_col": "#212121",
-          "show_social_icons": true
+          "announcement_text": "FREE TOTE BAG WITH PURCHASE OF $100 OR MORE",
+          "announcement_link": "",
+          "announcement_bar_col": "#9dc99e",
+          "announcement_text_col": "#ffffff",
+          "show_social_icons": true,
+          "menu": "",
+          "show_country_selector": true,
+          "show_language_selector": true
         }
       },
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Artboard1-2.png",
           "logo_img_width_int": 155,
           "mobile_logo_img_width_int": 130,
           "enable_sticky": true,
-          "menu_layout": "inline-menu-left"
+          "menu_linklist": "main-menu",
+          "menu_layout": "inline-menu-center",
+          "nav_featured_link": "Sale",
+          "enable_mobile_promo_carousel": true,
+          "enable_nav_mob_products": false,
+          "nav_mob_products_title": "Best Sellers",
+          "nav_mob_products_collection": "",
+          "enable_search": true,
+          "search_suggestions_title": "",
+          "search_suggestions_menu": ""
         }
       },
       "store-messages": {
         "type": "store-messages",
         "settings": {
           "head_not_home_only": false,
-          "head_not_mob_show": false
+          "head_not_mob_show": false,
+          "head_not_mob_text": "Add important information here",
+          "head_not_mob_url": ""
         }
       },
       "cross-page-promos": {
@@ -983,28 +1004,32 @@
             "type": "icon",
             "settings": {
               "icon": "truck",
-              "text": "Free shipping"
+              "text": "Free shipping",
+              "link_url": ""
             }
           },
           "1478526645605": {
             "type": "icon",
             "settings": {
               "icon": "price_tag",
-              "text": "New styles"
+              "text": "New styles",
+              "link_url": ""
             }
           },
           "1478526647261": {
             "type": "icon",
             "settings": {
               "icon": "gift",
-              "text": "Gift cards"
+              "text": "Gift cards",
+              "link_url": ""
             }
           },
           "1478527611164": {
             "type": "icon",
             "settings": {
               "icon": "star",
-              "text": "5.0 Trustpilot rating"
+              "text": "5.0 Trustpilot rating",
+              "link_url": ""
             }
           }
         },
@@ -1024,6 +1049,8 @@
           "1601374680247": {
             "type": "text",
             "settings": {
+              "title": "Talk about your store",
+              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
               "image_width": 150,
               "show_social_icons": true,
               "soc_icons_large": false
@@ -1032,12 +1059,16 @@
           "1601374650582": {
             "type": "menu",
             "settings": {
+              "title": "Quick links",
               "menu": "footer"
             }
           },
           "1601374580731": {
             "type": "newsletter",
             "settings": {
+              "title": "Newsletter",
+              "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
+              "button_style": "primary",
               "show_social_icons": true,
               "soc_icons_large": false
             }
@@ -1049,7 +1080,10 @@
           "1601374580731"
         ],
         "settings": {
-          "show_payment_icons": true
+          "lower_menu": "",
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_language_selector": true
         }
       },
       "popup": {
@@ -1059,14 +1093,15 @@
           "popup_delay_seconds": 6,
           "popup_dismiss_for_days": 2,
           "position": "center",
+          "title": "Sign up and save",
+          "text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
           "show_newsletter": true,
           "show_social_icons": true
         }
       }
     },
-    "image_overlay_box_opacity": 90,
-    "coll_grid_image_shape": "portrait-45",
-    "coll_grid_image_position": "center center",
-    "coll_grid_show_count": true
+    "content_for_index": [
+
+    ]
   }
 }
