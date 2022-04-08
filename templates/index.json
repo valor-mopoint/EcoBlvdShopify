@@ -15,6 +15,10 @@
             "title_size_mobile": 46,
             "text": "<p>And optional subtext<\/p>",
             "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
             "text_alignment": "center center"
           }
         },
@@ -30,6 +34,10 @@
             "title_size_mobile": 46,
             "text": "<p>And optional subtext<\/p>",
             "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
             "text_alignment": "bottom left"
           }
         }
@@ -175,6 +183,7 @@
         "title_size": 30,
         "title_size_mobile": 22,
         "enable_margin": true,
+        "enable_row_spacing": true,
         "full_width": false,
         "use_alt_bg": false,
         "enable_carousel": true,
@@ -216,8 +225,12 @@
         "title": "From the people",
         "layout": "image-right",
         "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
         "image_shape": "square",
-        "use_alt_bg": false
+        "use_alt_bg": false,
+        "autoplay": true,
+        "autoplay_speed": 5
       }
     },
     "16359285201c71bbb1": {
@@ -231,6 +244,10 @@
         "use_h1": false,
         "text": "<p>Use a video to get a customer's attention<\/p>",
         "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
         "text_alignment": "center center",
         "height_desktop": 580,
         "height_mobile": 480,
@@ -316,7 +333,9 @@
           "type": "variant_picker",
           "settings": {
             "show_single": false,
+            "select_first_variant": true,
             "variant_style": "listed",
+            "disable_unavailable_variants": true,
             "show_size_chart": false,
             "size_chart_variant": "Size",
             "size_chart_page": ""
@@ -335,7 +354,8 @@
           "type": "description",
           "settings": {
             "show_in_tab": false,
-            "open_tab": false
+            "open_tab": false,
+            "icon": ""
           }
         }
       },
@@ -351,8 +371,12 @@
       "settings": {
         "product": "",
         "inventory_transfers_enable": true,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
         "enable_zoom": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_var_img_grouping": false,
+        "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
     "1635928697c562053a": {
@@ -380,6 +404,20 @@
         "show_date": true,
         "crop_ratio": "1.78"
       }
+    },
+    "164938909752dc48b9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 1,
+        "use_alt_bg": false,
+        "show_view_all": false,
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -393,6 +431,7 @@
     "163592857728b8bdc2",
     "1635928580d75f81bf",
     "1635928697c562053a",
-    "163592870141219e2f"
+    "163592870141219e2f",
+    "164938909752dc48b9"
   ]
 }
