@@ -6,6 +6,8 @@
         "16359276425da8ce46-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
@@ -25,6 +27,8 @@
         "16359276425da8ce46-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/dead-end-in-the-forest.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/dead-end-in-the-forest_256x256_crop_center_2897930d-b726-4da1-8eb8-6efe014d0852.webp",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
@@ -124,6 +128,7 @@
         "16359279164ff7d3f3-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/blue-phone-case-and-eyeglasses-on-wooden-table.jpg",
             "alignment": "center center",
             "enlarge_image": true,
             "subheading": "Gallery",
@@ -136,6 +141,7 @@
         "16359279164ff7d3f3-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/mobile-phone-and-gimbal-in-hand.jpg",
             "alignment": "center center",
             "enlarge_image": false,
             "subheading": "Gallery",
@@ -148,6 +154,7 @@
         "16359279164ff7d3f3-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/office-flat-lay-on-wooden-desk-with-catch-tray.jpg",
             "alignment": "center center",
             "enlarge_image": false,
             "subheading": "Gallery",
@@ -160,6 +167,7 @@
         "474c4491-283d-4680-a37b-7b5a444e7e62": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/young-people-holding-smart-phones.jpg",
             "alignment": "center center",
             "enlarge_image": true,
             "subheading": "Gallery",
