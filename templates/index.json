@@ -244,7 +244,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_width": 160,
+            "image_width": 700,
             "title": "Donation",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
@@ -255,7 +255,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_width": 160,
+            "image_width": 700,
             "title": "Community",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
