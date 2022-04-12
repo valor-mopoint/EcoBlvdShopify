@@ -966,10 +966,10 @@
         "type": "announcement-bar",
         "settings": {
           "announcement_show": true,
-          "announcement_text": "Announce something here",
+          "announcement_text": "FREE TOTE BAG WITH PURCHASE OF $100 OR MORE",
           "announcement_link": "",
-          "announcement_bar_col": "#f7f1f0",
-          "announcement_text_col": "#212121",
+          "announcement_bar_col": "#9ebd98",
+          "announcement_text_col": "#ffffff",
           "show_social_icons": true,
           "menu": "",
           "show_country_selector": true,
@@ -979,11 +979,12 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_img_width_int": 155,
+          "logo": "shopify:\/\/shop_images\/Artboard1-2.png",
+          "logo_img_width_int": 165,
           "mobile_logo_img_width_int": 130,
           "enable_sticky": true,
           "menu_linklist": "main-menu",
-          "menu_layout": "inline-menu-left",
+          "menu_layout": "inline-menu-center",
           "nav_featured_link": "Sale",
           "enable_mobile_promo_carousel": true,
           "enable_nav_mob_products": false,
