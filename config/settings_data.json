@@ -983,7 +983,7 @@
           "logo_img_width_int": 165,
           "mobile_logo_img_width_int": 130,
           "enable_sticky": true,
-          "menu_linklist": "main-menu",
+          "menu_linklist": "head-menu",
           "menu_layout": "inline-menu-center",
           "nav_featured_link": "Sale",
           "enable_mobile_promo_carousel": true,
