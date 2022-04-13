@@ -25,6 +25,7 @@
 {% assign foot_heading_col = settings.foot_heading_col %}
 {% assign foot_bg_col = settings.foot_bg_col %}
 {% assign alt_bg_col = settings.alt_bg_col %}
+{% assign alt_bg_col1 = settings.alt_bg_col1 %}
 {% assign alt_bg_head_col = settings.alt_bg_head_col %}
 {% assign alt_bg_text_col = settings.alt_bg_text_col %}
 {% assign alt_bg_link_col = settings.alt_bg_link_col %}
@@ -7527,6 +7528,12 @@ ul.inline li {
   background-color: {{ alt_bg_col }};
   color: {{ alt_bg_text_col }};
 }
+  
+.use-alt-bg1 {
+  background-color: {{ alt_bg_col }};
+  color: {{ alt_bg_text_col }};
+}
+  
 .use-alt-bg h1, .use-alt-bg .h1-style, .use-alt-bg h2, .use-alt-bg h3, .use-alt-bg h4, .use-alt-bg h5, .use-alt-bg h6, .use-alt-bg .heading-font {
   color: {{ alt_bg_head_col }};
 }
