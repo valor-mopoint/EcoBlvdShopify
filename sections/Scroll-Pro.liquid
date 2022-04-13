@@ -8,8 +8,65 @@
     <div style="padding:20px 10px;">
     	SCROLL
     </div>
-    <div style="width:100%;overflow-x: hidden;">
-     {% assign slides = section.blocks | where: "type", "image" %}
+    <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
+      <div class="{% if section.settings.enable_carousel %}carousel{% endif %}">
+        {% assign slides = section.blocks | where: "type", "image" %}
+      	{% if slides.size > 0 %}
+            {%- liquid
+              if settings.coll_grid_image_shape == 'portrait-23'
+                assign chosen_aspect_ratio = 0.67
+              elsif settings.coll_grid_image_shape == 'portrait-45'
+                assign chosen_aspect_ratio = 0.8
+              elsif settings.coll_grid_image_shape == 'square'
+                assign chosen_aspect_ratio = 1.0
+              elsif settings.coll_grid_image_shape == 'landscape-54'
+                assign chosen_aspect_ratio = 1.25
+              elsif settings.coll_grid_image_shape == 'landscape-32'
+                assign chosen_aspect_ratio = 1.50
+              elsif settings.coll_grid_image_shape == 'tallest'
+                assign chosen_aspect_ratio = 999
+                for block in slides
+                  assign collection = collections[block.settings.image]
+                  if collection != blank
+                    assign collection_image = block.settings.image | default: collection.featured_image
+                    if collection_image.aspect_ratio < chosen_aspect_ratio
+                      assign chosen_aspect_ratio = collection_image.aspect_ratio
+                    endif
+                  endif
+                endfor
+              else
+                assign chosen_aspect_ratio = 0
+                for block in slides
+                  assign collection = collections[block.settings.image]
+                  if collection != blank
+                    assign collection_image = block.settings.image | default: collection.featured_image
+                    if collection_image.aspect_ratio > chosen_aspect_ratio
+                      assign chosen_aspect_ratio = collection_image.aspect_ratio
+                    endif
+                  endif
+                endfor
+              endif
+            -%}
+
+            {% for block in section.blocks %}
+              {% assign collection = collections[block.settings.collection] %}
+
+              {% unless collection == blank %}
+                {% render 'collection-block', collection: collection, custom_attrs: block.shopify_attributes, manual_image_load: section.settings.enable_carousel, custom_image: block.settings.image, custom_aspect_ratio: chosen_aspect_ratio %}
+              {% else %}
+                {% render 'onboarding-collection-block', forloop: forloop %}
+              {% endunless %}
+            {% endfor %}
+
+          {% else %}
+
+            {% for i in (1..6) %}
+              {% render 'onboarding-collection-block', forloop: forloop %}
+            {% endfor %}
+
+          {% endif %}
+      </div>
+     
      {% for slide in slides %}
        
      {% endfor %}
@@ -39,6 +96,12 @@
         "label": "Title Font Size",
         "default": 16
 	  },
+      {
+        "type": "checkbox",
+        "id": "enable_carousel",
+        "label": "Enable carousel",
+        "default": true
+      },
 	  {
 		"type": "checkbox",
 		"id": "use_alt_bg1",
