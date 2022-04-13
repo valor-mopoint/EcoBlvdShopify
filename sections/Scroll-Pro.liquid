@@ -1,9 +1,21 @@
 <div class="{% if section.settings.use_alt_bg %}use-alt-bg1{% endif %}">
-  {% if section.settings.scrollprotitle != blank %}
-  <div style="width:30%;float:left;">
-  	{{ section.settings.scrollprotitle }}
+  <div style="width:30%;float:left;padding:50px 30px 0px 30px;">
+    {% if section.settings.scrollprotitle != blank %}
+  	  {{ section.settings.scrollprotitle }}
+  	{% endif %}
   </div>
-  {% endif %}
+  <div style="width:70%;float:left;">
+    <div style="padding:20px 10px;">
+    	SCROLL
+    </div>
+    <div style="width:100%;overflow-x: hidden;">
+     {% assign slides = section.blocks | where: "type", "image" %}
+     {% for slide in slides %}
+       
+     {% endfor %}
+    </div>
+    <div></div>
+  </div>
 </div>
 
 {% schema %}
@@ -43,6 +55,11 @@
 			"type": "image_picker",
 			"id": "image",
 			"label": "Image"
+		  },
+		  {
+			"type": "url",
+			"id": "url",
+			"label": "Link"
 		  }
 		]
 	  },
@@ -57,7 +74,7 @@
 			"label": "Button Label"
 		  },
 		  {
-			"type": "text",
+			"type": "url",
 			"id": "link",
 			"label": "Button Link"
 		  }
