@@ -28,7 +28,7 @@
               elsif settings.coll_grid_image_shape == 'tallest'
                 assign chosen_aspect_ratio = 999
                 for block in slides
-                  assign collection = collections[block.settings.image]
+                  assign collection = collections[block.settings.collection]
                   if collection != blank
                     assign collection_image = block.settings.image | default: collection.featured_image
                     if collection_image.aspect_ratio < chosen_aspect_ratio
@@ -39,7 +39,7 @@
               else
                 assign chosen_aspect_ratio = 0
                 for block in slides
-                  assign collection = collections[block.settings.image]
+                  assign collection = collections[block.settings.collection]
                   if collection != blank
                     assign collection_image = block.settings.image | default: collection.featured_image
                     if collection_image.aspect_ratio > chosen_aspect_ratio
@@ -51,7 +51,7 @@
             -%}
 
             {% for block in slides %}
-              {% assign collection = collections[block.settings.image] %}
+              {% assign collection = collections[block.settings.collection] %}
 
               {% unless collection == blank %}
                 {% render 'collection-block', collection: collection, custom_attrs: block.shopify_attributes, manual_image_load: section.settings.enable_carousel, custom_image: block.settings.image, custom_aspect_ratio: chosen_aspect_ratio %}
@@ -112,6 +112,11 @@
 		"type": "image",
         "name": "Slide",
         "settings": [
+		  {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          },
 		  {
 			"type": "image_picker",
 			"id": "image",
