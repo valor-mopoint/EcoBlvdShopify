@@ -32,6 +32,7 @@
       "image_overlay_shadow_opacity": 15,
       "image_overlay_box_opacity": 90,
       "alt_bg_col": "#f7f1f0",
+      "alt_bg_col1": "#e7ebe2",
       "alt_bg_head_col": "#171717",
       "alt_bg_text_col": "#707173",
       "alt_bg_link_col": "#c16452",
