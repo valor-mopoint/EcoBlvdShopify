@@ -1,7 +1,55 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "ScrollPro",
+	"class": "section-scrollpro",
+    "settings": [
+	  {
+		"type":"text",
+		"id":"scrollprotitle",
+		"label":"Title",
+		"default":"Be Part of the Solution. Not the Pollution."
+	  },
+	  {
+		"type": "range",
+        "id": "scrollprotitle_fontsize",
+        "min": 12,
+        "max": 18,
+        "step": 1,
+        "unit": "px",
+        "label": "Title Font Size",
+        "default": 16
+	  }
+	],
+	"blocks":[
+	  {
+		"type": "image",
+        "name": "Slide",
+        "settings": [
+		  {
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image"
+		  }
+		]
+	  },
+	  {
+		"type": "button",
+		"name": "Button",
+		"limit":1,
+		"settings":[
+		  {
+			"type": "text",
+			"id": "button",
+			"label": "Button Label"
+		  },
+		  {
+			"type": "text",
+			"id": "link",
+			"label": "Button Link"
+		  }
+		]
+	  }
+	]
   }
 {% endschema %}
 
