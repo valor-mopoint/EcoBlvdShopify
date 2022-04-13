@@ -48,8 +48,8 @@
               endif
             -%}
 
-            {% for block in section.blocks %}
-              {% assign collection = collections[block.settings.collection] %}
+            {% for block in slides %}
+              {% assign collection = collections[block.settings.image] %}
 
               {% unless collection == blank %}
                 {% render 'collection-block', collection: collection, custom_attrs: block.shopify_attributes, manual_image_load: section.settings.enable_carousel, custom_image: block.settings.image, custom_aspect_ratio: chosen_aspect_ratio %}
