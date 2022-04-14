@@ -63,9 +63,11 @@
               <span class="show-search-link__icon">
                 {%- render 'svg-search' -%}
               </span>
+              {%- comment -%}
               <span class="show-search-link__text">
                 {{- 'layout.search.open' | t -}}
               </span>
+              {%- endcomment -%}
             </a>
           {% endif %}
           {% if section.settings.menu_layout contains 'inline' %}
@@ -119,16 +121,20 @@
           {% endif %}
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
+              {%- comment -%}
               <span class="show-search-link__text">
                 {{- 'layout.search.open' | t -}}
               </span>
+              {%- endcomment -%}
               <span class="show-search-link__icon">
                 {%- render 'svg-search' -%}
               </span>
             </a>
           {% endif %}
           <a href="{{ routes.cart_url }}" class="cart-link">
+            {%- comment -%}
             <span class="cart-link__label">{{ 'layout.header.cart' | t | escape }}</span>
+            {%- endcomment -%}
             <span class="cart-link__icon">
               {%- render 'svg-cart' -%}
               {%- if cart.item_count > 0 -%}
