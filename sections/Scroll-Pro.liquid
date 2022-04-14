@@ -1,17 +1,17 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
-  <div style="padding-top: 10px;{% if section.settings.scrollprotitle == blank %}padding-left:0;{% else %}padding-left:30%;{% endif %}">
+  <div style="padding-top: 10px;{% if section.settings.scrollprotitle == blank %}padding-left:0;{% else %}padding-left:25%;{% endif %}">
     <span style="padding-left:20px;">SCROLL -></span>
   </div>
   <div style="display:flex;padding:30px 0px;">
     {% if section.settings.scrollprotitle != blank %}
     
-    <div style="width:30%;margin:auto;padding:0 50px;">
+    <div style="width:25%;margin:auto;padding:0 50px;">
       <span style="font-weight:bold;font-size:24px;">{{ section.settings.scrollprotitle }}</span>
     </div>
     
     {% endif %}
     
-    <div style="{% if section.settings.scrollprotitle == blank %}width:100%;{% else %}width:70%;{% endif %}">
+    <div style="{% if section.settings.scrollprotitle == blank %}width:100%;{% else %}width:75%;{% endif %}">
     	<div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}" style="padding:0;">
           <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
             <div class="collection-listing" data-cc-animate="cc-fade-in-up">
