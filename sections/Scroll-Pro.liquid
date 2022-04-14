@@ -1,13 +1,27 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
-  <div style="padding-left:30%;">
+  <div style="{% if section.settings.scrollprotitle == blank %}padding-left:0;{% else %}padding-left:30%;{% endif %}">
     <span style="padding-left:20px;">SCROLL -></span>
   </div>
-  <div style="padding:0px 20px;"></div>
-  <div style="padding-left:30%;">
+  <div style="padding:0px 20px;display:flex;">
+    {% if section.settings.scrollprotitle != blank %}
+    
+    <div style="width:30%;margin:auto;padding:0 50px;">
+      <span style="font-weight:bold;font-size:24px;">{{ section.settings.scrollprotitle }}</span>
+    </div>
+    
+    {% endif %}
+    
+    <div style="{% if section.settings.scrollprotitle == blank %}width:100%;{% else %}width:70%;{% endif %}">
+    	
+    </div>
+  </div>
+  <div style="margin:auto;">
     {% assign buttons = section.blocks | where: "type", "button" %}
     {% if buttons.size > 0 %}
       {% for button in buttons %}
-    	<a class="btn btn--primary" href="{{ button.settings.link }}">{{ button.settings.buttontext | escape }}</a>
+    	{% if button.settings.buttontext != blank %}
+    	  <a class="btn btn--primary" href="{{ button.settings.link }}">{{ button.settings.buttontext | escape }}</a>
+    	{% endif %}
       {% endfor %}
     {% endif %}
   </div>
