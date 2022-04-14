@@ -90,31 +90,47 @@
         "use_alt_bg": false
       }
     },
-    "16494065072463d0af": {
-      "type": "rich-text",
+    "16499206234aa91675": {
+      "type": "Scroll-Pro",
       "blocks": {
-        "cae8cb6e-7f3e-4d42-9b2a-0eee193cade2": {
-          "type": "subheading",
+        "164992062390cd15cd-0": {
+          "type": "collection",
           "settings": {
-            "subheading": "Subheading"
+            "collection": ""
           }
         },
-        "b0b38792-bf0d-4ef7-9d37-83232a134f23": {
-          "type": "icon",
+        "86d8a850-805c-494b-8774-245ab892c7bd": {
+          "type": "collection",
           "settings": {
-            "icon": "star"
+            "collection": ""
+          }
+        },
+        "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "516a77aa-e479-4b22-a021-297558f9aab3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "cae8cb6e-7f3e-4d42-9b2a-0eee193cade2",
-        "b0b38792-bf0d-4ef7-9d37-83232a134f23"
+        "164992062390cd15cd-0",
+        "86d8a850-805c-494b-8774-245ab892c7bd",
+        "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa",
+        "516a77aa-e479-4b22-a021-297558f9aab3"
       ],
       "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": true
+        "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
+        "scrollprotitle_fontsize": 16,
+        "enable_carousel": true,
+        "use_alt_bg1": true,
+        "buttontext": "Browse All Product",
+        "buttonlink": ""
       }
     },
     "164940688295c3885f": {
@@ -306,57 +322,47 @@
         "overlay_style": "shadow"
       }
     },
-    "16494081186027851f": {
-      "type": "rich-text",
+    "164991948648d3b28c": {
+      "type": "Scroll-Pro",
       "blocks": {
-        "a24a3612-900c-4a49-9c71-f43a696be6f4": {
-          "type": "icon",
+        "1649919486f84e552c-0": {
+          "type": "collection",
           "settings": {
-            "icon": "star"
+            "collection": ""
           }
         },
-        "8c2a4856-852d-4330-8d23-6a9065bb0988": {
-          "type": "image",
+        "f5d0a971-292d-4937-9cc3-9d788c922828": {
+          "type": "collection",
           "settings": {
-            "image_width": 260,
-            "url": ""
+            "collection": ""
           }
         },
-        "e193dd35-33be-430a-bd19-487d5b71b9a1": {
-          "type": "image",
+        "75759dd2-3bf4-45a0-ac16-2fcb9e825c1c": {
+          "type": "collection",
           "settings": {
-            "image_width": 260,
-            "url": ""
+            "collection": ""
           }
         },
-        "1573a87d-16a7-499f-8431-39112d441a8d": {
-          "type": "image",
+        "0c96b063-ef36-4e9a-9c0c-d8bee9b11154": {
+          "type": "collection",
           "settings": {
-            "image_width": 260,
-            "url": ""
-          }
-        },
-        "9c4619a5-a900-4612-89d4-7c3dd258d6d8": {
-          "type": "button",
-          "settings": {
-            "button_label": "Check Out Our Blog",
-            "button_link": "",
-            "button_style": "primary"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "a24a3612-900c-4a49-9c71-f43a696be6f4",
-        "8c2a4856-852d-4330-8d23-6a9065bb0988",
-        "e193dd35-33be-430a-bd19-487d5b71b9a1",
-        "1573a87d-16a7-499f-8431-39112d441a8d",
-        "9c4619a5-a900-4612-89d4-7c3dd258d6d8"
+        "1649919486f84e552c-0",
+        "f5d0a971-292d-4937-9cc3-9d788c922828",
+        "75759dd2-3bf4-45a0-ac16-2fcb9e825c1c",
+        "0c96b063-ef36-4e9a-9c0c-d8bee9b11154"
       ],
       "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": true,
-        "use_alt_bg": true
+        "scrollprotitle": "A New Avenue to Grow",
+        "scrollprotitle_fontsize": 16,
+        "enable_carousel": true,
+        "use_alt_bg1": true,
+        "buttontext": "Check Out Our Blog",
+        "buttonlink": ""
       }
     },
     "1649408274deafe065": {
@@ -449,12 +455,12 @@
   "order": [
     "16359276425da8ce46",
     "1649406380522b5937",
-    "16494065072463d0af",
+    "16499206234aa91675",
     "164940688295c3885f",
     "164940614408670ea3",
     "163592857728b8bdc2",
     "16494057386affa936",
-    "16494081186027851f",
+    "164991948648d3b28c",
     "1649408274deafe065",
     "16494023164e709bf7"
   ]
