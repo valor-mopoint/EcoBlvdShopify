@@ -63,7 +63,7 @@
                 {% else %}
 
                   {% for i in (1..6) %}
-                    {% render 'pro-collection-block', collection: collection, forloop: forloop %}
+                    {% render 'pro-collection-block', collection: blank, forloop: forloop %}
                   {% endfor %}
 
                 {% endif %}
