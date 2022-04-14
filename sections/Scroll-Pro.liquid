@@ -1,5 +1,15 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
-  <div>
+  <div style="padding-left:30%;">
+    <span style="padding-left:20px;">SCROLL -></span>
+  </div>
+  <div style="padding:0px 20px;"></div>
+  <div style="padding-left:30%;">
+    {% assign buttons = section.blocks | where: "type", "button" %}
+    {% if buttons.size > 0 %}
+      {% for button in buttons %}
+    	<a class="btn btn--primary" href="{{ button.settings.link }}">{{ button.settings.buttontext | escape }}</a>
+      {% endfor %}
+    {% endif %}
   </div>
   <div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}">
   	<div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
@@ -138,7 +148,7 @@
 		"settings":[
 		  {
 			"type": "text",
-			"id": "button",
+			"id": "buttontext",
 			"label": "Button Label"
 		  },
 		  {
