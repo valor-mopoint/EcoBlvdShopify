@@ -2,12 +2,29 @@
 {% for block in section.blocks %}
   {% case block.type %}
       
-      {% when 'text' %}
-        <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text1 }}</div>
+      {% when 'head' %}
+        <div class="environmenalHead-{{ block.id }} rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.headtext }}</div>
 
   {% endcase %}
 {% endfor %}
 </div>
+
+{% style %}
+	{% assign blocks = section.blocks | where: "type", "head" %}
+	{% for block in blocks %}
+		.environmenalHead-{{ block.id }} {
+            {% if block.settings.headfontsize != blank %}
+			font-size: {{ block.settings.headfontsize }}px
+			{% endif %}
+
+			{% if block.settings.headfontcolor != blank %}
+			color: {{ block.settings.headfontcolor }}
+			{% endif %}
+        }
+	{% endfor %}
+	
+
+{% endstyle %}
 
 {% schema %}
   {
@@ -36,15 +53,30 @@
 	],
 	"blocks":[
       {
-		"type":"text",
-		"name":"haeding",
+		"type":"head",
+		"name":"head",
 		"settings":[
           {
             "type":"text",
-            "id":"text1",
+            "id":"headtext",
             "label":"Text",
-			"default":"test"
-          }
+			"default":"Head"
+          },
+		  {
+			"type": "range",
+			"id": "headfontsize",
+			"label": "Head Font Size",
+			"min": 12,
+			"max": 24,
+			"step": 1,
+			"unit": "px",
+			"default": 16
+		  },
+		  {
+			"type": "color",
+			"id": "headfontcolor",
+			"label": "Head Font color"
+		  }
 		]
       }
 	],
@@ -54,7 +86,7 @@
         "settings": {},
         "blocks": [
           {
-            "type": "text"
+            "type": "head"
           }
         ]
       }
