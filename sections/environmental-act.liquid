@@ -9,23 +9,6 @@
 {% endfor %}
 </div>
 
-{% style %}
-	{% assign blocks = section.blocks | where: "type", "head" %}
-	{% for block in blocks %}
-		.environmenalHead-{{ block.id }} {
-            {% if block.settings.headfontsize != blank %}
-			font-size: {{ block.settings.headfontsize }}px
-			{% endif %}
-
-			{% if block.settings.headfontcolor != blank %}
-			color: {{ block.settings.headfontcolor }}
-			{% endif %}
-        }
-	{% endfor %}
-	
-
-{% endstyle %}
-
 {% schema %}
   {
     "name": "enviromental",
@@ -95,6 +78,20 @@
 {% endschema %}
 
 {% stylesheet %}
+
+{% assign blocks = section.blocks | where: "type", "head" %}
+	{% for block in blocks %}
+		.environmenalHead-{{ block.id }} {
+            {% if block.settings.headfontsize != blank %}
+			font-size: {{ block.settings.headfontsize }}px
+			{% endif %}
+
+			{% if block.settings.headfontcolor != blank %}
+			color: {{ block.settings.headfontcolor }}
+			{% endif %}
+        }
+	{% endfor %}
+
 {% endstylesheet %}
 
 {% javascript %}
