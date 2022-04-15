@@ -8,9 +8,7 @@
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
    	 {% when 'image'%}
           {%- if block.settings.image == blank -%}
-              <div class="gallery__image placeholder-image {% if show_overlay_text %}dark{% endif %}">
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              </div>
+            
             {%- else -%}
               <div class="gallery__image rimage-outer-wrapper rimage-background lazyload{% if section.settings.enable_carousel %}--manual{% endif %} fade-in"
                           data-bgset="{% render 'bgset', image: block.settings.image %}"
