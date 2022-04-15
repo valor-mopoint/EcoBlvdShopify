@@ -7,7 +7,7 @@
 	 {% when 'text' %}
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
    	 {% when 'image'%}
-         iv class="gallery gallery--grid-{{ section.settings.grid }}{% if section.settings.enable_margin %} gallery--with-margins{% endif %}{% if section.settings.enable_carousel %} gallery--mobile-carousel slick-slider-overlay-dots{% endif %}{% if section.settings.full_width and section.settings.enable_margin %} gallery--with-vertical-outer-padding{% endif %}" data-grid="{{ section.settings.grid }}">
+         <div class="gallery gallery--grid-{{ section.settings.grid }}{% if section.settings.enable_margin %} gallery--with-margins{% endif %}{% if section.settings.enable_carousel %} gallery--mobile-carousel slick-slider-overlay-dots{% endif %}{% if section.settings.full_width and section.settings.enable_margin %} gallery--with-vertical-outer-padding{% endif %}" data-grid="{{ section.settings.grid }}">
     
           {%- assign show_overlay_text = false -%}
           {%- if block.settings.title != blank or block.settings.subheading != blank or block.settings.button_label != blank -%}
