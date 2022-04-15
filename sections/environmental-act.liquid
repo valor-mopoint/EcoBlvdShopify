@@ -77,8 +77,21 @@
 			"id": "headfontcolor",
 			"label": "Head Font color"
 		  }
+		  
 		]
-      }
+      },
+	 {
+		"type":"text",
+		"name":"text",
+		"settings":[
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "label": "Paragraph",
+          "default":"<p>chided</p>"
+        }
+	   ]
+	 }
 	],
     "presets": [
       {
@@ -87,7 +100,10 @@
         "blocks": [
           {
             "type": "head"
-          }
+          },
+		  {
+		     "type":"text"
+		  }
         ]
       }
     ]
