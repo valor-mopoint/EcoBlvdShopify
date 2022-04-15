@@ -18,6 +18,11 @@
                 {% endif %}
               {% if block.settings.url != blank %}</a>{% endif %}
             </div>
+    {% when 'button' %}
+              <div class="lightly-spaced-row-above" {{ block.shopify_attributes }}>
+                <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+              </div>
+
   {% endcase %}
 {% endfor %}
 </div>
@@ -179,6 +184,43 @@
             "type": "url",
             "id": "url",
             "label": "Link"
+          }
+        ]
+      },
+	 {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button",
+            "default": "Button text"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          },
+          {
+            "type": "select",
+            "id": "button_style",
+            "label": "Button style",
+            "default": "primary",
+            "options": [
+              {
+                "label": "Button - primary",
+                "value": "primary"
+              },
+              {
+                "label": "Button - secondary",
+                "value": "secondary"
+              },
+              {
+                "label": "Link",
+                "value": "link"
+              }
+            ]
           }
         ]
       }
