@@ -1,7 +1,55 @@
+<div></div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "enviromental",
+    "settings": [
+	  {
+        "type": "select",
+        "id": "height1",
+        "label": "Section height",
+        "default": "medium",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      }
+	],
+	"blocks":[
+      {
+		"type":"text",
+		"name":"haeding",
+		"settings":[
+          {
+            "type":"text",
+            "id":"text1",
+            "label":"Text",
+			"default":"test"
+          }
+		]
+      }
+	],
+    "presets": [
+      {
+        "name": "Rich text",
+        "settings": {},
+        "blocks": [
+          {
+            "type": "text"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
