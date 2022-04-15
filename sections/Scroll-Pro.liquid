@@ -75,10 +75,18 @@
   </div>
   <div style="text-align:center;">
     {% if section.settings.buttontext != blank %}
-      <a class="btn btn--primary" {% unless section.settings.buttonlink == blank %}href="{{ section.settings.buttonlink }}"{% endunless %}>{{ section.settings.buttontext | escape }}</a>
+      <a class="btn btn--primary btn-scrollpro" {% unless section.settings.buttonlink == blank %}href="{{ section.settings.buttonlink }}"{% endunless %}>{{ section.settings.buttontext | escape }}</a>
     {% endif %}
   </div>
 </div>
+
+{% style type="text/css" %}
+
+	.btn-scrollpro { 
+		width: 50%;
+	}
+
+{% endstyle %}
 
 {% schema %}
   {
