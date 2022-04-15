@@ -7,67 +7,23 @@
 	 {% when 'text' %}
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
    	 {% when 'image'%}
-            {%- assign forloop_mod_grid = forloop.index0 | modulo: section.settings.grid -%}
-          {%- if forloop.index0 > 0 and forloop_mod_grid == 0 -%}
-            </div><div class="gallery__row">
-          {%- endif -%}
-          {%- assign show_overlay_text = false -%}
-          {%- if block.settings.title != blank or block.settings.subheading != blank or block.settings.button_label != blank -%}
-            {%- assign show_overlay_text = true -%}
-          {%- endif -%}
-
-          <div class="gallery__item
-              gallery__item-{{ forloop.index }}
-              {% if block.settings.enlarge_image %}gallery__item--enlarged{% endif %}
-              image-overlay
-              image-overlay--bg-{{ section.settings.overlay_style }}
-              image-overlay--edge-boxes
-              lazyload--placeholder
-              {% unless section.settings.use_alt_bg %}{% unless section.settings.full_width and section.settings.enable_margin == false %}image-overlay--edge-boxes--pad-to-corner{% endunless %}{% endunless %}
-              " {{ block.shopify_attributes }}
-              data-cc-animate>
-            {%- if block.settings.link != blank -%}<a class="image-overlay__image-link" href="{{ block.settings.link }}">{%- endif -%}
-
-            {%- if block.settings.image == blank -%}
+          {%- if block.settings.image == blank -%}
               <div class="gallery__image placeholder-image {% if show_overlay_text %}dark{% endif %}">
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               </div>
             {%- else -%}
               <div class="gallery__image rimage-outer-wrapper rimage-background lazyload{% if section.settings.enable_carousel %}--manual{% endif %} fade-in"
-                  data-bgset="{% render 'bgset', image: block.settings.image %}"
-                  data-sizes="auto"
-                  data-parent-fit="cover"
-                  style="background-position: {{ block.settings.alignment }}">
+                          data-bgset="{% render 'bgset', image: block.settings.image %}"
+                          data-sizes="auto"
+                          data-parent-fit="cover"
+                          style="background-position: {{ block.settings.alignment }}">
                 <noscript>
                   <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
-                    <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
+                    <img src="{{ block.settings.image | img_url: '200x200' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
                   </div>
                 </noscript>
               </div>
             {%- endif -%}
-
-            {%- if show_overlay_text -%}
-            <div class="overlay-text overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over">
-              <div class="overlay-text__inner">
-                <div class="overlay-text__text">
-                  {%- if block.settings.subheading != blank -%}
-                    <div class="overlay-text__subheading subheading subheading--over">{{ block.settings.subheading | escape }}</div>
-                  {%- endif -%}
-                  {%- if block.settings.title != blank -%}
-                    <h2 class="overlay-text__title h4-style">{{ block.settings.title | newline_to_br }}</h2>
-                  {%- endif -%}
-                  {%- if block.settings.button_label != blank -%}
-                    <div class="overlay-text__button-row overlay-text__button-row--{{ section.settings.button_style }}">
-                      <span class="overlay-text__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}">{{ block.settings.button_label }}</span>
-                    </div>
-                  {%- endif -%}
-                </div>
-              </div>
-            </div>
-            {%- endif -%}
-
-            {%- if block.settings.link != blank -%}</a>{%- endif -%}
-          </div>
   {% endcase %}
 {% endfor %}
 </div>
@@ -106,7 +62,7 @@
         "type": "range",
         "id": "desktop_image_height",
         "min": 100,
-        "max": 500,
+        "max": 1000,
         "step": 10,
         "unit": "px",
         "label": "Desktop image row heights",
@@ -116,7 +72,7 @@
         "type": "range",
         "id": "mobile_image_height",
         "min": 100,
-        "max": 500,
+        "max": 700,
         "step": 10,
         "unit": "px",
         "label": "Mobile image row heights",
