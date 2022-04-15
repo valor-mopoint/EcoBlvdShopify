@@ -132,134 +132,32 @@
           }
         ]
       },
-     {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "select",
-          "id": "alignment",
-          "label": "Image alignment",
-          "info": "Used to keep the subject of your focus in view",
-          "default": "center center",
-          "options": [
-            {
-              "value": "top left",
-              "label": "Top left"
-            },
-            {
-              "value": "top center",
-              "label": "Top center"
-            },
-            {
-              "value": "top right",
-              "label": "Top right"
-            },
-            {
-              "value": "center left",
-              "label": "Middle left"
-            },
-            {
-              "value": "center center",
-              "label": "Middle center"
-            },
-            {
-              "value": "center right",
-              "label": "Middle right"
-            },
-            {
-              "value": "bottom left",
-              "label": "Bottom left"
-            },
-            {
-              "value": "bottom center",
-              "label": "Bottom center"
-            },
-            {
-              "value": "bottom right",
-              "label": "Bottom right"
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "id": "enlarge_image",
-          "label": "Enlarge image",
-          "default": false
-        },
-        {
-          "type": "text",
-          "id": "subheading",
-          "label": "Subheading",
-          "default": "Gallery"
-        },
-        {
-          "type": "textarea",
-          "id": "title",
-          "label": "Heading",
-          "default": "Tell your story"
-        },
-        {
-          "type": "text",
-          "id": "button_label",
-          "label": "Button"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        },
-        {
-          "type": "select",
-          "id": "text_alignment",
-          "label": "Text overlay position",
-          "options": [
-            {
-              "value": "top left",
-              "label": "Top left"
-            },
-            {
-              "value": "top center",
-              "label": "Top center"
-            },
-            {
-              "value": "top right",
-              "label": "Top right"
-            },
-            {
-              "value": "center left",
-              "label": "Middle left"
-            },
-            {
-              "value": "center center",
-              "label": "Middle center"
-            },
-            {
-              "value": "center right",
-              "label": "Middle right"
-            },
-            {
-              "value": "bottom left",
-              "label": "Bottom left"
-            },
-            {
-              "value": "bottom center",
-              "label": "Bottom center"
-            },
-            {
-              "value": "bottom right",
-              "label": "Bottom right"
-            }
-          ],
-          "default": "bottom left"
-        }
-      ]
-    }
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "range",
+            "id": "image_width",
+            "label": "Image width",
+			"min": 16,
+			"max": 100,
+			"step": 1,
+            "unit": "%",
+			"default": 33
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          }
+        ]
+      }
 	],
     "presets": [
       {
@@ -273,10 +171,8 @@
 		     "type":"text"
 		  },
 		   {
-          "type": "image",
-          "settings": {
-            "enlarge_image": true
-          }
+          "type": "image"
+         
         }
         ]
       }
