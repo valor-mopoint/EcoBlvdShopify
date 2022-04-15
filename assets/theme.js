@@ -2902,7 +2902,7 @@
               items: desktopNumPerRow - 1 },
 
             1000: {
-              items: desktopNumPerRow } } };
+              items: 3.5 } } };
 
 
 
