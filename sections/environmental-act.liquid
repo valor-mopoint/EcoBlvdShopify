@@ -1,5 +1,12 @@
 <div id="section-id-{section.id}">
+{% for block in section.blocks %}
+  {% case block.type %}
+      
+      {% when 'text' %}
+        <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
 
+  {% endcase %}
+{% endfor %}
 </div>
 
 {% schema %}
