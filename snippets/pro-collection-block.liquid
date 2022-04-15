@@ -21,12 +21,12 @@
         {%- liquid
           if custom_image
             assign collection_image = custom_image
-          elsif collection.featured_image
+          elsif collection.featured_image != blank
             assign collection_image = collection.featured_image
           endif
         -%}
 
-        {% if collection_image != blank %}
+        {% if custom_image != blank %}
           <div class="product-block__image product-block__image--primary product-block__image--active">
             {% render 'responsive-image', image: collection_image, manual_image_load: manual_image_load, aspect_ratio: custom_aspect_ratio, cover: true, no_max_width: true %}
           </div>
