@@ -1056,39 +1056,36 @@
           "b74721b5-0cdf-44f1-b470-e44959a61d4a": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
+              "title": "SHOP",
               "menu": "shop-menu"
+            }
+          },
+          "0d857525-cff7-47ed-947f-a93ce92d0044": {
+            "type": "menu",
+            "settings": {
+              "title": "SUPPORT",
+              "menu": "support-menu"
             }
           },
           "1601374650582": {
             "type": "menu",
             "settings": {
-              "title": "About",
+              "title": "ABOUT US",
               "menu": "about-menu"
-            }
-          },
-          "e51549dd-6556-4614-9ff0-ff4795b414cd": {
-            "type": "text",
-            "settings": {
-              "title": "Follow Us",
-              "text": "",
-              "image_width": 100,
-              "show_social_icons": true,
-              "soc_icons_large": true
             }
           },
           "d70fbf15-cd7f-418d-bc14-428c5d3a1d75": {
             "type": "menu",
             "settings": {
-              "title": "Accessibility",
+              "title": "LEGAL",
               "menu": "accessibility-menu"
             }
           }
         },
         "block_order": [
           "b74721b5-0cdf-44f1-b470-e44959a61d4a",
+          "0d857525-cff7-47ed-947f-a93ce92d0044",
           "1601374650582",
-          "e51549dd-6556-4614-9ff0-ff4795b414cd",
           "d70fbf15-cd7f-418d-bc14-428c5d3a1d75"
         ],
         "settings": {
