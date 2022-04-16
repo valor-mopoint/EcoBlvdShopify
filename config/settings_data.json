@@ -921,10 +921,10 @@
     "prod_rating_star": "#f6a529",
     "cross_page_promo_bg": "#f7f1f0",
     "cross_page_promo_color": "#171717",
-    "foot_bg_col": "#3a3a3c",
+    "foot_bg_col": "#000000",
     "foot_text_col": "#ffffff",
     "foot_heading_col": "#ffffff",
-    "foot_divider_col": "#3a3a3c",
+    "foot_divider_col": "#000000",
     "type_heading_font": "itc_galliard_n4",
     "capitalize_headings": false,
     "type_base_font": "futura_n4",
@@ -1078,7 +1078,7 @@
             "type": "menu",
             "settings": {
               "title": "LEGAL",
-              "menu": "accessibility-menu"
+              "menu": "legal-menu"
             }
           }
         },
