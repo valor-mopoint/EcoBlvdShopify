@@ -122,7 +122,9 @@
 
               {% if section.settings.show_payment_icons %}
               	<div class="section-footer__newsletter-block__payment_icons">
-                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'FBPay.png' | asset_img_url }}" /></div>
+                  {% for i in (1..6) %}
+					<div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'FBPay.png' | asset_img_url }}" /></div>
+                  {% endfor %}
               	</div>
               {% endif %}
             </div>
