@@ -20,7 +20,7 @@
             </div>
     {% when 'button' %}
               <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
-                <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
+                <a class="environmenalbtn{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
               </div>
 
   {% endcase %}
@@ -57,7 +57,7 @@
           font-weight: bold;
         }
 	{% elsif block.type == "button"%}
-		.btn btn--{{ block.settings.button_style }}{ 
+		.environmenalbtn btn{ 
 			 width: 35%;
 			 background-color: #5f7a41;
              border: #5f7a41;
