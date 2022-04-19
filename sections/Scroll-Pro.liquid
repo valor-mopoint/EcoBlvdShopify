@@ -1,6 +1,6 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
   <div class="scroll-pro-text">
-    <span class="scrollspan">SCROLL <img src="{{ 'right.svg' | asset_url  }}" /></span>
+    <span class="scrollspan">SCROLL <img class="scroll-span-img" src="{{ 'right.svg' | asset_url  }}" /></span>
   </div>
   <div class="scroll-pro-title">
     {% if section.settings.scrollprotitle != blank %}
@@ -116,6 +116,12 @@
 
 	.scroll-pro-collection .container {
 		padding: 0;
+	}
+
+	.scroll-span-img {
+		height: 20px;
+        margin-top: 1px;
+        margin-left: 10px;
 	}
 
 	a.btn.btn-scrollpro { 
