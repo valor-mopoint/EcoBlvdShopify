@@ -31,6 +31,7 @@
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
 	{%- for block in blocks -%}
 		.environmenalHead-{{ block.id }} {
+{%- comment -%}
             {%- if block.settings.headfontsize != blank -%}
 			font-size: {{ block.settings.headfontsize }}px
 			{%- endif -%}
@@ -38,6 +39,7 @@
 			{%- if block.settings.headfontcolor != blank -%}
 			color: {{ block.settings.headfontcolor }}
 			{%- endif -%}
+{%- endcomment -%}
         }
 	{%- endfor -%}
 	
@@ -249,7 +251,7 @@
 {% endschema %}
 
 {% stylesheet %}
-.environmenalHead-{{block.id}}{
+.environmenalHead-{{block.id }}{
 color:#5D874E;
 }
 {% endstylesheet %}
