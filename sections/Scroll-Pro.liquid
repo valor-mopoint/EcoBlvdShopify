@@ -1,18 +1,18 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
-  <div style="padding-top: 10px;{% if section.settings.scrollprotitle == blank %}padding-left:0;{% else %}padding-left:25%;{% endif %}">
+  <div class="scroll-pro-text">
     <span class="scrollspan">SCROLL -></span>
   </div>
-  <div style="display:flex;padding:30px 0px;">
+  <div class="scroll-pro-title">
     {% if section.settings.scrollprotitle != blank %}
     
-    <div style="width:25%;margin:auto;padding:0 50px;">
-      <span style="font-weight:bold;font-size:24px;">{{ section.settings.scrollprotitle }}</span>
+    <div class="scroll-pro-title-box">
+      <span class="scroll-pro-title-span">{{ section.settings.scrollprotitle }}</span>
     </div>
     
     {% endif %}
     
-    <div style="{% if section.settings.scrollprotitle == blank %}width:100%;{% else %}width:75%;{% endif %}">
-    	<div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}" style="padding:0;">
+    <div class="scroll-pro-collection">
+    	<div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}">
           <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
             <div class="collection-listing" data-cc-animate="cc-fade-in-up">
               <div class="scroll-collection product-list product-list--per-row-3-5 product-list--per-row-mob-{{ settings.prod_thumb_mob_per_row }} product-list--image-shape-{{ settings.coll_grid_image_shape }} {% if section.settings.enable_carousel %}carousel{% endif %}" style="margin:0;">
@@ -80,7 +80,43 @@
   </div>
 </div>
 
-{% style type="text/css" %}
+{% style %}
+
+	.scroll-pro-text {
+	  {% if section.settings.scrollprotitle == blank %}
+		padding-left:0;
+	  {% else %}
+		padding-left:25%;
+	  {% endif %}
+	}
+
+	.scroll-pro-title {
+		display:flex;
+		padding:20px 0px;
+	}
+
+	.scroll-pro-title-box {
+		width: 25%;
+		margin: auto;
+		padding: 0 50px;
+	}
+
+	.scroll-pro-title-span {
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	.scroll-pro-collection {
+	  {% if section.settings.scrollprotitle == blank %}
+		width: 100%;
+	  {% else %}
+		width: 75%;
+	  {% endif %}
+	}
+
+	.scroll-pro-collection .container {
+		padding: 0;
+	}
 
 	a.btn.btn-scrollpro { 
 	  width: 40%;
