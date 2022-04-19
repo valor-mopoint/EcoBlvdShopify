@@ -120,7 +120,20 @@
                 </div>
               {% endif %}
 
-              
+              {% if section.settings.show_payment_icons %}
+              	<div style="width:100%;">
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+                  <div>{{ 'FBPay.png' | asset_img_url }}</div>
+              	</div>
+              {% endif %}
             </div>
 
           {% endcase %}
