@@ -56,8 +56,9 @@
           font-size:35px;
           font-weight: bold;
         }
+{% if block.settings.button_style != 'link' %}
 	{% elsif block.type == "button"%}
-		{% if block.settings.button_style != 'link' %}
+		
 		.btn btn--{{ block.settings.button_style }}{
 			 width: 35%;
 			 background-color: #5f7a41;
