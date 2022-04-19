@@ -9982,8 +9982,12 @@ model-viewer .container {
 
 .strongly-spaced-row,
 .fully-spaced-row--medium {
+  {% comment %}
   margin-top: {{ larger_section_padding }}px;
   margin-bottom: {{ larger_section_padding }}px;
+  {% endcomment %}
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 @media (max-width: 767px) {
   .strongly-spaced-row,
