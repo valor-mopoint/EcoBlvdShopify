@@ -121,8 +121,8 @@
               {% endif %}
 
               {% if section.settings.show_payment_icons %}
-              	<div style="width:100%;">
-                  <div><img src="{{ 'FBPay.png' | asset_img_url }}" /></div>
+              	<div class="section-footer__newsletter-block__payment_icons">
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'FBPay.png' | asset_img_url }}" /></div>
               	</div>
               {% endif %}
             </div>
@@ -181,6 +181,26 @@
   </div>
 </div>
 
+{% style %}
+
+.section-footer__newsletter-block__payment_icons {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.section-footer__newsletter-block__payment_icon_item {
+	display: flex;
+    background-color: white;
+    margin: 5px 0;
+    padding: 0 5px;
+    width: calc(20% - 5px);
+    border-radius: 3px;
+}
+
+{% endstyle %}
 
 {% schema %}
   {
