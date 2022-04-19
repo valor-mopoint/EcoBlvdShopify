@@ -4,5 +4,5 @@
   preserveAspectRatio="xMidYMid meet">
   <circle id="mycircle" cx="100" cy="100" r="100" fill="#5d783e" />
   <line x1="50" y1="100" x2="150" y2="100" style="stroke:rgb(255,255,255);stroke-width:8" />
-  <polyline points="125,75 150,100 125,125" fill="none" stroke="black" style="stroke:rgb(255,255,255);stroke-width:8" />
+  <polyline points="100,50 150,100 100,150" fill="none" stroke="black" style="stroke:rgb(255,255,255);stroke-width:8" />
 </svg>
