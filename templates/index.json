@@ -96,26 +96,36 @@
         "164992062390cd15cd-0": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "laguna-collection",
             "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
           }
         },
         "86d8a850-805c-494b-8774-245ab892c7bd": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "sequoia-collection",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
           }
         },
         "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
           }
         },
         "516a77aa-e479-4b22-a021-297558f9aab3": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+          }
+        },
+        "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
           }
         }
       },
@@ -123,7 +133,8 @@
         "164992062390cd15cd-0",
         "86d8a850-805c-494b-8774-245ab892c7bd",
         "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa",
-        "516a77aa-e479-4b22-a021-297558f9aab3"
+        "516a77aa-e479-4b22-a021-297558f9aab3",
+        "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca"
       ],
       "settings": {
         "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
