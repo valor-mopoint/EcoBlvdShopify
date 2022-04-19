@@ -19,7 +19,7 @@
               {% if block.settings.url != blank %}</a>{% endif %}
             </div>
     {% when 'button' %}
-              <div class="lightly-spaced-row-above" {{ block.shopify_attributes }}>
+              <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
                 <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
               </div>
 
