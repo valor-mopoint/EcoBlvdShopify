@@ -1,9 +1,9 @@
-<div id="section-id-{{ section.id }}">
+<div id="section-id-{{ section.id }}" style="text-align: center;">
 {% for block in section.blocks %}
   {% case block.type %}
       
       {% when 'head' %}
-        <div class="environmenalHead-{{ block.id }} rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.headtext }}</div>
+        <h1 class="environmenalHead-{{ block.id }} rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.headtext }}</h1>
 	 {% when 'text' %}
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
    	 {% when 'image' %}
