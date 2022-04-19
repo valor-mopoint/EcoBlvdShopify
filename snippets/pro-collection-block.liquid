@@ -24,7 +24,7 @@
 <div class="product-block collection-block" data-collection-id="{{ collection.id }}" {{ custom_attrs }} {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
     <a class="product-link" href="{{ collection.url }}">
-      <div class="image-cont">
+      <div class="image-cont pro-collection-block-image-cont">
         {%- liquid
           if custom_image
             assign collection_image = custom_image
@@ -47,3 +47,11 @@
 </div>
 
 {% endif %}
+
+{% style %}
+
+.pro-collection-block-image-cont {
+	border-radius: 5px;
+}
+
+{% endstyle %}
