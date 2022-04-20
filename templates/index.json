@@ -393,11 +393,19 @@
             "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
             "enlarge_text": true
           }
+        },
+        "ec474924-85e7-4822-87d6-6a0e9991ddad": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
         }
       },
       "block_order": [
         "1649408274c156dee8-0",
-        "1649408274c156dee8-1"
+        "1649408274c156dee8-1",
+        "ec474924-85e7-4822-87d6-6a0e9991ddad"
       ],
       "settings": {
         "height": "medium",
