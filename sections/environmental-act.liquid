@@ -5,7 +5,7 @@
       {% when 'head' %}
         <h1 class="environmenalHead-{{ block.id }} rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.headtext }}</h1>
 	 {% when 'text' %}
-           <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="background-color:none">{{ block.settings.text }}</div>
+           <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="background-color:white">{{ block.settings.text }}</div>
    	 {% when 'image' %}
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
