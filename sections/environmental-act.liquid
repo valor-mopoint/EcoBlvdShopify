@@ -7,8 +7,8 @@
 	 {% when 'text' %}
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="background-color:white;color:#5C9757;">{{ block.settings.text }}</div>
    	 {% when 'image' %}
-  		<div style="display: flex;justify-content: space-evenly;">
-            <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
+  		<div >
+            <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%;display: flex;justify-content: space-evenly;" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
                 {% if block.settings.image != blank %}
                   {% render 'responsive-image', image: block.settings.image %}
