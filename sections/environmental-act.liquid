@@ -62,11 +62,15 @@
 		
 		.environmenalBtn-{{ block.type }}{
 			 width: 35%;
-			 background-color: #5f7a41;
-             border: #5f7a41;
-             border-radius: 20px;
+			 background-color: #5f7a41 !important;
+             border: #5f7a41 !important;
+             border-radius: 20px !important;
 			}
-
+.environmenalBtn-{{ block.type }}:hover{
+	color: #5f7a41;
+    background-color: white !important;
+    font-weight: bold;
+}
 	{%- endif-%}
 {%- endfor -%}
 {% endstyle %}
