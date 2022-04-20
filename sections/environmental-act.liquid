@@ -7,6 +7,7 @@
 	 {% when 'text' %}
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="background-color:white;color:#5C9757;">{{ block.settings.text }}</div>
    	 {% when 'image' %}
+  		<div style="display: flex;justify-content: space-evenly;">
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
                 {% if block.settings.image != blank %}
@@ -18,6 +19,7 @@
                 {% endif %}
               {% if block.settings.url != blank %}</a>{% endif %}
             </div>
+ 		</div>
     {% when 'button' %}
               <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
                 <a class="environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
@@ -210,7 +212,7 @@
 			"max": 100,
 			"step": 1,
             "unit": "%",
-			"default": 33
+			"default": 30
           },
           {
             "type": "url",
