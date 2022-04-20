@@ -1,7 +1,29 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "RichTexts",
+	"class":"section-RichTexts",
+    "settings": [
+		{
+        "type": "select",
+        "id": "height",
+        "label": "Section height",
+        "default": "medium",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      }
+	]
   }
 {% endschema %}
 
