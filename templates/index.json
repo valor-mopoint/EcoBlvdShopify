@@ -406,65 +406,6 @@
         "use_alt_bg": false
       }
     },
-    "16504212903794e3cc": {
-      "type": "slideshow",
-      "blocks": {
-        "1650421290cac099ad-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "mobile_image_position": "center center",
-            "slide_link": "",
-            "subheading": "Tell your story",
-            "title": "Two line\nslide heading",
-            "title_size": 84,
-            "title_size_mobile": 46,
-            "text": "<p>And optional subtext<\/p>",
-            "enlarge_text": true,
-            "button_label_1": "Shop this",
-            "button_url_1": "",
-            "button_label_2": "Shop all",
-            "button_url_2": "",
-            "text_alignment": "center center"
-          }
-        },
-        "1650421290cac099ad-1": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "mobile_image_position": "center center",
-            "slide_link": "",
-            "subheading": "Tell your story",
-            "title": "Two line\nslide heading",
-            "title_size": 84,
-            "title_size_mobile": 46,
-            "text": "<p>And optional subtext<\/p>",
-            "enlarge_text": true,
-            "button_label_1": "Shop this",
-            "button_url_1": "",
-            "button_label_2": "Shop all",
-            "button_url_2": "",
-            "text_alignment": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "1650421290cac099ad-0",
-        "1650421290cac099ad-1"
-      ],
-      "settings": {
-        "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 460,
-        "full_width": true,
-        "mobile_overlay_under": true,
-        "overlay_style": "shadow",
-        "slide_transition": "zoom",
-        "slide_navigation": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 4
-      }
-    },
     "16494023164e709bf7": {
       "type": "logo-list",
       "blocks": {
@@ -533,7 +474,6 @@
     "16494057386affa936",
     "164991948648d3b28c",
     "1649408274deafe065",
-    "16504212903794e3cc",
     "16494023164e709bf7"
   ]
 }
