@@ -13,7 +13,7 @@
                   {% render 'responsive-image', image: block.settings.image %}
                 {% else %}
               
-                  <div class="placeholder-image">
+                  <div class="placeholder-image" style="margin: 20px;">
                     {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
                   </div>
                 {% endif %}
