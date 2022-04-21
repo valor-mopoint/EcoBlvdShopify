@@ -122,9 +122,18 @@
 
               {% if section.settings.show_payment_icons %}
               	<div class="section-footer__newsletter-block__payment_icons">
-                  {% for i in (1..10) %}
-					<div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'FBPay.png' | asset_img_url }}" /></div>
-                  {% endfor %}
+                  
+				  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'visa.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'mastercard.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'amex.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'Discover.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'paypal.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'applePay.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'Google_Pay.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'klarna1.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'FBPay.png' | asset_img_url }}" /></div>
+                  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'Opay.png' | asset_img_url }}" /></div>
+                  
               	</div>
               {% endif %}
             </div>
