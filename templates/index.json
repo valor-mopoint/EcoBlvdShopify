@@ -406,14 +406,14 @@
         "use_alt_bg": false
       }
     },
-    "16505091652183899b": {
+    "165050953813cd8798": {
       "type": "SlidesText",
       "blocks": {
-        "16505091658f11c26c-0": {
+        "1650509538420c9a94-0": {
           "type": "image",
           "settings": {
-            "subheading": "Reviews",
-            "title": "Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.",
+            "subheading": "Tell your story",
+            "title": "Two line\nslide heading",
             "title_size": 84,
             "title_size_mobile": 46,
             "text": "<p>And optional subtext<\/p>",
@@ -421,7 +421,7 @@
             "text_alignment": "center center"
           }
         },
-        "16505091658f11c26c-1": {
+        "1650509538420c9a94-1": {
           "type": "image",
           "settings": {
             "subheading": "Tell your story",
@@ -435,8 +435,8 @@
         }
       },
       "block_order": [
-        "16505091658f11c26c-0",
-        "16505091658f11c26c-1"
+        "1650509538420c9a94-0",
+        "1650509538420c9a94-1"
       ],
       "settings": {
         "height": "fixed",
@@ -448,7 +448,7 @@
         "slide_transition": "fade",
         "slide_navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 7
+        "autoplay_speed": 2
       }
     },
     "16494023164e709bf7": {
@@ -519,7 +519,7 @@
     "16494057386affa936",
     "164991948648d3b28c",
     "1650500686ea7f27ca",
-    "16505091652183899b",
+    "165050953813cd8798",
     "16494023164e709bf7"
   ]
 }
