@@ -1,4 +1,4 @@
-<div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
+<div class="lunbo {% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
   <div class="container divs">
     <div class="align-{{ section.settings.text_alignment }} spaced-column positions">
       {% for block in section.blocks %}
@@ -47,6 +47,46 @@ position: absolute;
  opacity: 0;
  transition: all 1s;
 	}
+  #btn-left{
+ width: 30px;
+ height: 69px;
+ font-size: 30px;
+ color: white;
+ background-color:rgba(0,0,0,0.4);
+ line-height: 69px;
+ padding-left:5px;
+ z-index: 10;/*始终显示在图片的上层*/
+ position: absolute;
+ left: 0;
+ top: 50%;
+ transform: translateY(-60%);/*使按钮向上偏移居中对齐*/
+ cursor: pointer;
+ opacity: 0;/*平时隐藏*/
+}
+.lunbo:hover #btn-left{
+ /*鼠标滑入，显示图标*/
+ opacity: 1;
+}
+ 
+#btn-right{
+ width: 26px;
+ height: 69px;
+ font-size: 30px;
+ color: white;
+ background-color:rgba(0,0,0,0.4);
+ line-height: 69px;
+ padding-left: 5px;
+ z-index: 10;
+ position: absolute;
+ right: 0;
+ top: 50%;
+ cursor: pointer;
+ opacity: 0;
+ transform: translateY(-60%);
+}
+  .lunbo:hover #btn-right{
+ opacity: 1;
+}
 {% endstyle %}
 {% schema %}
   {
