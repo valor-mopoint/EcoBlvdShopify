@@ -69,7 +69,20 @@
             {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
           </div>
         {%- else -%}
-          
+          <div class="rimage-background-wrapper lazyload--placeholder {% if block.settings.mobile_image != blank %}desktop-only{% endif %}">
+            <div class="rimage-outer-wrapper rimage-background lazyload--manual fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+                data-bgset="{% render 'bgset', image: block.settings.image %}"
+                data-sizes="auto"
+                data-parent-fit="cover"
+                style="background-position: {{ block.settings.image_position }}">
+              
+              <noscript>
+                <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
+                  <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
+                </div>
+              </noscript>
+            </div>
+          </div>
 
           {% if block.settings.mobile_image != blank %}
             <div class="rimage-outer-wrapper rimage-background lazyload--manual mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
