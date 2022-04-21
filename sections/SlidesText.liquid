@@ -33,7 +33,7 @@
         {%- endfor -%}
       }
 
-      @media (min-width: 800px) {
+      @media (min-width: 1100px) {
         {%- for block in section.blocks -%}
         #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
           font-size: {{ block.settings.title_size }}px;
