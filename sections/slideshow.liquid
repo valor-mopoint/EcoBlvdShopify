@@ -1,49 +1,5 @@
 <div id="section-id-{{ section.id }}" data-section-type="slideshow" data-cc-animate data-cc-animate-delay="0.2s">
-    {% style %}
-      {%- if section.settings.height == 'fixed' -%}
-      #section-id-{{ section.id }} .fixed-height-item {
-        height: {{ section.settings.height_mobile }}px;
-      }
-      {%- endif -%}
-
-      {%- for block in section.blocks -%}
-        #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
-          font-size: {{ block.settings.title_size_mobile }}px;
-          {%- if block.settings.title_size_mobile >= 90 -%}
-          line-height: 1em;
-          {%- endif %}
-        }
-      {%- endfor -%}
-
-      @media (min-width: 768px) {
-        {%- if section.settings.height == 'fixed' -%}
-        #section-id-{{ section.id }} .fixed-height-item {
-          height: {{ section.settings.height_desktop }}px;
-        }
-        {%- endif -%}
-
-        {%- for block in section.blocks -%}
-        #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
-          {%- assign title_size_medium = block.settings.title_size | times: 0.7 | at_least: block.settings.title_size_mobile -%}
-          font-size: {{ title_size_medium }}px;
-          {%- if title_size_medium >= 90 -%}
-          line-height: 1em;
-          {%- endif %}
-        }
-        {%- endfor -%}
-      }
-
-      @media (min-width: 1100px) {
-        {%- for block in section.blocks -%}
-        #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
-          font-size: {{ block.settings.title_size }}px;
-          {%- if block.settings.title_size >= 90 -%}
-          line-height: 1em;
-          {%- endif %}
-        }
-        {%- endfor -%}
-      }
-    {% endstyle %}
+    
 
   {%- unless section.settings.full_width -%}<div class="container container--not-mobile fully-spaced-row--medium fully-spaced-row--not-mobile">{%- endunless -%}
   <div class="slideshow slideshow--navigation-{{ section.settings.slide_navigation }} slick-slider-overlay-dots-desktop {% if section.settings.mobile_overlay_under %}slick-slider--mobile-stack{% else %}slick-slider-overlay-dots{% endif %}" data-transition="{{ section.settings.slide_transition }}" data-autoplay="{{ section.settings.autoplay }}" data-autoplay-speed="{{ section.settings.autoplay_speed }}" data-navigation="{{ section.settings.slide_navigation }}">
