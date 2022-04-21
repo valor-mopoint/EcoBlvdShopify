@@ -88,7 +88,7 @@
                   <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style">{{ block.settings.title | newline_to_br }}</h2></div>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="overlay-text__reveal"><div class="overlay-text__rte rte {% if block.settings.enlarge_text %}large-text{% endif %}">{{ block.settings.text }}</div></div>
+                  <div class="overlay-text__reveal"><div class="overlay-text__rte rte text-color {% if block.settings.enlarge_text %}large-text{% endif %}">{{ block.settings.text }}</div></div>
                 {%- endif -%}
                 {%- if block.settings.button_label_1 != blank or block.settings.button_label_2 != blank -%}
                   <div class="overlay-text__button-row">
@@ -123,6 +123,9 @@
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 {% style %}
+.text-color{
+	color:#515353;
+}
 .placeholder-color.dark{
 background-color:#D2DFCF;
 }
