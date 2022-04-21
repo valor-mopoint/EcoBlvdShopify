@@ -75,10 +75,7 @@
                 data-sizes="auto"
                 data-parent-fit="cover"
                 style="background-position: {{ block.settings.image_position }}">
-              {%- if section.settings.height == 'adapt' -%}
-                {%- assign aspect_ratio = section.blocks.first.settings.image.aspect_ratio | default: 2.0 -%}
-                <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
-              {%- endif -%}
+              
               <noscript>
                 <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
                   <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
