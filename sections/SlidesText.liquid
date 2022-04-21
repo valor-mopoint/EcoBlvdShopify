@@ -45,6 +45,18 @@
       }
     {% endstyle %}
   {%- for block in section.blocks -%}
+  {%- liquid
+        assign show_overlay_text = false
+        if block.settings.title != blank or block.settings.subheading != blank or block.settings.text != blank or block.settings.button_label_1 != blank or block.settings.button_label_2 != blank
+          assign show_overlay_text = true
+          assign wrap_slide_with_link = true
+          if block.settings.slide_link == blank or block.settings.text contains '</a>' or block.settings.button_url_1 != blank or block.settings.button_url_2 != blank
+            assign wrap_slide_with_link = false
+          endif
+        elsif block.settings.slide_link != blank
+          assign wrap_slide_with_link = true
+        endif
+      -%}
   {%- if show_overlay_text -%}
   {%- if block.settings.title != blank -%}
                   <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style">{{ block.settings.title | newline_to_br }}</h2></div>
