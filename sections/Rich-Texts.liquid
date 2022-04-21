@@ -10,7 +10,7 @@
               <h2 class="majortitle in-content h1-style" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
             {% endif %}
           {% when 'text' %}
-                <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}larges-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+                <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
       
         {% endcase %}
       {% endfor %}
