@@ -412,11 +412,11 @@
         "1650509538420c9a94-0": {
           "type": "image",
           "settings": {
-            "subheading": "Reviews",
-            "title": "Two line\nslide heading",
-            "title_size": 84,
-            "title_size_mobile": 46,
-            "text": "<p>And optional subtext<\/p>",
+            "subheading": "",
+            "title": "Reviews",
+            "title_size": 50,
+            "title_size_mobile": 30,
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
             "enlarge_text": true,
             "text_alignment": "center center"
           }
@@ -424,11 +424,11 @@
         "1650509538420c9a94-1": {
           "type": "image",
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Two line\nslide heading",
-            "title_size": 84,
-            "title_size_mobile": 46,
-            "text": "<p>And optional subtext<\/p>",
+            "subheading": "",
+            "title": "Reviews",
+            "title_size": 50,
+            "title_size_mobile": 30,
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
             "enlarge_text": true,
             "text_alignment": "center center"
           }
