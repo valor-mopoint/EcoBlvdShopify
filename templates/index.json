@@ -377,35 +377,6 @@
         "buttonlink": ""
       }
     },
-    "1650500686ea7f27ca": {
-      "type": "Rich-Texts",
-      "blocks": {
-        "16505006862240fdb6-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Reviews",
-            "use_h1": false
-          }
-        },
-        "16505006862240fdb6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "16505006862240fdb6-0",
-        "16505006862240fdb6-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
     "165050953813cd8798": {
       "type": "SlidesText",
       "blocks": {
@@ -440,15 +411,15 @@
       ],
       "settings": {
         "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 460,
+        "height_desktop": 200,
+        "height_mobile": 200,
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow",
+        "overlay_style": "no_background",
         "slide_transition": "fade",
         "slide_navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 2
+        "autoplay_speed": 5
       }
     },
     "16494023164e709bf7": {
@@ -518,7 +489,6 @@
     "163592857728b8bdc2",
     "16494057386affa936",
     "164991948648d3b28c",
-    "1650500686ea7f27ca",
     "165050953813cd8798",
     "16494023164e709bf7"
   ]
