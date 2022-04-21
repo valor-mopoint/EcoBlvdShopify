@@ -1,3 +1,22 @@
+<div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
+  <div class="container">
+    <div class="align-{{ section.settings.text_alignment }} spaced-column">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+            {% if block.settings.use_h1 %}
+              <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
+            {% else %}
+              <h2 class="majortitle in-content h1-style" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
+            {% endif %}
+          {% when 'text' %}
+                <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+      
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
 {% schema %}
   {
     "name": "RichTexts",
