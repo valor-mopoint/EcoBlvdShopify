@@ -2,7 +2,7 @@
     {% style %}
       {%- if section.settings.height == 'fixed' -%}
       #section-id-{{ section.id }} .fixed-height-item {
-        height: {{ section.settings.height_mobile }}px;
+        height: 200px;
       }
       {%- endif -%}
 
@@ -18,7 +18,7 @@
       @media (min-width: 768px) {
         {%- if section.settings.height == 'fixed' -%}
         #section-id-{{ section.id }} .fixed-height-item {
-          height: {{ section.settings.height_desktop }}px;
+          height: 200px;
         }
         {%- endif -%}
 
