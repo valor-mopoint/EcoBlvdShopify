@@ -406,6 +406,51 @@
         "use_alt_bg": false
       }
     },
+    "16505091652183899b": {
+      "type": "SlidesText",
+      "blocks": {
+        "16505091658f11c26c-0": {
+          "type": "image",
+          "settings": {
+            "subheading": "Reviews",
+            "title": "Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "<p>And optional subtext<\/p>",
+            "enlarge_text": true,
+            "text_alignment": "center center"
+          }
+        },
+        "16505091658f11c26c-1": {
+          "type": "image",
+          "settings": {
+            "subheading": "Tell your story",
+            "title": "Two line\nslide heading",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "<p>And optional subtext<\/p>",
+            "enlarge_text": true,
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16505091658f11c26c-0",
+        "16505091658f11c26c-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "slide_transition": "fade",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "16494023164e709bf7": {
       "type": "logo-list",
       "blocks": {
@@ -474,6 +519,7 @@
     "16494057386affa936",
     "164991948648d3b28c",
     "1650500686ea7f27ca",
+    "16505091652183899b",
     "16494023164e709bf7"
   ]
 }
