@@ -1,5 +1,5 @@
 <div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
-  <div class="container">
+  <div class="container divs">
     <div class="align-{{ section.settings.text_alignment }} spaced-column positions">
       {% for block in section.blocks %}
         {% case block.type %}
@@ -18,11 +18,14 @@
   </div>
 </div>
 {% style %}
-.position{
+.divs{
+
 width: 800px;
  height: 300px;
  margin: 20px auto;
  position: relative;
+}
+.position{
 }
 	.h2-title{
 		color:#5D783E;
