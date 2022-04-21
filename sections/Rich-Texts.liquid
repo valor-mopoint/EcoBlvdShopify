@@ -7,7 +7,7 @@
             {% if block.settings.use_h1 %}
               <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
             {% else %}
-              <h2 class="majortitle in-content h1-style" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
+              <h2 class="majortitle in-content h1-style h2" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
             {% endif %}
           {% when 'text' %}
                 <div class="rte lightly-spaced-row large-texts {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
@@ -24,7 +24,7 @@
     	line-height: 1.6;
 		padding:40px;
 		text-align:left;
-		table-radius：20px；
+		border-radius：20px;
 	}
 {% endstyle %}
 {% schema %}
