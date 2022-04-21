@@ -1,3 +1,69 @@
+<div id="section-id-{{ section.id }}" data-section-type="slideshow" data-cc-animate data-cc-animate-delay="0.2s">
+  {% style %}
+      {%- if section.settings.height == 'fixed' -%}
+      #section-id-{{ section.id }} .fixed-height-item {
+        height: {{ section.settings.height_mobile }}px;
+      }
+      {%- endif -%}
+
+      {%- for block in section.blocks -%}
+        #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
+          font-size: {{ block.settings.title_size_mobile }}px;
+          {%- if block.settings.title_size_mobile >= 90 -%}
+          line-height: 1em;
+          {%- endif %}
+        }
+      {%- endfor -%}
+
+      @media (min-width: 768px) {
+        {%- if section.settings.height == 'fixed' -%}
+        #section-id-{{ section.id }} .fixed-height-item {
+          height: {{ section.settings.height_desktop }}px;
+        }
+        {%- endif -%}
+
+        {%- for block in section.blocks -%}
+        #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
+          {%- assign title_size_medium = block.settings.title_size | times: 0.7 | at_least: block.settings.title_size_mobile -%}
+          font-size: {{ title_size_medium }}px;
+          {%- if title_size_medium >= 90 -%}
+          line-height: 1em;
+          {%- endif %}
+        }
+        {%- endfor -%}
+      }
+
+      @media (min-width: 1100px) {
+        {%- for block in section.blocks -%}
+        #section-id-{{ section.id }} .slide-{{ forloop.index }} .overlay-text__title {
+          font-size: {{ block.settings.title_size }}px;
+          {%- if block.settings.title_size >= 90 -%}
+          line-height: 1em;
+          {%- endif %}
+        }
+        {%- endfor -%}
+      }
+    {% endstyle %}
+  <div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
+  <div class="container">
+    <div class="align-{{ section.settings.text_alignment }} spaced-column">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+            {% if block.settings.use_h1 %}
+              <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
+            {% else %}
+              <h2 class="majortitle in-content h1-style h2-title" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
+            {% endif %}
+          {% when 'text' %}
+                <div class="rte lightly-spaced-row large-texts {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+        {% endcase %}
+      {% endfor %}
+      
+    </div>
+  </div>
+</div>
+</div>
 {% schema %}
   {
     "name": "SlideText",
