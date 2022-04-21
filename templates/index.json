@@ -377,35 +377,6 @@
         "buttonlink": ""
       }
     },
-    "1649408274deafe065": {
-      "type": "rich-text",
-      "blocks": {
-        "1649408274c156dee8-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Reviews",
-            "use_h1": false
-          }
-        },
-        "1649408274c156dee8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "1649408274c156dee8-0",
-        "1649408274c156dee8-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
     "16494023164e709bf7": {
       "type": "logo-list",
       "blocks": {
@@ -462,6 +433,35 @@
         "image_opacity": 100,
         "use_alt_bg": false
       }
+    },
+    "1650500686ea7f27ca": {
+      "type": "Rich-Texts",
+      "blocks": {
+        "16505006862240fdb6-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Reviews",
+            "use_h1": false
+          }
+        },
+        "16505006862240fdb6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16505006862240fdb6-0",
+        "16505006862240fdb6-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -473,7 +473,7 @@
     "163592857728b8bdc2",
     "16494057386affa936",
     "164991948648d3b28c",
-    "1649408274deafe065",
-    "16494023164e709bf7"
+    "16494023164e709bf7",
+    "1650500686ea7f27ca"
   ]
 }
