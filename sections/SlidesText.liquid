@@ -63,7 +63,16 @@
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
         
 
-        
+        {%- if block.settings.image == blank -%}
+          <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
+            {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+            {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+        {%- else -%}
+          
+
+          
+        {%- endif -%}
 
         {%- if show_overlay_text -%}
           <div class="overlay-text overlay-text--with-reveal overlay-text--for-banner overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over">
