@@ -44,25 +44,42 @@
         {%- endfor -%}
       }
     {% endstyle %}
-  <div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
-  <div class="container">
-    <div class="align-{{ section.settings.text_alignment }} spaced-column">
-      {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'heading' %}
-            {% if block.settings.use_h1 %}
-              <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
-            {% else %}
-              <h2 class="majortitle in-content h1-style " {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
-            {% endif %}
-          {% when 'text' %}
-                <div class="rte lightly-spaced-row  {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
-        {% endcase %}
-      {% endfor %}
-      
-    </div>
-  </div>
-</div>
+  {%- if show_overlay_text -%}
+          <div class="overlay-text overlay-text--with-reveal overlay-text--for-banner overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over">
+            <div class="overlay-text__inner">
+              <div class="overlay-text__text">
+                {%- if block.settings.subheading != blank -%}
+                  <div class="overlay-text__reveal"><div class="overlay-text__subheading subheading subheading--over">{{ block.settings.subheading | escape }}</div></div>
+                {%- endif -%}
+                {%- if block.settings.title != blank -%}
+                  <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style">{{ block.settings.title | newline_to_br }}</h2></div>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="overlay-text__reveal"><div class="overlay-text__rte rte {% if block.settings.enlarge_text %}large-text{% endif %}">{{ block.settings.text }}</div></div>
+                {%- endif -%}
+                {%- if block.settings.button_label_1 != blank or block.settings.button_label_2 != blank -%}
+                  <div class="overlay-text__button-row">
+                    {%- if wrap_slide_with_link -%}
+                      {%- if block.settings.button_label_1 != blank -%}
+                        <span class="overlay-text__button button altcolour">{{ block.settings.button_label_1 }}</span>
+                      {%- endif -%}
+                      {%- if block.settings.button_label_2 != blank -%}
+                        <span class="overlay-text__button button altcolour">{{ block.settings.button_label_2 }}</span>
+                      {%- endif -%}
+                    {%- else -%}
+                      {%- if block.settings.button_label_1 != blank -%}
+                        <a class="overlay-text__button button altcolour" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_label_1 }}</a>
+                      {%- endif -%}
+                      {%- if block.settings.button_label_2 != blank -%}
+                        <a class="overlay-text__button button altcolour" href="{{ block.settings.button_url_2 }}">{{ block.settings.button_label_2 }}</a>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
 </div>
 {% schema %}
   {
