@@ -68,7 +68,7 @@
         
 
         {%- if block.settings.image == blank -%}
-          <div class="placeholder-image placeholder-color placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
+          <div class="placeholder-image placeholder-color placeholder--banner biankuan{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
             
           </div>
         {%- else -%}
@@ -123,6 +123,9 @@
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 {% style %}
+.biankuan{
+	border-radius:20px;
+}
 .text-color{
 	color:#515353;
 }
