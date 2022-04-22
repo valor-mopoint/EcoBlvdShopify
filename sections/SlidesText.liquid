@@ -80,7 +80,7 @@
         {%- if show_overlay_text -%}
           <div class="overlay-text overlay-text--with-reveal overlay-text--for-banner overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over">
             <div class="overlay-text__inner">
-              <div class="overlay-text__text">
+              <div class="overlay-text__text aa">
                 {%- if block.settings.subheading != blank -%}
                   <div class="overlay-text__reveal"><div class="overlay-text__subheading subheading subheading--over">{{ block.settings.subheading | escape }}</div></div>
                 {%- endif -%}
@@ -123,6 +123,10 @@
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 {% style %}
+.aa{
+	height:100%;
+	wifth:50px
+}
 .widths{
 	width:70%;
 	margin:auto;
@@ -133,8 +137,6 @@
 .text-color{
 	color:#515353;
 	text-align:left;
-	height:100%;
-	wifth:50px
 }
 .placeholder-color.dark{
 	background-color:#D2DFCF;
