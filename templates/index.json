@@ -478,6 +478,35 @@
         "image_opacity": 100,
         "use_alt_bg": false
       }
+    },
+    "16506049204523fdba": {
+      "type": "Rich-Texts",
+      "blocks": {
+        "1650604920bfe91b67-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1650604920bfe91b67-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1650604920bfe91b67-0",
+        "1650604920bfe91b67-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -490,6 +519,7 @@
     "16494057386affa936",
     "164991948648d3b28c",
     "165050953813cd8798",
-    "16494023164e709bf7"
+    "16494023164e709bf7",
+    "16506049204523fdba"
   ]
 }
