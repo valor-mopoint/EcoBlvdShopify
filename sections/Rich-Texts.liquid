@@ -9,13 +9,9 @@
             {% else %}
               <h2 class="majortitle in-content h1-style h2-title" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}:</h2>
             {% endif %}
-      <div class="jt">
-      <p class="left"></p>
           {% when 'text' %}
                 <div class="rte lightly-spaced-row large-texts {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
       
-        <p class="right"></p>  
-        </div>
       {% endcase %}
       {% endfor %}
       
