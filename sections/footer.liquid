@@ -15,7 +15,7 @@
                 {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
                 <h6 class="section-footer__title{% if title_word_count < 4 %} no-wrap{% endif %}">
                   {{- block.settings.title | escape -}}
-                  <!--{%- render 'Icon_ionic-ios-arrow-down.svg' -%}-->
+               		{%- render 'svg-iconbottom' -%}
                 </h6>
               {% endif %}
 
