@@ -18,7 +18,7 @@
 
           {% when 'button' %}
             <div class="lightly-spaced-row-above" {{ block.shopify_attributes }}>
-              <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+              <a class="anniu {% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
             </div>
 
           {% when 'image' %}
@@ -34,14 +34,24 @@
               {% if block.settings.url != blank %}</a>{% endif %}
             </div>
 
-          
+          {% when 'icon' %}
+            <div class="lightly-spaced-row" {{ block.shopify_attributes }}>
+              <span class="large-light-icon">
+                {% render 'icon', icon: block.settings.icon, size: 'medium' %}
+              </span>
+            </div>
+
         {% endcase %}
       {% endfor %}
     </div>
   </div>
 </div>
 
-
+{%- style -%}
+.anniu{
+	width:40%;
+}
+{%- endstyle -%}
 {% schema %}
   {
     "name": "Rich text",
