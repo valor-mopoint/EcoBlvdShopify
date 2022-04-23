@@ -359,7 +359,7 @@
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "overlay_style": "no_background"
       }
     },
     "164991948648d3b28c": {
