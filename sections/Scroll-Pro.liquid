@@ -75,7 +75,7 @@
   </div>
   <div style="text-align:center;">
     {% if section.settings.buttontext != blank %}
-      <a class="btn btn-scrollpro" {% unless section.settings.buttonlink == blank %}href="{{ section.settings.buttonlink }}"{% endunless %}>{{ section.settings.buttontext | escape }}</a>
+      <a class="btn btn-scrollpro" {% unless section.settings.buttonlink == blank %}href="{{ section.settings.buttonlink }}"{% endunless %}>{{ section.settings.buttontext }}</a>
     {% endif %}
   </div>
 </div>
