@@ -30,7 +30,6 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
@@ -51,7 +50,6 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dead-end-in-the-forest.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/dead-end-in-the-forest_256x256_crop_center_2897930d-b726-4da1-8eb8-6efe014d0852.webp",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
@@ -217,6 +215,7 @@
         "54ddc062-4c89-4769-be0a-7c76375bfaab": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/blue-phone-case-and-eyeglasses-on-wooden-table.jpg",
             "image_width": 33,
             "url": ""
           }
@@ -224,6 +223,7 @@
         "706b7d95-9b4c-43cb-8293-4e704925829f": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/office-flat-lay-on-wooden-desk-with-catch-tray.jpg",
             "image_width": 33,
             "url": ""
           }
@@ -231,6 +231,7 @@
         "5ff2544f-7676-4952-96f4-dfa4eadf8963": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/mobile-phone-and-gimbal-in-hand.jpg",
             "image_width": 33,
             "url": ""
           }
@@ -266,6 +267,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bird-island.jpg",
             "image_width": 700,
             "title": "100% Compostable",
             "text": "<p>After a lone period of use, the cases will naturally break down so they can be composted!<\/p>",
@@ -277,6 +279,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bird-island.jpg",
             "image_width": 700,
             "title": "Plastic-Free Packaging",
             "text": "<p>All our packaging is plastic-free, and it is made from recycled scrap paper without harmful inks or dyes that can be composted.<\/p>",
@@ -288,6 +291,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bird-island.jpg",
             "image_width": 700,
             "title": "Accountability",
             "text": "<p>Recycling program TBD<\/p>",
@@ -299,6 +303,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bird-island.jpg",
             "image_width": 700,
             "title": "Donation",
             "text": "<p>A portion of every purchase goes towards nonprofits that help oru world stay green!<\/p>",
@@ -310,6 +315,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bird-island.jpg",
             "image_width": 700,
             "title": "Community",
             "text": "<p>We aim to be a new destination and avenue for meaningful conversation, debates, learning, and, most importantly, fun. We must foster creativity and communication since we all need to care for our planet.<\/p>",
