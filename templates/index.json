@@ -176,15 +176,15 @@
         "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 720,
-        "height_mobile": 460,
+        "height_mobile": 820,
         "image_link": "",
         "subheading": "",
         "title": "TURNING THE TIDE ON PLASTIC",
         "title_size": 84,
-        "title_size_mobile": 46,
+        "title_size_mobile": 20,
         "use_h1": false,
         "text": "<p>Currently, only 9% of all plastic waste produced is recycled (UNEP 2022), while the rest is in landfills, dumpsters, or the ocean. Since it takes millions of years for plastic to fully break down, we know how important it is that we make use of all that exists.<\/p><p><\/p><p>There is good news, though. A variety of tech accessories can be made with recycled or bioplastics, including phone cases, chargers, and charging cables.<\/p><p><\/p><p>Our cases are constructed with InnoMaize™, a 100% compostable and plastic-free material produced form corn starch, sugar, and plant-based materials. By having a low carbon footprint and releasing little to no greenhouse gases, InnoMaize™ is an a-maize-ing alternative to conventional plastic.<\/p><p><\/p><p><strong>Statistics: <\/strong><a href=\"\/pages\/root2renew\" target=\"_blank\" title=\"#Root2Renew\"><strong>#BeatPlasticPollution<\/strong><\/a><strong> United Nations Environment Progamme (n.d.)<\/strong>  <\/p><p>**CHARGERS & CABLES MATERIAL BREAKDOWNS TO COME AS INFORMATION IS RECEIVED<\/p>",
-        "enlarge_text": true,
+        "enlarge_text": false,
         "button_label_1": "",
         "button_url_1": "",
         "button_label_2": "",
@@ -192,7 +192,7 @@
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "overlay_style": "no_background"
       }
     },
     "164940614408670ea3": {
