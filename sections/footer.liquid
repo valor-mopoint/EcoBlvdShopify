@@ -194,10 +194,13 @@
 </div>
 
 {% style %}
+
+
+
 @media (max-width: 767px){
 .section-footer__menu-block .section-footer__title:after {
     content: "";
-    background-image: url(../Assets/Icon_ionic-ios-arrow-down.svg);
+    background-image: url({{ 'Icon_ionic-ios-arrow-down.svg' | asset_url  }});
     background-size: 15px;
     background-position: center;
     background-repeat: no-repeat;
