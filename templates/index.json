@@ -36,7 +36,7 @@
             "subheading": "",
             "title": "The Intersection of Style & Sustainability",
             "title_size": 84,
-            "title_size_mobile": 46,
+            "title_size_mobile": 24,
             "text": "",
             "enlarge_text": true,
             "button_label_1": "Join us on the #Root2Renew",
@@ -74,7 +74,7 @@
       "settings": {
         "height": "fixed",
         "height_desktop": 600,
-        "height_mobile": 460,
+        "height_mobile": 300,
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "full image-overlay--bg-shadow",
