@@ -18,7 +18,7 @@
 
           {% when 'button' %}
             <div class="lightly-spaced-row-above" {{ block.shopify_attributes }}>
-              <a class="anniu {% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+              <a class="anniu {% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | downcase }}</a>
             </div>
 
           {% when 'image' %}
