@@ -116,7 +116,7 @@
                   <div class="overlay-text__reveal"><div class="overlay-text__subheading subheading subheading--over">{{ block.settings.subheading | escape }}</div></div>
                 {%- endif -%}
                 {%- if block.settings.title != blank -%}
-                  <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style h2-size">{{ block.settings.title | newline_to_br }}</h2></div>
+                  <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style">{{ block.settings.title | newline_to_br }}</h2></div>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="overlay-text__reveal"><div class="overlay-text__rte rte {% if block.settings.enlarge_text %}large-text{% endif %}">{{ block.settings.text }}</div></div>
@@ -155,15 +155,6 @@
 </div>
 
 {%- style -%}
-.h2-size{
-font-size:24px;
-}
-@media (max-width: 767px) {
-  .slideshow--navigation-arrows .overlay-text {
-    left: 10px;
-    right: 10px;
-  }
-}
 {%- endstyle -%}
 {% schema %}
   {
