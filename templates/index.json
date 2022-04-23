@@ -506,6 +506,69 @@
         "image_opacity": 100,
         "use_alt_bg": false
       }
+    },
+    "1650708023180fd918": {
+      "type": "environmental-act",
+      "blocks": {
+        "1650708023e9160b8e-0": {
+          "type": "head",
+          "settings": {
+            "headtext": "Dedicated to Mother Earth",
+            "headfontsize": 16,
+            "headfontcolor": ""
+          }
+        },
+        "1650708023e9160b8e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We designed our collections to represent various environmental areas that need protection.A portion of every purchase is donated to support the following initiatives:<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "1650708023e9160b8e-2": {
+          "type": "image",
+          "settings": {
+            "image_width": 25,
+            "url": ""
+          }
+        },
+        "7c65c1e6-964f-408e-84c1-9bcc8bd62733": {
+          "type": "image",
+          "settings": {
+            "image_width": 25,
+            "url": ""
+          }
+        },
+        "a6838ac7-8516-44f8-936a-3916d31968ad": {
+          "type": "image",
+          "settings": {
+            "image_width": 25,
+            "url": ""
+          }
+        },
+        "1650708023e9160b8e-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "1650708023e9160b8e-0",
+        "1650708023e9160b8e-1",
+        "1650708023e9160b8e-2",
+        "7c65c1e6-964f-408e-84c1-9bcc8bd62733",
+        "a6838ac7-8516-44f8-936a-3916d31968ad",
+        "1650708023e9160b8e-3"
+      ],
+      "settings": {
+        "height1": "medium",
+        "full_width": false,
+        "use_alt_bg": false,
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
@@ -519,6 +582,7 @@
     "16494057386affa936",
     "164991948648d3b28c",
     "165050953813cd8798",
-    "16494023164e709bf7"
+    "16494023164e709bf7",
+    "1650708023180fd918"
   ]
 }
