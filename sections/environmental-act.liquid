@@ -15,9 +15,9 @@
                   {% render 'responsive-image', image: block.settings.image %}
                 {% else %}
               
-                  
+                  {%- comment -%}
                     {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
-                 
+                 {%- endcomment -%}
                 {% endif %}
                  <div class="placeholder-image-text">Cleaning Up &Reducing OceanWaste</div>
                </div>
