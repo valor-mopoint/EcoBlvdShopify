@@ -212,26 +212,23 @@
             "enlarge_text": true
           }
         },
-        "54ddc062-4c89-4769-be0a-7c76375bfaab": {
+        "332d8b64-541f-4cf4-938a-cfaa98e608cc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blue-phone-case-and-eyeglasses-on-wooden-table.jpg",
             "image_width": 33,
             "url": ""
           }
         },
-        "706b7d95-9b4c-43cb-8293-4e704925829f": {
+        "7e820ca4-d9d3-4c04-8d31-5b16f935f0c8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/office-flat-lay-on-wooden-desk-with-catch-tray.jpg",
             "image_width": 33,
             "url": ""
           }
         },
-        "5ff2544f-7676-4952-96f4-dfa4eadf8963": {
+        "92e95e48-4f11-41cf-a994-c23c55a23531": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mobile-phone-and-gimbal-in-hand.jpg",
             "image_width": 33,
             "url": ""
           }
@@ -248,9 +245,9 @@
       "block_order": [
         "1649406144148b1d37-0",
         "1649406144148b1d37-1",
-        "54ddc062-4c89-4769-be0a-7c76375bfaab",
-        "706b7d95-9b4c-43cb-8293-4e704925829f",
-        "5ff2544f-7676-4952-96f4-dfa4eadf8963",
+        "332d8b64-541f-4cf4-938a-cfaa98e608cc",
+        "7e820ca4-d9d3-4c04-8d31-5b16f935f0c8",
+        "92e95e48-4f11-41cf-a994-c23c55a23531",
         "06f1b8dd-35b8-4abc-a137-13598839ea49"
       ],
       "settings": {
