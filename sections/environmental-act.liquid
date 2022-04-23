@@ -10,7 +10,8 @@
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
             
-              <div class="placeholder-image" style="margin: 20px;">
+              <div class="placeholder-image" style="margin: 20px;background-color: #6f9174;
+    border-radius: 20px">
               {% if block.settings.image != blank %}
                   {% render 'responsive-image', image: block.settings.image %}
                 {% else %}
@@ -89,6 +90,9 @@
           color: white;
           font-size: 24px;
       }
+.rimage-wrapper {
+opacity: 0;
+}
       {%- endif-%}
 {%- endfor -%}
 
