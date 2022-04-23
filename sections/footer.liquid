@@ -15,7 +15,7 @@
                 {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
                 <h6 class="section-footer__title{% if title_word_count < 4 %} no-wrap{% endif %}">
                   {{- block.settings.title | escape -}}
-                  {%- render 'Icon_ionic-ios-arrow-down.svg' -%}
+                  <!--{%- render 'Icon_ionic-ios-arrow-down.svg' -%}-->
                 </h6>
               {% endif %}
 
@@ -72,6 +72,7 @@
               {% if block.settings.title != blank %}
                 {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
                 <h6 class="section-footer__title{% if title_word_count < 4 %} no-wrap{% endif %}">
+                  {{- block.settings.title | escape -}}
                 </h6>
               {% endif %}
 
@@ -197,7 +198,7 @@ section-footer__menu-block
 @media (max-width: 767px){
 .section-footer__menu-block .section-footer__title .no-wrap:after {
     content: "";
-    background-image: url();
+    background-image: url(../Snippets/Icon_ionic-ios-arrow-down.svg.liquid);
     background-size: 15px;
     background-position: center;
     background-repeat: no-repeat;
