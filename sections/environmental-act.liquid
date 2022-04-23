@@ -14,8 +14,7 @@
               {% if block.settings.image != blank %}
                   {% render 'responsive-image', image: block.settings.image %}
                 {% else %}
-                <div class="placeholder-image-back" style="">
-                </div>
+                
                   {%- comment -%}
                     {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
                  {%- endcomment -%}
