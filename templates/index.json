@@ -56,7 +56,7 @@
             "subheading": "",
             "title": "",
             "title_size": 84,
-            "title_size_mobile": 46,
+            "title_size_mobile": 24,
             "text": "",
             "enlarge_text": true,
             "button_label_1": "",
@@ -109,7 +109,7 @@
       "settings": {
         "height": "medium",
         "text_alignment": "center",
-        "full_width": false,
+        "full_width": true,
         "use_alt_bg": false
       }
     },
