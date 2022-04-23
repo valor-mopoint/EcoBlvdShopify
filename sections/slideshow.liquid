@@ -132,7 +132,7 @@
                       {%- endif -%}
                     {%- else -%}
                       {%- if block.settings.button_label_1 != blank -%}
-                        <a class="overlay-text__button button altcolour" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_label_1 }}</a>
+                        <a class="overlay-text__button button altcolour buttom-size" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_label_1 }}</a>
                       {%- endif -%}
                       {%- if block.settings.button_label_2 != blank -%}
                         <a class="overlay-text__button button altcolour" href="{{ block.settings.button_url_2 }}">{{ block.settings.button_label_2 }}</a>
@@ -155,6 +155,9 @@
 </div>
 
 {%- style -%}
+.buttom-size{
+	background-radius:30px;
+}
 {%- endstyle -%}
 {% schema %}
   {
