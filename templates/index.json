@@ -4,6 +4,7 @@
       "type": "background-video",
       "settings": {
         "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
+        "placeholder_image": "shopify:\/\/shop_images\/berlin-at-sunset-on-a-clear-day.jpg",
         "subheading": "",
         "title": "The Intersection of Style & Sustainability",
         "title_size": 72,
