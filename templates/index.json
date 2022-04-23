@@ -2,9 +2,9 @@
   "sections": {
     "16506789292dce45ae": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
-        "placeholder_image": "shopify:\/\/shop_images\/berlin-at-sunset-on-a-clear-day.jpg",
         "subheading": "",
         "title": "The Intersection of Style & Sustainability",
         "title_size": 72,
@@ -25,7 +25,6 @@
     },
     "16359276425da8ce46": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "16359276425da8ce46-0": {
           "type": "image",
