@@ -30,6 +30,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
@@ -50,6 +51,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dead-end-in-the-forest.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/dead-end-in-the-forest_256x256_crop_center_2897930d-b726-4da1-8eb8-6efe014d0852.webp",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
