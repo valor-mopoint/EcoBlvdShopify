@@ -64,7 +64,7 @@
               <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.subheading | escape }}</div>
             {%- endif -%}
             {%- if section.settings.video_title != blank -%}
-              <h2 class="overlay-text__title h1-style">{{ section.settings.video_title | newline_to_br }}</h2>
+              <h2 class="overlay-text__title h1-style h2-wight">{{ section.settings.video_title | newline_to_br }}</h2>
             {%- endif -%}
             {%- if section.settings.text != blank -%}
               <div class="overlay-text__rte rte {% if section.settings.enlarge_text %}large-text{% endif %} lightly-spaced-row">{{ section.settings.text }}</div>
@@ -78,8 +78,11 @@
     <div class="fully-padded-row--large align-center">{{ 'homepage.onboarding.no_content' | t }}</div>
   {% endif %}
 </div>
-
-
+{%- style -%}
+.h2-wight{
+	font-wight:800;
+}
+{%- endstyle -%}
 {% schema %}
   {
     "name": "Video",
