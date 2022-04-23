@@ -10,13 +10,12 @@
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
             
-             
+              <div class="placeholder-image" style="margin: 20px;">
               {% if block.settings.image != blank %}
-               <div class="placeholder-image" style="margin: 20px;">
                   {% render 'responsive-image', image: block.settings.image %}
                 {% else %}
                                 
-                    {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                    //{{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
                 
                 {% endif %}
                  <div class="placeholder-image-text">Cleaning Up &Reducing OceanWaste</div>
