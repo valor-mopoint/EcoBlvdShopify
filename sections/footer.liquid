@@ -274,9 +274,15 @@
 
 {% endstyle %}
 {% javascript %}
-$(".section-footer__title").clicl(function(){
-	$(".section-footer__row--blocks>div").addClass('__active').removeClass('current');
+$(".section-footer__title").on('click',function(){
+	$(".section-footer__row--blocks>div").toggleClass('__active');
 })
+$(".section-footer__title").clicl(function(){
+	$(".section-footer__row--blocks>div").toggleClass('__active');
+});
+$(".section-footer__title").clicl(function(){
+	$(".section-footer__row--blocks>div").toggle();
+});
 {% endjavascript %}
 {% schema %}
   {
