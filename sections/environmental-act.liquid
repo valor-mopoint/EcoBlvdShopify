@@ -39,6 +39,15 @@
 </div>
 
 {%- style -%}
+@media (max-width:767px){
+.lightly-spaced-row-above .anniu{
+width:70%;
+	font-weight:800;
+	background-color:#6F894E;
+	color:#fff;
+	border-radius:30px;
+}
+}
 	{%- comment -%}
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
 	{%- for block in blocks -%}
