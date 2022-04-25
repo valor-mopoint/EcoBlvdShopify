@@ -528,22 +528,28 @@
         "1650708023e9160b8e-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/clear-blue-water-crawls-over-the-white-sandy-beach.jpg",
             "image_width": 25,
-            "url": ""
+            "url": "",
+            "text_label": "Cleaning Up &Reducing OceanWaste"
           }
         },
         "7c65c1e6-964f-408e-84c1-9bcc8bd62733": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/path-through-bamboo-forest.jpg",
             "image_width": 25,
-            "url": ""
+            "url": "",
+            "text_label": "Planting Trees in a National Forest"
           }
         },
         "a6838ac7-8516-44f8-936a-3916d31968ad": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/giraffe-on-safari.jpg",
             "image_width": 25,
-            "url": ""
+            "url": "",
+            "text_label": "Saving & Protecting Endangered Species"
           }
         },
         "1650708023e9160b8e-3": {
