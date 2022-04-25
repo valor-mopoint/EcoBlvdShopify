@@ -11,11 +11,11 @@
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
               <div style="background-color: #6f9174;
     border-radius: 20px">
-              
+              	<div style="opactity:0;">
               	{% if block.settings.image != blank %}
-                <div>
+                
                   {% render 'responsive-image', image: block.settings.image %}
-                  </div>
+                 
                 {% else %}
 					<div class="placeholder-image" >
 
@@ -23,6 +23,7 @@
                       
                		</div>
                 {% endif %}
+                   </div>
                <div class="placeholder-image-text">Cleaning Up &Reducing OceanWaste</div>
              </div>
               {% if block.settings.url != blank %}</a>{% endif %}

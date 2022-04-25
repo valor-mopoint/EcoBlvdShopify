@@ -274,13 +274,16 @@
 
 {% endstyle %}
 
-{% javascript %}
-$(function(){
-var xs=document.getElementsByClassName('section-footer__title');   
-for (var i = 0; i < xs.length; i++) {xs[i].onclick = function () {$(".section-footer__menu-block").toggleClass('__active');}
-
-});                             
-
+{% javascript %}                                
+$(".section-footer__title").on('click',function(){
+	$(".section-footer__menu-block").toggleClass('__active');
+})
+$(".section-footer__title").clicl(function(){
+	$(".section-footer__menu-block").toggleClass('__active');
+});
+$(".section-footer__title").clicl(function(){
+	$(".section-footer__menu-block").toggle();
+});
 {% endjavascript %}
 
 {% schema %}
