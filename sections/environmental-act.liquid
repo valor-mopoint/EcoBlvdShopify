@@ -1,44 +1,53 @@
-<div id="section-id-{{ section.id }}" style="text-align: center;">
-{% for block in section.blocks %}
-  {% case block.type %}
-      
-      {% when 'head' %}
-        <h1 class="environmenalHead-{{ block.id }} rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="font-size:{{block.settings.headfontsize}};color:{{block.settings.headfontcolor}}">{{ block.settings.headtext }}</h1>
-	 {% when 'text' %}
-           <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="color:#779565;">{{ block.settings.text }}</div>
-   	 {% when 'image' %}
-            <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%;position:relative;padding:20px;" {{ block.shopify_attributes }}>
-              <a {% if block.settings.url != blank %} href="{{ block.settings.url }}"{% endif %} >
-              <div style="background-color: #94b799; border-radius: 20px;" class="imagecontaner">
-              	<div class="image">
-              	{% if block.settings.image != blank %}
-                
-                  {% render 'responsive-image', image: block.settings.image %}
-                 
-                {% else %}
-					<div class="placeholder-image" >
+<div class="environmenal">
+  <div id="section-id-{{ section.id }}" style="text-align: center;">
+  {% for block in section.blocks %}
+    {% case block.type %}
 
-                    {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
-                      
-               		</div>
-                {% endif %}
-                
-                   </div>
-               <div class="placeholder-image-text">{{block.settings.text_label}}</div>
-             </div>
-              </a>
-            </div>
-  		
-    {% when 'button' %}
-              <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
-                <a class="environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
+        {% when 'head' %}
+          <h1 class="environmenalHead-{{ block.id }} rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="font-size:{{block.settings.headfontsize}};color:{{block.settings.headfontcolor}}">{{ block.settings.headtext }}</h1>
+       {% when 'text' %}
+             <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="color:#779565;">{{ block.settings.text }}</div>
+       {% when 'image' %}
+              <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%;position:relative;padding:20px;" {{ block.shopify_attributes }}>
+                <a {% if block.settings.url != blank %} href="{{ block.settings.url }}"{% endif %} >
+                <div style="background-color: #94b799; border-radius: 20px;" class="imagecontaner">
+                  <div class="image">
+                  {% if block.settings.image != blank %}
+
+                    {% render 'responsive-image', image: block.settings.image %}
+
+                  {% else %}
+                      <div class="placeholder-image" >
+
+                      {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+
+                      </div>
+                  {% endif %}
+
+                     </div>
+                 <div class="placeholder-image-text">{{block.settings.text_label}}</div>
+               </div>
+                </a>
               </div>
 
-  {% endcase %}
-{% endfor %}
+      {% when 'button' %}
+                <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
+                  <a class="environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
+                </div>
+
+    {% endcase %}
+  {% endfor %}
+  </div>
 </div>
 
 {%- style -%}
+
+.environmenal{
+	max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 	{%- comment -%}
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
 	{%- for block in blocks -%}
