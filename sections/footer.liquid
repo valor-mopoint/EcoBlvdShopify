@@ -200,14 +200,17 @@
     margin: 0;
 }
 
-@media (max-width: 767px){
 .section-footer__menu-block.__active .section-footer__menu-block__menu {
     display: block;
-}}
-@media (max-width: 767px){
+}
+
 .section-footer__menu-block .section-footer__menu-block__menu {
     display: none;
-}}
+}
+
+.section-footer__menu-block.__active .section-footer__title:after {
+	transform: rotate(180deg);
+}
 
 .section-footer__menu-block .section-footer__title:after {
     content: "";
