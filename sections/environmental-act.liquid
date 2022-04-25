@@ -8,7 +8,7 @@
            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} style="color:#779565;">{{ block.settings.text }}</div>
    	 {% when 'image' %}
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%;position:relative;padding:20px;" {{ block.shopify_attributes }}>
-              {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
+              <a {% if block.settings.url != blank %} href="{{ block.settings.url }}"{% endif %} >
               <div style="background-color: #94b799; border-radius: 20px;">
               	<div class="image">
               	{% if block.settings.image != blank %}
@@ -26,7 +26,7 @@
                    </div>
                <div class="placeholder-image-text">{{block.settings.text_label}}</div>
              </div>
-              {% if block.settings.url != blank %}</a>{% endif %}
+              </a>
             </div>
   		
     {% when 'button' %}
