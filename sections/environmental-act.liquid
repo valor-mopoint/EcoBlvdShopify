@@ -13,7 +13,9 @@
     border-radius: 20px">
               
               	{% if block.settings.image != blank %}
+                <div>
                   {% render 'responsive-image', image: block.settings.image %}
+                  </div>
                 {% else %}
 					<div class="placeholder-image" >
 
