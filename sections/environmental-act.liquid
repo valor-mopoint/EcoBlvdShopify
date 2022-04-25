@@ -31,7 +31,7 @@
   		
     {% when 'button' %}
               <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
-                <a class="environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
+                <a class="anniu environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
               </div>
 
   {% endcase %}
