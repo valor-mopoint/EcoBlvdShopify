@@ -47,14 +47,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-@media(max-width:767px){
-.lightly-spaced-row inline-width-container{
-    margin-bottom: 40px;
-    padding-left: 0;
-    width: 100% !important;
+@media only screen and (max-width: 767px){
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 }
-
 
 	{%- comment -%}
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
