@@ -26,9 +26,30 @@
     "16359276425da8ce46": {
       "type": "slideshow",
       "blocks": {
+        "63d4c42f-5a76-49e9-9052-3c5761803aa1": {
+          "type": "image",
+          "settings": {
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "Tell your story",
+            "title": "Two line\nslide heading",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "<p>And optional subtext<\/p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
         "16359276425da8ce46-0": {
           "type": "image",
           "settings": {
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
             "image_position": "center center",
             "mobile_image_position": "center center",
@@ -49,6 +70,7 @@
         "16359276425da8ce46-1": {
           "type": "image",
           "settings": {
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "image": "shopify:\/\/shop_images\/dead-end-in-the-forest.jpg",
             "image_position": "center center",
             "mobile_image_position": "center center",
@@ -68,6 +90,7 @@
         }
       },
       "block_order": [
+        "63d4c42f-5a76-49e9-9052-3c5761803aa1",
         "16359276425da8ce46-0",
         "16359276425da8ce46-1"
       ],
