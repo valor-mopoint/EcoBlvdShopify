@@ -42,11 +42,16 @@
 		.lightly-spaced-row-above .anniu{
 		width:60%;
 	}
+}
+@media(max-width:767px){
+	
 	{% for block in section.blocks %}
   	{% case block.type %}
 	{% when 'head' %}
 		.environmenalHead-{{ block.id }}{
+			{%- if block.settings.headfontsize != blank -%}
 			font-size:24px;
+			{%- endif -%}
 		}
 	{% endcase %}
 	{% endfor %}
@@ -57,7 +62,7 @@
 		.environmenalHead-{{ block.id }} {
 
             {%- if block.settings.headfontsize != blank -%}
-			font-size: 45px
+			font-size: {{ block.settings.headfontsize }}px
 			{%- endif -%}
 
 			{%- if block.settings.headfontcolor != blank -%}
