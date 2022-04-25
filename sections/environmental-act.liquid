@@ -43,17 +43,7 @@
 		width:60%;
 	}
 }
-@media(max-width:767px){
-	
-	{%- assign blocks=section.blocks | where:"type" -%}
-	{%- for block in blocks -%}
-  	{%- if block.type =="head" -%}
-		.environmenalHead-{{ block.id }}{
-			font-size:24px;
-		}
-	{% endif %}
-	{% endfor %}
-}
+
 	{%- comment -%}
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
 	{%- for block in blocks -%}
@@ -126,6 +116,17 @@ border-radius: 30px;
 }
 .image:hover{
 opacity: 1;
+}
+@media(max-width:767px){
+	
+	{%- assign blocks=section.blocks | where:"type" -%}
+	{%- for block in blocks -%}
+  	{%- if block.type =="head" -%}
+		.environmenalHead-{{ block.id }}{
+			font-size:24px;
+		}
+	{% endif %}
+	{% endfor %}
 }
 {% endstyle %}
 
