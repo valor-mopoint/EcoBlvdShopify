@@ -176,7 +176,7 @@
         "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 720,
-        "height_mobile": 820,
+        "height_mobile": 840,
         "image_link": "",
         "subheading": "",
         "title": "TURNING THE TIDE ON PLASTIC",
@@ -565,7 +565,7 @@
       ],
       "settings": {
         "height1": "medium",
-        "full_width": false,
+        "full_width": true,
         "use_alt_bg": false,
         "text_alignment": "center"
       }
