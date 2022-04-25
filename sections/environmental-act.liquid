@@ -44,7 +44,9 @@
 	}
 	{% for block in section.blocks %}
   	{% case block.type %}
-		.environmenalHead-{{ block.id }}:24px;
+		.environmenalHead-{{ block.id }}{
+			font-size:24px;
+		}
 	{% endcase %}
 	{% endfor %}
 }
