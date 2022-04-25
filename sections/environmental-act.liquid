@@ -58,42 +58,37 @@
 
 {%- assign blocks=section.blocks | where:"type" -%}
 {%- for block in blocks -%}
-		{%- if block.type =="head" -%}
-		.environmenalHead-{{ block.id }} {         
-          color:#577C27;
-          font-size:45px;
-          font-weight: bold;
-        }
+  {%- if block.type =="head" -%}
+    .environmenalHead-{{ block.id }} {         
+      color:#577C27;
+      font-size:45px;
+      font-weight: bold;
+    }
+  {% elsif block.type == "button"%}
 
-
-		{% elsif block.type == "button"%}
-		
-		.environmenalBtn-{{ block.type }}{
-			 width: 35%;
-			 background-color: #5f7a41 !important;
-             border: #5f7a41 !important;
-             border-radius: 20px !important;
-         	 font-weight: bold !important;
-        }
-        .environmenalBtn-{{ block.type }}:hover{
-            color: #5f7a41;
-            background-color: white !important;
-            font-weight: bold;
-        }
-      {% else %}
-      .placeholder-image-text{
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-weight: bold;
-          color: white;
-          font-size: 24px;
-      }
-.rimage-wrapper {
-opacity: 0;
-}
-      {%- endif-%}
+    .environmenalBtn-{{ block.type }}{
+         width: 35%;
+         background-color: #5f7a41 !important;
+         border: #5f7a41 !important;
+         border-radius: 20px !important;
+         font-weight: bold !important;
+    }
+    .environmenalBtn-{{ block.type }}:hover{
+        color: #5f7a41;
+        background-color: white !important;
+        font-weight: bold;
+    }
+  {% else %}
+    .placeholder-image-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        color: white;
+        font-size: 24px;
+    }
+  {%- endif-%}
 {%- endfor -%}
 
 {% endstyle %}
