@@ -38,10 +38,15 @@
 </div>
 
 {%- style -%}
-@media (max-width:767px){
-	.lightly-spaced-row-above .anniu{
-	width:60%;
-}
+	@media (max-width:767px){
+		.lightly-spaced-row-above .anniu{
+		width:60%;
+	}
+	{% for block in section.blocks %}
+  	{% case block.type %}
+		.environmenalHead-{{ block.id }}:24px;
+	{% endcase %}
+	{% endfor %}
 }
 	{%- comment -%}
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
