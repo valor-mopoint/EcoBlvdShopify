@@ -9,8 +9,7 @@
    	 {% when 'image' %}
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%;position:relative;padding:20px; border-radius: 20px" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
-              <div style="background-color: #6f9174;
-   ">
+              <div style="background-color: #6f9174; ">
               	<div class="image">
               	{% if block.settings.image != blank %}
                 
@@ -106,7 +105,9 @@
 .image{
 opacity: 0;
 }
-
+.image rimage__image fade-in lazyautosizes lazyloaded{
+border-radius: 20px;
+}
 .image:hover{
 opacity: 1;
 }
