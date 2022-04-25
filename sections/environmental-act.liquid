@@ -46,9 +46,7 @@
   	{% case block.type %}
 	{% when 'head' %}
 		.environmenalHead-{{ block.id }}{
-{%- if block.settings.headfontsize != blank -%}
 			font-size:24px;
-			{%- endif -%}
 		}
 	{% endcase %}
 	{% endfor %}
@@ -59,7 +57,7 @@
 		.environmenalHead-{{ block.id }} {
 
             {%- if block.settings.headfontsize != blank -%}
-			font-size: {{ block.settings.headfontsize }}px
+			font-size: 45px
 			{%- endif -%}
 
 			{%- if block.settings.headfontcolor != blank -%}
