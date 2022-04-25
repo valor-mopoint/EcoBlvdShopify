@@ -46,8 +46,8 @@
 @media(max-width:767px){
 	
 	{%- assign blocks=section.blocks | where:"type" -%}
-{%- for block in blocks -%}
-  {%- if block.type =="head" -%}
+	{%- for block in blocks -%}
+  	{%- if block.type =="head" -%}
 		.environmenalHead-{{ block.id }}{
 			font-size:24px;
 		}
