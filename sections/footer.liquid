@@ -451,7 +451,7 @@
 
 $(function(){
 $(".section-footer__title").on('click',function(){
-	alert("0");
+	console.log($(this).parent());
 	$(this).parent().toggleClass('__active');
 	/*$(".section-footer__menu-block").toggleClass('__active');*/
 })
