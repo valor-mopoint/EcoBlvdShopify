@@ -45,15 +45,13 @@
 }
 @media(max-width:767px){
 	
-	{% for block in section.blocks %}
-  	{% case block.type %}
-	{% when 'head' %}
+	{%- assign blocks=section.blocks | where:"type" -%}
+{%- for block in blocks -%}
+  {%- if block.type =="head" -%}
 		.environmenalHead-{{ block.id }}{
-			{%- if block.settings.headfontsize != blank -%}
 			font-size:24px;
-			{%- endif -%}
 		}
-	{% endcase %}
+	{% endif %}
 	{% endfor %}
 }
 	{%- comment -%}
