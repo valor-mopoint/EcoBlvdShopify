@@ -193,6 +193,21 @@
 </div>
 
 {% style %}
+.section-footer__menu-block .section-footer__title:after {
+    content: "";
+    background-image: url({{"Icon_ionic-ios-arrow-down.svg" | asset_url }});
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
 
 #footer_newsletter_signup {
 	position: relative;
