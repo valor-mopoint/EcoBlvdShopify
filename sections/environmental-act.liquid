@@ -44,6 +44,7 @@
 	}
 	{% for block in section.blocks %}
   	{% case block.type %}
+	{% when 'head' %}
 		.environmenalHead-{{ block.id }}{
 			font-size:24px;
 		}
