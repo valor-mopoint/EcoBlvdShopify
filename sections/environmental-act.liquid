@@ -12,15 +12,15 @@
             
               <div class="placeholder-image" style="margin: 20px;background-color: #6f9174;
     border-radius: 20px">
-              {% if block.settings.image != blank %}
+              	{% if block.settings.image != blank %}
                   {% render 'responsive-image', image: block.settings.image %}
                 {% else %}
                 
                   
                     {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
                 {% endif %}
-                 <div class="placeholder-image-text">Cleaning Up &Reducing OceanWaste</div>
                </div>
+               <div class="placeholder-image-text">Cleaning Up &Reducing OceanWaste</div>
              
               {% if block.settings.url != blank %}</a>{% endif %}
             </div>
