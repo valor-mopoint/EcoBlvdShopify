@@ -30,7 +30,7 @@
   		
     {% when 'button' %}
               <div class="lightly-spaced-row-above" {{ block.shopify_attributes }} style="margin-bottom: 50px;">
-                <a class="environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
+                <a class="anniu environmenalBtn-{{ block.type}}{% if block.settings.button_style != 'link' %} btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}" style="">{{ block.settings.button_label | escape }}</a>
               </div>
 
   {% endcase %}
@@ -38,6 +38,15 @@
 </div>
 
 {%- style -%}
+@media (max-width:767px){
+	.lightly-spaced-row-above .anniu{
+	width:70%;
+	font-weight:800;
+	background-color:#6F894E;
+	color:#fff;
+	border-radius:30px;
+}
+}
 	{%- comment -%}
 	{%- assign blocks = section.blocks | where: "type", "head" -%}
 	{%- for block in blocks -%}
