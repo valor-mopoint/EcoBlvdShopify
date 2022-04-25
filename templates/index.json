@@ -77,7 +77,7 @@
         "height_mobile": 300,
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow",
+        "overlay_style": "no_background",
         "slide_transition": "zoom",
         "slide_navigation": "arrows",
         "autoplay": true,
