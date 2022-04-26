@@ -60,14 +60,14 @@
           assign wrap_slide_with_link = true
         endif
       -%}
-    {% if product.featured_media.media_type == "external_video" %}
-  {{ product.featured_media | external_video_tag }}
-{% endif %}
+    
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
         {%- if wrap_slide_with_link -%}
           <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
         {%- endif -%}
-		
+		{% if block.settings.media_type  == "external_video" %}
+  {{ block.settings| external_video_tag }}
+{% endif %}
         {%- if block.settings.image == blank -%}
           <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
             {% capture current %}{% cycle 1, 2 %}{% endcapture %}
