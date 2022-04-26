@@ -2,7 +2,6 @@
   "sections": {
     "16506789292dce45ae": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
         "subheading": "",
@@ -25,6 +24,7 @@
     },
     "16359276425da8ce46": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "dc0cc0f9-4819-4c70-9a89-7affd09eed5f": {
           "type": "video",
