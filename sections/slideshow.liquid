@@ -60,6 +60,26 @@
           assign wrap_slide_with_link = true
         endif
       -%}
+    {% if section.settings.video != blank %}
+    <div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
+      data-video-url="{{ section.settings.video | escape }}"
+      data-video-autoplay="true"
+      data-video-loop="true"
+      data-cc-animate>
+      <div class="video-container__video"></div>
+      {% if section.settings.placeholder_image %}
+        <div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
+          data-bgset="{% render 'bgset', image: section.settings.placeholder_image %}"
+          data-sizes="auto"
+          data-parent-fit="cover">
+          <noscript>
+            <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.placeholder_image.aspect_ratio | times: 100 }}%">
+              <img src="{{ section.settings.placeholder_image | img_url: '1024x1024' }}" alt="{{ section.settings.placeholder_image.alt | escape }}" class="rimage__image">
+            </div>
+          </noscript>
+        </div>
+      {% endif %}
+      {% endif %}
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
         {%- if wrap_slide_with_link -%}
           <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
@@ -553,8 +573,8 @@
         ]
       },
 	  {
-		"name": "Background video",
-    "type": "backgroundvideo",
+		"name": "Backgroundvideo",
+    	"type": "backgroundvideo",
 		"limit":1,
     	"settings": [
       		{
