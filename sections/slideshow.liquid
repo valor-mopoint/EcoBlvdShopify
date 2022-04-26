@@ -333,14 +333,6 @@
         "type": "image",
         "name": "Slide",
         "settings": [
-			{
-        "id": "video",
-        "type": "video_url",
-        "label": "Video link",
-        "accept": ["youtube", "vimeo"],
-        "info": "Supports YouTube and Vimeo",
-        "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-      },
           {
             "type": "image_picker",
             "id": "image",
@@ -559,8 +551,22 @@
             "default": "center center"
           }
         ]
-      }
-    ],
+      },
+	  {
+		"name": "Video",
+    	"type": "video",
+    	"settings": [
+      		{
+        		"id": "video",
+        		"type": "video_url",
+                "label": "Video link",
+                "accept": ["youtube", "vimeo"],
+                "info": "Supports YouTube and Vimeo",
+                "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+      		}
+    	  ]
+		}
+	],
     "presets": [
       {
         "name": "Slideshow",
