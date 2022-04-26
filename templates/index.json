@@ -2,6 +2,7 @@
   "sections": {
     "16506789292dce45ae": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
         "subheading": "",
@@ -20,23 +21,6 @@
         "height_mobile": 380,
         "full_width": true,
         "overlay_style": "shadow"
-      }
-    },
-    "1650941570d3e75a9c": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
-        "subheading": "Tell your story",
-        "video_title": "Featured video",
-        "title_size": 84,
-        "title_size_mobile": 24,
-        "text": "<p>Use a video to get a customer's attention<\/p>",
-        "enlarge_text": true,
-        "text_alignment": "center center",
-        "image_position": "center center",
-        "full_width": true,
-        "overlay_style": "no_background"
       }
     },
     "16359276425da8ce46": {
@@ -589,7 +573,6 @@
   },
   "order": [
     "16506789292dce45ae",
-    "1650941570d3e75a9c",
     "16359276425da8ce46",
     "1649406380522b5937",
     "16499206234aa91675",
