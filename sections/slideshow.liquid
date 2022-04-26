@@ -88,7 +88,20 @@
               </noscript>
             </div>
           </div>
-
+			
+          {% if block.settings.video!=blank %}
+            <div class="video-container video-container--image video-container--modal-mobile image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
+                  data-cc-animate
+                  data-cc-animate-delay="0.2s"
+                  data-video-id="{{ section.settings.video.id }}"
+                  data-video-url="{{ section.settings.video }}"
+                  data-video-type="{{ section.settings.video.type }}"
+                  data-video-autoplay="false"
+                  data-video-loop="false">
+                  <a class="video-container__stop" href="#" aria-label="{{ 'general.accessibility_labels.video_stop' | t | escape }}">{% render 'svg-x' %}</a>
+                  <div class="video-container__video"></div>
+           {% endif %}
+            
           {% if block.settings.mobile_image != blank %}
             <div class="rimage-outer-wrapper rimage-background lazyload--manual mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
                  data-bgset="{% render 'bgset', image: block.settings.mobile_image %}"
