@@ -583,7 +583,45 @@
         		"label": "Video link",
         		"info": "Supports mp4, YouTube and Vimeo. Please read documentation before using. [Read more](https://cleancanvas.co.uk/support/general/background-video)",
         		"default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-      		}
+      		},
+      {
+        "id": "placeholder_image",
+        "type": "image_picker",
+        "label": "Placeholder image",
+        "info": "Required. Shows while the video is loading, or if it cannot autoplay."
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Tell your story"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading",
+        "default": "Background video"
+      },
+      {
+        "type": "range",
+        "id": "title_size",
+        "min": 20,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "label": "Desktop heading text size",
+        "default": 84
+      },
+      {
+        "type": "range",
+        "id": "title_size_mobile",
+        "min": 20,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "label": "Mobile heading text size",
+        "default": 32
+      }
     	  ]
 		}
 	],
