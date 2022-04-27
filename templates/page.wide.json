@@ -1,13 +1,132 @@
 {
   "sections": {
+    "1651083175d3dae5ac": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_163634120-2560x1458.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Turning the\nTide on Plastic",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": true,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "16510835927f249308": {
+      "type": "rich-text",
+      "blocks": {
+        "1651083592c8987272-0": {
+          "type": "heading",
+          "settings": {
+            "title": "It's estimated by 2050 there will be more plastic than fish in our oceans",
+            "use_h1": false
+          }
+        },
+        "1651083592c8987272-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the production and use of plastics, we are overusing the natural resources and the ecosystems of our planet. According to the Surfrider Foundation’s projections, our reliance on plastic is set to increase by 50% within the next ten years, requiring humans, fish, and other wildlife to adapt to all of the waste in our ecosystems.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "6132d317-743d-4c8d-9762-4989ae2bd718": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Source: <\/em><a href=\"https:\/\/www.businessinsider.com\/plastic-in-ocean-outweighs-fish-evidence-report-2017-1\"><span style=\"text-decoration:underline\"><em>Business Insider<\/em><\/span><\/a><\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1651083592c8987272-0",
+        "1651083592c8987272-1",
+        "6132d317-743d-4c8d-9762-4989ae2bd718"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1651083813686d2d3b": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/images.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Plastic Lifecycle",
+        "use_h1": false,
+        "text": "<p>The majority of plastics in offshore environments date from the 1990s and earlier, as it takes roughly 500 years for a single piece of plastic to completely break down. Taking this into account, any plastic used in the 1990s won't break down completely until 2400 or even later!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "165108354281f5e386": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Hidden in Plain Sight",
+        "use_h1": false,
+        "text": "<p><strong>In coastal regions, 79% of plastic found was less than 5 years old. <\/strong>Approximately 3% of global plastic waste enters the ocean each year (through rivers and multiple ports of entry), and while that may seem a small percentage, it equates to a staggering 99.6 metric tons within 30 miles of the coast.Over 82 metric tons of plastic and 40 metric tons of microplastic end up washing up, being buried or resurfacing on shorelines, only to re-enter the oceans.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16510838917af41ce1": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "The Big Problem With Microplastics",
+        "use_h1": false,
+        "text": "<p>More than 5 trillion plastic particles are estimated to be in the world's surface waters.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "full_width": true
       }
     }
   },
   "order": [
+    "1651083175d3dae5ac",
+    "16510835927f249308",
+    "1651083813686d2d3b",
+    "165108354281f5e386",
+    "16510838917af41ce1",
     "main"
   ]
 }
