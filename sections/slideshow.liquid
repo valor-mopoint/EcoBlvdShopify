@@ -72,12 +72,12 @@
       			<div class="video-container__video"></div>
       			{%- if block.settings.placeholder_image -%}
         			<div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
-                        data-bgset="{% render 'bgset', image: section.settings.placeholder_image %}"
+                        data-bgset="{% render 'bgset', image: block.settings.placeholder_image %}"
                         data-sizes="auto"
                         data-parent-fit="cover">
                     <noscript>
-                      <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.placeholder_image.aspect_ratio | times: 100 }}%">
-                        <img src="{{ block.settings.placeholder_image | img_url: '1024x1024' }}" alt="{{ section.settings.placeholder_image.alt | escape }}" class="rimage__image">
+                      <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.placeholder_image.aspect_ratio | times: 100 }}%">
+                        <img src="{{ block.settings.placeholder_image | img_url: '1024x1024' }}" alt="{{ block.settings.placeholder_image.alt | escape }}" class="rimage__image">
                       </div>
                     </noscript>
         			</div>
