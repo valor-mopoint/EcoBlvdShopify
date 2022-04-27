@@ -27,43 +27,6 @@
         "overlay_style": "shadow"
       }
     },
-    "16510835927f249308": {
-      "type": "rich-text",
-      "blocks": {
-        "1651083592c8987272-0": {
-          "type": "heading",
-          "settings": {
-            "title": "It's estimated by 2050 there will be more plastic than fish in our oceans",
-            "use_h1": false
-          }
-        },
-        "1651083592c8987272-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With the production and use of plastics, we are overusing the natural resources and the ecosystems of our planet. According to the Surfrider Foundation’s projections, our reliance on plastic is set to increase by 50% within the next ten years, requiring humans, fish, and other wildlife to adapt to all of the waste in our ecosystems.<\/p>",
-            "enlarge_text": false
-          }
-        },
-        "6132d317-743d-4c8d-9762-4989ae2bd718": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Source: <\/em><a href=\"https:\/\/www.businessinsider.com\/plastic-in-ocean-outweighs-fish-evidence-report-2017-1\"><span style=\"text-decoration:underline\"><em>Business Insider<\/em><\/span><\/a><\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "1651083592c8987272-0",
-        "1651083592c8987272-1",
-        "6132d317-743d-4c8d-9762-4989ae2bd718"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": true
-      }
-    },
     "1651083813686d2d3b": {
       "type": "image-with-text",
       "settings": {
@@ -113,6 +76,43 @@
         "use_alt_bg": false
       }
     },
+    "16510835927f249308": {
+      "type": "rich-text",
+      "blocks": {
+        "1651083592c8987272-0": {
+          "type": "heading",
+          "settings": {
+            "title": "It's estimated by 2050 there will be more plastic than fish in our oceans",
+            "use_h1": false
+          }
+        },
+        "1651083592c8987272-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the production and use of plastics, we are overusing the natural resources and the ecosystems of our planet. According to the Surfrider Foundation’s projections, our reliance on plastic is set to increase by 50% within the next ten years, requiring humans, fish, and other wildlife to adapt to all of the waste in our ecosystems.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "6132d317-743d-4c8d-9762-4989ae2bd718": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Source: <\/em><a href=\"https:\/\/www.businessinsider.com\/plastic-in-ocean-outweighs-fish-evidence-report-2017-1\"><span style=\"text-decoration:underline\"><em>Business Insider<\/em><\/span><\/a><\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1651083592c8987272-0",
+        "1651083592c8987272-1",
+        "6132d317-743d-4c8d-9762-4989ae2bd718"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -123,10 +123,10 @@
   },
   "order": [
     "1651083175d3dae5ac",
-    "16510835927f249308",
     "1651083813686d2d3b",
     "165108354281f5e386",
     "16510838917af41ce1",
+    "16510835927f249308",
     "main"
   ]
 }
