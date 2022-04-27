@@ -24,6 +24,7 @@
     },
     "16359276425da8ce46": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "9e56c0d1-62fb-4ee9-ab94-cc1dbdb2b13a": {
           "type": "backgroundvideo",
