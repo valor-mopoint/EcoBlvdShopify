@@ -60,7 +60,6 @@
           assign wrap_slide_with_link = true
         endif
       -%}
-    
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
         {%- if block.type=='backgroundvideo' -%}
         	{% if block.settings.video != blank %}
@@ -69,7 +68,10 @@
               data-video-autoplay="true"
               data-video-loop="true"
               data-cc-animate>
-      			<div class="video-container__video"></div>
+      			<div class="video-container__video">
+              		<video class="b-lazy b-loaded" playsinline="" loop="" autoplay="" muted="" width="100%" data-src="https://cdn-stamplib.casetify.com/cms/video/32545d3e6944eeda2ff5024e4c02e607.mp4" 
+                           style="width:100%; height: 100%; object-fit: cover" title="promotion video" src="https://youtu.be/5ptbcF1jXiY"></video>
+              	</div>
       			{%- if block.settings.placeholder_image -%}
         			<div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
                         data-bgset="{% render 'bgset', image: block.settings.placeholder_image %}"
