@@ -116,7 +116,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Our mission is to create sustainable products that complement the needs of a diverse society.Discover nature's beauty by taking the greener route.<\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         }
       },
@@ -131,8 +131,23 @@
         "use_alt_bg": false
       }
     },
+    "165108535807b10d42": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Be Part of the Solution. Not the Pollution.",
+        "collection": "",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "use_alt_bg": true,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
     "16499206234aa91675": {
       "type": "Scroll-Pro",
+      "disabled": true,
       "blocks": {
         "164992062390cd15cd-0": {
           "type": "collection",
@@ -186,47 +201,20 @@
         "buttonlink": ""
       }
     },
-    "164940688295c3885f": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/bird-island.jpg",
-        "image_position": "center center",
-        "mobile_image_position": "center center",
-        "height": "fixed",
-        "height_desktop": 720,
-        "height_mobile": 840,
-        "image_link": "",
-        "subheading": "",
-        "title": "TURNING THE TIDE ON PLASTIC",
-        "title_size": 84,
-        "title_size_mobile": 20,
-        "use_h1": false,
-        "text": "<p>Currently, only 9% of all plastic waste produced is recycled (UNEP 2022), while the rest is in landfills, dumpsters, or the ocean. Since it takes millions of years for plastic to fully break down, we know how important it is that we make use of all that exists.<\/p><p><\/p><p>There is good news, though. A variety of tech accessories can be made with recycled or bioplastics, including phone cases, chargers, and charging cables.<\/p><p><\/p><p>Our cases are constructed with InnoMaize™, a 100% compostable and plastic-free material produced form corn starch, sugar, and plant-based materials. By having a low carbon footprint and releasing little to no greenhouse gases, InnoMaize™ is an a-maize-ing alternative to conventional plastic.<\/p><p><\/p><p><strong>Statistics: <\/strong><a href=\"\/pages\/root2renew\" target=\"_blank\" title=\"#Root2Renew\"><strong>#BeatPlasticPollution<\/strong><\/a><strong> United Nations Environment Progamme (n.d.)<\/strong>  <\/p><p>**CHARGERS & CABLES MATERIAL BREAKDOWNS TO COME AS INFORMATION IS RECEIVED<\/p>",
-        "enlarge_text": false,
-        "button_label_1": "",
-        "button_url_1": "",
-        "button_label_2": "",
-        "button_url_2": "",
-        "text_alignment": "center center",
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "no_background"
-      }
-    },
     "164940614408670ea3": {
       "type": "rich-text",
       "blocks": {
         "1649406144148b1d37-0": {
           "type": "heading",
           "settings": {
-            "title": "Dedicated to mother Earth",
+            "title": "Dedicated to Mother Earth",
             "use_h1": false
           }
         },
         "1649406144148b1d37-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We designed our collections to represent various environmental areas that need protection. A portion of every purchase is donated to support the following initiatives:<\/strong><\/p>",
+            "text": "<p>We designed our collections to represent various environmental areas that need protection. A portion of every purchase is donated to support the following initiatives:<\/p>",
             "enlarge_text": true
           }
         },
@@ -273,6 +261,33 @@
         "text_alignment": "center",
         "full_width": true,
         "use_alt_bg": false
+      }
+    },
+    "164940688295c3885f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1030_oceanwaves-1028x579.png",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 720,
+        "height_mobile": 840,
+        "image_link": "",
+        "subheading": "",
+        "title": "TURNING THE TIDE ON PLASTIC",
+        "title_size": 84,
+        "title_size_mobile": 20,
+        "use_h1": false,
+        "text": "<p>Currently, only 9% of all plastic waste produced is recycled (UNEP 2022), while the rest is in landfills, dumpsters, or the ocean. Since it takes millions of years for plastic to fully break down, we know how important it is that we make use of all that exists.<\/p><p><\/p><p>There is good news, though. A variety of tech accessories can be made with recycled or bioplastics, including phone cases, chargers, and charging cables.<\/p><p><\/p><p>Our cases are constructed with InnoMaize™, a 100% compostable and plastic-free material produced form corn starch, sugar, and plant-based materials. By having a low carbon footprint and releasing little to no greenhouse gases, InnoMaize™ is an a-maize-ing alternative to conventional plastic.<\/p><p><\/p><p><em>Statistics: <\/em><a href=\"\/pages\/root2renew\" target=\"_blank\" title=\"#Root2Renew\"><em>#BeatPlasticPollution<\/em><\/a><em> United Nations Environment Progamme (n.d.)  <\/em><\/p>",
+        "enlarge_text": false,
+        "button_label_1": "Learn More",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
       }
     },
     "163592857728b8bdc2": {
@@ -356,7 +371,7 @@
     "16494057386affa936": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/berlin-at-sunset-on-a-clear-day.jpg",
+        "image": "shopify:\/\/shop_images\/JTG_4267.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -364,11 +379,11 @@
         "height_mobile": 280,
         "image_link": "",
         "subheading": "",
-        "title": "Rooted ion Community",
+        "title": "Rooted in Community",
         "title_size": 84,
         "title_size_mobile": 20,
         "use_h1": false,
-        "text": "<p>We aim to educate and inspire people of all lifestyles while fostering a cleaner, less wasteful world through our products.We believe that the samllest step, when taken together, has the greatest impact.<\/p>",
+        "text": "<p>We aim to educate and inspire people of all lifestyles while fostering a cleaner, less wasteful world through our products. We believe that the smallest step, when taken together, has the greatest impact.<\/p>",
         "enlarge_text": true,
         "button_label_1": "Learn More",
         "button_url_1": "",
@@ -377,11 +392,23 @@
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "no_background"
+        "overlay_style": "box"
+      }
+    },
+    "1651085436eac45506": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "post_limit": 3,
+        "show_author": true,
+        "show_date": true,
+        "crop_ratio": "1.78"
       }
     },
     "164991948648d3b28c": {
       "type": "Scroll-Pro",
+      "disabled": true,
       "blocks": {
         "1649919486f84e552c-0": {
           "type": "collection",
@@ -425,6 +452,7 @@
     },
     "165050953813cd8798": {
       "type": "SlidesText",
+      "disabled": true,
       "blocks": {
         "1650509538420c9a94-0": {
           "type": "image",
@@ -530,8 +558,51 @@
         "use_alt_bg": false
       }
     },
+    "1651086634dbf4f668": {
+      "type": "testimonials",
+      "blocks": {
+        "1651086634f19663b6-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image_alignment": "center center",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "1651086634f19663b6-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image_alignment": "center center",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651086634f19663b6-0",
+        "1651086634f19663b6-1"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "use_alt_bg": false,
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "1650708023180fd918": {
       "type": "environmental-act",
+      "disabled": true,
       "blocks": {
         "1650708023e9160b8e-0": {
           "type": "head",
@@ -601,14 +672,17 @@
     "16506789292dce45ae",
     "16359276425da8ce46",
     "1649406380522b5937",
+    "165108535807b10d42",
     "16499206234aa91675",
-    "164940688295c3885f",
     "164940614408670ea3",
+    "164940688295c3885f",
     "163592857728b8bdc2",
     "16494057386affa936",
+    "1651085436eac45506",
     "164991948648d3b28c",
     "165050953813cd8798",
     "16494023164e709bf7",
+    "1651086634dbf4f668",
     "1650708023180fd918"
   ]
 }
