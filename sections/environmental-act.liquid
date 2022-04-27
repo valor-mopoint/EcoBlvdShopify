@@ -9,7 +9,7 @@
    	 {% when 'image' %}
             <div class="env-bj lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%;position:relative;" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
-              <div style="background-color: #6f9174;border-radius: 20px " class="env-k">
+              <div style="background-color: #6f9174;border-radius: 20px;" class="env-k">
               	<div class="image">
               	{% if block.settings.image != blank %}
                 
@@ -45,6 +45,9 @@
 margin-right:20px;
 }
 @media (max-width:767px){
+.env-k{
+	height:150px;
+}
 		.lightly-spaced-row-above .anniu{
 		width:60%;
 	}
