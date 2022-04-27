@@ -84,6 +84,10 @@
       			{%- endif -%}
         		</div>
       		{%- endif -%}
+        {%- endif -%}
+        {%- if wrap_slide_with_link -%}
+          <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
+        {%- endif -%}
         {%- if block.type=='image' -%}
         {%- if block.settings.image == blank -%}
           <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
@@ -128,11 +132,6 @@
           {% endif %}
         {%- endif -%}
         {%- endif -%}
-        {%- endif -%}
-        {%- if wrap_slide_with_link -%}
-          <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
-        {%- endif -%}
-        
 
         {%- if show_overlay_text -%}
           <div class="overlay-text overlay-text--with-reveal overlay-text--for-banner overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over">
