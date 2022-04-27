@@ -717,6 +717,14 @@
         "use_alt_bg": false,
         "text_alignment": "center"
       }
+    },
+    "165109656559a4a66f": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Subscribe to our newsletter",
+        "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "color_bg": "#8a9e83"
+      }
     }
   },
   "order": [
@@ -735,6 +743,7 @@
     "165050953813cd8798",
     "16494023164e709bf7",
     "1651086634dbf4f668",
-    "1650708023180fd918"
+    "1650708023180fd918",
+    "165109656559a4a66f"
   ]
 }
