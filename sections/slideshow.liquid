@@ -69,7 +69,7 @@
               data-video-autoplay="true"
               data-video-loop="true"
               data-cc-animate>
-      			<div class="video-container__video"></div>
+      			<div class="video-container__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5ptbcF1jXiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       			{%- if block.settings.placeholder_image -%}
         			<div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
                         data-bgset="{% render 'bgset', image: block.settings.placeholder_image %}"
@@ -123,9 +123,13 @@
                 <div class="fully-padded-row--large align-center">{{ 'homepage.onboarding.no_content' | t }}</div>
               {% endif %}
         {%- endif -%}
+        
+        
         {%- if wrap_slide_with_link -%}
           <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
         {%- endif -%}
+            
+            
         {%- if block.settings.image == blank -%}
           <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
             {% capture current %}{% cycle 1, 2 %}{% endcapture %}
