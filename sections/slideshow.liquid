@@ -65,7 +65,7 @@
         {%- if block.type.backgroundvideo -%}
         	{% if block.settings.video != blank %}
       		<div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
-              data-video-url="{{ section.settings.video | escape }}"
+              data-video-url="{{ block.settings.video | escape }}"
               data-video-autoplay="true"
               data-video-loop="true"
               data-cc-animate>
