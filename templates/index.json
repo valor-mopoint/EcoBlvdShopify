@@ -2,7 +2,6 @@
   "sections": {
     "16506789292dce45ae": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
         "subheading": "",
@@ -37,7 +36,7 @@
             "use_h1": false,
             "text": "",
             "enlarge_text": true,
-            "height_desktop": 600,
+            "height_desktop": 620,
             "height_mobile": 500,
             "full_width": true,
             "overlay_style": "shadow"
