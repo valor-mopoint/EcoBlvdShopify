@@ -96,7 +96,10 @@
 	}
 
 	.scroll-pro-title-box {
-		width: 25%;
+		{% unless section.settings.scrollprotitle == blank %}
+		width: 100%;
+	  	{% endunless %}
+		width: 24%;
 		position: relative
 	}
 
@@ -113,7 +116,7 @@
 	  {% if section.settings.scrollprotitle == blank %}
 		width: 100%;
 	  {% else %}
-		width: 80%;
+		width: 76%;
 	  {% endif %}
 	}
 
