@@ -62,7 +62,7 @@
       -%}
     
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
-        {%- if block.type=='backgroundvideo' -%}
+        {%- if block.type=="backgroundvideo" -%}
         	{% if block.settings.video != blank %}
       		<div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
               data-video-url="{{ block.settings.video | escape }}"
