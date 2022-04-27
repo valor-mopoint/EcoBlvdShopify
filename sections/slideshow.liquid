@@ -68,7 +68,11 @@
               data-video-autoplay="true"
               data-video-loop="true"
               data-cc-animate>
-      			<div class="video-container__video"></div>
+      			<div class="video-container__video">
+              		<video controls=”controls” autoplay=”autoplay” style=”width:100%;”>
+<source src="https://cdn-stamplib.casetify.com/cms/video/b87bfe900bc5e5becb20690e8c8c23fc.mp4">
+</video>
+              	</div>
       			{%- if block.settings.placeholder_image -%}
         			<div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
                         data-bgset="{% render 'bgset', image: block.settings.placeholder_image %}"
