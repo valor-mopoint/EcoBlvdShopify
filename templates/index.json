@@ -290,8 +290,59 @@
         "overlay_style": "box"
       }
     },
+    "1651096271d376bec3": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "165109627112d2b9c0-0": {
+          "type": "question",
+          "settings": {
+            "title": "100% Compostable",
+            "answer": "<p>The Sequoia, Laguna and Mojave Collections are 100% compostable. <\/p>"
+          }
+        },
+        "165109627112d2b9c0-1": {
+          "type": "question",
+          "settings": {
+            "title": "Plant Based Materials",
+            "answer": "<p>Subtext description entered here<\/p>"
+          }
+        },
+        "0ba820b1-c3e0-4fae-8d96-b80bd8916ccf": {
+          "type": "question",
+          "settings": {
+            "title": "Plastic Free Packaging",
+            "answer": "<p>Subtext description entered here<\/p>"
+          }
+        },
+        "2906ec2b-3fb7-41b3-9ad0-73b6fb762f46": {
+          "type": "question",
+          "settings": {
+            "title": "Post-Consumer Recycled Plastic",
+            "answer": "<p>Subtext description entered here<\/p>"
+          }
+        },
+        "32d53d73-059a-423c-ab4e-79e21005b071": {
+          "type": "question",
+          "settings": {
+            "title": "Roundabout Recycling Program",
+            "answer": "<p>Subtext description entered here<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165109627112d2b9c0-0",
+        "165109627112d2b9c0-1",
+        "0ba820b1-c3e0-4fae-8d96-b80bd8916ccf",
+        "2906ec2b-3fb7-41b3-9ad0-73b6fb762f46",
+        "32d53d73-059a-423c-ab4e-79e21005b071"
+      ],
+      "settings": {
+        "title": "From the Earth, For the Earth"
+      }
+    },
     "163592857728b8bdc2": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "163592857728b8bdc2-0": {
           "type": "text_block",
@@ -676,6 +727,7 @@
     "16499206234aa91675",
     "164940614408670ea3",
     "164940688295c3885f",
+    "1651096271d376bec3",
     "163592857728b8bdc2",
     "16494057386affa936",
     "1651085436eac45506",
