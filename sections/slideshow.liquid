@@ -91,45 +91,48 @@
           <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
         {%- endif -%}
             
-            
-        {%- if block.settings.image == blank -%}
-          
-        {%- else -%}
-          <div class="rimage-background-wrapper lazyload--placeholder {% if block.settings.mobile_image != blank %}desktop-only{% endif %}">
-            <div class="rimage-outer-wrapper rimage-background lazyload--manual fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
-                data-bgset="{% render 'bgset', image: block.settings.image %}"
-                data-sizes="auto"
-                data-parent-fit="cover"
-                style="background-position: {{ block.settings.image_position }}">
-              {%- if section.settings.height == 'adapt' -%}
-                {%- assign aspect_ratio = section.blocks.first.settings.image.aspect_ratio | default: 2.0 -%}
-                <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
-              {%- endif -%}
-              <noscript>
-                <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
-                  <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
-                </div>
-              </noscript>
+        
+          {%- if block.settings.image == blank -%}
+            <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
+              {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+              {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
-          </div>
-            
-          {% if block.settings.mobile_image != blank %}
-            <div class="rimage-outer-wrapper rimage-background lazyload--manual mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
-                 data-bgset="{% render 'bgset', image: block.settings.mobile_image %}"
-                 data-sizes="auto"
-                 data-parent-fit="cover"
-                 style="background-position: {{ block.settings.mobile_image_position }}">
-              {%- if section.settings.height == 'adapt' -%}
-                {%- assign aspect_ratio = section.blocks.first.settings.mobile_image.aspect_ratio | default: 2.0 -%}
-                <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
-              {%- endif -%}
-              <noscript>
-                <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.mobile_image.aspect_ratio | times: 100 }}%">
-                  <img src="{{ block.settings.mobile_image | img_url: '1024x1024' }}" alt="{{ block.settings.mobile_image.alt | escape }}" class="rimage__image">
-                </div>
-              </noscript>
+          {%- else -%}
+            <div class="rimage-background-wrapper lazyload--placeholder {% if block.settings.mobile_image != blank %}desktop-only{% endif %}">
+              <div class="rimage-outer-wrapper rimage-background lazyload--manual fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+                  data-bgset="{% render 'bgset', image: block.settings.image %}"
+                  data-sizes="auto"
+                  data-parent-fit="cover"
+                  style="background-position: {{ block.settings.image_position }}">
+                {%- if section.settings.height == 'adapt' -%}
+                  {%- assign aspect_ratio = section.blocks.first.settings.image.aspect_ratio | default: 2.0 -%}
+                  <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
+                {%- endif -%}
+                <noscript>
+                  <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
+                    <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
+                  </div>
+                </noscript>
+              </div>
             </div>
-          {% endif %}
+           
+            {% if block.settings.mobile_image != blank %}
+              <div class="rimage-outer-wrapper rimage-background lazyload--manual mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+                   data-bgset="{% render 'bgset', image: block.settings.mobile_image %}"
+                   data-sizes="auto"
+                   data-parent-fit="cover"
+                   style="background-position: {{ block.settings.mobile_image_position }}">
+                {%- if section.settings.height == 'adapt' -%}
+                  {%- assign aspect_ratio = section.blocks.first.settings.mobile_image.aspect_ratio | default: 2.0 -%}
+                  <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
+                {%- endif -%}
+                <noscript>
+                  <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.mobile_image.aspect_ratio | times: 100 }}%">
+                    <img src="{{ block.settings.mobile_image | img_url: '1024x1024' }}" alt="{{ block.settings.mobile_image.alt | escape }}" class="rimage__image">
+                  </div>
+                </noscript>
+              </div>
+            {% endif %}
         {%- endif -%}
 
         {%- if show_overlay_text -%}
