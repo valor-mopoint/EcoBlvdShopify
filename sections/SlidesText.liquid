@@ -50,7 +50,7 @@
       </div>
   </div>
   {%- unless section.settings.full_width -%}<div class="container container--not-mobile fully-spaced-row--medium fully-spaced-row--not-mobile">{%- endunless -%}
-  /* <div class="widths slideshow slideshow--navigation-{{ section.settings.slide_navigation }} slick-slider-overlay-dots-desktop {% if section.settings.mobile_overlay_under %}slick-slider--mobile-stack{% else %}slick-slider-overlay-dots{% endif %}" data-transition="{{ section.settings.slide_transition }}" data-autoplay="{{ section.settings.autoplay }}" data-autoplay-speed="{{ section.settings.autoplay_speed }}" data-navigation="{{ section.settings.slide_navigation }}"> */
+  {% comment %} <div class="widths slideshow slideshow--navigation-{{ section.settings.slide_navigation }} slick-slider-overlay-dots-desktop {% if section.settings.mobile_overlay_under %}slick-slider--mobile-stack{% else %}slick-slider-overlay-dots{% endif %}" data-transition="{{ section.settings.slide_transition }}" data-autoplay="{{ section.settings.autoplay }}" data-autoplay-speed="{{ section.settings.autoplay_speed }}" data-navigation="{{ section.settings.slide_navigation }}"> {% endcomment %}
     <div class="ReviewContainer">
     
     {%- for block in section.blocks -%}
@@ -122,7 +122,7 @@
       </div>
     {%- endfor -%}
     </div>
-  /* </div> */
+  {% comment %} </div> {% endcomment %}
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 {% style %}
