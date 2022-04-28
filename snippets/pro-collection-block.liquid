@@ -40,6 +40,11 @@
         {% else %}
           <div class="placeholder-image placeholder-image--shape-{{ settings.coll_grid_image_shape }}">{{ 'collection-1' | placeholder_svg_tag }}</div>
         {% endif %}
+        {% if custom_hover_image != blank %}
+          <div class="product-block__image product-block__image--primary product-block__image--active hoverimage">
+            {% render 'responsive-image', image: custom_image, manual_image_load: manual_image_load, aspect_ratio: custom_aspect_ratio, cover: true, no_max_width: true %}
+          </div>
+        {% endif %}
         <div class="pro-collection-block__title">{{ collection.title }}</div>
       </div>
     </a>
