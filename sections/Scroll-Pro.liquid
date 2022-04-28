@@ -105,14 +105,18 @@
 	}
 
 	.scroll-pro-title-span {
-		font-size: 2.5rem;
-        font-weight: bold;
-        position: absolute;
+		position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #3a3a3c;
-        line-height: 52px;
+        font-weight: bold;
+        font-size: calc(100vw / 40);
+        font-size: -webkit-calc(100vw / 40);
+        font-size: -moz-calc(100vw / 40);
+        line-height: calc(100vw / 20);
+        line-height: -webkit-calc(100vw / 20);
+        line-height: -moz-calc(100vw / 20);
 	}
 
 	.scroll-pro-collection {
@@ -160,6 +164,21 @@
           -moz-transition: width 0.5s;	/* Firefox 4 */
           -webkit-transition: width 0.5s; /* Safari 和 Chrome */
           -o-transition: width 0.5s; /* Opera */
+        }
+
+		.scroll-pro-title-span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #3a3a3c;
+          font-weight: bold;
+          font-size: calc(100vw / 40);
+		  font-size: -webkit-calc(100vw / 40);
+		  font-size: -moz-calc(100vw / 40);
+          line-height: calc(100vw / 20);
+		  line-height: -webkit-calc(100vw / 20);
+		  line-height: -moz-calc(100vw / 20);
         }
 	}
 
