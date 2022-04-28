@@ -189,7 +189,7 @@
 
 {%- style -%}
 @media (min-width: 768px) {
-{%- if section.settings.height == 'fixed' -%}
+{%- if section.settings.height !=blank -%}
 .video-height{
 	height:{{ section.settings.height_mobile }}px;
 }
