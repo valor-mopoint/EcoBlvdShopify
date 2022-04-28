@@ -188,8 +188,12 @@
 </div>
 
 {%- style -%}
+@media (min-width: 768px) {
+{%- if section.settings.height == 'fixed' -%}
 .video-height{
 	height:{{ section.settings.height_mobile }}px;
+}
+{% endif %}
 }
 .overlay-text__button-row .buttom-size{
 	border-radius:30px;
