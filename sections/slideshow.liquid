@@ -86,13 +86,6 @@
         	{% endif %}
         {%- endif -%}
         </div>
-        
-        {%- if block.settings.video == blank -%}
-            <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
-              {% capture current %}{% cycle 1, 2 %}{% endcapture %}
-              {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
-            </div>
-          {%- endif -%}
         {%- if wrap_slide_with_link -%}
           <a class="image-overlay__image-link" href="{{ block.settings.slide_link }}">
         {%- endif -%}
