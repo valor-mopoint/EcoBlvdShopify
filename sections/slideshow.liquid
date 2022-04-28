@@ -70,7 +70,7 @@
                 data-video-loop="true"
                 data-cc-animate>
               <div class="video-container__video"></div>
-              {% if block.settings.placeholder_image %}
+              {% if block.settings.placeholder_image!=blank %}
                 <div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
                   data-bgset="{% render 'bgset', image: section.settings.placeholder_image %}"
                   data-sizes="auto"
@@ -81,6 +81,11 @@
                     </div>
                   </noscript>
         		</div>
+              {% else %}
+               	 <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
+              {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+              {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
       		  {% endif %}
         	  </div>
         	{% endif %}
