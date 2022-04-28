@@ -15,7 +15,7 @@
     	<div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}">
           <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
             <div class="collection-listing" data-cc-animate="cc-fade-in-up">
-              <div class="scroll-collection product-list product-list--per-row-4 product-list--per-row-mob-{{ settings.prod_thumb_mob_per_row }} product-list--image-shape-{{ settings.coll_grid_image_shape }} {% if section.settings.enable_carousel %}carousel{% endif %}" style="margin:0;">
+              <div class="scroll-collection product-list product-list--per-row-{{section.settings.slidershowcount}} product-list--per-row-mob-{{ settings.prod_thumb_mob_per_row }} product-list--image-shape-{{ settings.coll_grid_image_shape }} {% if section.settings.enable_carousel %}carousel{% endif %}" style="margin:0;">
                 {% assign slides = section.blocks | where: "type", "collection" %}
                 {% if slides.size > 0 %}
                   {%- liquid
