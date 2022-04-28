@@ -2,7 +2,6 @@
   "sections": {
     "16506789292dce45ae": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "video": "https:\/\/cdn-stamplib.casetify.com\/cms\/video\/37fe4b290b84eb768b6b6863785ec8a3.mp4",
         "subheading": "",
@@ -37,6 +36,11 @@
             "use_h1": false,
             "text": "",
             "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center",
             "height_desktop": 620,
             "height_mobile": 500,
             "full_width": true,
