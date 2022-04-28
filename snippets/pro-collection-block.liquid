@@ -42,7 +42,7 @@
         {% endif %}
         {% if custom_hover_image != blank %}
           <div class="product-block__image product-block__image--primary product-block__image--active hoverimage">
-            {% render 'responsive-image', image: custom_image, manual_image_load: manual_image_load, aspect_ratio: custom_aspect_ratio, cover: true, no_max_width: true %}
+            {% render 'responsive-image', image: custom_hover_image, manual_image_load: manual_image_load, aspect_ratio: custom_aspect_ratio, cover: true, no_max_width: true %}
           </div>
         {% endif %}
         <div class="pro-collection-block__title">{{ collection.title }}</div>
