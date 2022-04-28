@@ -63,26 +63,26 @@
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
         {%- if block.type=='backgroundvideo' -%}
         	{% if block.settings.video != blank %}
-      		<div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
-              data-video-url="{{ block.settings.video | escape }}"
-              data-video-autoplay="true"
-              data-video-loop="true"
-              data-cc-animate>
-      			<div class="video-container__video"></div>
-      			{%- if block.settings.placeholder_image -%}
-        			<div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
-                        data-bgset="{% render 'bgset', image: block.settings.placeholder_image %}"
-                        data-sizes="auto"
-                        data-parent-fit="cover">
-                    <noscript>
-                      <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.placeholder_image.aspect_ratio | times: 100 }}%">
-                        <img src="{{ block.settings.placeholder_image | img_url: '1024x1024' }}" alt="{{ block.settings.placeholder_image.alt | escape }}" class="rimage__image">
-                      </div>
-                    </noscript>
-        			</div>
-      			{%- endif -%}
-        </div>
-              {% endif %}
+              <div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
+                data-video-url="{{ block.settings.video | escape }}"
+                data-video-autoplay="true"
+                data-video-loop="true"
+                data-cc-animate>
+              <div class="video-container__video"></div>
+              {% if block.settings.placeholder_image %}
+                <div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
+                  data-bgset="{% render 'bgset', image: section.settings.placeholder_image %}"
+                  data-sizes="auto"
+                  data-parent-fit="cover">
+                  <noscript>
+                    <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.placeholder_image.aspect_ratio | times: 100 }}%">
+                      <img src="{{ block.settings.placeholder_image | img_url: '1024x1024' }}" alt="{{ section.settings.placeholder_image.alt | escape }}" class="rimage__image">
+                    </div>
+                  </noscript>
+        		</div>
+      		  {% endif %}
+        	  </div>
+        	{% endif %}
         {%- endif -%}
         
         
@@ -91,7 +91,7 @@
         {%- endif -%}
             
             
-        {%- if block.settings.image == blank or block.settings.image==blank -%}
+        {%- if block.settings.image == blank -%}
           <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
             {% capture current %}{% cycle 1, 2 %}{% endcapture %}
             {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
