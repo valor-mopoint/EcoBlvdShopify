@@ -63,7 +63,12 @@
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
         <div id="section-id-{{ section.id }}" class="{% unless section.settings.full_width %}container fully-spaced-row{% endunless %}" data-section-type="background-video" data-cc-animate>
         {%- if block.type=='backgroundvideo' -%}
-        	{% if block.settings.video != blank %}
+        	{% if block.settings.video == blank %}
+          	<div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
+              {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+              {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+          	{% else %}
               <div class="video-height height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
                 data-video-url="{{ block.settings.video | escape }}"
                 data-video-autoplay="true"
@@ -83,6 +88,7 @@
         		</div>
       		  {% endif %}
         	  </div>
+          	
         	{% endif %}
         {%- endif -%}
         </div>
