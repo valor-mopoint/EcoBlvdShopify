@@ -6932,8 +6932,8 @@
       theme.buildGalleryViewer({
         images: images,
         currentImage: clickedHref,
-        prev: theme.icons.chevronLeft,
-        next: theme.icons.chevronRight,
+        prev: theme.icons.chevronLefts,
+        next: theme.icons.chevronRights,
         close: theme.icons.close });
 
 
