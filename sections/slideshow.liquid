@@ -64,7 +64,7 @@
         <div id="section-id-{{ section.id }}" class="{% unless section.settings.full_width %}container fully-spaced-row{% endunless %}" data-section-type="background-video" data-cc-animate>
         {%- if block.type=='backgroundvideo' -%}
         	{% if block.settings.video != blank %}
-              <div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
+              <div class="video-height height--fixed video-container video-container--background image-overlay image-overlay--bg-{{ section.settings.overlay_style }}"
                 data-video-url="{{ block.settings.video | escape }}"
                 data-video-autoplay="true"
                 data-video-loop="true"
@@ -188,6 +188,9 @@
 </div>
 
 {%- style -%}
+.video-height{
+	height:600px;
+}
 .overlay-text__button-row .buttom-size{
 	border-radius:30px;
   	background-color:rgba(255,255,255,0.8);
