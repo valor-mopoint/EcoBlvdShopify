@@ -91,7 +91,7 @@
         {%- endif -%}
             
             
-        {%- if block.settings.image == blank -%}
+        {%- if block.settings.image == blank or block.settings.image==blank -%}
           <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
             {% capture current %}{% cycle 1, 2 %}{% endcapture %}
             {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
@@ -646,7 +646,70 @@
         "label": "Enlarge text",
         "default": true
       },
-      
+      {
+        "type": "text",
+        "id": "button_label_1",
+        "label": "Button 1 label"
+      },
+      {
+        "type": "url",
+        "id": "button_url_1",
+        "label": "Button 1 link"
+      },
+      {
+        "type": "text",
+        "id": "button_label_2",
+        "label": "Button 2 label"
+      },
+      {
+        "type": "url",
+        "id": "button_url_2",
+        "label": "Button 2 link"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text overlay position",
+        "options": [
+          {
+            "value": "top left",
+            "label": "Top left"
+          },
+          {
+            "value": "top center",
+            "label": "Top center"
+          },
+          {
+            "value": "top right",
+            "label": "Top right"
+          },
+          {
+            "value": "center left",
+            "label": "Middle left"
+          },
+          {
+            "value": "center center",
+            "label": "Middle center"
+          },
+          {
+            "value": "center right",
+            "label": "Middle right"
+          },
+          {
+            "value": "bottom left",
+            "label": "Bottom left"
+          },
+          {
+            "value": "bottom center",
+            "label": "Bottom center"
+          },
+          {
+            "value": "bottom right",
+            "label": "Bottom right"
+          }
+        ],
+        "default": "center center"
+      },
       {
         "type": "header",
         "content": "Layout"
