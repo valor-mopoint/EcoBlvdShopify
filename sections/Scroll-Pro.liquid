@@ -111,12 +111,14 @@
         transform: translate(-50%, -50%);
         color: #3a3a3c;
         font-weight: bold;
-        font-size: calc(100vw / 38);
-        font-size: -webkit-calc(100vw / 38);
-        font-size: -moz-calc(100vw / 38);
-        line-height: calc(100vw / 28);
-        line-height: -webkit-calc(100vw / 28);
-        line-height: -moz-calc(100vw / 28);
+		{% unless section.settings.scrollprotitle == blank %}
+        font-size: calc(24vw / 10);
+        font-size: -webkit-calc(24vw / 10);
+        font-size: -moz-calc(24vw / 10);
+        line-height: calc(24vw / 7);
+        line-height: -webkit-calc(24vw / 7);
+        line-height: -moz-calc(24vw / 7);
+	  	{% endunless %}
 	}
 
 	.scroll-pro-collection {
@@ -164,21 +166,6 @@
           -moz-transition: width 0.5s;	/* Firefox 4 */
           -webkit-transition: width 0.5s; /* Safari 和 Chrome */
           -o-transition: width 0.5s; /* Opera */
-        }
-
-		.scroll-pro-title-span {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: #3a3a3c;
-          font-weight: bold;
-          font-size: calc(100vw / 30);
-		  font-size: -webkit-calc(100vw / 30);
-		  font-size: -moz-calc(100vw / 30);
-          line-height: calc(100vw / 20);
-		  line-height: -webkit-calc(100vw / 20);
-		  line-height: -moz-calc(100vw / 20);
         }
 	}
 
