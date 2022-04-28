@@ -260,9 +260,9 @@
                   assign vendor_url = product.vendor | url_for_vendor
                 endif
               -%}
-              <%<div class="vendor lightly-spaced-row" {{ block.shopify_attributes }}>
+              <!--<div class="vendor lightly-spaced-row" {{ block.shopify_attributes }}>
                 <span class="product-detail-label">{{ 'products.product.vendor' | t }}</span> {{ product.vendor | link_to: vendor_url, class: 'underline' }}
-              </div>%>
+              </div>-->
 
             {% when 'sku' %}
               <div class="sku {% if current_variant and current_variant.sku == blank %}sku--no-sku{% endif %}" {{ block.shopify_attributes }}>
