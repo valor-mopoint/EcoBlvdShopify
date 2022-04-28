@@ -123,6 +123,7 @@
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 {% style %}
+
 .widths{
 	width:70%;
 	margin:auto;
@@ -151,6 +152,12 @@
 	.widths{
 	width:40%;
 	margin:auto;
+}
+#section-id-{{ section.id }} .widths .slick-prev{
+	left:-150px
+}
+#section-id-{{ section.id }} .widths .slick-next{
+	right:-150px
 }
 }
 {% endstyle %}
@@ -427,6 +434,4 @@
 {% endstylesheet %}
 
 {% javascript %}
-<!--#section-id-{{ section.id }} .widths  .slick-prev{}
-#section-id-{{ section.id }} .widths  .slick-next{}-->
 {% endjavascript %}
