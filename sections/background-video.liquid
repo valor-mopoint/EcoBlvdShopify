@@ -51,45 +51,7 @@
         </div>
       {% endif %}
 
-      {%- assign show_overlay_text = false -%}
-      {%- if section.settings.title != blank or section.settings.subheading != blank or section.settings.text != blank or section.settings.button_label_1 != blank or section.settings.button_label_2 != blank -%}
-        {%- assign show_overlay_text = true -%}
-      {%- endif -%}
-
-      {%- if show_overlay_text -%}
-        <div class="overlay-text overlay-text--for-banner overlay--v-{{ section.settings.text_alignment | split: ' ' | first }} overlay--h-{{ section.settings.text_alignment | split: ' ' | last }} image-overlay__over">
-          <div class="overlay-text__inner">
-            <div class="overlay-text__text" data-cc-animate="cc-fade-in-up" data-cc-animate-delay="0.5s">
-              {%- if section.settings.subheading != blank -%}
-                <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.subheading | escape }}</div>
-              {%- endif -%}
-              {%- if section.settings.title != blank -%}
-                {% if section.settings.use_h1 %}
-                  <h1 class="overlay-text__title">{{ section.settings.title | newline_to_br }}</h1>
-                {% else %}
-                  <h2 class="overlay-text__title h1-style">{{ section.settings.title | newline_to_br }}</h2>
-                {% endif %}
-              {%- endif -%}
-              {%- if section.settings.text != blank -%}
-                <div class="overlay-text__rte rte {% if section.settings.enlarge_text %}large-text{% endif %}">{{ section.settings.text }}</div>
-              {%- endif -%}
-              {%- if section.settings.button_label_1 != blank or section.settings.button_label_2 != blank -%}
-                <div class="overlay-text__button-row">
-                  {%- if section.settings.button_label_1 != blank -%}
-                    <a class="overlay-text__button button altcolour" href="{{ section.settings.button_url_1 }}">{{ section.settings.button_label_1 }}</a>
-                  {%- endif -%}
-                  {%- if section.settings.button_label_2 != blank -%}
-                    <a class="overlay-text__button button altcolour" href="{{ section.settings.button_url_2 }}">{{ section.settings.button_label_2 }}</a>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-            </div>
-          </div>
-        </div>
-      {%- endif -%}
-    </div>
-  {% else %}
-    <div class="fully-padded-row--large align-center">{{ 'homepage.onboarding.no_content' | t }}</div>
+      
   {% endif %}
 </div>
 
