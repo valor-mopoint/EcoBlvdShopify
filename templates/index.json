@@ -161,11 +161,11 @@
       ],
       "settings": {
         "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
-        "scrollprotitle_fontsize": 16,
+        "scrollprotitle_fontsize": 13,
         "enable_carousel": true,
         "use_alt_bg1": true,
         "buttontext": "Browse All Product",
-        "buttonlink": ""
+        "buttonlink": "shopify:\/\/collections\/all"
       }
     },
     "164940688295c3885f": {
