@@ -167,6 +167,23 @@
           -webkit-transition: width 0.5s; /* Safari 和 Chrome */
           -o-transition: width 0.5s; /* Opera */
         }
+		
+		.scroll-pro-title-span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #3a3a3c;
+          font-weight: bold;
+          {% unless section.settings.scrollprotitle == blank %}
+          font-size: calc(24vw / 8);
+          font-size: -webkit-calc(24vw / 8);
+          font-size: -moz-calc(24vw / 8);
+          line-height: calc(24vw / 5);
+          line-height: -webkit-calc(24vw / 5);
+          line-height: -moz-calc(24vw / 5);
+          {% endunless %}
+        }
 	}
 
 	a.btn.btn-scrollpro:hover {
