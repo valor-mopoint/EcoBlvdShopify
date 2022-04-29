@@ -274,20 +274,21 @@
         "1649406144148b1d37-0": {
           "type": "heading",
           "settings": {
-            "title": "Dedicated to mother Earth",
+            "title": "Dedicated to Mother Earth",
             "use_h1": false
           }
         },
         "1649406144148b1d37-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We designed our collections to represent various environmental areas that need protection. A portion of every purchase is donated to support the following initiatives:<\/strong><\/p>",
+            "text": "<p>We donate at least 2% of every purchase to non-profit organizations that work to conserve and protect our planet.<\/p>",
             "enlarge_text": true
           }
         },
         "332d8b64-541f-4cf4-938a-cfaa98e608cc": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/clear-blue-water-crawls-over-the-white-sandy-beach.jpg",
             "image_width": 30,
             "url": ""
           }
