@@ -351,8 +351,51 @@
         "overlay_style": "box"
       }
     },
+    "1651255128ce6afaff": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1651255128a20822b1-0": {
+          "type": "question",
+          "settings": {
+            "title": "100% Compostable Phone Cases",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "1651255128a20822b1-1": {
+          "type": "question",
+          "settings": {
+            "title": "Plant Based Materials",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "8bc6d34b-c170-43c9-9f76-c082ced986da": {
+          "type": "question",
+          "settings": {
+            "title": "Plastic Free Packaging",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "939bb656-f9dd-429c-9d7c-6f9979f50601": {
+          "type": "question",
+          "settings": {
+            "title": "Post-Consumer Recycled Plastic Cables & Chargers",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1651255128a20822b1-0",
+        "1651255128a20822b1-1",
+        "8bc6d34b-c170-43c9-9f76-c082ced986da",
+        "939bb656-f9dd-429c-9d7c-6f9979f50601"
+      ],
+      "settings": {
+        "title": "Our Products are From the Earth, For the Earth"
+      }
+    },
     "163592857728b8bdc2": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "163592857728b8bdc2-0": {
           "type": "text_block",
@@ -737,6 +780,7 @@
     "164940614408670ea3",
     "16499206234aa91675",
     "164940688295c3885f",
+    "1651255128ce6afaff",
     "163592857728b8bdc2",
     "16494057386affa936",
     "164991948648d3b28c",
