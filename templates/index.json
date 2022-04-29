@@ -296,6 +296,7 @@
         "7e820ca4-d9d3-4c04-8d31-5b16f935f0c8": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
             "image_width": 16,
             "url": ""
           }
