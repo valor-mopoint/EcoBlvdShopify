@@ -482,7 +482,7 @@
             "image_width": 700,
             "title": "",
             "text": "<p>Customize your case by adding your name or favorite quote<\/p>",
-            "button_label": "Shop",
+            "button_label": "Get Started",
             "link": ""
           }
         },
@@ -490,29 +490,18 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/designs_example_eco.png",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "1651257315c66845a9-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
+            "title": "",
+            "text": "<p>Curated designs available for every taste and style<\/p>",
+            "button_label": "Shop Now",
             "link": ""
           }
         }
       },
       "block_order": [
         "1651257315c66845a9-0",
-        "1651257315c66845a9-1",
-        "1651257315c66845a9-2"
+        "1651257315c66845a9-1"
       ],
       "settings": {
         "title": "Creativity Shouldn't Go To Waste",
