@@ -281,29 +281,42 @@
         "1649406144148b1d37-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We donate at least 2% of every purchase to non-profit organizations that work to conserve and protect our planet.<\/p>",
+            "text": "<p>We donate at least 2% of every purchase to non-profit organizations that take action. Inspired by the environment near us, each collection is dedicated to a region or issue that requires attention.<\/p>",
             "enlarge_text": true
           }
         },
         "332d8b64-541f-4cf4-938a-cfaa98e608cc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/clear-blue-water-crawls-over-the-white-sandy-beach.jpg",
-            "image_width": 30,
+            "image_width": 16,
             "url": ""
           }
         },
         "7e820ca4-d9d3-4c04-8d31-5b16f935f0c8": {
           "type": "image",
           "settings": {
-            "image_width": 30,
+            "image_width": 16,
+            "url": ""
+          }
+        },
+        "a21cbd8d-5b0d-4c87-aa2d-c62105b3e435": {
+          "type": "image",
+          "settings": {
+            "image_width": 16,
             "url": ""
           }
         },
         "92e95e48-4f11-41cf-a994-c23c55a23531": {
           "type": "image",
           "settings": {
-            "image_width": 30,
+            "image_width": 16,
+            "url": ""
+          }
+        },
+        "546b798c-fe91-4ff1-ae39-5355cfa77f39": {
+          "type": "image",
+          "settings": {
+            "image_width": 16,
             "url": ""
           }
         },
@@ -321,7 +334,9 @@
         "1649406144148b1d37-1",
         "332d8b64-541f-4cf4-938a-cfaa98e608cc",
         "7e820ca4-d9d3-4c04-8d31-5b16f935f0c8",
+        "a21cbd8d-5b0d-4c87-aa2d-c62105b3e435",
         "92e95e48-4f11-41cf-a994-c23c55a23531",
+        "546b798c-fe91-4ff1-ae39-5355cfa77f39",
         "06f1b8dd-35b8-4abc-a137-13598839ea49"
       ],
       "settings": {
