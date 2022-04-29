@@ -6399,14 +6399,14 @@
         $(this).on('init', function () {
           $('.lazyload--manual', this).removeClass('lazyload--manual').addClass('lazyload');
         }).slick({
-          autoplay: $(this).data('autoplay'),
-          fade: $(this).data('transition') !== 'slide',
-          speed: slideshowSpeed,
+          autoplay: $(this).data('autoplay'),//自动播放
+          fade: $(this).data('transition') !== 'slide',//淡入淡出
+          speed: slideshowSpeed,//淡入淡出的速度
           autoplaySpeed: autoplaySpeed,
           arrows: $(this).data('navigation') === 'arrows',
           dots: $(this).data('navigation') === 'dots',
           pauseOnHover: false,
-          infinite: true,
+          infinite: true,//无限循环滑动
           useTransform: true,
           prevArrow: '<button type="button" class="slick-prev" aria-label="' + theme.strings.previous + '">' + theme.icons.chevronLeft + '</button>',
           nextArrow: '<button type="button" class="slick-next" aria-label="' + theme.strings.next + '">' + theme.icons.chevronRight + '</button>',
