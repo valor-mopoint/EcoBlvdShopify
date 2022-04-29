@@ -475,14 +475,16 @@ $('.ReviewContainer').on('setPosition',function(event,slickobj){
         });
     }else
 	{
-		slidesToShow: 1,
+		$('.ReviewContainer').slick({
+          slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
           fade: true,
           autoplaySpeed: 6000,
           speed:2000,
           infinite: true,
-		  dots:true,
+		  dots:true
+        });
 	}
 	
 })
