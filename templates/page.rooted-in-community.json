@@ -112,6 +112,44 @@
         "use_alt_bg": false
       }
     },
+    "1651268085a256dc42": {
+      "type": "rich-text",
+      "blocks": {
+        "165126808514fcba85-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Take Action For Mother Earth",
+            "use_h1": false
+          }
+        },
+        "165126808514fcba85-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking to get involved in your community? Search volunteer opportunities in your area!<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "14390b91-c688-42fc-8f46-1272e0bc3805": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore",
+            "button_link": "https:\/\/www.volunteermatch.org\/",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "165126808514fcba85-0",
+        "165126808514fcba85-1",
+        "14390b91-c688-42fc-8f46-1272e0bc3805"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
     "1651267350c884f746": {
       "type": "featured-blog",
       "settings": {
@@ -163,6 +201,7 @@
     "1651083175d3dae5ac",
     "1651267590b740ae80",
     "165126772459bc82ce",
+    "1651268085a256dc42",
     "1651267350c884f746",
     "main",
     "1651266536aafb4f5e"
