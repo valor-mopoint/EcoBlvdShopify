@@ -225,13 +225,21 @@
             "title": "Eco Warrior Princess",
             "answer": "<p>Covers the topics that matter — environmental issues, conservation, sustainable fashion, conscious business, social justice, politics, feminism, eco beauty, wellness, green technology — in an analytical, intelligent, and honest way. Click <a href=\"https:\/\/ecowarriorprincess.net\/\" target=\"_blank\" title=\"https:\/\/ecowarriorprincess.net\/\">here<\/a> to learn more.<\/p>"
           }
+        },
+        "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e": {
+          "type": "question",
+          "settings": {
+            "title": "Finding Our Green Life",
+            "answer": "<p>Covers easy-to-implement tips and tricks to lead a more eco-friendly lifestyle, ideas on reducing food and packaging waste, identifying harmful chemicals in everyday products and how to reduce them, and how to be an educated and conscious consumer. Click <a href=\"https:\/\/www.findingourgreenlife.com\/\" target=\"_blank\" title=\"https:\/\/www.findingourgreenlife.com\/\">here<\/a> to learn more.<\/p>"
+          }
         }
       },
       "block_order": [
         "9c72319a-d3a4-4305-bb9e-2211cf58ca56",
         "1651268087ba000140-0",
         "1651268087ba000140-1",
-        "cf7556de-8de3-4fa4-bb57-482755c58e3a"
+        "cf7556de-8de3-4fa4-bb57-482755c58e3a",
+        "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e"
       ],
       "settings": {
         "title": "Check out some of our Eco Friends"
