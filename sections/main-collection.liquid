@@ -344,7 +344,21 @@ position: relative;
     margin: auto;
 }
 {%- endstyle -%}
+{% javascript %}
+$(function(){
+$(".data-iocn-dj").click(function(){
+	if($('.data-yc').is(':hidden')){
 
+$('.data-yc').show();
+
+}else{//否则
+
+$('data-yc').hide();
+
+}
+})
+})
+{% endjavascript %}
 {% schema %}
   {
     "name": "Collection pages",
