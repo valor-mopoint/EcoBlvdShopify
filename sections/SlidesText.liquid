@@ -445,7 +445,11 @@ $(document).ready(function(){
 
   console.log("aaa");
 
-  $('.ReviewContainer').slick();
+  $('.ReviewContainer').slick({
+	infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1
+  });
 
   console.log("bbb");
 
