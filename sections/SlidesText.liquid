@@ -71,7 +71,7 @@
       <div class="slide slide-{{ forloop.index }} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" {{ block.shopify_attributes }}>
       {% endcomment %}
         
-      <div class="slide-item-{{ forloop.index }}" style="position:relative;" {{ block.shopify_attributes }}>
+      <div class="slide slide-item-{{ forloop.index }}" {{ block.shopify_attributes }}>
 
         {%- if block.settings.image == blank -%}
           <div class="placeholder-image placeholder-color placeholder--banner biankuan{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
