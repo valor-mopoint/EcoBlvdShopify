@@ -320,6 +320,7 @@
         "546b798c-fe91-4ff1-ae39-5355cfa77f39": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
             "image_width": 16,
             "url": ""
           }
