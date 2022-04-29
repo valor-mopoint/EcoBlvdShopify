@@ -232,6 +232,27 @@
             "title": "Finding Our Green Life",
             "answer": "<p>Covers easy-to-implement tips and tricks to lead a more eco-friendly lifestyle, ideas on reducing food and packaging waste, identifying harmful chemicals in everyday products and how to reduce them, and how to be an educated and conscious consumer. Click <a href=\"https:\/\/www.findingourgreenlife.com\/\" target=\"_blank\" title=\"https:\/\/www.findingourgreenlife.com\/\">here<\/a> to learn more.<\/p>"
           }
+        },
+        "7de2a2fa-24cb-4be0-9965-8b28ea3885ce": {
+          "type": "question",
+          "settings": {
+            "title": "Inhabitat",
+            "answer": "<p>A green design and lifestyle site that provides coverage of environmental news and the latest in sustainable living. Click <a href=\"https:\/\/inhabitat.com\/about\/\" target=\"_blank\" title=\"https:\/\/inhabitat.com\/about\/\">here<\/a> to learn more.<\/p>"
+          }
+        },
+        "d6e1267d-0bc9-4b23-8cd8-e34d0dc117d5": {
+          "type": "question",
+          "settings": {
+            "title": "One Green Planet",
+            "answer": "<p>An online guide to making conscious and compassionate choices that help people, animals, and the planet. Click <a href=\"https:\/\/www.onegreenplanet.org\/\" target=\"_blank\" title=\"https:\/\/www.onegreenplanet.org\/\">here<\/a> to learn more.<\/p>"
+          }
+        },
+        "79714211-598f-465c-b482-7e7a354d11e9": {
+          "type": "question",
+          "settings": {
+            "title": "Small Footprint Family",
+            "answer": "<p>Articles, how-to's, and tips to empower and inspire you to save money, consume less, produce more, and live a greener, healthier, more sustainable life. Click <a href=\"https:\/\/www.smallfootprintfamily.com\/\" target=\"_blank\" title=\"https:\/\/www.smallfootprintfamily.com\/\">here<\/a> to learn more.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -239,7 +260,10 @@
         "1651268087ba000140-0",
         "1651268087ba000140-1",
         "cf7556de-8de3-4fa4-bb57-482755c58e3a",
-        "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e"
+        "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e",
+        "7de2a2fa-24cb-4be0-9965-8b28ea3885ce",
+        "d6e1267d-0bc9-4b23-8cd8-e34d0dc117d5",
+        "79714211-598f-465c-b482-7e7a354d11e9"
       ],
       "settings": {
         "title": "Check out some of our Eco Friends"
