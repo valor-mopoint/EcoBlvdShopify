@@ -937,7 +937,7 @@
     "font_size_logo_int": 24,
     "button_style": "caps",
     "button_shape": "slightlyrounded",
-    "coll_grid_image_shape": "portrait-45",
+    "coll_grid_image_shape": "portrait-23",
     "coll_grid_image_position": "center center",
     "coll_grid_show_count": false,
     "prod_thumb_shape": "portrait-23",
