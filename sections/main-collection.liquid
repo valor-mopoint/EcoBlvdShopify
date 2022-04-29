@@ -306,7 +306,7 @@
   <div class="page-header page-header--with-upper-spacing">
     <div class="container">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
-        <div class="rte cf align-center reading-width">{{ collection.description }}</div>
+        <div class="rte cf align-center reading-width clicks">{{ collection.description }}</div>
       {% endif %}
     </div>
   </div>
@@ -322,7 +322,23 @@
     </div>
   {% endif %}
 </div>
-
+{%- style -%}
+.data-iocn-dj:after{
+	content: "";
+    background-image: url({{"Icon_ionic-ios-arrow-down.svg" | asset_url }});
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+{%- endstyle -%}
 
 {% schema %}
   {
