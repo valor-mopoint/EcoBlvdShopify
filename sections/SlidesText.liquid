@@ -457,7 +457,9 @@ var slickobj = $('.ReviewContainer').slick({
   });
 
 $('.ReviewContainer').on('setPosition',function(event,slickobj){
+	console.log("aaa");
 	var screen=window.innerWidth;
+	console.log(screen);
     if(screen>768){
 		$('.ReviewContainer').slick({
           slidesToShow: 1,
