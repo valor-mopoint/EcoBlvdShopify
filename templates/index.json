@@ -185,89 +185,6 @@
         "full_width": true
       }
     },
-    "16499206234aa91675": {
-      "type": "Scroll-Pro",
-      "disabled": true,
-      "blocks": {
-        "164992062390cd15cd-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "laguna-collection",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
-          }
-        },
-        "86d8a850-805c-494b-8774-245ab892c7bd": {
-          "type": "collection",
-          "settings": {
-            "collection": "sequoia-collection",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
-          }
-        },
-        "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
-          }
-        },
-        "516a77aa-e479-4b22-a021-297558f9aab3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
-          }
-        },
-        "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "164992062390cd15cd-0",
-        "86d8a850-805c-494b-8774-245ab892c7bd",
-        "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa",
-        "516a77aa-e479-4b22-a021-297558f9aab3",
-        "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca"
-      ],
-      "settings": {
-        "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
-        "scrollprotitle_fontsize": 16,
-        "enable_carousel": true,
-        "use_alt_bg1": true,
-        "buttontext": "Browse All Product",
-        "buttonlink": ""
-      }
-    },
-    "164940688295c3885f": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AdobeStock_163634120-2560x1458.jpg",
-        "image_position": "center center",
-        "mobile_image_position": "center center",
-        "height": "fixed",
-        "height_desktop": 720,
-        "height_mobile": 840,
-        "image_link": "",
-        "subheading": "",
-        "title": "TURNING THE TIDE ON PLASTIC",
-        "title_size": 84,
-        "title_size_mobile": 20,
-        "use_h1": false,
-        "text": "<p>Currently, only 9% of all plastic waste produced is recycled (UNEP 2022), while the rest ends up in landfills, dumpsters, or the ocean. Since it can take hundreds of years for plastic to break down, it is is necessary to repurpose what is already available.<\/p><p><\/p><p>There is good news, though. A variety of tech accessories can be made with recycled or bioplastics, including phone cases, chargers, and charging cables.<\/p><p><\/p><p>Our cases are constructed with InnoMaize™, a 100% compostable and plastic-free material produced form corn starch, sugar, and plant-based materials. By having a low carbon footprint and releasing little to no greenhouse gases, InnoMaize™ is an a-maize-ing alternative to conventional plastic.<\/p><p><\/p><p><\/p><p><em><strong>Statistics: <\/strong><\/em><a href=\"\/pages\/root2renew\" target=\"_blank\" title=\"#Root2Renew\"><em><strong>#BeatPlasticPollution<\/strong><\/em><\/a><em><strong> United Nations Environment Progamme (n.d.)<\/strong><\/em><em>  <\/em><\/p>",
-        "enlarge_text": false,
-        "button_label_1": "Learn More",
-        "button_url_1": "shopify:\/\/pages\/let-s-turn-the-tide-on-plastic",
-        "button_label_2": "",
-        "button_url_2": "",
-        "text_alignment": "center center",
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "box"
-      }
-    },
     "164940614408670ea3": {
       "type": "rich-text",
       "blocks": {
@@ -351,6 +268,89 @@
         "use_alt_bg": false
       }
     },
+    "16499206234aa91675": {
+      "type": "Scroll-Pro",
+      "disabled": true,
+      "blocks": {
+        "164992062390cd15cd-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "laguna-collection",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+          }
+        },
+        "86d8a850-805c-494b-8774-245ab892c7bd": {
+          "type": "collection",
+          "settings": {
+            "collection": "sequoia-collection",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+          }
+        },
+        "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+          }
+        },
+        "516a77aa-e479-4b22-a021-297558f9aab3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+          }
+        },
+        "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "164992062390cd15cd-0",
+        "86d8a850-805c-494b-8774-245ab892c7bd",
+        "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa",
+        "516a77aa-e479-4b22-a021-297558f9aab3",
+        "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca"
+      ],
+      "settings": {
+        "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
+        "scrollprotitle_fontsize": 16,
+        "enable_carousel": true,
+        "use_alt_bg1": true,
+        "buttontext": "Browse All Product",
+        "buttonlink": ""
+      }
+    },
+    "164940688295c3885f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_163634120-2560x1458.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 720,
+        "height_mobile": 840,
+        "image_link": "",
+        "subheading": "",
+        "title": "TURNING THE TIDE ON PLASTIC",
+        "title_size": 84,
+        "title_size_mobile": 20,
+        "use_h1": false,
+        "text": "<p>Currently, only 9% of all plastic waste produced is recycled (UNEP 2022), while the rest ends up in landfills, dumpsters, or the ocean. Since it can take hundreds of years for plastic to break down, it is is necessary to repurpose what is already available.<\/p><p><\/p><p>There is good news, though. A variety of tech accessories can be made with recycled or bioplastics, including phone cases, chargers, and charging cables.<\/p><p><\/p><p>Our cases are constructed with InnoMaize™, a 100% compostable and plastic-free material produced form corn starch, sugar, and plant-based materials. By having a low carbon footprint and releasing little to no greenhouse gases, InnoMaize™ is an a-maize-ing alternative to conventional plastic.<\/p><p><\/p><p><\/p><p><em><strong>Statistics: <\/strong><\/em><a href=\"\/pages\/root2renew\" target=\"_blank\" title=\"#Root2Renew\"><em><strong>#BeatPlasticPollution<\/strong><\/em><\/a><em><strong> United Nations Environment Progamme (n.d.)<\/strong><\/em><em>  <\/em><\/p>",
+        "enlarge_text": false,
+        "button_label_1": "Learn More",
+        "button_url_1": "shopify:\/\/pages\/let-s-turn-the-tide-on-plastic",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
+      }
+    },
     "163592857728b8bdc2": {
       "type": "multi-column",
       "blocks": {
@@ -432,7 +432,7 @@
     "16494057386affa936": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/berlin-at-sunset-on-a-clear-day.jpg",
+        "image": "shopify:\/\/shop_images\/JTG_4267.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -440,20 +440,20 @@
         "height_mobile": 280,
         "image_link": "",
         "subheading": "",
-        "title": "Rooted ion Community",
+        "title": "Rooted in Community",
         "title_size": 84,
         "title_size_mobile": 20,
         "use_h1": false,
-        "text": "<p>We aim to educate and inspire people of all lifestyles while fostering a cleaner, less wasteful world through our products.We believe that the samllest step, when taken together, has the greatest impact.<\/p>",
+        "text": "<p>We aim to educate and inspire people of all lifestyles while fostering a cleaner, less wasteful world through our products. We believe that the smallest step, when taken together, has the greatest impact.<\/p>",
         "enlarge_text": true,
         "button_label_1": "Learn More",
-        "button_url_1": "",
+        "button_url_1": "shopify:\/\/pages\/rooted-in-community",
         "button_label_2": "",
         "button_url_2": "",
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "no_background"
+        "overlay_style": "box"
       }
     },
     "164991948648d3b28c": {
@@ -608,6 +608,7 @@
     },
     "1650708023180fd918": {
       "type": "environmental-act",
+      "disabled": true,
       "blocks": {
         "1650708023e9160b8e-0": {
           "type": "head",
@@ -678,9 +679,9 @@
     "16359276425da8ce46",
     "1649406380522b5937",
     "165125026310db609a",
+    "164940614408670ea3",
     "16499206234aa91675",
     "164940688295c3885f",
-    "164940614408670ea3",
     "163592857728b8bdc2",
     "16494057386affa936",
     "164991948648d3b28c",
