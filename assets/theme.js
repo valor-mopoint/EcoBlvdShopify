@@ -6405,7 +6405,7 @@
           autoplaySpeed: autoplaySpeed,
           arrows: $(this).data('navigation') === 'arrows',
           dots: $(this).data('navigation') === 'dots',
-          pauseOnHover: false,
+          pauseOnHover: false,//悬停时暂停自动播放
           infinite: true,//无限循环滑动
           useTransform: true,
           prevArrow: '<button type="button" class="slick-prev" aria-label="' + theme.strings.previous + '">' + theme.icons.chevronLeft + '</button>',
