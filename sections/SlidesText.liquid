@@ -436,8 +436,7 @@
 {% javascript %}
 
 $(document).ready(function(){
-var screen=window.innerWidth;
-if(screen>678){
+if(window.matchMedia("(min-width:768px)").matches){
   $('.ReviewContainer').slick({
 	slidesToShow: 1,
  	slidesToScroll: 1,
