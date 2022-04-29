@@ -436,6 +436,8 @@
 {% javascript %}
 
 $(document).ready(function(){
+var screen=window.innerWidth;
+if(screen>678){
   $('.ReviewContainer').slick({
 	slidesToShow: 1,
  	slidesToScroll: 1,
@@ -445,6 +447,7 @@ $(document).ready(function(){
 	speed:300,
 	infinite: true,
   });
+}
 });
 
 
