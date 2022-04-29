@@ -503,10 +503,10 @@
     "16512538532170428d": {
       "type": "featured-blog",
       "settings": {
-        "title": "Blog posts",
+        "title": "An Avenue to Grow",
         "blog": "",
         "post_limit": 3,
-        "show_author": true,
+        "show_author": false,
         "show_date": true,
         "crop_ratio": "1.78"
       }
