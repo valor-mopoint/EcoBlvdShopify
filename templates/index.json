@@ -472,6 +472,55 @@
         "use_alt_bg": false
       }
     },
+    "16512573150e10c98c": {
+      "type": "multi-column",
+      "blocks": {
+        "1651257315c66845a9-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "<p>Customize your case by adding your name or favorite quote<\/p>",
+            "button_label": "Shop",
+            "link": ""
+          }
+        },
+        "1651257315c66845a9-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1651257315c66845a9-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651257315c66845a9-0",
+        "1651257315c66845a9-1",
+        "1651257315c66845a9-2"
+      ],
+      "settings": {
+        "title": "Creativity Shouldn't Go To Waste",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
     "16494057386affa936": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -782,6 +831,7 @@
     "164940688295c3885f",
     "1651255128ce6afaff",
     "163592857728b8bdc2",
+    "16512573150e10c98c",
     "16494057386affa936",
     "164991948648d3b28c",
     "16512538532170428d",
