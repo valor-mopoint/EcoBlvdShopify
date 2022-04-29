@@ -449,8 +449,33 @@ $(document).ready(function(){
 
   console.log("aaa");
 
+  $('.ReviewContainer').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 2,
+  responsive: [
+    {
+      breakpoint: 1920,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
 
-  console.log("ccc");
+  console.log("bbb");
 
 
   var screen=window.innerWidth;
