@@ -4,7 +4,7 @@
       "type": "background-video",
       "disabled": true,
       "settings": {
-        "video": "https:\/\/youtu.be\/5ptbcF1jXiY",
+        "video": "https:\/\/cdn-stamplib.casetify.com\/cms\/video\/b87bfe900bc5e5becb20690e8c8c23fc.mp4",
         "subheading": "",
         "title": "The Intersection of Style & Sustainability",
         "title_size": 72,
@@ -161,7 +161,7 @@
       ],
       "settings": {
         "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
-        "scrollprotitle_fontsize": 13,
+        "slidershowcount": 4,
         "enable_carousel": true,
         "use_alt_bg1": true,
         "buttontext": "Browse All Product",
@@ -398,7 +398,7 @@
       ],
       "settings": {
         "scrollprotitle": "A New Avenue to Grow",
-        "scrollprotitle_fontsize": 16,
+        "slidershowcount": 4,
         "enable_carousel": true,
         "use_alt_bg1": true,
         "buttontext": "Check Out Our Blog",
