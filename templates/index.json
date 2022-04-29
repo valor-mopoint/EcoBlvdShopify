@@ -114,13 +114,13 @@
           "type": "heading",
           "settings": {
             "title": "Protecting Your Phone & Our Planet",
-            "use_h1": false
+            "use_h1": true
           }
         },
         "16494063803bc2daa6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our mission is to create sustainable products that complement the needs of a diverse society.Discover nature's beauty by taking the greener route.<\/p>",
+            "text": "<p>Our mission is to create sustainable products that complement the needs of a diverse society. Discover nature's beauty by taking the greener route.<\/p>",
             "enlarge_text": true
           }
         }
