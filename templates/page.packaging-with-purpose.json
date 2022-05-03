@@ -3,7 +3,7 @@
     "1651083175d3dae5ac": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/person-walks-down-a-paved-country-road.jpg",
+        "image": "shopify:\/\/shop_images\/cardboard-stack.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -11,11 +11,11 @@
         "height_mobile": 300,
         "image_link": "",
         "subheading": "",
-        "title": "#Root2Renew",
+        "title": "Packaging With Purpose",
         "title_size": 100,
         "title_size_mobile": 40,
         "use_h1": true,
-        "text": "<p><strong>No Matter The Path, We Share The Same Root<\/strong><\/p>",
+        "text": "",
         "enlarge_text": true,
         "button_label_1": "",
         "button_url_1": "",
@@ -33,21 +33,29 @@
         "16512661612797a218-0": {
           "type": "heading",
           "settings": {
-            "title": "It Doesn't Matter Where You Start",
+            "title": "The Problem With Packaging",
             "use_h1": false
           }
         },
         "16512661612797a218-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Just like any movement, sustainability begins with a single action. By using an EcoBlvd product, you've already taken the first step toward the #Root2Renew and by incorporating more eco-conscious habits, you'll inspire others to do the same.<\/p>",
+            "text": "<p>It's easy to overlook packaging as a significant waste stream. We often underestimate the amount of waste created when we receive a package since the box and components only serve to carry and store what is inside, only to be tossed afterward. In 2018 alone, containers and packaging made up 28.1% of all municipal solid waste generated, amounting to an astounding 82.2 million tons. To make matters worse, the amount of plastic recycled was relatively small at a rate of only 8.7%, which means that the rest is left to accumulate in landfills, or worse, the ocean. <\/p>",
+            "enlarge_text": true
+          }
+        },
+        "8de4228d-895a-4316-baf4-e603cb8d37c9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Source: “<\/em><a href=\"https:\/\/www.epa.gov\/facts-and-figures-about-materials-waste-and-recycling\/containers-and-packaging-product-specific-data#:~:text=Containers%20and%20packaging%20make%20up,beverages%2C%20medications%20and%20cosmetic%20products.\"><span style=\"text-decoration:underline\"><em>Containers and Packaging: Product-Specific Data.<\/em><\/span><\/a><em>” EPA.<\/em><\/p>",
             "enlarge_text": false
           }
         }
       },
       "block_order": [
         "16512661612797a218-0",
-        "16512661612797a218-1"
+        "16512661612797a218-1",
+        "8de4228d-895a-4316-baf4-e603cb8d37c9"
       ],
       "settings": {
         "height": "medium",
@@ -62,21 +70,29 @@
         "1651083592c8987272-0": {
           "type": "heading",
           "settings": {
-            "title": "It Can Start With A Single Thought",
+            "title": "Plastic Can't Simply Be Thrown Out",
             "use_h1": false
           }
         },
         "1651083592c8987272-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We each begin our sustainability journey within our mind. It starts with the realization that we need to change our lifestyles in order to ensure the longevity of our planet for generations to come. When we come to the realization that we are part of the problem yet also part of the solution, we'll have taken the first step towards a more sustainable lifestyle. Everyone’s personal journey will be filled with challenges, but we will also learn why our goal is so important.<\/p>",
+            "text": "<p>According to Science Advances, since the first commercial plastic was manufactured in 1907, 6.3 billion metric tons of plastic have been thrown out, or 75% of the total plastic ever produced, and only 9% has been recycled and 12% incinerated.<\/p><p>As plastic has an average life cycle of over 500 years, we now have over 5 billion metric tons of plastic clogging up coastlines, creating huge piles in the oceans, accumulating in cities, and taking over landfills. Unfortunately, it is projected that within the next decade alone, plastic production is expected to grow by 40%. <\/p>",
             "enlarge_text": true
+          }
+        },
+        "e03afdc8-20ea-4f9b-908b-64b4bd4da950": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Source: “<\/em><a href=\"https:\/\/www.science.org\/doi\/10.1126\/sciadv.1700782\"><span style=\"text-decoration:underline\"><em>Production, Use, and Fate Of All Plastics Ever Made.<\/em><\/span><\/a><em>” Science Advances. 19, July 2017<\/em><\/p>",
+            "enlarge_text": false
           }
         }
       },
       "block_order": [
         "1651083592c8987272-0",
-        "1651083592c8987272-1"
+        "1651083592c8987272-1",
+        "e03afdc8-20ea-4f9b-908b-64b4bd4da950"
       ],
       "settings": {
         "height": "medium",
@@ -98,15 +114,15 @@
         "1651266332e6feb2da-0": {
           "type": "heading",
           "settings": {
-            "title": "Sustainability Is A Journey, Not A Destination",
+            "title": "Flowing Against The Stream",
             "use_h1": false
           }
         },
         "1651266332e6feb2da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sustainability aims to minimize an individual's impact on the environment rather than eliminating it entirely. That's why we say we're all on a Root (Route) 2 Renew, as it's not about the destination, rather the actions we take, what we learn and change along the way. <\/p><p><\/p><p>Sustainability does not happen overnight with zero-waste lifestyles or full eco-consciousness, but rather with a step to reduce waste. <\/p><p><\/p><p>The journey toward sustainable development grows as you progress. Rather than focusing on what you can do or should do, it's about what you can accomplish.<\/p>",
-            "enlarge_text": false
+            "text": "<p>When it comes to packaging, we only use what is necessary while minimizing waste. In accordance with our FSC certification and commitment to sustainability, 80 percent of our packaging is made from recycled paper, while all of our virgin materials are renewable. Utilizing certified recycled paper from ethical suppliers, we make our packaging 100% recyclable, biodegradable, and plastic-free. Rather than inserting promotional fliers or inserts, we provide QR codes on our packaging, making it compact and minimal. <\/p>",
+            "enlarge_text": true
           }
         }
       },
@@ -127,83 +143,35 @@
         "1651266421c49cb4b9-0": {
           "type": "heading",
           "settings": {
-            "title": "Each Obstacle Enables Us To Move Forward",
+            "title": "Phasing Out Plastic Waste",
             "use_h1": false
           }
         },
         "1651266421c49cb4b9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It’s important to remember that the burden is not on us alone but collectively. By working together and sharing our sustainability journey, we can create a larger impact. Sustainability is about progress not perfection.<\/p>",
+            "text": "<p>By eliminating the plastic from our product packaging, we estimate that EcoBlvd will save over 3,000 tons of plastic each year. It is the equivalent of over 100,00 plastic bottles stacked in a row, covering more than 4,000 miles! As a result of the smaller packaging we use, we reduce CO2 emissions from transportation and materials by 5,000 tons each year, equivalent to the planting of 275,000 trees.*<\/p>",
             "enlarge_text": true
+          }
+        },
+        "ca8e66e2-9d01-4126-af9a-27538559c2ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>*According to internal research and analysis via EPA and Statista.<\/em><\/p>",
+            "enlarge_text": false
           }
         }
       },
       "block_order": [
         "1651266421c49cb4b9-0",
-        "1651266421c49cb4b9-1"
+        "1651266421c49cb4b9-1",
+        "ca8e66e2-9d01-4126-af9a-27538559c2ea"
       ],
       "settings": {
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
         "use_alt_bg": true
-      }
-    },
-    "165126648959e5b3cf": {
-      "type": "rich-text",
-      "blocks": {
-        "16512664895f7aaf40-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Let’s Branch Out On The #Root2Renew",
-            "use_h1": false
-          }
-        },
-        "16512664895f7aaf40-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Participating in the #Root2Renew will motivate people to conserve Earth's resources and reduce the impact of human and environmental interactions.<\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "16512664895f7aaf40-0",
-        "16512664895f7aaf40-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "1651266536aafb4f5e": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/three-people-hold-hands-with-their-arms-to-the-sky.jpg",
-        "image_position": "center center",
-        "mobile_image_position": "center center",
-        "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 400,
-        "image_link": "",
-        "subheading": "Want to Join the Movement as an",
-        "title": "Affiliate or Content Creator?",
-        "title_size": 84,
-        "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "",
-        "enlarge_text": true,
-        "button_label_1": "Get Started",
-        "button_url_1": "shopify:\/\/pages\/brand-ambassador",
-        "button_label_2": "",
-        "button_url_2": "",
-        "text_alignment": "center center",
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "box"
       }
     }
   },
@@ -213,8 +181,6 @@
     "16510835927f249308",
     "main",
     "1651266332e8454b0d",
-    "16512664212c8c8d6b",
-    "165126648959e5b3cf",
-    "1651266536aafb4f5e"
+    "16512664212c8c8d6b"
   ]
 }
