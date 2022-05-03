@@ -33,30 +33,21 @@
         "1651267590d2bb1151-0": {
           "type": "heading",
           "settings": {
-            "title": "Sprouting A Connection",
+            "title": "Accelerating the Earth From Red To Green",
             "use_h1": false
           }
         },
         "1651267590d2bb1151-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When it comes to starting your commitment to sustainability and growing an eco-conscious mindset, there are a lot of words that can be confusing at first. We created a glossary to explain some of the most common eco-terms and help you develop an understanding to stay informed.<\/p>",
+            "text": "<p>Protecting our planet, humanity, and all life requires that we use its resources and environment wisely. If we don't take drastic action now, the damage to the climate will be irreversible due to our overconsumption of natural resources. EcoBlvd is committed to doing its part to bring the planet back into the green.<\/p>",
             "enlarge_text": true
-          }
-        },
-        "f32d9597-4dd8-4ca9-83c4-39efe772ed9e": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Glossary",
-            "button_link": "shopify:\/\/pages\/glossary",
-            "button_style": "primary"
           }
         }
       },
       "block_order": [
         "1651267590d2bb1151-0",
-        "1651267590d2bb1151-1",
-        "f32d9597-4dd8-4ca9-83c4-39efe772ed9e"
+        "1651267590d2bb1151-1"
       ],
       "settings": {
         "height": "medium",
@@ -65,100 +56,20 @@
         "use_alt_bg": false
       }
     },
-    "165126772459bc82ce": {
-      "type": "rich-text",
-      "blocks": {
-        "1651267724bb385e96-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Give Your Waste A New Life",
-            "use_h1": false
-          }
-        },
-        "1d7f1fd2-b212-435e-95c2-9cf827fd2e69": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Take action in your community, find your local facility by clicking the link(s) below.<\/p>",
-            "enlarge_text": true
-          }
-        },
-        "e83e2f99-56e1-4a16-bc15-6a41b4168ae3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Recycling Centers",
-            "button_link": "",
-            "button_style": "primary"
-          }
-        },
-        "57327bad-3230-4f69-9743-f5cbbe646a44": {
-          "type": "button",
-          "settings": {
-            "button_label": "e-waste recycling",
-            "button_link": "",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "1651267724bb385e96-0",
-        "1d7f1fd2-b212-435e-95c2-9cf827fd2e69",
-        "e83e2f99-56e1-4a16-bc15-6a41b4168ae3",
-        "57327bad-3230-4f69-9743-f5cbbe646a44"
-      ],
+    "1651611958e69ea442": {
+      "type": "image-with-text",
       "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "1651268085a256dc42": {
-      "type": "rich-text",
-      "blocks": {
-        "165126808514fcba85-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Take Action For Mother Earth",
-            "use_h1": false
-          }
-        },
-        "165126808514fcba85-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Looking to get involved in your community? Search volunteer opportunities in your area!<\/p>",
-            "enlarge_text": true
-          }
-        },
-        "14390b91-c688-42fc-8f46-1272e0bc3805": {
-          "type": "button",
-          "settings": {
-            "button_label": "Explore",
-            "button_link": "https:\/\/www.volunteermatch.org\/",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "165126808514fcba85-0",
-        "165126808514fcba85-1",
-        "14390b91-c688-42fc-8f46-1272e0bc3805"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "1651267350c884f746": {
-      "type": "featured-blog",
-      "settings": {
-        "title": "A New Avenue to Grow",
-        "blog": "",
-        "post_limit": 3,
-        "show_author": false,
-        "show_date": true,
-        "crop_ratio": "1.78"
+        "image_width": 700,
+        "subheading": "",
+        "title": "1% For The Planet",
+        "use_h1": false,
+        "text": "<p>We cannot continue to take from the planet without giving back. We are proud members of 1% for the Planet, in which we are doubling down and committing to donate 2% of all revenue to environmental causes related to reducing plastic pollution, creating more ethical materials, producing more green energy, and preserving land and sea resources. <\/p>",
+        "button_label": "Learn more",
+        "button_link": "https:\/\/www.onepercentfortheplanet.org\/en\/about",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": true
       }
     },
     "main": {
@@ -168,116 +79,109 @@
         "full_width": true
       }
     },
-    "1651266536aafb4f5e": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
+    "165161205580ab8bbb": {
+      "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/three-people-hold-hands-with-their-arms-to-the-sky.jpg",
-        "image_position": "center center",
-        "mobile_image_position": "center center",
-        "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 400,
-        "image_link": "",
-        "subheading": "Want to Join the Movement as an",
-        "title": "Affiliate or Content Creator?",
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "image_width": 700,
+        "subheading": "",
+        "title": "Our Materials",
         "use_h1": false,
-        "text": "",
-        "enlarge_text": true,
-        "button_label_1": "Get Started",
-        "button_url_1": "shopify:\/\/pages\/brand-ambassador",
-        "button_label_2": "",
-        "button_url_2": "",
-        "text_alignment": "center center",
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "box"
+        "text": "<p>The future lies in plant-based materials. To provide your phone and the planet with the best possible protection, we use compostable plant-based bioplastics, such as our proprietary InnoMaize™, made from corn starch and corn sugar, and CornBo™, made from bamboo and plant fibers, to make our cases.<\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/pages\/from-the-earth-for-the-earth",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
       }
     },
-    "165126808734475b2d": {
-      "type": "collapsible-tabs",
+    "165161210574bcc0f5": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Plastic-Free Packaging",
+        "use_h1": false,
+        "text": "<p>We believe packaging is most beautiful when it’s natural! Every component of EcoBlvd packages are made with FSC-certified materials and does not contain any plastic. Through our efforts, we are preserving forests that have been decimated due to deforestation and urbanization.<\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/pages\/packaging-with-purpose",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": true
+      }
+    },
+    "1651612171f81eae4a": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Sustainable Shipping",
+        "use_h1": false,
+        "text": "<p>When our products leave our facility, our commitment to sustainability continues. To offset carbon emissions and reduce waste, we provide a carbon-neutral checkout and free ground shipping for all orders. <\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/pages\/the-greenest-route-from-our-facility-to-your-home",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16516122210e189cb8": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Roundabout Recycling",
+        "use_h1": false,
+        "text": "<p>In an effort to reduce our environmental impact, EcoBlvd offers every customer a free prepaid shipping label with each purchase. Just send your old plastic case or charging accessories back to us and we'll recycle it or ensure it's disposed of properly. <\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/pages\/roundabout-recycling",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": true
+      }
+    },
+    "16516122821bc2a8f9": {
+      "type": "rich-text",
       "blocks": {
-        "9c72319a-d3a4-4305-bb9e-2211cf58ca56": {
-          "type": "content",
+        "1651612282fde9400b-0": {
+          "type": "heading",
           "settings": {
-            "content": "<p>A list of some of our favorite bloggers and websites that discuss topics to help you on your path to sustainability! <\/p>"
+            "title": "...And These Are Just The First Few Steps On Our Journey",
+            "use_h1": false
           }
         },
-        "1651268087ba000140-0": {
-          "type": "question",
+        "1651612282fde9400b-1": {
+          "type": "text",
           "settings": {
-            "title": "Earth911",
-            "answer": "<p>The largest recycling database in the nation with resources to help you make small, simple changes that will reduce the environmental impact of your life, work, and shopping. Click <a href=\"https:\/\/earth911.com\/\" target=\"_blank\" title=\"https:\/\/earth911.com\/\">here<\/a> to learn more. <\/p>"
-          }
-        },
-        "1651268087ba000140-1": {
-          "type": "question",
-          "settings": {
-            "title": "EcoCult",
-            "answer": "<p>A curious, thoughtful, science-based view of the international sustainable fashion industry. Click <a href=\"https:\/\/ecocult.com\/\" target=\"_blank\" title=\"https:\/\/ecocult.com\/\">here<\/a> to learn more.<\/p>"
-          }
-        },
-        "cf7556de-8de3-4fa4-bb57-482755c58e3a": {
-          "type": "question",
-          "settings": {
-            "title": "Eco Warrior Princess",
-            "answer": "<p>Covers the topics that matter — environmental issues, conservation, sustainable fashion, conscious business, social justice, politics, feminism, eco beauty, wellness, green technology — in an analytical, intelligent, and honest way. Click <a href=\"https:\/\/ecowarriorprincess.net\/\" target=\"_blank\" title=\"https:\/\/ecowarriorprincess.net\/\">here<\/a> to learn more.<\/p>"
-          }
-        },
-        "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e": {
-          "type": "question",
-          "settings": {
-            "title": "Finding Our Green Life",
-            "answer": "<p>Covers easy-to-implement tips and tricks to lead a more eco-friendly lifestyle, ideas on reducing food and packaging waste, identifying harmful chemicals in everyday products and how to reduce them, and how to be an educated and conscious consumer. Click <a href=\"https:\/\/www.findingourgreenlife.com\/\" target=\"_blank\" title=\"https:\/\/www.findingourgreenlife.com\/\">here<\/a> to learn more.<\/p>"
-          }
-        },
-        "7de2a2fa-24cb-4be0-9965-8b28ea3885ce": {
-          "type": "question",
-          "settings": {
-            "title": "Inhabitat",
-            "answer": "<p>A green design and lifestyle site that provides coverage of environmental news and the latest in sustainable living. Click <a href=\"https:\/\/inhabitat.com\/about\/\" target=\"_blank\" title=\"https:\/\/inhabitat.com\/about\/\">here<\/a> to learn more.<\/p>"
-          }
-        },
-        "d6e1267d-0bc9-4b23-8cd8-e34d0dc117d5": {
-          "type": "question",
-          "settings": {
-            "title": "One Green Planet",
-            "answer": "<p>An online guide to making conscious and compassionate choices that help people, animals, and the planet. Click <a href=\"https:\/\/www.onegreenplanet.org\/\" target=\"_blank\" title=\"https:\/\/www.onegreenplanet.org\/\">here<\/a> to learn more.<\/p>"
-          }
-        },
-        "79714211-598f-465c-b482-7e7a354d11e9": {
-          "type": "question",
-          "settings": {
-            "title": "Small Footprint Family",
-            "answer": "<p>Articles, how-to's, and tips to empower and inspire you to save money, consume less, produce more, and live a greener, healthier, more sustainable life. Click <a href=\"https:\/\/www.smallfootprintfamily.com\/\" target=\"_blank\" title=\"https:\/\/www.smallfootprintfamily.com\/\">here<\/a> to learn more.<\/p>"
+            "text": "<p>As a company, we are also on the #Root2Renew and on a mission to meet our ambitious goals of becoming B Corp Certified and Climate Neutral members!<\/p>",
+            "enlarge_text": true
           }
         }
       },
       "block_order": [
-        "9c72319a-d3a4-4305-bb9e-2211cf58ca56",
-        "1651268087ba000140-0",
-        "1651268087ba000140-1",
-        "cf7556de-8de3-4fa4-bb57-482755c58e3a",
-        "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e",
-        "7de2a2fa-24cb-4be0-9965-8b28ea3885ce",
-        "d6e1267d-0bc9-4b23-8cd8-e34d0dc117d5",
-        "79714211-598f-465c-b482-7e7a354d11e9"
+        "1651612282fde9400b-0",
+        "1651612282fde9400b-1"
       ],
       "settings": {
-        "title": "Check out some of our Eco Friends"
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
       }
     }
   },
   "order": [
     "1651083175d3dae5ac",
     "1651267590b740ae80",
-    "165126772459bc82ce",
-    "1651268085a256dc42",
-    "1651267350c884f746",
+    "1651611958e69ea442",
     "main",
-    "1651266536aafb4f5e",
-    "165126808734475b2d"
+    "165161205580ab8bbb",
+    "165161210574bcc0f5",
+    "1651612171f81eae4a",
+    "16516122210e189cb8",
+    "16516122821bc2a8f9"
   ]
 }
