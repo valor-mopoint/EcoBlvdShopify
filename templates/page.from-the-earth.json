@@ -3,7 +3,7 @@
     "1651083175d3dae5ac": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/AdobeStock_163634120-2560x1458.jpg",
+        "image": "shopify:\/\/shop_images\/small-green-sprouts-peak-out-of-dirt.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -11,7 +11,7 @@
         "height_mobile": 300,
         "image_link": "",
         "subheading": "",
-        "title": "Turning the\nTide on Plastic",
+        "title": "From the Earth,\nFor the Earth",
         "title_size": 84,
         "title_size_mobile": 46,
         "use_h1": true,
@@ -27,14 +27,80 @@
         "overlay_style": "shadow"
       }
     },
+    "16510835927f249308": {
+      "type": "rich-text",
+      "blocks": {
+        "1651083592c8987272-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The True Weight Of Our Reliance On Plastic",
+            "use_h1": false
+          }
+        },
+        "1651083592c8987272-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plastic waste accounts for more than 300 million tons per year, which is more than the combined weight of the entire human population. 80% of the waste generated is made up of single-use items, and only 9% of all plastic is recycled; the rest ends up in landfills, dumps, or natural environments, like the ocean. Using natural oil to make plastics and other single-use materials also releases carbon dioxide and greenhouse gasses into the atmosphere, having detrimental effects on the environment.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "6132d317-743d-4c8d-9762-4989ae2bd718": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>International Union for Conservation of Nature 2021. <\/em><em><strong>Statistics<\/strong><\/em><em>: “<\/em><a href=\"https:\/\/www.iucn.org\/resources\/issues-briefs\/marine-plastic-pollution\"><span style=\"text-decoration:underline\"><em><strong>Marine Plastic Pollution<\/strong><\/em><\/span><\/a><em>” ICUN 2021<\/em><\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1651083592c8987272-0",
+        "1651083592c8987272-1",
+        "6132d317-743d-4c8d-9762-4989ae2bd718"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1651608956ca00d8e0": {
+      "type": "rich-text",
+      "blocks": {
+        "165160895624f15d5e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Making The Best Case For Your Phone & The Planet",
+            "use_h1": false
+          }
+        },
+        "165160895624f15d5e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It was essential that we design a material that would endure the most rigorous wear and tear while also composting at the end of its lifespan. The result is something that we feel is truly next-level in sustainable protection. <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165160895624f15d5e-0",
+        "165160895624f15d5e-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
     "1651083813686d2d3b": {
       "type": "image-with-text",
       "settings": {
         "image_width": 700,
         "subheading": "",
-        "title": "Plastic Lifecycle",
+        "title": "InnoMaize™ - It May Be Corny, But It’s Not Plastic!",
         "use_h1": false,
-        "text": "<p>The majority of plastics in offshore environments date from the 1990s and earlier, as it takes roughly 500 years for a single piece of plastic to completely break down. Taking this into account, any plastic used in the 1990s won't break down completely until 2400 or even later!<\/p>",
+        "text": "<p>We strive to make the future of plastic plant-based.Our Laguna and Sequoia collection cases are constructed with InnoMaize™, a compostable bioplastic derived from cornstarch, sugar, and plant-based materials. By having a low carbon footprint and releasing little to no greenhouse gases, InnoMaize™ is an <em>a-maize-ing<\/em> alternative to conventional plastic, which is made from oil and releases harmful toxins and gases that pollute our planet.  <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -48,68 +114,31 @@
       "settings": {
         "image_width": 700,
         "subheading": "",
-        "title": "Hidden in Plain Sight",
+        "title": "CornBo™ - Give Plastic The Boot with Bamboo",
         "use_h1": false,
-        "text": "<p><strong>In coastal regions, 79% of plastic found was less than 5 years old. <\/strong>Approximately 3% of global plastic waste enters the ocean each year (through rivers and multiple ports of entry), and while that may seem a small percentage, it equates to a staggering 99.6 metric tons within 30 miles of the coast.Over 82 metric tons of plastic and 40 metric tons of microplastic end up washing up, being buried or resurfacing on shorelines, only to re-enter the oceans.<\/p>",
+        "text": "<p>We knew we had to get tough if we wanted to eliminate plastic! Our Mojave collection cases are reinforced with CornBo™, a composite of corn scratch, corn sugar, bamboo bark, and bamboo fiber that's not only compostable but also tough as stone! With its exceptional strength-to-weight ratio, CornBo™ is extremely lightweight while exhibiting exceptional durability, making it an excellent shock absorber and impact protector. Although bamboo is a natural resource, its ability to grow fast helps prevent deforestation and reduce carbon emissions. Bamboo is a hidden strength we believe is key to saving our planet! <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "image_position": "left",
         "text_alignment": "left",
-        "use_alt_bg": false
+        "use_alt_bg": true
       }
     },
-    "16510838917af41ce1": {
+    "1651609136846cd697": {
       "type": "image-with-text",
       "settings": {
         "image_width": 700,
         "subheading": "",
-        "title": "The Big Problem With Microplastics",
+        "title": "Designed to Phase Out Waste",
         "use_h1": false,
-        "text": "<p>More than 5 trillion plastic particles are estimated to be in the world's surface waters.<\/p>",
+        "text": "<p>Our materials are made through a fermentation process that involves extracting starch from plants such as corn, sugar cane, and cassava and then mixing it with acidic or bacterial enzymes. <br\/><br\/>During this process, the starch is converted into glucose, or sugar, and produces lactic acid to create the basic components of InnoMaize™ and CornBo™.<br\/><br\/>The material is then spun and mixed with activated carbon before getting dehydrated in a vacuum oven to be used as fiber. <br\/><br\/>Often, fibers like these play an important role in plant structural performance and when incorporated into InnoMaize™ and CornBo™, add significant strength. <br\/><br\/>With a high strength-to-weight ratio, InnoMaize™ and CornBo™ have high fracture toughness, durability, and reusability, giving them an edge over other materials.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "image_position": "right",
         "text_alignment": "left",
         "use_alt_bg": false
-      }
-    },
-    "16510835927f249308": {
-      "type": "rich-text",
-      "blocks": {
-        "1651083592c8987272-0": {
-          "type": "heading",
-          "settings": {
-            "title": "It's estimated by 2050 there will be more plastic than fish in our oceans",
-            "use_h1": false
-          }
-        },
-        "1651083592c8987272-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With the production and use of plastics, we are overusing the natural resources and the ecosystems of our planet. According to the Surfrider Foundation’s projections, our reliance on plastic is set to increase by 50% within the next ten years, requiring humans, fish, and other wildlife to adapt to all of the waste in our ecosystems.<\/p>",
-            "enlarge_text": false
-          }
-        },
-        "6132d317-743d-4c8d-9762-4989ae2bd718": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Source: <\/em><a href=\"https:\/\/www.businessinsider.com\/plastic-in-ocean-outweighs-fish-evidence-report-2017-1\"><span style=\"text-decoration:underline\"><em>Business Insider<\/em><\/span><\/a><\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "1651083592c8987272-0",
-        "1651083592c8987272-1",
-        "6132d317-743d-4c8d-9762-4989ae2bd718"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": true
       }
     },
     "main": {
@@ -122,10 +151,11 @@
   },
   "order": [
     "1651083175d3dae5ac",
+    "16510835927f249308",
+    "1651608956ca00d8e0",
     "1651083813686d2d3b",
     "165108354281f5e386",
-    "16510838917af41ce1",
-    "16510835927f249308",
+    "1651609136846cd697",
     "main"
   ]
 }
