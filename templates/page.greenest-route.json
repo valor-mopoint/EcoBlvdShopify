@@ -3,7 +3,7 @@
     "1651083175d3dae5ac": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/a-large-rock-stands-guard-in-the-middle-of-the-ocean.jpg",
+        "image": "shopify:\/\/shop_images\/aerial-view-of-a-road-amongst-lush-green-trees.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -11,7 +11,7 @@
         "height_mobile": 300,
         "image_link": "",
         "subheading": "",
-        "title": "Protecting Our Planet",
+        "title": "The Greenest Route",
         "title_size": 100,
         "title_size_mobile": 40,
         "use_h1": true,
@@ -33,14 +33,14 @@
         "1651267590d2bb1151-0": {
           "type": "heading",
           "settings": {
-            "title": "Accelerating the Earth From Red To Green",
+            "title": "Offsetting Carbon Emissions",
             "use_h1": false
           }
         },
         "1651267590d2bb1151-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Protecting our planet, humanity, and all life requires that we use its resources and environment wisely. If we don't take drastic action now, the damage to the climate will be irreversible due to our overconsumption of natural resources. EcoBlvd is committed to doing its part to bring the planet back into the green.<\/p>",
+            "text": "<p>Offsetting is not a substitute for reducing our carbon footprint; it is merely a last resort to compensate for emissions we cannot avoid. A carbon offset must result in a reduction of CO2 emissions that would not have occurred otherwise.<\/p>",
             "enlarge_text": true
           }
         }
@@ -56,20 +56,43 @@
         "use_alt_bg": false
       }
     },
-    "1651611958e69ea442": {
-      "type": "image-with-text",
+    "16516148641c9e28a2": {
+      "type": "multi-column",
+      "blocks": {
+        "1651614864de3db37e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/ecocartlogo.png",
+            "image_width": 250,
+            "title": "",
+            "text": "<p>With one click, EcoCart enables you to balance your carbon footprint from online transactions and donates a portion of your purchase to offset the carbon footprint of your order.<\/p>",
+            "button_label": "Learn More",
+            "link": ""
+          }
+        },
+        "1651614864de3db37e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/shoppay_logo.png",
+            "image_width": 250,
+            "title": "",
+            "text": "<p>Shop app users can select ShopPay at checkout, which can be used quickly and securely, storing their shipping preferences and information for convenience. Using Shop, you can even see your individual carbon offsets and eco-footprint directly in the app. To date, Shop's projects have protected more than 11 million trees in the Peruvian rainforest to offset more than 10,000 tons of carbon emissions!<\/p>",
+            "button_label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651614864de3db37e-0",
+        "1651614864de3db37e-1"
+      ],
       "settings": {
-        "image_width": 700,
-        "subheading": "",
-        "title": "1% For The Planet",
-        "use_h1": false,
-        "text": "<p>We cannot continue to take from the planet without giving back. We are proud members of 1% for the Planet, in which we are doubling down and committing to donate 2% of all revenue to environmental causes related to reducing plastic pollution, creating more ethical materials, producing more green energy, and preserving land and sea resources. <\/p>",
-        "button_label": "Learn more",
-        "button_link": "https:\/\/www.onepercentfortheplanet.org\/en\/about",
+        "title": "To help curb unwanted carbon emissions, we offer:",
+        "text_alignment": "center",
         "button_style": "primary",
-        "image_position": "right",
-        "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "main": {
@@ -79,91 +102,85 @@
         "full_width": true
       }
     },
-    "165161205580ab8bbb": {
-      "type": "image-with-text",
-      "settings": {
-        "image_width": 700,
-        "subheading": "",
-        "title": "Our Materials",
-        "use_h1": false,
-        "text": "<p>The future lies in plant-based materials. To provide your phone and the planet with the best possible protection, we use compostable plant-based bioplastics, such as our proprietary InnoMaize™, made from corn starch and corn sugar, and CornBo™, made from bamboo and plant fibers, to make our cases.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/from-the-earth-for-the-earth",
-        "button_style": "primary",
-        "image_position": "left",
-        "text_alignment": "left",
-        "use_alt_bg": false
-      }
-    },
-    "165161210574bcc0f5": {
-      "type": "image-with-text",
-      "settings": {
-        "image_width": 700,
-        "subheading": "",
-        "title": "Plastic-Free Packaging",
-        "use_h1": false,
-        "text": "<p>We believe packaging is most beautiful when it’s natural! Every component of EcoBlvd packages are made with FSC-certified materials and does not contain any plastic. Through our efforts, we are preserving forests that have been decimated due to deforestation and urbanization.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/packaging-with-purpose",
-        "button_style": "primary",
-        "image_position": "right",
-        "text_alignment": "left",
-        "use_alt_bg": true
-      }
-    },
-    "1651612171f81eae4a": {
-      "type": "image-with-text",
-      "settings": {
-        "image_width": 700,
-        "subheading": "",
-        "title": "Sustainable Shipping",
-        "use_h1": false,
-        "text": "<p>When our products leave our facility, our commitment to sustainability continues. To offset carbon emissions and reduce waste, we provide a carbon-neutral checkout and free ground shipping for all orders. <\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/the-greenest-route-from-our-facility-to-your-home",
-        "button_style": "primary",
-        "image_position": "left",
-        "text_alignment": "left",
-        "use_alt_bg": false
-      }
-    },
-    "16516122210e189cb8": {
-      "type": "image-with-text",
-      "settings": {
-        "image_width": 700,
-        "subheading": "",
-        "title": "Roundabout Recycling",
-        "use_h1": false,
-        "text": "<p>In an effort to reduce our environmental impact, EcoBlvd offers every customer a free prepaid shipping label with each purchase. Just send your old plastic case or charging accessories back to us and we'll recycle it or ensure it's disposed of properly. <\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/roundabout-recycling",
-        "button_style": "primary",
-        "image_position": "right",
-        "text_alignment": "left",
-        "use_alt_bg": true
-      }
-    },
     "16516122821bc2a8f9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
+        "a80df034-16a6-4f1a-b039-d528b77c83a1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 33,
+            "url": ""
+          }
+        },
         "1651612282fde9400b-0": {
           "type": "heading",
           "settings": {
-            "title": "...And These Are Just The First Few Steps On Our Journey",
+            "title": "EcoCart",
             "use_h1": false
           }
         },
         "1651612282fde9400b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>As a company, we are also on the #Root2Renew and on a mission to meet our ambitious goals of becoming B Corp Certified and Climate Neutral members!<\/p>",
-            "enlarge_text": true
+            "text": "<p>With one click, EcoCart enables you to balance your carbon footprint from online transactions and donates a portion of your purchase to offset the carbon footprint of your order. <\/p><p>When you select EcoCart at checkout, you are supporting one of their many environmental projects, which range from providing clean drinking water to funding wind farms and ocean cleanup, which have offset 25,870,932 pounds of carbon and saved 848,214 trees. Each of EcoCart's projects offers carbon offset Laboratory and field testing with third-party verification and site visits to ensure successful calculation of greenhouse gas reductions and enable a project to periodically issue credits. These credits are measured in metric tons (tonnes) of carbon dioxide equivalents (mtCO₂e). EcoCart then evaluates the implementation of the methodology and confirms that the project uses the majority of the proceeds from carbon for growth and not profit. All projects are independently certified to internationally recognized standards.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "60eccef2-bb84-4a4c-b167-783abdfe22c7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/ecocart.io\/about\/",
+            "button_style": "primary"
           }
         }
       },
       "block_order": [
+        "a80df034-16a6-4f1a-b039-d528b77c83a1",
         "1651612282fde9400b-0",
-        "1651612282fde9400b-1"
+        "1651612282fde9400b-1",
+        "60eccef2-bb84-4a4c-b167-783abdfe22c7"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1651614568b3057915": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1651614568c2ce2313-0": {
+          "type": "heading",
+          "settings": {
+            "title": "ShopPay",
+            "use_h1": false
+          }
+        },
+        "1651614568c2ce2313-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop app users can select ShopPay at checkout, which can be used quickly and securely, storing their shipping preferences and information for convenience. Using Shop, you can even see your individual carbon offsets and eco-footprint directly in the app. To date, Shop's projects have protected more than 11 million trees in the Peruvian rainforest to offset more than 10,000 tons of carbon emissions!<\/p><p><br\/>Download the Shop app today for iOS and Android to carbon offset your deliveries for free. <\/p>",
+            "enlarge_text": false
+          }
+        },
+        "13c2b441-b610-4339-b0e3-03b76bf8905b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/shopify.com\/shop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "1651614568c2ce2313-0",
+        "1651614568c2ce2313-1",
+        "13c2b441-b610-4339-b0e3-03b76bf8905b"
       ],
       "settings": {
         "height": "medium",
@@ -176,12 +193,9 @@
   "order": [
     "1651083175d3dae5ac",
     "1651267590b740ae80",
-    "1651611958e69ea442",
+    "16516148641c9e28a2",
     "main",
-    "165161205580ab8bbb",
-    "165161210574bcc0f5",
-    "1651612171f81eae4a",
-    "16516122210e189cb8",
-    "16516122821bc2a8f9"
+    "16516122821bc2a8f9",
+    "1651614568b3057915"
   ]
 }
