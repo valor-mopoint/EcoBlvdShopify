@@ -262,6 +262,27 @@
             "title": "Energy Efficient",
             "answer": "<p>Uses the smallest amount of energy possible to provide power.<\/p>"
           }
+        },
+        "fdbe7489-a924-4c35-80ff-8ebb2870eae6": {
+          "type": "question",
+          "settings": {
+            "title": "Environment",
+            "answer": "<p>the surroundings or conditions in which a person, animal, or plant lives or operates.<\/p>"
+          }
+        },
+        "b6e65ef1-9cdf-497f-a716-9ccbcce0d338": {
+          "type": "question",
+          "settings": {
+            "title": "Environmental Impact",
+            "answer": "<p>The effect something has on the environment.<\/p>"
+          }
+        },
+        "04b139fc-1bd0-4857-b924-ec3d28dbd828": {
+          "type": "question",
+          "settings": {
+            "title": "Enzyme",
+            "answer": "<p>A substance produced by a living organism that acts as a catalyst to cause a biochemical reaction.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -292,7 +313,10 @@
         "ccb283de-b5b9-4cd1-9020-8a36d7ff918e",
         "7e5f13ce-4e00-4359-b603-8744175e0c33",
         "3bac32b6-d28f-49f0-81b2-2e1fed851266",
-        "52578c56-49bc-42ef-b71f-75b968005c0e"
+        "52578c56-49bc-42ef-b71f-75b968005c0e",
+        "fdbe7489-a924-4c35-80ff-8ebb2870eae6",
+        "b6e65ef1-9cdf-497f-a716-9ccbcce0d338",
+        "04b139fc-1bd0-4857-b924-ec3d28dbd828"
       ],
       "settings": {
         "title": "Eco Terms"
