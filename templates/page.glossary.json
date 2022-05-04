@@ -388,6 +388,34 @@
             "title": "Incineration",
             "answer": "<p>The combustion of substances contained in waste materials. Industrial plants for waste incineration are commonly referred to as waste-to-energy facilities.<\/p>"
           }
+        },
+        "b9ed40b8-71f3-49f4-a8bd-47dddfd8b2f2": {
+          "type": "question",
+          "settings": {
+            "title": "Landfill",
+            "answer": "<p>Where waste is buried underground and can pollute groundwater, release greenhouse gases and produce odors.<\/p>"
+          }
+        },
+        "d8efbea9-6636-4875-8906-e5ee36dc7046": {
+          "type": "question",
+          "settings": {
+            "title": "Locally Recyclable",
+            "answer": "<p>These are items such as paper, magazines cardboard, aluminum, glass, plastic bottles, and more that are able to be recycled at a local facility or recycling center.<\/p>"
+          }
+        },
+        "0599871c-90c9-44b1-8c6f-78f22df1aacb": {
+          "type": "question",
+          "settings": {
+            "title": "Microorganism",
+            "answer": "<p>A microscopic organism, especially a bacterium, virus, or fungus.<\/p>"
+          }
+        },
+        "a8c108f4-ae90-49f6-a44b-b1bf52ad5fd4": {
+          "type": "question",
+          "settings": {
+            "title": "Monomer",
+            "answer": "<p>A molecule that can be bonded to other identical molecules to form a polymer.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -436,7 +464,11 @@
         "f74556db-d8b1-4e19-b4ce-af827c0aa021",
         "41efb29f-6806-4d75-82c1-c313e6675810",
         "338e1fb4-f65b-4122-a502-47a757d6bd8d",
-        "da4ac332-5a46-4902-ad9d-b7202d279ae5"
+        "da4ac332-5a46-4902-ad9d-b7202d279ae5",
+        "b9ed40b8-71f3-49f4-a8bd-47dddfd8b2f2",
+        "d8efbea9-6636-4875-8906-e5ee36dc7046",
+        "0599871c-90c9-44b1-8c6f-78f22df1aacb",
+        "a8c108f4-ae90-49f6-a44b-b1bf52ad5fd4"
       ],
       "settings": {
         "title": "Eco Terms"
