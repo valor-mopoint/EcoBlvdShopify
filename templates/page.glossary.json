@@ -473,12 +473,39 @@
       "settings": {
         "title": "Eco Terms"
       }
+    },
+    "1651697992934b83c8": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "16516979926fdcdd98-0": {
+          "type": "question",
+          "settings": {
+            "title": "Natural Fibers",
+            "answer": "<p>Fibers sourced from plants including cotton, flax, hemp, bamboo, sisal, and jute.<\/p>"
+          }
+        },
+        "16516979926fdcdd98-1": {
+          "type": "question",
+          "settings": {
+            "title": "Naked Packaging",
+            "answer": "<p>Products that are sold without packaging.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16516979926fdcdd98-0",
+        "16516979926fdcdd98-1"
+      ],
+      "settings": {
+        "title": "Eco Terms"
+      }
     }
   },
   "order": [
     "main",
     "1651696379928ad7e2",
     "1651696570cbb93381",
-    "16516965729c03136b"
+    "16516965729c03136b",
+    "1651697992934b83c8"
   ]
 }
