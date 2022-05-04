@@ -515,18 +515,53 @@
         "df568ffb-065b-4d01-831f-b1990be28e54": {
           "type": "question",
           "settings": {
-            "title": "Question",
-            "answer": "<p>Answer<\/p>"
+            "title": "Organic",
+            "answer": "<p>Anything that was once a living organism.<\/p>"
           }
         },
         "5e0fc3da-9768-4047-9deb-954a25532d0f": {
+          "type": "question",
+          "settings": {
+            "title": "PLA (Polylactic Acid)",
+            "answer": "<p>A compostable plastic made with plant sugars, primarily corn.<\/p>"
+          }
+        },
+        "e41c6d68-29f1-4af5-85d3-09083a455d70": {
+          "type": "question",
+          "settings": {
+            "title": "Plant-Based",
+            "answer": "<p>Consisting largely or solely of vegetables, grains, pulses, or other foods derived from plants, rather than animal products.<\/p>"
+          }
+        },
+        "ea6e7ffd-8da4-4891-baec-2de8f49e8555": {
+          "type": "question",
+          "settings": {
+            "title": "Polyethylene (PE)",
+            "answer": "<p>A tough, light, flexible synthetic resin made by polymerizing ethylene, chiefly used for plastic bags, food containers, and other packaging.<\/p>"
+          }
+        },
+        "d032bd0d-04c3-455b-94ac-8fdf1b2c38bf": {
+          "type": "question",
+          "settings": {
+            "title": "Polymer",
+            "answer": "<p>A class of natural or synthetic substances composed of very large molecules.<\/p>"
+          }
+        },
+        "b68a81fe-9657-477d-b6e6-fe7144b96cbe": {
           "type": "question",
           "settings": {
             "title": "Question",
             "answer": "<p>Answer<\/p>"
           }
         },
-        "e41c6d68-29f1-4af5-85d3-09083a455d70": {
+        "11ef52a7-63a0-48fd-8110-50ff1bb940c2": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "28b13eac-a179-4fdd-a45f-cc37193f14b5": {
           "type": "question",
           "settings": {
             "title": "Question",
@@ -542,7 +577,12 @@
         "5267a8c6-909d-4fc1-ac98-3f0fe7308040",
         "df568ffb-065b-4d01-831f-b1990be28e54",
         "5e0fc3da-9768-4047-9deb-954a25532d0f",
-        "e41c6d68-29f1-4af5-85d3-09083a455d70"
+        "e41c6d68-29f1-4af5-85d3-09083a455d70",
+        "ea6e7ffd-8da4-4891-baec-2de8f49e8555",
+        "d032bd0d-04c3-455b-94ac-8fdf1b2c38bf",
+        "b68a81fe-9657-477d-b6e6-fe7144b96cbe",
+        "11ef52a7-63a0-48fd-8110-50ff1bb940c2",
+        "28b13eac-a179-4fdd-a45f-cc37193f14b5"
       ],
       "settings": {
         "title": "Eco Terms"
