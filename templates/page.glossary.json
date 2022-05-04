@@ -241,6 +241,13 @@
             "title": "Ecosystem",
             "answer": "<p>A biological community of interacting organisms and their physical environment.<\/p>"
           }
+        },
+        "7e5f13ce-4e00-4359-b603-8744175e0c33": {
+          "type": "question",
+          "settings": {
+            "title": "End of Life",
+            "answer": "<p>The point at which a product is no longer useful and the process of reusing, recycling, or disposing of it begins.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -268,7 +275,8 @@
         "94c2a38c-84c1-4d4c-b07b-22ca66eb050a",
         "5d9075f7-e2f2-4e6a-bfa8-b339a9a88429",
         "12323415-dfc3-40ff-b07f-99a9f8cf5a36",
-        "ccb283de-b5b9-4cd1-9020-8a36d7ff918e"
+        "ccb283de-b5b9-4cd1-9020-8a36d7ff918e",
+        "7e5f13ce-4e00-4359-b603-8744175e0c33"
       ],
       "settings": {
         "title": "Eco Terms"
