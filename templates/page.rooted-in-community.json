@@ -253,6 +253,27 @@
             "title": "Small Footprint Family",
             "answer": "<p>Articles, how-to's, and tips to empower and inspire you to save money, consume less, produce more, and live a greener, healthier, more sustainable life. Click <a href=\"https:\/\/www.smallfootprintfamily.com\/\" target=\"_blank\" title=\"https:\/\/www.smallfootprintfamily.com\/\">here<\/a> to learn more.<\/p>"
           }
+        },
+        "897158fa-8262-4c7e-b9de-2f3a7f7c102e": {
+          "type": "question",
+          "settings": {
+            "title": "TreeHugger",
+            "answer": "<p>A modern sustainability site that offers advice, clarity, and inspiration for both the eco-savvy and the green-living novice. Click <a href=\"https:\/\/www.treehugger.com\/\" target=\"_blank\" title=\"https:\/\/www.treehugger.com\/\">here<\/a> to learn more.<\/p>"
+          }
+        },
+        "bf0afa24-5f1d-460a-a19c-95db71204c84": {
+          "type": "question",
+          "settings": {
+            "title": "Ways2GoGreen",
+            "answer": "<p>Provides information on a variety of topics including how to be green at school, the office, and at home; information on recycling, reducing, and reusing; parks; decomposition rates of items when not recycled; composting; planting trees; gardening; plastic identification codes and saving money. Click <a href=\"https:\/\/www.ways2gogreenblog.com\/\" target=\"_blank\" title=\"https:\/\/www.ways2gogreenblog.com\/\">here<\/a> to learn more.<\/p>"
+          }
+        },
+        "6f268ece-c57a-46ac-8053-85e152cd997d": {
+          "type": "question",
+          "settings": {
+            "title": "Zero Waste Nerd",
+            "answer": "<p>A blog that follows Megean on her journey to zero waste living that is full of tips for shopping, living, and more! Click <a href=\"https:\/\/zerowastenerd.com\/\" target=\"_blank\" title=\"https:\/\/zerowastenerd.com\/\">here<\/a> to learn more.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -263,7 +284,10 @@
         "fa85d3ef-97ea-445f-80a6-8d766d9fdb0e",
         "7de2a2fa-24cb-4be0-9965-8b28ea3885ce",
         "d6e1267d-0bc9-4b23-8cd8-e34d0dc117d5",
-        "79714211-598f-465c-b482-7e7a354d11e9"
+        "79714211-598f-465c-b482-7e7a354d11e9",
+        "897158fa-8262-4c7e-b9de-2f3a7f7c102e",
+        "bf0afa24-5f1d-460a-a19c-95db71204c84",
+        "6f268ece-c57a-46ac-8053-85e152cd997d"
       ],
       "settings": {
         "title": "Check out some of our Eco Friends"
