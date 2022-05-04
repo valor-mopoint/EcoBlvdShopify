@@ -283,6 +283,69 @@
             "title": "Enzyme",
             "answer": "<p>A substance produced by a living organism that acts as a catalyst to cause a biochemical reaction.<\/p>"
           }
+        },
+        "dc59aede-279f-4a1c-a5d9-087fd4a4e74b": {
+          "type": "question",
+          "settings": {
+            "title": "Fair Trade",
+            "answer": "<p>Principles of fair treatment, wages, and safe working conditions for workers.<\/p>"
+          }
+        },
+        "1e457948-3b33-43b9-acb8-08852d05b2a0": {
+          "type": "question",
+          "settings": {
+            "title": "Fossil Fuels",
+            "answer": "<p>Derived from organic matter such as plants, animals, and microbes. Natural gas, coal, oil, and petroleum are all fossil fuels.<\/p>"
+          }
+        },
+        "f61fef57-f4dd-4692-85fd-857f6541fdec": {
+          "type": "question",
+          "settings": {
+            "title": "Garbage Patches",
+            "answer": "<p>A popular name for concentrations of marine debris in the North Pacific Ocean.<\/p>"
+          }
+        },
+        "94f6f1e0-ff61-4115-b1cc-3077675976ca": {
+          "type": "question",
+          "settings": {
+            "title": "Ghost Nets",
+            "answer": "<p>Fishing nets that have been abandoned, lost, or discarded, at sea, on beaches, or in harbors.<\/p>"
+          }
+        },
+        "cd745926-760a-48ed-802f-993fe22e3526": {
+          "type": "question",
+          "settings": {
+            "title": "Glucose",
+            "answer": "<p>A simple sugar that is made by hydrolysis of starch.<\/p>"
+          }
+        },
+        "4c27d46d-6f26-49c9-9568-ef6eff828957": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "e116c424-e31a-4235-ac73-5bd6ee733fa2": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "8fbe5d3b-a8e6-4527-9115-bf1c6384a957": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "53e8e917-bbfb-4d60-a2d7-eedef15d6b20": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
         }
       },
       "block_order": [
@@ -316,7 +379,16 @@
         "52578c56-49bc-42ef-b71f-75b968005c0e",
         "fdbe7489-a924-4c35-80ff-8ebb2870eae6",
         "b6e65ef1-9cdf-497f-a716-9ccbcce0d338",
-        "04b139fc-1bd0-4857-b924-ec3d28dbd828"
+        "04b139fc-1bd0-4857-b924-ec3d28dbd828",
+        "dc59aede-279f-4a1c-a5d9-087fd4a4e74b",
+        "1e457948-3b33-43b9-acb8-08852d05b2a0",
+        "f61fef57-f4dd-4692-85fd-857f6541fdec",
+        "94f6f1e0-ff61-4115-b1cc-3077675976ca",
+        "cd745926-760a-48ed-802f-993fe22e3526",
+        "4c27d46d-6f26-49c9-9568-ef6eff828957",
+        "e116c424-e31a-4235-ac73-5bd6ee733fa2",
+        "8fbe5d3b-a8e6-4527-9115-bf1c6384a957",
+        "53e8e917-bbfb-4d60-a2d7-eedef15d6b20"
       ],
       "settings": {
         "title": "Eco Terms"
