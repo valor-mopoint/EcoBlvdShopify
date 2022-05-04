@@ -346,6 +346,48 @@
             "title": "Greenwashing",
             "answer": "<p>Misrepresenting something as being “green” when it’s not environmentally sound.<\/p>"
           }
+        },
+        "66444bf1-ab78-4ee9-84b2-fab182edea46": {
+          "type": "question",
+          "settings": {
+            "title": "Greenhouse Gasses",
+            "answer": "<p>Gases in Earth's atmosphere that trap heat.<\/p>"
+          }
+        },
+        "c32c5f32-4b63-4cfa-9d00-bb44ce6488e4": {
+          "type": "question",
+          "settings": {
+            "title": "Ground Shipping",
+            "answer": "<p>Ground shipping is a delivery solution that uses existing driving routes for domestic shipments in the US.<\/p>"
+          }
+        },
+        "f74556db-d8b1-4e19-b4ce-af827c0aa021": {
+          "type": "question",
+          "settings": {
+            "title": "Hybrid Work",
+            "answer": "<p>A flexible working model where employees work partly in the physical workplace, and partly remotely – at home or from another workspace.<\/p>"
+          }
+        },
+        "41efb29f-6806-4d75-82c1-c313e6675810": {
+          "type": "question",
+          "settings": {
+            "title": "Hydroelectric Energy",
+            "answer": "<p>The energy of moving water is converted into electricity by generators driven by turbines.<\/p>"
+          }
+        },
+        "338e1fb4-f65b-4122-a502-47a757d6bd8d": {
+          "type": "question",
+          "settings": {
+            "title": "Hydrolysis",
+            "answer": "<p>The chemical breakdown of a compound due to a reaction with water.<\/p>"
+          }
+        },
+        "da4ac332-5a46-4902-ad9d-b7202d279ae5": {
+          "type": "question",
+          "settings": {
+            "title": "Incineration",
+            "answer": "<p>The combustion of substances contained in waste materials. Industrial plants for waste incineration are commonly referred to as waste-to-energy facilities.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -388,7 +430,13 @@
         "4c27d46d-6f26-49c9-9568-ef6eff828957",
         "e116c424-e31a-4235-ac73-5bd6ee733fa2",
         "8fbe5d3b-a8e6-4527-9115-bf1c6384a957",
-        "53e8e917-bbfb-4d60-a2d7-eedef15d6b20"
+        "53e8e917-bbfb-4d60-a2d7-eedef15d6b20",
+        "66444bf1-ab78-4ee9-84b2-fab182edea46",
+        "c32c5f32-4b63-4cfa-9d00-bb44ce6488e4",
+        "f74556db-d8b1-4e19-b4ce-af827c0aa021",
+        "41efb29f-6806-4d75-82c1-c313e6675810",
+        "338e1fb4-f65b-4122-a502-47a757d6bd8d",
+        "da4ac332-5a46-4902-ad9d-b7202d279ae5"
       ],
       "settings": {
         "title": "Eco Terms"
