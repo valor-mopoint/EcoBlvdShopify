@@ -2,12 +2,259 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "full_width": false
+      }
+    },
+    "1651696379928ad7e2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mountains-in-the-desert.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "subheading": "",
+        "title": "Glossary",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1651696570cbb93381": {
+      "type": "rich-text",
+      "blocks": {
+        "1651696570afd5aff3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1651696570afd5aff3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All sustainable journeys must start from somewhere, and sometimes it can be hard to find all the information at once. As you continue to embark on the journey to a more sustainable way of life, we have compiled this glossary to educate and inform you! <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1651696570afd5aff3-0",
+        "1651696570afd5aff3-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16516965729c03136b": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1651696572a64923a2-0": {
+          "type": "question",
+          "settings": {
+            "title": "Biodegradable",
+            "answer": "<p>Capable of being decomposed by bacteria or other living organisms.<\/p>"
+          }
+        },
+        "1651696572a64923a2-1": {
+          "type": "question",
+          "settings": {
+            "title": "Biofuel",
+            "answer": "<p>Any fuel that is derived from biomass—that is, plant or algae material or animal waste.<\/p>"
+          }
+        },
+        "749d72c4-2390-4782-9ac6-ad259f879dc5": {
+          "type": "question",
+          "settings": {
+            "title": "Biomaterial",
+            "answer": "<p>Materials that come from plants, such as cotton, silk, or wood.<\/p>"
+          }
+        },
+        "35a36a0a-e863-4ed2-ab32-921539b5b367": {
+          "type": "question",
+          "settings": {
+            "title": "Biomass",
+            "answer": "<p>Plant or animal materials used to create energy.<\/p>"
+          }
+        },
+        "3e4a4b95-8a1f-4d2c-bcfd-900af07b312f": {
+          "type": "question",
+          "settings": {
+            "title": "Bioplastics",
+            "answer": "<p>A type of biodegradable plastic derived from biological materials rather than from petroleum, or oil.<\/p>"
+          }
+        },
+        "ff4ff20d-3fd6-4cfb-8aaa-7e2b170db861": {
+          "type": "question",
+          "settings": {
+            "title": "Byproduct",
+            "answer": "<p>Excess material produced.<\/p>"
+          }
+        },
+        "ee54e648-8a43-4169-a15e-8cf52c558f09": {
+          "type": "question",
+          "settings": {
+            "title": "Carbon Credits",
+            "answer": "<p>A permit that allows the company that holds it to emit a certain amount of carbon dioxide or other greenhouse gases.<\/p>"
+          }
+        },
+        "f570464d-c634-4a97-9f33-619744ff432d": {
+          "type": "question",
+          "settings": {
+            "title": "Carbon Emissions",
+            "answer": "<p>Pollution released into the atmosphere from carbon dioxide and carbon monoxide; often produced by motor vehicles.<\/p>"
+          }
+        },
+        "a3a3c738-2699-44f8-9853-aeee01146045": {
+          "type": "question",
+          "settings": {
+            "title": "Carbon Footprint",
+            "answer": "<p>The amount of carbon dioxide produced by your lifestyle.<\/p>"
+          }
+        },
+        "1dc5bfcb-dad9-4ea4-a03e-22c9018537c2": {
+          "type": "question",
+          "settings": {
+            "title": "Carbon Neutral",
+            "answer": "<p>Producing no net carbon dioxide emissions, especially through planting trees as offsets.<\/p>"
+          }
+        },
+        "b0dd0ecc-79eb-450a-a1c6-504c863deff9": {
+          "type": "question",
+          "settings": {
+            "title": "Carbon Offset",
+            "answer": "<p>A measure to offset the emissions of carbon dioxide caused by industrial or other human activity.<\/p>"
+          }
+        },
+        "43d5722f-0263-416d-bbd4-8f0f6ffb2b30": {
+          "type": "question",
+          "settings": {
+            "title": "Circular Sustainability",
+            "answer": "<p>Creating products that last and can be reused, repaired, and remanufactured.<\/p>"
+          }
+        },
+        "2b60e7e5-b28e-42ab-8d29-980878e340b1": {
+          "type": "question",
+          "settings": {
+            "title": "Climate Change",
+            "answer": "<p>A long-term change in the average weather patterns that define Earth's local, regional and global climates.<\/p>"
+          }
+        },
+        "4afba864-29de-4284-a8c9-f032ca9f03b1": {
+          "type": "question",
+          "settings": {
+            "title": "Climate Positive",
+            "answer": "<p>Exceeding achieving carbon neutrality by removing additional carbon dioxide from the atmosphere; also referred to as carbon negative.<\/p>"
+          }
+        },
+        "71591ece-2cc6-4999-9079-8f56af2d2995": {
+          "type": "question",
+          "settings": {
+            "title": "Closed-Loop",
+            "answer": "<p>A system where everything is recycled and reused.<\/p>"
+          }
+        },
+        "3f9d85de-5e3f-46a7-a1d1-80125cb0c7dd": {
+          "type": "question",
+          "settings": {
+            "title": "Compostable",
+            "answer": "<p>A product that can disintegrate into non-toxic, natural elements.<\/p>"
+          }
+        },
+        "cac9d61e-54ee-4857-95a2-bf77a9d8d2f1": {
+          "type": "question",
+          "settings": {
+            "title": "Composting",
+            "answer": "<p>The natural process of recycling organic matter, such as leaves and food scraps, into a valuable fertilizer that can enrich soil and plants.<\/p>"
+          }
+        },
+        "d0b2db41-89d9-48c2-bc73-15596e35da5d": {
+          "type": "question",
+          "settings": {
+            "title": "Conservation",
+            "answer": "<p>The careful maintenance and upkeep of a natural resource to prevent it from disappearing.<\/p>"
+          }
+        },
+        "f18c12fa-2f6c-4446-b343-42dfd9df09f7": {
+          "type": "question",
+          "settings": {
+            "title": "Deforestation",
+            "answer": "<p>The purposeful clearing of forested land.<\/p>"
+          }
+        },
+        "5a35fd5c-6a8e-49fd-918d-9087b0698e17": {
+          "type": "question",
+          "settings": {
+            "title": "Drought",
+            "answer": "<p>Extremely low rainfall over a prolonged period leading to water shortages.<\/p>"
+          }
+        },
+        "e8617dfa-4af8-4308-a446-5565beeab0db": {
+          "type": "question",
+          "settings": {
+            "title": "e-Waste (Electronic Waste)",
+            "answer": "<p>Discarded electrical or electronic devices.<\/p>"
+          }
+        },
+        "94c2a38c-84c1-4d4c-b07b-22ca66eb050a": {
+          "type": "question",
+          "settings": {
+            "title": "Eco-Conscious",
+            "answer": "<p>The mentality to focus on reducing harm to the environment wherever possible.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1651696572a64923a2-0",
+        "1651696572a64923a2-1",
+        "749d72c4-2390-4782-9ac6-ad259f879dc5",
+        "35a36a0a-e863-4ed2-ab32-921539b5b367",
+        "3e4a4b95-8a1f-4d2c-bcfd-900af07b312f",
+        "ff4ff20d-3fd6-4cfb-8aaa-7e2b170db861",
+        "ee54e648-8a43-4169-a15e-8cf52c558f09",
+        "f570464d-c634-4a97-9f33-619744ff432d",
+        "a3a3c738-2699-44f8-9853-aeee01146045",
+        "1dc5bfcb-dad9-4ea4-a03e-22c9018537c2",
+        "b0dd0ecc-79eb-450a-a1c6-504c863deff9",
+        "43d5722f-0263-416d-bbd4-8f0f6ffb2b30",
+        "2b60e7e5-b28e-42ab-8d29-980878e340b1",
+        "4afba864-29de-4284-a8c9-f032ca9f03b1",
+        "71591ece-2cc6-4999-9079-8f56af2d2995",
+        "3f9d85de-5e3f-46a7-a1d1-80125cb0c7dd",
+        "cac9d61e-54ee-4857-95a2-bf77a9d8d2f1",
+        "d0b2db41-89d9-48c2-bc73-15596e35da5d",
+        "f18c12fa-2f6c-4446-b343-42dfd9df09f7",
+        "5a35fd5c-6a8e-49fd-918d-9087b0698e17",
+        "e8617dfa-4af8-4308-a446-5565beeab0db",
+        "94c2a38c-84c1-4d4c-b07b-22ca66eb050a"
+      ],
+      "settings": {
+        "title": "Eco Terms"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1651696379928ad7e2",
+    "1651696570cbb93381",
+    "16516965729c03136b"
   ]
 }
