@@ -2,12 +2,396 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "full_width": false
+      }
+    },
+    "16516982830385f7c8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/10-Facts-About-Plastic-Pollution-You-Absolutely-Need-to-Know.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "subheading": "",
+        "title": "Making the Case\nAgainst Waste",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": true,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "16516985095a328724": {
+      "type": "rich-text",
+      "blocks": {
+        "1651698509fc932c40-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Biodegradable or Compostable Cases: What’s the Difference?",
+            "use_h1": true
+          }
+        },
+        "1651698509fc932c40-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Most plastic phone cases are biodegradable.<\/strong> <br\/>Biodegradable refers to materials broken down by microbes and microorganisms. Many consider these materials sustainable, but they can leave toxic residues in their wake since they do not have a specific breakdown date. <\/p><p><strong>Sustainable and eco-friendly phone cases can be composted.<\/strong> <br\/>A compostable material can decompose into CO2, water, and biomass, such as cellulose. During composting, compostables disintegrate, becoming indistinguishable, and leaving no toxic residue behind.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1651698509fc932c40-0",
+        "1651698509fc932c40-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1651698559d7f8deae": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "The Lifecycle of Plastics",
+        "use_h1": false,
+        "text": "<p>Despite being made of biodegradable materials, such as rubber and silicone, most phone cases sit in landfills for hundreds of years, even up to 500, before they degrade. Sadly, discarded phone cases can also end up in natural environments such as rivers, oceans, and forests, contributing to the destruction of precious ecosystems.<strong> <\/strong><\/p><p>Every minute, one truckload of plastic enters the ocean, including countless cell phone cases.Yet more than a billion plastic phone cases are sold around the world each year.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16516985867f9034ae": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Plastic Phone Cases Aren't A Style, But A Problem",
+        "use_h1": false,
+        "text": "<p>A phone case is perhaps the most seen accessory among all and has also become a fashion statement over the years. Due to this, people purchase multiple phone cases in order to match outfits or use for certain functions, increasing the already high demand for phone cases.<\/p><p>In a lifetime, a person is estimated to buy around 30 phone cases if they begin at the age of 15 and continued until they were 75 years old.<\/p><p>A single phone case is roughly 20 grams of plastic, and as of 2017, nearly 80%, of all Americans, or 235 million people, used a case with their phone. <br\/><br\/>This means approximately 5,185 tons of plastic are used to manufacture phone cases for<strong> <\/strong>just Americans alone.<\/p><p>Imagine how many phone cases are floating around the world, in shops, around the house, and regrettably, in landfills.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1651698642a528de56": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Only A Percentage Of Plastic Phone Cases Can Be Recycled",
+        "use_h1": false,
+        "text": "<p>Most municipal waste disposal and recycling centers don’t accept plastic phone cases due to the recycling equipment not being able to process the type of material. Not all plastic is the same, there are many different grades or types of plastic.<\/p><p>In order for a plastic case to be repurposed, it must be made without any other materials. Most phone cases are made of different types of plastic blended together. This includes cases made out of vegan or synthetic leather, metal, silicone, fleece, and more.<\/p><p>Every year, nearly 1.3 billion plastic phone cases are discarded, resulting in more than 40,000 tons of waste.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16516986980884b0e3": {
+      "type": "rich-text",
+      "blocks": {
+        "16516986973bfb4a87-0": {
+          "type": "heading",
+          "settings": {
+            "title": "EcoBlvd Cases Shake Up Plastic Pollution",
+            "use_h1": false
+          }
+        },
+        "16516986973bfb4a87-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At EcoBlvd we are working to combat plastic pollution by offering a stylish and sustainable alternative to plastic phone cases.We use InnoMaize™, a proprietary blend of cornstarch and corn sugar, and CornBo™, a blend of bamboo, corn, and plant fiber, to make our cases, both of which can be composted and used as soil fertilizers, or repurposed for more products!We design our cases to be durable and break down only under high humidity conditions, such as in a composter or in the dirt. While your phone case will degrade in a compost pile or even if discarded, you can still use it for many years, much like a regular plastic phone case.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16516986973bfb4a87-0",
+        "16516986973bfb4a87-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "16516987421e53244d": {
+      "type": "rich-text",
+      "blocks": {
+        "1651698742618fee98-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Bioplastic Gives Plastic A New Meaning",
+            "use_h1": false
+          }
+        },
+        "1651698742618fee98-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bio means life or anything having to do with living organisms or beings. Using plants, or other organic materials, bioplastics can change the meaning and use of plastic for good! According to the PNAS (Proceedings of the National Academy of Sciences), “the overall greenhouse emissions from PLA [plant-based bioplastics] are about <strong>60–80% lower than from the equivalent oil-based plastics<\/strong>”.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "8bcbbdab-84c2-4129-a0ad-ee89d8860fcd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Source: “<\/strong><a href=\"https:\/\/www.pnas.org\/content\/118\/12\/e2103183118\"><span style=\"text-decoration:underline\"><strong>Core Concept: Bioplastics Offer Carbon-Cutting Advantages But Are No Panacea<\/strong><\/span><\/a>” PNAS. 2021, March 3.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1651698742618fee98-0",
+        "1651698742618fee98-1",
+        "8bcbbdab-84c2-4129-a0ad-ee89d8860fcd"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1651698905e68999e9": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "The Case For Using Corn",
+        "use_h1": false,
+        "text": "<p>Corn-based plastic, such as InnoMaize™, is chemically bonded during the creation process, creating strength properties similar to those of petroleum and other oil-derived plastics. As a result, they offer high resistance to shocks, drops, and impacts that outdoes the standard plastic case! <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1651698949251bb156": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Bamboo, A Hidden Strength",
+        "use_h1": false,
+        "text": "<p>Bamboo-based plastics, such as CornBo™ offer unparalleled strength and excellent shock-absorbing properties, making them light years ahead of traditional plastics. Bamboo has a bending and flexing strength that is six times greater than steel, so we knew to create the toughest, yet most sustainable cases, we needed to utilize it. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1651699098b6067af7": {
+      "type": "rich-text",
+      "blocks": {
+        "16516990989a4e04e5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Fiber That Holds Everything Together",
+            "use_h1": false
+          }
+        },
+        "16516990989a4e04e5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plant-based fibers are produced by renewable resources or by using industry byproducts. Since they require little energy to process and are compostable, they help reduce the need for plastics and other resource-intensive materials.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16516990989a4e04e5-0",
+        "16516990989a4e04e5-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "165169925436902062": {
+      "type": "multi-column",
+      "blocks": {
+        "1651699254ab1f2052-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 200,
+            "title": "Recycling",
+            "text": "<p>It can be chemically recycled using acid or alcohol as a catalyst to promote composition. We offer free case recycling through our <a href=\"\/pages\/roundabout-recycling\" title=\"Roundabout Recycling\"><strong>Roundabout Recycling Program<\/strong><\/a>.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1651699254ab1f2052-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 200,
+            "title": "Composting",
+            "text": "<p>In composting, the molecules are broken down chemically by a process called hydrolysis. Water is used to break the bonds between molecules, and then it is digested by microorganisms. <\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1651699254ab1f2052-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 200,
+            "title": "Incineration",
+            "text": "<p>When incinerated, it can be used for energy, emitting no gases into the atmosphere or leaving any residues behind.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "475b9924-0b35-445b-a349-e0d38693b8d0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 200,
+            "title": "Landfill",
+            "text": "<p>It can be disposed of in landfills; however, the material will degrade very slowly at moderate temperatures, making this option the least environmentally friendly.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651699254ab1f2052-0",
+        "1651699254ab1f2052-1",
+        "1651699254ab1f2052-2",
+        "475b9924-0b35-445b-a349-e0d38693b8d0"
+      ],
+      "settings": {
+        "title": "How Corn-Based Plastic is Reused",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "1651699773752df340": {
+      "type": "multi-column",
+      "blocks": {
+        "1651699773b8a32bf7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Plant It",
+            "text": "<p>Bamboo-based plastics might take as long as 5-10 years to fully decompose, but if buried horizontally in the soil, it will take as little as 3 years.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1651699773b8a32bf7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Put It In Your Home Compost Bin",
+            "text": "<p>The average time it takes to compost at home is around 4-6 months. By cutting it up into smaller pieces with a saw or hammer, you can speed up the process.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1651699773b8a32bf7-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Use an Industrial Composting Machine",
+            "text": "<p>Unlike home composting bins, industrial composters decompose bamboo-based plastics in just a few weeks due to their higher temperatures and favorable atmosphere.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651699773b8a32bf7-0",
+        "1651699773b8a32bf7-1",
+        "1651699773b8a32bf7-2"
+      ],
+      "settings": {
+        "title": "How Bamboo-Based Plastic Is Reused",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "1651699867d01c4c91": {
+      "type": "rich-text",
+      "blocks": {
+        "16516998673a301229-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Progress, Not Plastic",
+            "use_h1": false
+          }
+        },
+        "16516998673a301229-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thanks to the efforts of many other brands in the industry, more and more phone cases are featuring sustainable products and efforts are being made to minimize their reliance on plastic. We hope they will all continue their efforts to develop a full range of sustainable products and join us on the #Root2Renew.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16516998673a301229-0",
+        "16516998673a301229-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16516982830385f7c8",
+    "16516985095a328724",
+    "1651698559d7f8deae",
+    "16516985867f9034ae",
+    "1651698642a528de56",
+    "16516986980884b0e3",
+    "16516987421e53244d",
+    "1651698905e68999e9",
+    "1651698949251bb156",
+    "1651699098b6067af7",
+    "165169925436902062",
+    "1651699773752df340",
+    "1651699867d01c4c91"
   ]
 }
