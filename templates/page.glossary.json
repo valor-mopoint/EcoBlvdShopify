@@ -220,6 +220,13 @@
             "title": "Eco-Conscious",
             "answer": "<p>The mentality to focus on reducing harm to the environment wherever possible.<\/p>"
           }
+        },
+        "5d9075f7-e2f2-4e6a-bfa8-b339a9a88429": {
+          "type": "question",
+          "settings": {
+            "title": "Eco-Friendly",
+            "answer": "<p>Not harmful to the environment.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -244,7 +251,8 @@
         "f18c12fa-2f6c-4446-b343-42dfd9df09f7",
         "5a35fd5c-6a8e-49fd-918d-9087b0698e17",
         "e8617dfa-4af8-4308-a446-5565beeab0db",
-        "94c2a38c-84c1-4d4c-b07b-22ca66eb050a"
+        "94c2a38c-84c1-4d4c-b07b-22ca66eb050a",
+        "5d9075f7-e2f2-4e6a-bfa8-b339a9a88429"
       ],
       "settings": {
         "title": "Eco Terms"
