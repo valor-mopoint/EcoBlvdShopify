@@ -490,11 +490,59 @@
             "title": "Naked Packaging",
             "answer": "<p>Products that are sold without packaging.<\/p>"
           }
+        },
+        "7d10e24d-9058-4cfa-b41d-ecc816eb3139": {
+          "type": "question",
+          "settings": {
+            "title": "Natural Resources",
+            "answer": "<p>Raw materials supplied by nature.<\/p>"
+          }
+        },
+        "142282b7-9d7f-4a09-8cb9-e05198925e46": {
+          "type": "question",
+          "settings": {
+            "title": "Net-Zero",
+            "answer": "<p>Achieving a balance between emissions produced and emissions removed from the atmosphere; also known as carbon neutrality.<\/p>"
+          }
+        },
+        "5267a8c6-909d-4fc1-ac98-3f0fe7308040": {
+          "type": "question",
+          "settings": {
+            "title": "Non-Locally Recyclable",
+            "answer": "<p>These are items such as beauty products, plastic phone cases, flexible plastic packaging, certain cleaning bottles and products, and more that are not typically accepted by local recycling facilities or centers. These products are indeed recyclable, but they often end up in landfills because recycling them is harder, and requires special services or collection.<\/p>"
+          }
+        },
+        "df568ffb-065b-4d01-831f-b1990be28e54": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "5e0fc3da-9768-4047-9deb-954a25532d0f": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "e41c6d68-29f1-4af5-85d3-09083a455d70": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
         }
       },
       "block_order": [
         "16516979926fdcdd98-0",
-        "16516979926fdcdd98-1"
+        "16516979926fdcdd98-1",
+        "7d10e24d-9058-4cfa-b41d-ecc816eb3139",
+        "142282b7-9d7f-4a09-8cb9-e05198925e46",
+        "5267a8c6-909d-4fc1-ac98-3f0fe7308040",
+        "df568ffb-065b-4d01-831f-b1990be28e54",
+        "5e0fc3da-9768-4047-9deb-954a25532d0f",
+        "e41c6d68-29f1-4af5-85d3-09083a455d70"
       ],
       "settings": {
         "title": "Eco Terms"
