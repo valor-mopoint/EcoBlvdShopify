@@ -255,6 +255,13 @@
             "title": "Endangered Species Act",
             "answer": "<p>Works to classify species as threatened or endangered, designating habitat essential for their survival and recovery and ultimately restoring healthy populations of the species to be removed from the list.<\/p>"
           }
+        },
+        "52578c56-49bc-42ef-b71f-75b968005c0e": {
+          "type": "question",
+          "settings": {
+            "title": "Energy Efficient",
+            "answer": "<p>Uses the smallest amount of energy possible to provide power.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -284,7 +291,8 @@
         "12323415-dfc3-40ff-b07f-99a9f8cf5a36",
         "ccb283de-b5b9-4cd1-9020-8a36d7ff918e",
         "7e5f13ce-4e00-4359-b603-8744175e0c33",
-        "3bac32b6-d28f-49f0-81b2-2e1fed851266"
+        "3bac32b6-d28f-49f0-81b2-2e1fed851266",
+        "52578c56-49bc-42ef-b71f-75b968005c0e"
       ],
       "settings": {
         "title": "Eco Terms"
