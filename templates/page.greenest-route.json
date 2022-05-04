@@ -95,53 +95,27 @@
         "use_alt_bg": false
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "full_width": true
-      }
-    },
-    "16516122821bc2a8f9": {
+    "1651695595b2ceb076": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
-        "a80df034-16a6-4f1a-b039-d528b77c83a1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_width": 33,
-            "url": ""
-          }
-        },
-        "1651612282fde9400b-0": {
+        "1651695595d765474d-0": {
           "type": "heading",
           "settings": {
-            "title": "EcoCart",
+            "title": "Our Reliance On Express Shipping Is Costing the Planet",
             "use_h1": false
           }
         },
-        "1651612282fde9400b-1": {
+        "1651695595d765474d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With one click, EcoCart enables you to balance your carbon footprint from online transactions and donates a portion of your purchase to offset the carbon footprint of your order. <\/p><p>When you select EcoCart at checkout, you are supporting one of their many environmental projects, which range from providing clean drinking water to funding wind farms and ocean cleanup, which have offset 25,870,932 pounds of carbon and saved 848,214 trees. Each of EcoCart's projects offers carbon offset Laboratory and field testing with third-party verification and site visits to ensure successful calculation of greenhouse gas reductions and enable a project to periodically issue credits. These credits are measured in metric tons (tonnes) of carbon dioxide equivalents (mtCO₂e). EcoCart then evaluates the implementation of the methodology and confirms that the project uses the majority of the proceeds from carbon for growth and not profit. All projects are independently certified to internationally recognized standards.<\/p>",
+            "text": "<p>It does not matter how eco-friendly, ethical, low impact, or zero waste the product you purchase is, the shipping of your order has an environmental impact. <\/p><p>Since online shopping consolidates many different items and delivers them as a consolidated package to multiple addresses at the same time, it is theoretically better for the environment than taking personal trips by car. However, we have grown accustomed to express shipping that arrives in one or two days, which in reality harms the environment more than standard ground shipping. These rushed delivery options force companies to dispatch trucks that aren't fully loaded at a much more frequent pace, burning more gas and contributing to greenhouse gas emissions. <\/p><p>UC Davis' Miguel Jaller, co-director of the Sustainable Freight Research Center, found that if rush delivery options were slowed down slightly, everything would run more smoothly.  When consumers are aware of the impact of their ordering decisions, they may think twice before ordering as soon as possible.<\/p>",
             "enlarge_text": false
-          }
-        },
-        "60eccef2-bb84-4a4c-b167-783abdfe22c7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https:\/\/ecocart.io\/about\/",
-            "button_style": "primary"
           }
         }
       },
       "block_order": [
-        "a80df034-16a6-4f1a-b039-d528b77c83a1",
-        "1651612282fde9400b-0",
-        "1651612282fde9400b-1",
-        "60eccef2-bb84-4a4c-b167-783abdfe22c7"
+        "1651695595d765474d-0",
+        "1651695595d765474d-1"
       ],
       "settings": {
         "height": "medium",
@@ -150,42 +124,42 @@
         "use_alt_bg": true
       }
     },
-    "1651614568b3057915": {
-      "type": "rich-text",
+    "main": {
+      "type": "main-page",
       "disabled": true,
-      "blocks": {
-        "1651614568c2ce2313-0": {
-          "type": "heading",
-          "settings": {
-            "title": "ShopPay",
-            "use_h1": false
-          }
-        },
-        "1651614568c2ce2313-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shop app users can select ShopPay at checkout, which can be used quickly and securely, storing their shipping preferences and information for convenience. Using Shop, you can even see your individual carbon offsets and eco-footprint directly in the app. To date, Shop's projects have protected more than 11 million trees in the Peruvian rainforest to offset more than 10,000 tons of carbon emissions!<\/p><p><br\/>Download the Shop app today for iOS and Android to carbon offset your deliveries for free. <\/p>",
-            "enlarge_text": false
-          }
-        },
-        "13c2b441-b610-4339-b0e3-03b76bf8905b": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https:\/\/shopify.com\/shop",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "1651614568c2ce2313-0",
-        "1651614568c2ce2313-1",
-        "13c2b441-b610-4339-b0e3-03b76bf8905b"
-      ],
       "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
+        "full_width": true
+      }
+    },
+    "165169568724efb1fa": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "A Slow & Steady Delivery Plan Is The Best Option",
+        "use_h1": false,
+        "text": "<p>On average, there are about 165 billion packages shipped in the United States each year. The cardboard used for these packages roughly equates to 1 billion trees. That statistic doesn’t factor in the other types of packaging, like plastic, which is even less eco-friendly than cardboard.<br\/><\/p><p>It is estimated that shipping emissions will be the source of 17% of all global carbon emissions by 2050. In the United States, freight trucks emit 161.8 grams of CO2 per ton-mile, whereas airplanes emit 500 grams of CO2 per metric ton of freight. Due to reducing routes and emissions, ground shipping by truck is one of the most environmentally friendly methods. This method may take longer and have a small environmental impact, however, you will still receive your order within a week’s time. <\/p><p><em>Source: “<\/em><a href=\"https:\/\/business.edf.org\/insights\/green-freight-math-how-to-calculate-emissions-for-a-truck-move\/#:~:text=The%20average%20freight%20truck%20in,of%203%2C236%2C000%20grams%20of%20CO2.\"><span style=\"text-decoration:underline\"><em>Green Freight Math: How to Calculate Emissions for a Truck Move<\/em><\/span><\/a><em>.” Environmental Defense Fund. 2015, March 24. <\/em><\/p><p><em>Source: “<\/em><a href=\"https:\/\/www.sourcinghub.io\/air-freight-vs-sea-freight-carbon-footprint\/\"><span style=\"text-decoration:underline\"><em>Air Freight vs. Sea Freight Carbon Footprint \/ Environmental Impact of Shipping<\/em><\/span><\/a><em>.” SourcingHub.IO, 2020, May 12.<\/em><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1651695786144f12ab": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "From Our Facility To Your Mailbox",
+        "use_h1": false,
+        "text": "<p>According to KPMG's Sustainability Services division, sustainable shipping can reduce carbon emissions \"by up to 60 percent.\" This is why we ensure that every order is packed using recyclable shipping envelopes that can be used to send back old products through our <a href=\"\/pages\/roundabout-recycling\" title=\"Roundabout Recycling\">Roundabout Recycling Program<\/a>, which doubles its purpose and use. To ensure that orders are packaged with as little waste as possible, we do not include promotional materials or extra paper.<\/p><p>When our products leave our facility, our commitment to sustainability continues. In fact, this commitment continues right up until your mailbox. Using only green energy, our third-party logistics provider handles purchases, stores products, and processes orders. We make sure our shipping partners use the most fuel-efficient routes for all deliveries.<br\/><br\/>As a way to offset carbon emissions, all of our orders include free ground shipping. While we have expedited options available, we hope you will use our carbon-neutral checkout options if you need to receive your accessories sooner.<br\/><br\/>Please allow 2 business days for non-customized orders to be processed and shipped. For customized orders please allow 3 to 5 business days for processing.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
         "use_alt_bg": false
       }
     }
@@ -194,8 +168,9 @@
     "1651083175d3dae5ac",
     "1651267590b740ae80",
     "16516148641c9e28a2",
+    "1651695595b2ceb076",
     "main",
-    "16516122821bc2a8f9",
-    "1651614568b3057915"
+    "165169568724efb1fa",
+    "1651695786144f12ab"
   ]
 }
