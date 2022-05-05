@@ -120,7 +120,11 @@
     </div>
   </div>
 </div>
-
+{%- style -%}
+#section-id-{{ section.id }} button{
+display:none;
+}
+{%- endstyle -%}
 {% schema %}
   {
     "name": "Testimonials",
