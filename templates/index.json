@@ -120,35 +120,40 @@
           "type": "collection",
           "settings": {
             "collection": "laguna-collection",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "image": "shopify:\/\/shop_images\/fallen-maple-leaves-on-windsheild.jpg",
+            "hoverimage": "shopify:\/\/shop_images\/10-Facts-About-Plastic-Pollution-You-Absolutely-Need-to-Know.jpg"
           }
         },
         "86d8a850-805c-494b-8774-245ab892c7bd": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "collection": "mojave-collection",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "hoverimage": "shopify:\/\/shop_images\/mountains-in-the-desert.jpg"
           }
         },
         "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "collection": "sequoia-collection",
+            "image": "shopify:\/\/shop_images\/town-of-colorful-homes-on-a-hillside.jpg",
+            "hoverimage": "shopify:\/\/shop_images\/cell-phone-and-earbuds-in-sunlight.jpg"
           }
         },
         "516a77aa-e479-4b22-a021-297558f9aab3": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "collection": "charger-collection",
+            "image": "shopify:\/\/shop_images\/a-laptop-with-potted-plants-and-wooden-tray.jpg",
+            "hoverimage": "shopify:\/\/shop_images\/person-walks-down-a-paved-country-road.jpg"
           }
         },
         "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "collection": "cables-collection",
+            "image": "shopify:\/\/shop_images\/autumn-shore.jpg",
+            "hoverimage": "shopify:\/\/shop_images\/a-large-rock-stands-guard-in-the-middle-of-the-ocean.jpg"
           }
         }
       },
