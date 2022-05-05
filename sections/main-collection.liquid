@@ -347,6 +347,22 @@ position: relative;
     bottom: 0;
     margin: auto;
 }
+.data-iocn-dj-yc:after{
+	content: "";
+    background-image: url({{"bottom.svg" | asset_url }});
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(180deg);
+
+}
 {%- endstyle -%}
 {% javascript %}
 $(function(){
