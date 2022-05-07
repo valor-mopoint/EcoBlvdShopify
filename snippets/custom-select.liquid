@@ -55,6 +55,7 @@
   {% if label == "Device"  %}
 
 	<div> test  
+      	{% assign cproduct = collection.products | where: "title", product.title %}
 		{% for cproduct in collection.products %}
       		{% if cproduct.title == product.title %}
       			{% for prooption in product.options_with_values %}
