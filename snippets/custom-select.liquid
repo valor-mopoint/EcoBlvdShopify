@@ -57,6 +57,15 @@
 	<div> test  
 		{% for cproduct in collection.products %}
       		{% if cproduct.title == product.title %}
+      			{% for prooption in product.options_with_values %}
+      				{% if prooption.name == "Color" %}
+      					{% for opv in prooption.values %}
+      						{% if opv == "selected_name" %}
+                  			{{ opv }}
+      						{% endif %}
+                      	{% endfor %}
+      				{% endif %}
+      			{% endfor %}
       			<div>
                     {{ cproduct.title }}
                    {% for prooption in product.options_with_values %}
