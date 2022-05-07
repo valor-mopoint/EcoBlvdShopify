@@ -55,14 +55,21 @@
   {% if label == "Device"  %}
 
 	<div> test  
-		{% for product in collection.products %}
-      		<div>
-      			{{ product.title }}
-              
-               {% for prooption in product.options %}
-              <div> {{ prooption }} </div>
-               {% endfor %}
-      		</div>
+		{% for cproduct in collection.products %}
+      		{% if cproduct.title == product.title %}
+      			<div>
+                    {{ cproduct.title }}
+                   {% for prooption in product.options_with_values %}
+                  	<div> 
+                    	{{ prooption.name }} 
+                      	{% for opv in prooption.values %}
+                  			{{ opv }}
+                      	{% endfor %}
+                  	</div>
+                   {% endfor %}
+                </div>
+      		{% endif %}
+      		
       	{% endfor %}
 	</div>
 
