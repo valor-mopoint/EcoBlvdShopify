@@ -23,6 +23,13 @@
     swatches: true
 {% endcomment %}
 
+
+{% if label == "Device"  %}
+
+{{ collection.title }}
+
+{% endif %}
+
 {%- liquid
   assign label_id = id | append: '-label'
 
