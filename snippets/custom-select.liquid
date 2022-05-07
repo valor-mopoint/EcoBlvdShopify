@@ -24,11 +24,7 @@
 {% endcomment %}
 
 
-{% if label == "Device"  %}
 
-test {{ collection.title }}
-
-{% endif %}
 
 {%- liquid
   assign label_id = id | append: '-label'
@@ -55,6 +51,13 @@ test {{ collection.title }}
     <label id="{{ label_id }}" class="label{% if hide_label %} visually-hidden{% endif %} no-js-hidden">{{ label }}</label>
   {%- endcapture -%}
   {%- unless label_inside -%}{{ label_html }}{%- endunless -%}
+
+  {% if label == "Device"  %}
+
+	<div> test {{ collection.title }} </div>
+
+  {% endif %}
+
 {%- endif -%}
 <div class="cc-select{% if label_inside %} cc-select--label-inside{% endif %} no-js-hidden" id="{{ id }}">
   {%- if label and label_inside -%}{{ label_html }}{%- endif -%}
