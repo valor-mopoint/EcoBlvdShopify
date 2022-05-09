@@ -1,0 +1,220 @@
+{
+  "sections": {
+    "1651083175d3dae5ac": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/person-walks-down-a-paved-country-road.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "subheading": "",
+        "title": "#Root2Renew",
+        "title_size": 100,
+        "title_size_mobile": 40,
+        "use_h1": true,
+        "text": "<p><strong>No Matter The Path, We Share The Same Root<\/strong><\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165126616164841dfa": {
+      "type": "rich-text",
+      "blocks": {
+        "16512661612797a218-0": {
+          "type": "heading",
+          "settings": {
+            "title": "It Doesn't Matter Where You Start",
+            "use_h1": false
+          }
+        },
+        "16512661612797a218-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just like any movement, sustainability begins with a single action. By using an EcoBlvd product, you've already taken the first step toward the #Root2Renew and by incorporating more eco-conscious habits, you'll inspire others to do the same.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16512661612797a218-0",
+        "16512661612797a218-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16510835927f249308": {
+      "type": "rich-text",
+      "blocks": {
+        "1651083592c8987272-0": {
+          "type": "heading",
+          "settings": {
+            "title": "It Can Start With A Single Thought",
+            "use_h1": false
+          }
+        },
+        "1651083592c8987272-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We each begin our sustainability journey within our mind. It starts with the realization that we need to change our lifestyles in order to ensure the longevity of our planet for generations to come. When we come to the realization that we are part of the problem yet also part of the solution, we'll have taken the first step towards a more sustainable lifestyle. Everyone’s personal journey will be filled with challenges, but we will also learn why our goal is so important.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1651083592c8987272-0",
+        "1651083592c8987272-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "1651266332e8454b0d": {
+      "type": "rich-text",
+      "blocks": {
+        "1651266332e6feb2da-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainability Is A Journey, Not A Destination",
+            "use_h1": false
+          }
+        },
+        "1651266332e6feb2da-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sustainability aims to minimize an individual's impact on the environment rather than eliminating it entirely. That's why we say we're all on a Root (Route) 2 Renew, as it's not about the destination, rather the actions we take, what we learn and change along the way. <\/p><p><\/p><p>Sustainability does not happen overnight with zero-waste lifestyles or full eco-consciousness, but rather with a step to reduce waste. <\/p><p><\/p><p>The journey toward sustainable development grows as you progress. Rather than focusing on what you can do or should do, it's about what you can accomplish.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1651266332e6feb2da-0",
+        "1651266332e6feb2da-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16512664212c8c8d6b": {
+      "type": "rich-text",
+      "blocks": {
+        "1651266421c49cb4b9-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Each Obstacle Enables Us To Move Forward",
+            "use_h1": false
+          }
+        },
+        "1651266421c49cb4b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s important to remember that the burden is not on us alone but collectively. By working together and sharing our sustainability journey, we can create a larger impact. Sustainability is about progress not perfection.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1651266421c49cb4b9-0",
+        "1651266421c49cb4b9-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "165126648959e5b3cf": {
+      "type": "rich-text",
+      "blocks": {
+        "16512664895f7aaf40-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Let’s Branch Out On The #Root2Renew",
+            "use_h1": false
+          }
+        },
+        "16512664895f7aaf40-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Participating in the #Root2Renew will motivate people to conserve Earth's resources and reduce the impact of human and environmental interactions.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16512664895f7aaf40-0",
+        "16512664895f7aaf40-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1651266536aafb4f5e": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/three-people-hold-hands-with-their-arms-to-the-sky.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "subheading": "Want to Join the Movement as an",
+        "title": "Affiliate or Content Creator?",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "Get Started",
+        "button_url_1": "shopify:\/\/pages\/brand-ambassador",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
+      }
+    }
+  },
+  "order": [
+    "1651083175d3dae5ac",
+    "165126616164841dfa",
+    "16510835927f249308",
+    "main",
+    "1651266332e8454b0d",
+    "16512664212c8c8d6b",
+    "165126648959e5b3cf",
+    "1651266536aafb4f5e"
+  ]
+}
