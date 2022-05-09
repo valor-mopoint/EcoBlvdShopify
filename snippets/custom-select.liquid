@@ -55,33 +55,11 @@
   {% if label == "Device"  %}
 
 	<div> test  
-      	{% assign cproduct = collection.products | where: "title", product.title %}
       
       	{% assign cproduct = collection.products | where: "options_by_name['Color'].values", selected_name %}
-		{% for cproduct in collection.products %}
-      		{% if cproduct.title == product.title %}
-      			{% for prooption in product.options_with_values %}
-      				{% if prooption.name == "Color" %}
-      					{% for opv in prooption.values %}
-      						{% if opv == selected_name %}
-                  			{{ opv }}
-      						{% endif %}
-                      	{% endfor %}
-      				{% endif %}
-      			{% endfor %}
-      			<div>
-                    {{ cproduct.title }}
-                   {% for prooption in product.options_with_values %}
-                  	<div> 
-                    	{{ prooption.name }} 
-                      	{% for opv in prooption.values %}
-                  			{{ opv }}
-                      	{% endfor %}
-                  	</div>
-                   {% endfor %}
-                </div>
-      		{% endif %}
-      		
+      
+		{% for cp in cproduct %}
+      		{{ cp.options_by_name['Model'].values }}
       	{% endfor %}
 	</div>
 
