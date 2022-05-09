@@ -281,6 +281,44 @@
       "settings": {
         "title": "What Items are Accepted for the Roundabout Recycling Program?"
       }
+    },
+    "1652130292d6bb9bd3": {
+      "type": "rich-text",
+      "blocks": {
+        "1652130292b1174dc0-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Questions? Comments? Concerns?",
+            "use_h1": false
+          }
+        },
+        "1652130292b1174dc0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're here to help! Send us a message and let us know what questions, comments or concerns we may address.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "23e9cd35-8584-440b-ae0e-b5e29bf42918": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "1652130292b1174dc0-0",
+        "1652130292b1174dc0-1",
+        "23e9cd35-8584-440b-ae0e-b5e29bf42918"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -294,6 +332,7 @@
     "16521294187891a606",
     "1652129532598301e1",
     "16521298115ab655d0",
-    "16521298744572cd71"
+    "16521298744572cd71",
+    "1652130292d6bb9bd3"
   ]
 }
