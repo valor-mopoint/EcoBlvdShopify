@@ -3,7 +3,7 @@
     "1651083175d3dae5ac": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/person-walks-down-a-paved-country-road.jpg",
+        "image": "shopify:\/\/shop_images\/recyclingstock.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -11,11 +11,11 @@
         "height_mobile": 300,
         "image_link": "",
         "subheading": "",
-        "title": "#Root2Renew",
+        "title": "Roundabout Recycling",
         "title_size": 100,
         "title_size_mobile": 40,
         "use_h1": true,
-        "text": "<p><strong>No Matter The Path, We Share The Same Root<\/strong><\/p>",
+        "text": "",
         "enlarge_text": true,
         "button_label_1": "",
         "button_url_1": "",
@@ -27,27 +27,27 @@
         "overlay_style": "shadow"
       }
     },
-    "165126616164841dfa": {
+    "1652129036e17ad209": {
       "type": "rich-text",
       "blocks": {
-        "16512661612797a218-0": {
+        "1652129036c38f9a3c-0": {
           "type": "heading",
           "settings": {
-            "title": "It Doesn't Matter Where You Start",
+            "title": "Revolutionizing Waste",
             "use_h1": false
           }
         },
-        "16512661612797a218-1": {
+        "1652129036c38f9a3c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Just like any movement, sustainability begins with a single action. By using an EcoBlvd product, you've already taken the first step toward the #Root2Renew and by incorporating more eco-conscious habits, you'll inspire others to do the same.<\/p>",
-            "enlarge_text": false
+            "text": "<p>Reduce the 495 million pounds of plastic used each year for phone cases by recycling your old plastic ones and using EcoBlvd cases!<\/p>",
+            "enlarge_text": true
           }
         }
       },
       "block_order": [
-        "16512661612797a218-0",
-        "16512661612797a218-1"
+        "1652129036c38f9a3c-0",
+        "1652129036c38f9a3c-1"
       ],
       "settings": {
         "height": "medium",
@@ -56,32 +56,51 @@
         "use_alt_bg": false
       }
     },
-    "16510835927f249308": {
-      "type": "rich-text",
-      "blocks": {
-        "1651083592c8987272-0": {
-          "type": "heading",
-          "settings": {
-            "title": "It Can Start With A Single Thought",
-            "use_h1": false
-          }
-        },
-        "1651083592c8987272-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We each begin our sustainability journey within our mind. It starts with the realization that we need to change our lifestyles in order to ensure the longevity of our planet for generations to come. When we come to the realization that we are part of the problem yet also part of the solution, we'll have taken the first step towards a more sustainable lifestyle. Everyone’s personal journey will be filled with challenges, but we will also learn why our goal is so important.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "1651083592c8987272-0",
-        "1651083592c8987272-1"
-      ],
+    "1652128983d18633d3": {
+      "type": "image-with-text",
       "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
+        "image_width": 700,
+        "subheading": "",
+        "title": "We Revolve Around Mother Earth",
+        "use_h1": false,
+        "text": "<p>To be sustainable, we must recognize that our environment is limited in resources. To protect the Earth, our planet, humanity, and all life, we must rationally use the environment and its resources. Our quality of life can be improved by protecting the environment, preserving our ecosystem, and conserving our natural resources.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": true
+      }
+    },
+    "1652129073ea5843c1": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Let’s Keep Plastic In The Rear View",
+        "use_h1": false,
+        "text": "<p>Plastic is produced at a rate of 8.3 billion tons per year, of which 6.3 billion tons go to waste. Considering that it takes up to 500 years for a single piece of plastic to break down, and only 9% of all plastic gets recycled, we face a true problem with time. As plastic breaks down over time, it doesn’t just disintegrate but breaks down into smaller pieces called microplastics that stay in our water, air, and even our food. In recent studies, microplastics have been detected in human blood and even lungs, giving us yet another reason to be concerned about plastic.<\/p><p>Truth be told, our planet only has a few years before it reaches a tipping point that we can’t turn around. <\/p><p>It’s time to reduce, reuse, and, more importantly, RENEW! <\/p><p><em>“<\/em><a href=\"https:\/\/www.nationalgeographic.org\/article\/whopping-91-percent-plastic-isnt-recycled\/#:~:text=The%20new%20study%2C%20published%20Wednesday,nine%20percent%20has%20been%20recycled.\"><span style=\"text-decoration:underline\"><em><strong>A Whopping 91 Percent of Plastic Isn’t Recycled” National Geographic<\/strong><\/em><\/span><\/a><em>.” 2019, July 5. <\/em><\/p><p><em>“<\/em><a href=\"https:\/\/e360.yale.edu\/digest\/microplastics-found-in-lungs-of-humans-undergoing-surgery\"><span style=\"text-decoration:underline\"><em><strong>Microplastics Found In Lungs of Humans Undergoing Surgery<\/strong><\/em><\/span><\/a><em>”. Yale Environmental 360. 2022, April 6. <\/em><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1652129184c1adbe74": {
+      "type": "image-with-text",
+      "settings": {
+        "image_width": 700,
+        "subheading": "",
+        "title": "Our Electronics Are Stalling Progress",
+        "use_h1": false,
+        "text": "<p>Only <strong>17.4 percent of electronic waste is properly recycled worldwide<\/strong>. The human population discarded an estimated 63.3 million tons of waste in 2021 alone. It will exceed the Great Wall of China as the world's heaviest human construction. Electronics discarded often contain internal components that can release toxins, acids, and other elements into the atmosphere. <br\/><br\/>Let's make sure our old tech is our continuous pathway to innovation. <\/p><p>It’s time to give our old tech a new destination, on the #Root2Renew! <\/p><p><em>Source: “<\/em><a href=\"https:\/\/www.weforum.org\/agenda\/2021\/10\/2021-years-e-waste-outweigh-great-wall-of-china\/#:~:text=In%202021%2C%20human%20beings%20will,the%20world's%20heaviest%20human%20construction.\"><span style=\"text-decoration:underline\"><em>This year's e-waste to outweigh Great Wall of China<\/em><\/span><\/a><em>.” World Economic Forum. 18 October 2021.<\/em><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
         "use_alt_bg": true
       }
     },
@@ -92,85 +111,43 @@
         "full_width": true
       }
     },
-    "1651266332e8454b0d": {
-      "type": "rich-text",
-      "blocks": {
-        "1651266332e6feb2da-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Sustainability Is A Journey, Not A Destination",
-            "use_h1": false
-          }
-        },
-        "1651266332e6feb2da-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sustainability aims to minimize an individual's impact on the environment rather than eliminating it entirely. That's why we say we're all on a Root (Route) 2 Renew, as it's not about the destination, rather the actions we take, what we learn and change along the way. <\/p><p><\/p><p>Sustainability does not happen overnight with zero-waste lifestyles or full eco-consciousness, but rather with a step to reduce waste. <\/p><p><\/p><p>The journey toward sustainable development grows as you progress. Rather than focusing on what you can do or should do, it's about what you can accomplish.<\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "1651266332e6feb2da-0",
-        "1651266332e6feb2da-1"
-      ],
+    "1652129272fb978fa9": {
+      "type": "image-with-text",
       "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
+        "image_width": 700,
+        "subheading": "",
+        "title": "Give A New Route To Electronic Waste",
+        "use_h1": false,
+        "text": "<p>By eliminating the blockages our outdated technology provides, we can further improve advancements in technology. With the help of HomeBoy Industries, EcoBlvd is repurposing old technology into new opportunities, not just for our planet but for people as well! HomeBoy Industries is one of the few Responsible Recycling certified companies in the world and a certified B Corporation, but beyond that, they provide employment and training to individuals experiencing barriers to employment. <\/p><p>Together, we can prevent millions of pounds of electronic waste from jamming up our planet! <\/p>",
+        "button_label": "Learn More about Homeboy Industries",
+        "button_link": "https:\/\/homeboyrecycling.com\/",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
         "use_alt_bg": false
       }
     },
-    "16512664212c8c8d6b": {
+    "16521294187891a606": {
       "type": "rich-text",
       "blocks": {
-        "1651266421c49cb4b9-0": {
+        "165212941874ea7b2d-0": {
           "type": "heading",
           "settings": {
-            "title": "Each Obstacle Enables Us To Move Forward",
+            "title": "Growing Our Circle",
             "use_h1": false
           }
         },
-        "1651266421c49cb4b9-1": {
+        "165212941874ea7b2d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It’s important to remember that the burden is not on us alone but collectively. By working together and sharing our sustainability journey, we can create a larger impact. Sustainability is about progress not perfection.<\/p>",
+            "text": "<p>EcoBlvd strives for a circular economy where all products can be repurposed or reused rather than discarded, which is why we include a free pre-paid shipping label with every purchase. To take responsibility for the crisis, even if it's not our product, we make it easy to return your old chargers, phone cases, or cables, so they can be properly recycled or composted into even better products.<br\/><br\/>Together, we will prevent millions of pounds of valuable and renewable resources from decomposing in landfills, and that's just the beginning!<\/p>",
             "enlarge_text": true
           }
         }
       },
       "block_order": [
-        "1651266421c49cb4b9-0",
-        "1651266421c49cb4b9-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": true
-      }
-    },
-    "165126648959e5b3cf": {
-      "type": "rich-text",
-      "blocks": {
-        "16512664895f7aaf40-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Let’s Branch Out On The #Root2Renew",
-            "use_h1": false
-          }
-        },
-        "16512664895f7aaf40-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Participating in the #Root2Renew will motivate people to conserve Earth's resources and reduce the impact of human and environmental interactions.<\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "16512664895f7aaf40-0",
-        "16512664895f7aaf40-1"
+        "165212941874ea7b2d-0",
+        "165212941874ea7b2d-1"
       ],
       "settings": {
         "height": "medium",
@@ -179,42 +156,144 @@
         "use_alt_bg": false
       }
     },
-    "1651266536aafb4f5e": {
-      "type": "image-with-text-overlay",
+    "1652129532598301e1": {
+      "type": "multi-column",
+      "blocks": {
+        "165212953203e96ca6-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 350,
+            "title": "",
+            "text": "<p>1. You can send us back your old case, charger, or charging cable in the same packaging you received your new one in to offset waste.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "165212953203e96ca6-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "<p>2. Put your old case in the package, attach the prepaid shipping label, and send it off.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "165212953203e96ca6-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "<p>3. Through our use of TerraCycle's Zero Waste Box program, any plastic will be properly disposed of and other materials will be broken down to be reused again. Once you are done using your EcoBlvd Case, you can return it to us, and we will compost and repurpose it! All electronic waste received - including EcoBlvd chargers and charging cables - is recycled by HomeBoy Industries so that your old electronics or gadgets are properly disposed of and that recyclable materials are repurposed in the most eco-conscious manner.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "eb592456-3184-4ce8-ab1b-131f663fa30b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 570,
+            "title": "",
+            "text": "<p>4. Once we receive your items, we will issue a 25% off coupon for a future EcoBlvd purchase.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165212953203e96ca6-0",
+        "165212953203e96ca6-1",
+        "165212953203e96ca6-2",
+        "eb592456-3184-4ce8-ab1b-131f663fa30b"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/three-people-hold-hands-with-their-arms-to-the-sky.jpg",
-        "image_position": "center center",
-        "mobile_image_position": "center center",
-        "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 400,
-        "image_link": "",
-        "subheading": "Want to Join the Movement as an",
-        "title": "Affiliate or Content Creator?",
-        "title_size": 84,
-        "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "",
-        "enlarge_text": true,
-        "button_label_1": "Get Started",
-        "button_url_1": "shopify:\/\/pages\/brand-ambassador",
-        "button_label_2": "",
-        "button_url_2": "",
-        "text_alignment": "center center",
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "box"
+        "title": "4 Steps To A Full Revolution",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "16521298115ab655d0": {
+      "type": "rich-text",
+      "blocks": {
+        "165212981199eef7c6-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "165212981199eef7c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to compost your EcoBlvd case at home?<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "e6c88176-ff01-4a09-86f4-72c63c60062e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "165212981199eef7c6-0",
+        "165212981199eef7c6-1",
+        "e6c88176-ff01-4a09-86f4-72c63c60062e"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16521298744572cd71": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1652129874bc679338-0": {
+          "type": "question",
+          "settings": {
+            "title": "Cases",
+            "answer": "<p>If it protects an electronic device, such as a phone, tablet, AirPods, etc, we will accept the case. It doesn't matter who makes it, we will take care of recycling it!<\/p>"
+          }
+        },
+        "1652129874bc679338-1": {
+          "type": "question",
+          "settings": {
+            "title": "Chargers",
+            "answer": "<p>If it powers an electronic device, we will accept it! From wall, car and travel adapters to cables - send it our way so we can properly dispose of it!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652129874bc679338-0",
+        "1652129874bc679338-1"
+      ],
+      "settings": {
+        "title": "What Items are Accepted for the Roundabout Recycling Program?"
       }
     }
   },
   "order": [
     "1651083175d3dae5ac",
-    "165126616164841dfa",
-    "16510835927f249308",
+    "1652129036e17ad209",
+    "1652128983d18633d3",
+    "1652129073ea5843c1",
+    "1652129184c1adbe74",
     "main",
-    "1651266332e8454b0d",
-    "16512664212c8c8d6b",
-    "165126648959e5b3cf",
-    "1651266536aafb4f5e"
+    "1652129272fb978fa9",
+    "16521294187891a606",
+    "1652129532598301e1",
+    "16521298115ab655d0",
+    "16521298744572cd71"
   ]
 }
