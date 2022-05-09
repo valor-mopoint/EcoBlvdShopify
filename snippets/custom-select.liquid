@@ -67,9 +67,18 @@
                     assign cpmodellist = cpcpmodellist | concat: pmodellist | uniq
                 endfor
             endif
-            assign selectmodel = product.options_by_name['Model'].selected_value | split: ''
-            for cpmodel in cpmodellist
-            	assign cpdevice = cpmodel | split: '-'
+            assign selectmodelsplit = selected_value | split: '-'
+            assign selectmodelsplitsize = selectmodelsplit | size
+            if selectmodelsplitsize>1
+            	assign selectdevice = selectmodelsplit[0]
+            endif
+            for cpmodelitem in cpmodellist
+            	assign splitmodel = cpmodelitem | split: '-'
+                assign splitmodelsize = splitmodel | size
+                if splitmodelsize>1
+                	assign cpdevice = splitmodel[0]
+                	assign cpmodel = selected_value | replace: cpdevice + '-', ''
+                endif
             endfor
       	-%}
       	
