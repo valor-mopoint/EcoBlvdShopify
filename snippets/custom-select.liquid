@@ -88,6 +88,7 @@
   {% endif %}
 
 {%- endif -%}
+{{ id }}
 <div class="cc-select{% if label_inside %} cc-select--label-inside{% endif %} no-js-hidden" id="{{ id }}">
   {%- if label and label_inside -%}{{ label_html }}{%- endif -%}
   <button class="cc-select__btn" type="button"
