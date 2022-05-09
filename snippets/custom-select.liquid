@@ -55,10 +55,21 @@
   {% if label == "Model"  %}
 
 	<div> test  
-      	{% assign selectcolor = product.options_by_name['Color'].selected_value %}
-      	{% assign cproduct = collection.products %}
-      	{{ cproduct | size }}
-      	{{ cproduct[0].options_by_name['Model'].values }}
+      	{%-liquid 
+        	assign selectcolor = product.options_by_name['Color'].selected_value 
+            assign cproduct = collection.products 
+            assign cpsize = cproduct | size 
+            if cpsize>0
+            	assign cpmodellist = cproduct[0].options_by_name['Model'].values
+                for pro in cproduct
+                	assign cpcpmodellist = cpmodellist
+                	assign pmodellist = pro.options_by_name['Model'].values
+                    assign cpmodellist = cpcpmodellist | concat: pmodellist | uniq
+                endfor
+            endif
+      	-%}
+      	
+      	{% assign defaultmodel = cproduct[0].options_by_name['Model'].values %}
 		{% for cp in cproduct %}
       		{{ cp.options_by_name['Model'].values[0] }}
       		{{ cp.id }}
