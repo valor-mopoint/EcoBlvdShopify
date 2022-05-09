@@ -55,7 +55,7 @@
   {% if label == "Device"  %}
 
 	<div> test  
-      
+      	{{ selected_name }}
       	{% assign cproduct = collection.products | where: "options_by_name['Color'].values", selected_name %}
       
 		{% for cp in cproduct %}
