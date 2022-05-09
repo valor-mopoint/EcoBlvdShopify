@@ -55,7 +55,8 @@
   {% if label == "Model"  %}
 
 	<div> test  
-      	{{ selected_name }}
+      	{% assign selectcolor = product.options_by_name['Color'].selected_value %}
+      	{{ selectcolor }}
       
       	{% comment %}
       	{% assign cproduct = collection.products | where: "options_by_name['Color'].values", selected_name %}
