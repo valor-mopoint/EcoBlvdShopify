@@ -70,10 +70,6 @@
       	-%}
       	
       	{{ cpmodellist }}
-		{% for cp in cproduct %}
-      		{{ cp.options_by_name['Model'].values[0] }}
-      		{{ cp.id }}
-      	{% endfor %}
 	</div>
 
   {% endif %}
