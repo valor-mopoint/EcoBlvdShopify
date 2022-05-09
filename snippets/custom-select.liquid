@@ -77,7 +77,7 @@
                 assign splitmodelsize = splitmodel | size
                 if splitmodelsize>1
                 	assign cpdevice = splitmodel[0]
-                	assign cpmodel = selected_value | replace: cpdevice'-', ''
+                	assign cpmodel = selected_value | replace: cpdevice, '' | replace: '-', ''
                 endif
             endfor
       	-%}
