@@ -59,7 +59,7 @@
       	{% assign cproduct = collection.products %}
       	{{ cproduct | size }}
 		{% for cp in cproduct %}
-      		{{ cp.options_by_name['Model'].values | size }}
+      		{{ cp.options_by_name['Model'].values[0] }}
       		{{ cp.id }}
       	{% endfor %}
 	</div>
