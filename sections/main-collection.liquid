@@ -373,11 +373,11 @@ position: relative;
 $(function(){
 $('.data-yc').hide();
 $(".data-iocn-dj-xs").click(function(){
-		$('.data-yc').show();
+		$('.data-yc').slideDown();
 		this.classList.remove("data-iocn-dj-xs");
 })
 $(".data-iocn-dj-yc").click(function(){
-		$('.data-yc').hide();
+		$('.data-yc').slideUp();
 		document.getElementById('data-iocn-xs').classList.add('data-iocn-dj-xs');
 })
 })
