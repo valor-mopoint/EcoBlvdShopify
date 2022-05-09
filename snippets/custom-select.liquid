@@ -60,7 +60,7 @@
       	{{ cproduct | size }}
 		{% for cp in cproduct %}
       		{{ cp.options_by_name['Model'].values }}
-      		{{ cp.options_by_name['Color'].values }}
+      		{{ cp.id }}
       	{% endfor %}
 	</div>
 
