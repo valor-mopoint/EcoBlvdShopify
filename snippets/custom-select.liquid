@@ -56,15 +56,11 @@
 
 	<div> test  
       	{% assign selectcolor = product.options_by_name['Color'].selected_value %}
-      	{{ selectcolor }}
-      
-      	{% comment %}
-      	{% assign cproduct = collection.products | where: "options_by_name['Color'].values", selected_name %}
+      	{% assign cproduct = collection.products | where: "options_by_name['Color'].values", selectcolor %}
       
 		{% for cp in cproduct %}
       		{{ cp.options_by_name['Model'].values }}
       	{% endfor %}
-      	{% endcomment %}
 	</div>
 
   {% endif %}
