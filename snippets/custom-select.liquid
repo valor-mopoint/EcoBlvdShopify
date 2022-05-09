@@ -69,7 +69,7 @@
             endif
       	-%}
       	
-      	{% assign defaultmodel = cproduct[0].options_by_name['Model'].values %}
+      	{{ cpmodellist }}
 		{% for cp in cproduct %}
       		{{ cp.options_by_name['Model'].values[0] }}
       		{{ cp.id }}
