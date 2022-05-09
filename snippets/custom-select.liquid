@@ -67,9 +67,13 @@
                     assign cpmodellist = cpcpmodellist | concat: pmodellist | uniq
                 endfor
             endif
+            assign selectmodel = product.options_by_name['Model'].selected_value | split: ''
+            for cpmodel in cpmodellist
+            	assign cpdevice = cpmodel | split: '-'
+            endfor
       	-%}
       	
-      	{{ cpmodellist }}
+      	{{ selectmodel }}
 	</div>
 
   {% endif %}
