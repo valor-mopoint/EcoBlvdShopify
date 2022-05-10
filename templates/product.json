@@ -58,7 +58,6 @@
         },
         "4ca3da20-2084-4568-9fce-76291c9f68f0": {
           "type": "characteristic",
-          "disabled": true,
           "settings": {
             "show_in_tab": true,
             "open_tab": false,
