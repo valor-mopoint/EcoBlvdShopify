@@ -229,7 +229,7 @@
                 {% if block.settings.show_in_tab %}
                   {%- capture accordion_title -%}
                     {%- if block.settings.icon == blank -%}
-                      
+                      {{- 'products.product.description'|spilt:'<!--split-->'| first | t -}}
                     {%- else -%}
                       <div class="with-icon">
                         {% render 'icon', icon: block.settings.icon, size: 'small' %}
@@ -241,7 +241,7 @@
                 {% else %}
                   <div class="product-description rte cf">
                     {%- if block.settings.icon == blank -%}
-                      {{- product.description|spilt:'<!--split-->'| first -}}
+                      {{- product.description -}}
                     {%- else -%}
                       <div class="with-icon">
                         {% render 'icon', icon: block.settings.icon, size: 'small' %}
