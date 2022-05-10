@@ -51,13 +51,14 @@
           "type": "description",
           "settings": {
             "show_in_tab": true,
-            "open_tab": false,
+            "open_tab": true,
             "icon": "",
             "show_in_quickbuy": false
           }
         },
         "4ca3da20-2084-4568-9fce-76291c9f68f0": {
           "type": "characteristic",
+          "disabled": true,
           "settings": {
             "show_in_tab": true,
             "open_tab": false,
