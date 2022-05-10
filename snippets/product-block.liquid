@@ -135,7 +135,7 @@
                   <span class="product-price__item price-label price-label--sale">{{ 'products.labels.sale' | t }}</span>
                 {% endif %}
               </div>
-			  <div class="product-block__title">{{ product.options.size }}</div>
+			  <div class="product-block__title">{{ product.options.values.size }}</div>
               {% render 'unit-price', variant: cheapest_variant %}
             </a>
 
