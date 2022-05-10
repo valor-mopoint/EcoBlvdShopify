@@ -55,6 +55,15 @@
             "icon": "",
             "show_in_quickbuy": false
           }
+        },
+        "4ca3da20-2084-4568-9fce-76291c9f68f0": {
+          "type": "characteristic",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
         }
       },
       "block_order": [
@@ -64,7 +73,8 @@
         "divider",
         "variant_picker",
         "buy_buttons",
-        "description"
+        "description",
+        "4ca3da20-2084-4568-9fce-76291c9f68f0"
       ],
       "settings": {
         "show_breadcrumbs": true,
