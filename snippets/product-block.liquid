@@ -105,7 +105,6 @@
               {%- if section.settings.show_vendor -%}
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
-              <div class="product-block__model">{{ {{ collection.title | escape }} }}</div>
               <div class="product-block__title">{{ product.title }}</div>
 
               {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
