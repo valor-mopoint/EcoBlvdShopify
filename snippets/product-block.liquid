@@ -105,7 +105,7 @@
               {%- if section.settings.show_vendor -%}
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
-              <div class="product-block__model">{{ collection.title | escape }}</div>
+              <div class="product-block__model">{{ collection.title }}</div>
               <div class="product-block__title">{{ product.title }}</div>
 
               {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
@@ -135,7 +135,7 @@
                   <span class="product-price__item price-label price-label--sale">{{ 'products.labels.sale' | t }}</span>
                 {% endif %}
               </div>
-			  <div class="product-block__title">{{ option.values.size }}</div>
+			  <div class="product-block__title">{{ option.values }}</div>
               {% render 'unit-price', variant: cheapest_variant %}
             </a>
 
