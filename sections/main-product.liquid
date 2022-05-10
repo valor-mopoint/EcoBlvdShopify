@@ -251,6 +251,34 @@
                   </div>
                 {% endif %}
               </div>
+        
+        	 {% when 'characteristic' %}
+              <div class="{% unless block.settings.show_in_quickbuy %}not-in-quickbuy{% endunless %}{% if block.settings.show_in_tab %} product-detail-accordion{% endif %}" {{ block.shopify_attributes }}>
+                {% if block.settings.show_in_tab %}
+                  {%- capture accordion_title -%}
+                    {%- if block.settings.icon == blank -%}
+                      {{- 'products.product.description' | t -}}
+                    {%- else -%}
+                      <div class="with-icon">
+                        {% render 'icon', icon: block.settings.icon, size: 'small' %}
+                        <span class="with-icon__beside">{{ 'products.product.description' | t }}</span>
+                      </div>
+                    {%- endif -%}
+                  {%- endcapture -%}
+                  {% render 'accordion', allow_multi_open: true, add_content_class: 'rte cf', first_item_open: block.settings.open_tab, item1_title: accordion_title, item1_content: product.description %}
+                {% else %}
+                  <div class="product-description rte cf">
+                    {%- if block.settings.icon == blank -%}
+                      {{- product.description -}}
+                    {%- else -%}
+                      <div class="with-icon">
+                        {% render 'icon', icon: block.settings.icon, size: 'small' %}
+                        <span class="with-icon__beside">{{ product.description }}</span>
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {% endif %}
+              </div>
 
             {% when 'vendor' %}
               {%- liquid
@@ -425,6 +453,7 @@
                   {% render 'accordion', allow_multi_open: true, add_content_class: 'rte cf', first_item_open: block.settings.open, item1_title: accordion_title, item1_content: content %}
                 </div>
               {%- endif -%}
+        
 
             {% when 'text' %}
               {% if block.settings.text != blank %}
