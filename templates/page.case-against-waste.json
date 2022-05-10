@@ -40,14 +40,14 @@
         "1651698509fc932c40-0": {
           "type": "heading",
           "settings": {
-            "title": "Biodegradable or Compostable Cases: What’s the Difference?",
+            "title": "Biodegradable vs Compostable: What’s the Difference?",
             "use_h1": true
           }
         },
         "1651698509fc932c40-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Most plastic phone cases are biodegradable.<\/strong> <br\/>Biodegradable refers to materials broken down by microbes and microorganisms. Many consider these materials sustainable, but they can leave toxic residues in their wake since they do not have a specific breakdown date. <\/p><p><strong>Sustainable and eco-friendly phone cases can be composted.<\/strong> <br\/>A compostable material can decompose into CO2, water, and biomass, such as cellulose. During composting, compostables disintegrate, becoming indistinguishable, and leaving no toxic residue behind.<\/p>",
+            "text": "<p><strong>Most plastic phone cases are biodegradable.<\/strong> <br\/>Biodegradable refers to materials broken down by microbes and microorganisms. Many consider these materials sustainable, but they can leave toxic residues in their wake since they do not have a specific breakdown date. <\/p><p><strong>Sustainable and eco-friendly phone cases can be composted.<\/strong> <br\/>A compostable material can decompose into CO2, water, and biomass, such as cellulose. During composting, the materials disintegrate, becoming indistinguishable, and leaving no toxic residue behind.<\/p>",
             "enlarge_text": true
           }
         }
@@ -70,7 +70,7 @@
         "subheading": "",
         "title": "The Lifecycle of Plastics",
         "use_h1": false,
-        "text": "<p>Despite being made of biodegradable materials, such as rubber and silicone, most phone cases sit in landfills for hundreds of years, even up to 500, before they degrade. Sadly, discarded phone cases can also end up in natural environments such as rivers, oceans, and forests, contributing to the destruction of precious ecosystems.<strong> <\/strong><\/p><p>Every minute, one truckload of plastic enters the ocean, including countless cell phone cases.Yet more than a billion plastic phone cases are sold around the world each year.<\/p>",
+        "text": "<p>Despite being made of biodegradable materials, such as rubber and silicone, most phone cases sit in landfills for hundreds of years, even up to 500, before they degrade. Sadly, discarded phone cases can also end up in natural environments such as rivers, oceans, and forests, contributing to the destruction of precious ecosystems.<strong> <\/strong><\/p><p>Every minute, one truckload of plastic enters the ocean, including countless cell phone cases. Yet more than a billion plastic phone cases are sold around the world each year.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
