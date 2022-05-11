@@ -18,7 +18,7 @@
 <div data-product-id="{{ product.id }}" class="product-block" {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
     <div class="block-inner-inner">
-      {% if product.featured_media %}
+      {% if variant.featured_media %}
         {%- liquid
           assign aspect_ratios_same = true
           for media in product.media offset: 1
