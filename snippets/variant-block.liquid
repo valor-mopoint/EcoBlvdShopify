@@ -109,7 +109,7 @@
               <div class="product-block__model">{{ collection.title }}</div>
               <div class="product-block__title">{{ product.title }}</div>
               <div class="product-block__color">{% for option in variant.options %}
-   {{option | split: ' ' }}
+   {{option}}
 {% endfor %}</div>
 			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
 
