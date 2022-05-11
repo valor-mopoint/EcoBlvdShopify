@@ -296,9 +296,7 @@
             {% for product in collection.products %}
              {% comment %} {% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %} {% endcomment %}
             	{% for variant in product.variants  %}
-            		<div>
-            			{{ variant.url }}
-            		</div>
+            		{% render 'variant-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %}
             	{% endfor %}
             {% endfor %}
           </div>
