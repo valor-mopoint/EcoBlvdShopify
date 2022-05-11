@@ -22,7 +22,7 @@
         {%- liquid
           assign aspect_ratios_same = true
           for media in variant.media offset: 1
-            if media.preview_image.aspect_ratio != product.media.first.preview_image.aspect_ratio
+            if media.preview_image.aspect_ratio != variant.media.first.preview_image.aspect_ratio
               assign aspect_ratios_same = false
               break
             endif
