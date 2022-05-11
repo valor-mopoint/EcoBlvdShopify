@@ -214,12 +214,13 @@
           </a>
         {% endif %}
       </div>
-
+		{% comment %}
       {% if section.settings.show_total and paginate.items > 0 %}
         <div class="utility-bar__centre">
           <div class="utility-bar__item">{{ 'collections.general.product_count' | t: count: paginate.items }}</div>
         </div>
       {% endif %}
+      {% endcomment %}
 
       <div class="utility-bar__right">
         {% if section.settings.coll_show_sort %}
