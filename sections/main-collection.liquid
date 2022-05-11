@@ -294,7 +294,7 @@
               endif
             -%}
             {% for product in collection.products %}
-              <!--{% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %}-->
+              {% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %}
             	{% for variant in product.variants  %}
             		{% render 'variant-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %}
             	{% endfor %}
