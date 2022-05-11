@@ -91,16 +91,7 @@
                         value="{{ value | escape }}"
                         {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                         required>
-                  <!--<label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{ value }}</span></label>-->
-                {%- if downcase_value == 'multicolor' -%}
-			<label for="option-{{ section.id }}-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}" class="ColorSwatch ColorSwatch--large data-tooltip="{{ value | escape }}" style="background-image: url(https://s3-us-west-2.amazonaws.com/image.chic-fusion.com/shopify/multicolor.png)">
-    			<span class="u-visually-hidden">{{ value }}</span>
-			</label>
-			{%- else -%}
-<label for="option-{{ section.id }}-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}" class="ColorSwatch ColorSwatch--large {% if downcase_value == 'white' %}ColorSwatch--white{% endif %}" data-tooltip="{{ value | escape }}" style="background-color: {{ value | replace: ' ', '' | downcase }}; {% if downcase_value == 'winered' %}background-color:#722326;{% endif %}{% if color_swatch_image != blank %}background-image: url({{ color_swatch_image | img_url: '64x64' }}){% endif %}">
-    <span class="u-visually-hidden">{{ value }}</span>
-</label>
-{%- endif -%}
+                  <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{ value }}</span></label>
                 {%- endfor -%}
               </div>
             </fieldset>
