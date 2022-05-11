@@ -1,8 +1,8 @@
 {%- liquid
   if collection
-    assign product_url = variant.url | within: collection
+    assign product_url = product.url | within: collection
   else
-    assign product_url = variant.url
+    assign product_url = product.url
   endif
 
   assign product_images = product.media | where: 'media_type', 'image'
@@ -18,7 +18,7 @@
 <div data-product-id="{{ product.id }}" class="product-block" {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
     <div class="block-inner-inner">
-      {% if variant.featured_media %}
+      {% if product.featured_media %}
         {%- liquid
           assign aspect_ratios_same = true
           for media in product.media offset: 1
@@ -107,16 +107,16 @@
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
               <div class="product-block__model">{{ collection.title }}</div>
-              <div class="product-block__title">{{ variant.title }}</div>
+              <div class="product-block__title">{{ product.title }}</div>
               <div class="product-block__color"></div>
-			  <div class="product-block__color-size">{{ variant.options_by_name['Color'].values.size }} Colors</div>
+			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
 
-              {%- if settings.prod_thumb_show_subtitle and variant.metafields.descriptors.subtitle != blank -%}
-                <div class="product-block__subtitle">{{ variant.metafields.descriptors.subtitle }}</div>
+              {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
+                <div class="product-block__subtitle">{{ product.metafields.descriptors.subtitle }}</div>
               {%- endif -%}
 
               <div class="product-price">
-                {% if variant.price_varies %}
+                {% if product.price_varies %}
                   <span class="product-price__item product-price__from">{{ 'products.listing.from' | t }}</span>
                 {% endif %}
                 <span class="product-price__item product-price__amount {% if cheapest_variant.compare_at_price > cheapest_variant.price %}product-price__amount--on-sale{% endif %} theme-money">
