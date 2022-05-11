@@ -16,6 +16,7 @@
 -%}
 
 <div data-product-id="{{ product.id }}" class="product-block" {% if animate %}data-cc-animate{% endif %}>
+  {{ variant.url }}
   <div class="block-inner">
     <div class="block-inner-inner">
       {% if variant.featured_media %}
