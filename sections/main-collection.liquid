@@ -180,11 +180,7 @@
   {{ subcollection_html }}
   <div class="page-header page-header--with-upper-spacing">
     <div class="container">
-      <h1 class="pagetitle h3-style">{{ collection.title | escape }}</h1>
-
-      {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
-        <div class="rte cf align-center reading-width">{{ collection.description }}</div>
-      {% endif %}
+      <h1 class="pagetitle h3-style">{{ collection.title | escape }}</h1>      
     </div>
   </div>
 {% endif %}
@@ -304,6 +300,9 @@
         {% endif %}
       </div>
     </div>
+    {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
+        <div class="rte cf align-center reading-width">{{ collection.description }}</div>
+      {% endif %}
   </div>
 
   <div class="container pagination-row" data-ajax-container>{% render 'pagination-control', paginate: paginate %}</div>
