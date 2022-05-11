@@ -86,11 +86,13 @@
             <a class="image-page-button image-page-button--next" href="#" aria-label="{{ 'general.accessibility_labels.previous' | t | escape }}" tabindex="-1">{%- render 'svg-chevron-right', stroke_width: 1.3 -%}</a>
           {%- endif -%}
 
+          {%- comment -%}
           {% if settings.quickbuy_style == 'button' %}
             {% unless no_quick_buy %}
               <a class="btn btn--secondary quickbuy-toggle" href="{{ product_url }}">{{ 'products.quick_buy.launch' | t }}</a>
             {% endunless %}
           {% endif %}
+          {%- endcomment -%}
         </div>
       {% else %}
         <div class="image-cont">
