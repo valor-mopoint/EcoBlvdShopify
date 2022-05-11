@@ -107,12 +107,12 @@
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
               <div class="product-block__model">{{ collection.title }}</div>
-              <div class="product-block__title">{{ product.title }}</div>
+              <div class="product-block__title">{{ variant.title }}</div>
               <div class="product-block__color"></div>
-			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
+			  <div class="product-block__color-size">{{ variant.options_by_name['Color'].values.size }} Colors</div>
 
               {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
-                <div class="product-block__subtitle">{{ product.metafields.descriptors.subtitle }}</div>
+                <div class="product-block__subtitle">{{ variant.metafields.descriptors.subtitle }}</div>
               {%- endif -%}
 
               <div class="product-price">
