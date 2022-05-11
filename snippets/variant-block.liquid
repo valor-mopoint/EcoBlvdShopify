@@ -111,7 +111,7 @@
               <div class="product-block__color"></div>
 			  <div class="product-block__color-size">{{ variant.options_by_name['Color'].values.size }} Colors</div>
 
-              {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
+              {%- if settings.prod_thumb_show_subtitle and variant.metafields.descriptors.subtitle != blank -%}
                 <div class="product-block__subtitle">{{ variant.metafields.descriptors.subtitle }}</div>
               {%- endif -%}
 
