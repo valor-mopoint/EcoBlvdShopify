@@ -1,8 +1,8 @@
 {%- liquid
   if collection
-    assign product_url = product.url | within: collection
+    assign product_url = variant.url | within: collection
   else
-    assign product_url = product.url
+    assign product_url = variant.url
   endif
 
   assign product_images = product.media | where: 'media_type', 'image'
