@@ -263,6 +263,67 @@
         "show_vendor": false,
         "grid": 4
       }
+    },
+    "16523206429c3b14dd": {
+      "type": "multi-columns",
+      "blocks": {
+        "1652320642315e774f-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652320642315e774f-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652320642315e774f-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652320642315e774f-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652320642315e774f-0",
+        "1652320642315e774f-1",
+        "1652320642315e774f-2",
+        "1652320642315e774f-3"
+      ],
+      "settings": {
+        "title": "Multi-column",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -272,6 +333,7 @@
     "165231897492731620",
     "1652319180428cef1c",
     "1652319454d4c9b7d8",
-    "recommendations"
+    "recommendations",
+    "16523206429c3b14dd"
   ]
 }
