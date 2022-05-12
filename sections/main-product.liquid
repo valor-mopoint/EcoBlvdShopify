@@ -727,8 +727,8 @@
 
 {% comment %} Create the swatch and select logic {% endcomment %}
 <div class="options">
-  {% for option in product.variants %}
-    <h5>{{option.option1}}</h5>
+  {% for option in product.options_with_values %}
+    <h5>{{option}}</h5>
     {% comment %} We check if it's color or not {% endcomment %}
     {% if option.name == 'Color' %}
       <ul>
