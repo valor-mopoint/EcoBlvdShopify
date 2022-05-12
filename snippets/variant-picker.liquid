@@ -84,7 +84,6 @@
               </div>
               <div class="option-selector__btns">
                 {%- for value in option.values -%}
-                {{ value | escape }}
                   <input class="opt-btn js-option"
                         type="radio"
                         name="{{ option_id }}"
