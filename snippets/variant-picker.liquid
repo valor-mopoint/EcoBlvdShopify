@@ -95,12 +95,14 @@
                   <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{ value }}</span></label>
                 {% endif %}
                 {% if option.name=='Model' %}
+                {%- for value in option.values -%}
                 <select class="opt-label">
-          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
+          			<option value="{{value}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
                 </select>
                 <select class="opt-label">
           			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | last}}</option>
                 </select>
+                {% endfor %}
                 {% endif %}
                 {%- endfor -%}
               </div>
