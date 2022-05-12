@@ -89,6 +89,112 @@
         "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
+    "1652319035fee7637d": {
+      "type": "rich-text",
+      "blocks": {
+        "1652319035eef7bf96-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1652319035eef7bf96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652319035eef7bf96-0",
+        "1652319035eef7bf96-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1652318796c52aa7de": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165231897492731620": {
+      "type": "rich-text",
+      "blocks": {
+        "1652318974160ea08b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1652318974160ea08b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652318974160ea08b-0",
+        "1652318974160ea08b-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1652319180428cef1c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": false,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -100,6 +206,10 @@
   },
   "order": [
     "main",
+    "1652319035fee7637d",
+    "1652318796c52aa7de",
+    "165231897492731620",
+    "1652319180428cef1c",
     "recommendations"
   ]
 }
