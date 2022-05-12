@@ -95,10 +95,14 @@
                   <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{ value }}</span></label>
                 {% else %}
                 <select class="opt-label">
-          			<option value="{{value}}" data-option="{{option.position}}">{{value | split:'-' | first}}</option>
+          			<option value="{{value}}" data-option="{{option.position}}"
+                            {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}>
+                      {{value | split:'-' | first}}</option>
                 </select>
                 <select class="opt-label">
-          			<option value="{{value}}" data-option="{{option.position}}">{{value | split:'-' | last}}</option>
+          			<option value="{{value}}" data-option="{{option.position}}"
+                            {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}>
+                      {{value | split:'-' | last}}</option>
                 </select>
                 {% endif %}
                 {%- endfor -%}
