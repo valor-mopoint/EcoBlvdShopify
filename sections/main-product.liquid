@@ -730,7 +730,7 @@
   {% for option in product.options_with_values %}
     <h5>{{option.name}}</h5>
     {% comment %} We check if it's color or not {% endcomment %}
-    {% if option.name == 'Color' %}
+    {% if option.name == 'Model' %}
       <ul>
         {% for value in optioin.values %}
           <li>
