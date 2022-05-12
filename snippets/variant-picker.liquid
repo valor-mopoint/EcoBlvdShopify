@@ -96,6 +96,7 @@
                 {% endif %}
                 {% if option.name=='Model' %}
                 {% for variant in product.variants  %}
+                {{variant.option2}}
                 <select class="opt-label">
           			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
                 </select>
