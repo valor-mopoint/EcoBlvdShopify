@@ -106,7 +106,7 @@
               {%- if section.settings.show_vendor -%}
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
-              <div class="product-block__model">{{ variant.option2 }}</div>
+              <div class="product-block__model">{{ variant.option2 | split:'-'}}</div>
               <div class="product-block__title">{{ product.title }}</div>
               <div class="product-block__color">{{variant.option1}}</div>
 			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
