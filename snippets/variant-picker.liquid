@@ -96,12 +96,10 @@
                 {% endif %}
                 {% if option.name=='Model' %}
                 <select class="opt-label">
-          			<option value="{{variant.option2}}" data-option="{{variant.option2}}" {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
-                        required>{{value | split:'-' | first}}</option>
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
                 </select>
                 <select class="opt-label">
-          			<option value="{{variant.option2}}" data-option="{{variant.option2}}" {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
-                        required>{{value | split:'-' | last}}</option>
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | last}}</option>
                 </select>
                 {% endif %}
                 {%- endfor -%}
