@@ -273,7 +273,7 @@
             "enable_image": true,
             "image_width": 700,
             "title": "",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text": "",
             "button_label": "",
             "link": ""
           }
@@ -283,8 +283,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "",
+            "text": "",
             "button_label": "",
             "link": ""
           }
@@ -294,8 +294,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "",
+            "text": "",
             "button_label": "",
             "link": ""
           }
@@ -305,8 +305,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "",
+            "text": "",
             "button_label": "",
             "link": ""
           }
@@ -319,7 +319,7 @@
         "1652320642315e774f-3"
       ],
       "settings": {
-        "title": "Multi-column",
+        "title": "",
         "text_alignment": "center",
         "button_style": "primary",
         "use_alt_bg": false
