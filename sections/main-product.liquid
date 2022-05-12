@@ -713,7 +713,41 @@
 
           {% endcase %}
         {% endfor %}
+		{% comment %} This is the main select we will submit behind the scene {% endcomment %}
+<select class="main-select" name="id" style="display: none;">
+  {% for variant in product.variants %}
+    <option 
+      value="{{variant.id}}"
+      data-option-1="{{variant.option1}}"
+      data-option-2="{{variant.option2}}"
+      data-option-3="{{variant.option3}}"
+    >{{ variant.title }}</option>
+  {% endfor %}
+</select><!-- /# -->
 
+{% comment %} Create the swatch and select logic {% endcomment %}
+<div class="options">
+  {% for option in product.options_with_values %}
+    <h5>{{option.name}}</h5>
+    {% comment %} We check if it's color or not {% endcomment %}
+    {% if option.name == 'Color' %}
+      <ul>
+        {% for value in optioin.values %}
+          <li>
+            <input type="radio" id="radio-{{option.name | handle}}-{{value | handle}}" name="radio-{{option.name | handle}}" value="{{value}}" data-option="{{option.position}}">
+            <label for="radio-{{option.name | handle}}-{{value | handle}}">{{value}}</label>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <select>
+        {% for value in option.values %}
+          <option value="{{value}}" data-option="{{option.position}}">{{value}}</option>
+        {% endfor %}
+      </select><!-- /# -->
+    {% endif %}
+  {% endfor %}
+</div><!-- /.options -->
         <div class="lightly-spaced-row-above only-in-quickbuy">
           <a class="more" href="{{ product.url }}">
             <span class="beside-svg underline">{{ 'products.quick_buy.read_more' | t }}</span>
@@ -734,7 +768,20 @@
 </div>
 
 {% render 'structured-data-product', product: product, current_variant: product.selected_or_first_available_variant %}
-
+<script>
+$('.options').find('select, input[type="radio"]').on('change', function(){
+  let target = '';
+  $('.options').find('select option:selected, input[type="radio"]:checked').each(function(){
+    const $this = $(this);
+    const dataPosition = $this.data('option');
+    const thisValue = $this.val();
+    target += `[data-option-${dataPosition}="${thisValue}"]`
+  })
+  if($(target).length === 1){
+    $('.main-select').val($(target).val());
+  }
+})
+</script>
 
 {% schema %}
   {
