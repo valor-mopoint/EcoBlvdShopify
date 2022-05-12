@@ -96,11 +96,11 @@
                 {% endif %}
                 {% if option.name=='Model' %}
                 {% for variant in product.variants  %}
-                <select>
-          			<option value="{{variant.option2}}" data-option="{{variant.option2}}"><label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value | split:'-' | first}}</span></label></option>
+                <select class="opt-label">
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
                 </select>
-                <select>
-          			<option value="{{variant.option2}}" data-option="{{variant.option2}}"><label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value | split:'-' | last}}</span></label></option>
+                <select class="opt-label">
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | last}}</option>
                 </select>
                 {% endfor %}
                 {% endif %}
