@@ -195,6 +195,67 @@
         "overlay_style": "shadow"
       }
     },
+    "1652319454d4c9b7d8": {
+      "type": "multi-column",
+      "blocks": {
+        "1652319454e9589bca-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652319454e9589bca-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652319454e9589bca-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "41295847-dfb3-4981-9420-63856e8b5895": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652319454e9589bca-0",
+        "1652319454e9589bca-1",
+        "1652319454e9589bca-2",
+        "41295847-dfb3-4981-9420-63856e8b5895"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -210,6 +271,7 @@
     "1652318796c52aa7de",
     "165231897492731620",
     "1652319180428cef1c",
+    "1652319454d4c9b7d8",
     "recommendations"
   ]
 }
