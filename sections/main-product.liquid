@@ -1,7 +1,7 @@
 {% for product in collection.products %}
-{% for variant in product.variants  %}
-{{variant.option1 | split:'|' | last }}
-{% endfor %}
+  {% for variant in product.variants  %}
+  {{variant.option1 | split:'|' | last }}
+  {% endfor %}
 {% endfor %}
 {%- liquid
   assign zoom_size = 'master'
