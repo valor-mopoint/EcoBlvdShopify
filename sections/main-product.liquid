@@ -768,7 +768,7 @@
 </div>
 
 {% render 'structured-data-product', product: product, current_variant: product.selected_or_first_available_variant %}
-<script>
+{% javascript %}
 $('.options').find('select, input[type="radio"]').on('change', function(){
   let target = '';
   $('.options').find('select option:selected, input[type="radio"]:checked').each(function(){
@@ -781,7 +781,7 @@ $('.options').find('select, input[type="radio"]').on('change', function(){
     $('.main-select').val($(target).val());
   }
 })
-</script>
+{% endjavascript %}
 
 {% schema %}
   {
