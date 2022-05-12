@@ -1,8 +1,3 @@
-{% for product in collection.products %}
-  {% for variant in product.variants  %}
-  {{variant.option1 | split:'|' | last }}
-  {% endfor %}
-{% endfor %}
 {%- liquid
   assign zoom_size = 'master'
   assign min_aspect_ratio = 0.6
