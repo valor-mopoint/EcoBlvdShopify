@@ -97,10 +97,10 @@
                 {% if option.name=='Model' %}
                 {% for variant in product.variants  %}
                 <select class="opt-label">
-          			<option value="{{value}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | first}}</option>
                 </select>
                 <select class="opt-label">
-          			<option value="{{value}}" data-option="{{variant.option2}}">{{value | split:'-' | last}}</option>
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}">{{value | split:'-' | last}}</option>
                 </select>
                 {% endfor %}
                 {% endif %}
