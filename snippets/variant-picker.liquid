@@ -96,7 +96,6 @@
                 {% endif %}
                 {% if option.name=='Model' %}
                 {% for variant in product.variants  %}
-                {{variant.option2}}
                 <select>
           			<option value="{{variant.option2}}" data-option="{{variant.option2}}"><label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value | split:'-' | first}}</span></label></option>
                 </select>
