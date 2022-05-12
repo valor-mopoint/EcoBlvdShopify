@@ -11697,6 +11697,13 @@ html.template-password.js #password-login-container {
     width: 30px;
     border-radius: 50%;
   	border: 1px solid transparent;
+  {% for product in collection.products %}
+        {% for variant in product.variants  %}
+  {% if variant.option1=='Midnight Black' %}
+  background-color:#323232;
+  {% endif %}
+  		{%endfor%}
+  {% endfor %}
 	background-color:
 }
 /*************    ---                   ---                   ---   *************/
