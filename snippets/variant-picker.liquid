@@ -84,6 +84,7 @@
               </div>
               <div class="option-selector__btns">
                 {%- for value in option.values -%}
+                {% if option.name=='Color' %}
                   <input class="opt-btn js-option"
                         type="radio"
                         name="{{ option_id }}"
@@ -92,6 +93,18 @@
                         {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                         required>
                   <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{ value }}</span></label>
+                {% endif %}
+                {% if option.name=='Model' %}
+                {% for variant in product.variants  %}
+                {{variant.option2}}
+                <select>
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}"><label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value | split:'-' | first}}</span></label></option>
+                </select>
+                <select>
+          			<option value="{{variant.option2}}" data-option="{{variant.option2}}"><label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value | split:'-' | last}}</span></label></option>
+                </select>
+                {% endfor %}
+                {% endif %}
                 {%- endfor -%}
               </div>
             </fieldset>
