@@ -253,7 +253,7 @@
                 {% endif %}
               </div>
         
-        	{% when 'Features' %}
+        	{% when 'characteristic' %}
               <div class="{% unless block.settings.show_in_quickbuy %}not-in-quickbuy{% endunless %}{% if block.settings.show_in_tab %} product-detail-accordion{% endif %}" {{ block.shopify_attributes }}>
                 {% if block.settings.show_in_tab %}
                   {%- capture accordion_title -%}
@@ -1069,8 +1069,8 @@
         ]
       },
 {
-        "type": "features",
-        "name": "Features",
+        "type": "characteristic",
+        "name": "Characteristic",
         "limit": 1,
         "settings": [
           {
