@@ -378,11 +378,11 @@ $(function(){
 $('.data-yc').hide();
 $(".icon-down").click(function(){
 		$('.data-yc').slideDown();
-		this.classList.remove("data-iocn-dj-xs");
+		this.remove("icon-down");
 })
-$(".data-iocn-dj-yc").click(function(){
+$(".icon-up").click(function(){
 		$('.data-yc').slideUp();
-		document.getElementById('data-iocn-xs').classList.add('data-iocn-dj-xs');
+		document.getElementById('data-iocn-xs').classList.add('icon-down');
 })
 })
 {% endjavascript %}
