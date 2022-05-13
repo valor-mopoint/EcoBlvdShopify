@@ -356,7 +356,7 @@ position: relative;
 .data-iocn-dj-yc{
 position: relative;
 }
-.data-iocn-dj-yc:after{
+.icon-up:after{
 	content: "";
     background-image: url({{"bottom.svg" | asset_url }});
    	background-size: 15px;
@@ -365,12 +365,9 @@ position: relative;
     display: block;
     width: 15px;
     height: 15px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
     transform: rotate(180deg);
-
 }
+
 {%- endstyle -%}
 {% javascript %}
 $(function(){
