@@ -378,7 +378,7 @@ $(function(){
 $('.data-yc').hide();
 $(".icon-down").click(function(){
 		$('.data-yc').slideDown();
-		this.remove("icon-down");
+		document.getElementById('data-iocn-yc').classList.add('data-yc');
 })
 $(".icon-up").click(function(){
 		$('.data-yc').slideUp();
