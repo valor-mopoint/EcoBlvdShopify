@@ -331,8 +331,8 @@ position: relative;
 .clicks p{
 	text-align:left;
 }
-.data-iocn-dj-xs:hover{
-	cursor:pointer;
+.data-iocn-yc{
+	dispaly:none;
 }
 .data-iocn-dj-yc:hover{
 	cursor:pointer;
@@ -377,7 +377,7 @@ position: relative;
 $(function(){
 $('.data-yc').hide();
 $(".icon-down").click(function(){
-		document.getElementById('data-iocn-yc').classList.add('data-yc');
+		document.getElementById('data-iocn-yc').classList.add('.data-iocn-yc');
 		$('.data-yc').slideDown();
 })
 $(".icon-up").click(function(){
