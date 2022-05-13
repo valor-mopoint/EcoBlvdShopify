@@ -191,7 +191,7 @@
         "button_label_2": "",
         "button_url_2": "",
         "text_alignment": "center center",
-        "full_width": false,
+        "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
       }
