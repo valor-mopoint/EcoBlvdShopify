@@ -307,7 +307,8 @@
   <div class="page-header page-header--with-upper-spacing">
     <div class="container">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
-        <div class="rte cf align-center reading-width clicks">{{ collection.description }}</div>
+        <div class="text-cf rte cf align-center reading-width clicks">{{ collection.description }}</div>
+     	<p class="icon-up data-yc">Show More</p>
       {% endif %}
     </div>
   </div>
@@ -319,8 +320,7 @@
 
   {% if collection.description != blank and section.settings.coll_desc_pos == 'below' %}
     <div class="container container--reading-width fully-spaced-row" data-cc-animate>
-      <div class="rte cf text-cf">{{ collection.description }}</div>
-      <p class="icon-up data-yc">Show More</p>
+      <div class="rte cf">{{ collection.description }}</div>
     </div>
   {% endif %}
 </div>
