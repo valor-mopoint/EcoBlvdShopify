@@ -368,7 +368,9 @@ var flag=true;
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf');
 	$(this).toggleClass('up');
-	$(this).innerHTML=(flag=!flag)?'Show More':'Show Less';
+	var text=this.getAttribute('data-text');
+	this.setAttribute('data-text',$(this).innerHTML);
+	$(this).innerHTML=text;	
 })
 })
 {% endjavascript %}
