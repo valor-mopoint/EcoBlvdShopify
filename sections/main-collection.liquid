@@ -358,7 +358,6 @@
 	
 }
 
-
 .icon-down.up:after{
     transform: rotate(180deg);
 }
@@ -368,7 +367,7 @@ $(function(){
 	var flag=true;
 	$(".icon-down").click(function(){
 		$('#toggle').toggleClass('text-cf');
-		$(this.)toggleClass('up');
+		$(this)toggleClass('up');
 		$(this)[0].innerHTML=(!$(this).hasClass('up')?'Show More':'Show Less');
 	})
 })
