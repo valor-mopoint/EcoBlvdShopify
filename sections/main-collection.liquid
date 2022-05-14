@@ -383,7 +383,7 @@ position: relative;
 {% javascript %}
 $(function(){
 $(".icon-down").on('click',function(){
-		$(this).previousSibling().toggleClass('.text-cf');
+		$(this).parentNode.children[1].toggleClass('.text-cf');
 })
 })
 {% endjavascript %}
