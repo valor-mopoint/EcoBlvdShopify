@@ -361,11 +361,26 @@
 	text-align:center !important;
 	cursor:pointer
 }
-.up:after{
+.icon-up:after{
+	content: "";
+    background-image: url({{"bottom.svg" | asset_url }});
+   	background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
     transform: rotate(180deg);
 }
 {%- endstyle -%}
-
+{% javascript %}
+$(function(){
+$(".icon-down").on('click',function(){
+		document.getElementById('toggle').toggleClass('text-cf');
+})
+})
+{% endjavascript %}
 {% schema %}
   {
     "name": "Collection pages",
@@ -785,10 +800,3 @@
     ]
   }
 {% endschema %}
-{% javascript %}
-$(function(){
-$(".icon-down").click(function(){
-	document.getElementById('toggle').toggleClass('text-cf');
-})
-})
-{% endjavascript %}
