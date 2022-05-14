@@ -380,21 +380,13 @@ position: relative;
     transform: rotate(180deg);
 }
 {%- endstyle -%}
-{% comment %}
 {% javascript %}
 $(function(){
-$('.data-yc').hide();
-$(".icon-down").click(function(){
-		$('.data-yc').slideDown();
-		document.getElementById('data-iocn-yc').classList.add('data-iocn-yc');
-})
-$(".icon-up").click(function(){
-		$('.data-yc').slideUp();
-		document.getElementById('data-iocn-yc').classList.remove("data-iocn-yc");
+$(".icon-down").on('click',function(){
+		$(this).previousSibling().toggleClass('.text-cf');
 })
 })
 {% endjavascript %}
-{% endcomment %}
 {% schema %}
   {
     "name": "Collection pages",
