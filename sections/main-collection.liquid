@@ -364,11 +364,16 @@
 {%- endstyle -%}
 {% javascript %}
 $(function(){
-var flag=true;
+$(".icon-down").innerHTML=="Show More";
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf');
 	$(this).toggleClass('up');
-	$(this).innerHTML=(flag=!flag)?'Show More':'Show Less';
+	if($(this).innerHTML=="Show More"){
+		$(this).innerHTML=="Show Less"
+	}else
+	{
+		$(this).innerHTML=="Show More"
+	}
 })
 })
 {% endjavascript %}
