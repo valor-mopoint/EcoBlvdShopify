@@ -361,7 +361,16 @@
 	text-align:center !important;
 	cursor:pointer
 }
-.up:after{
+.icon-up:after{
+	content: "";
+    background-image: url({{"bottom.svg" | asset_url }});
+   	background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
     transform: rotate(180deg);
 }
 {%- endstyle -%}
