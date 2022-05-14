@@ -78,7 +78,7 @@
         {%- else -%}
       	{% if option.name=='Color' %}
       		
-      	{% endif %}
+      	
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               <div class="opposing-items">
@@ -110,7 +110,8 @@
               </div>
             </fieldset>
           </div>
-        {%- endif -%}
+      {% endif %}  
+      {%- endif -%}
       {%- endfor -%}
     </div>
   {%- endif -%}
