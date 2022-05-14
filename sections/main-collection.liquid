@@ -364,9 +364,11 @@
 {%- endstyle -%}
 {% javascript %}
 $(function(){
+var flag=true;
 $(".icon-down").click(function(){
-		$('#toggle').toggleClass('text-cf');
-$(this).toggleClass('up');
+	$('#toggle').toggleClass('text-cf');
+	$(this).toggleClass('up');
+	$(this).innerHTML=(flag=!flag)?'Show More':'Show Less';
 })
 })
 {% endjavascript %}
