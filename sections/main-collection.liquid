@@ -368,9 +368,12 @@ var flag=true;
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf');
 	$(this).toggleClass('up');
-	var text=this.getAttribute('data-text');
-	this.setAttribute('data-text',$(this).innerHTML);
-	$(this).innerHTML=text;	
+	if($(this).innerHTML=="Show More"){
+		$(this).innerHTML=="Show Less"
+	}else
+	{
+		$(this).innerHTML=="Show More"
+	}
 })
 })
 {% endjavascript %}
