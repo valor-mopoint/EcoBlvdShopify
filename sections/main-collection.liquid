@@ -308,7 +308,7 @@
     <div class="container">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
         <div class="text-cf rte cf align-center reading-width clicks" id="toggle">{{ collection.description }}</div>
-     	<p class="icon-down"></p>
+     	<p class="icon-down">Show More</p>
       {% endif %}
     </div>
   </div>
@@ -364,16 +364,11 @@
 {%- endstyle -%}
 {% javascript %}
 $(function(){
-$(".icon-down").innerHTML=="Show More";
+var flag=true;
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf');
 	$(this).toggleClass('up');
-	if($(this).innerHTML=="Show More"){
-		$(this).innerHTML=="Show Less"
-	}else
-	{
-		$(this).innerHTML=="Show More"
-	}
+	$(this).innerHTML=(flag=!flag)?'Show More':'Show Less';
 })
 })
 {% endjavascript %}
