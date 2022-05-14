@@ -76,10 +76,13 @@
             %}
           </div>
         {%- else -%}
+      	{% if option.name=='Color' %}
+      		
+      	{% endif %}
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               <div class="opposing-items">
-                <legend class="label">{{ option.name }}</legend>
+                <legend class="label">{{ option.values }}</legend>
                 {{ size_chart_html }}
               </div>
               <div class="option-selector__btns">
