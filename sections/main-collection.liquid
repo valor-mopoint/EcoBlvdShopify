@@ -365,13 +365,7 @@
     transform: rotate(180deg);
 }
 {%- endstyle -%}
-{% javascript %}
-$(function(){
-$(".icon-down").click(function(){
-	document.getElementById('toggle').toggleClass('text-cf');
-})
-})
-{% endjavascript %}
+
 {% schema %}
   {
     "name": "Collection pages",
@@ -791,3 +785,10 @@ $(".icon-down").click(function(){
     ]
   }
 {% endschema %}
+{% javascript %}
+$(function(){
+$(".icon-down").click(function(){
+	document.getElementById('toggle').toggleClass('text-cf');
+})
+})
+{% endjavascript %}
