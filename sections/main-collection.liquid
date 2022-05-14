@@ -307,7 +307,7 @@
   <div class="page-header page-header--with-upper-spacing">
     <div class="container">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
-        <div class="text-cf rte cf align-center reading-width clicks">{{ collection.description }}</div>
+        <div class="text-cf rte cf align-center reading-width clicks" id="toggle">{{ collection.description }}</div>
      	<p class="icon-down data-yc">Show More</p>
       {% endif %}
     </div>
