@@ -369,6 +369,7 @@ var flag=true;
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf');
 	$(this).toggleClass('up');
+	console.log($(this).innerHTML);
 	$(this).innerHTML=(flag!=flag ? 'Show More':'Show Less');
 
 
