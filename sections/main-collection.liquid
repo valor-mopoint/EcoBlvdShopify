@@ -380,6 +380,7 @@ position: relative;
     transform: rotate(180deg);
 }
 {%- endstyle -%}
+{% comment %}
 {% javascript %}
 $(function(){
 $('.data-yc').hide();
@@ -393,6 +394,7 @@ $(".icon-up").click(function(){
 })
 })
 {% endjavascript %}
+{% endcomment %}
 {% schema %}
   {
     "name": "Collection pages",
