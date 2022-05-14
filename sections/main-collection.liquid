@@ -377,7 +377,7 @@
 {% javascript %}
 $(function(){
 $(".icon-down").on('click',function(){
-		$(this).parentNode.children[1].toggleClass('.text-cf');
+		$(this).previousElementSibling().toggleClass('.text-cf');
 })
 })
 {% endjavascript %}
