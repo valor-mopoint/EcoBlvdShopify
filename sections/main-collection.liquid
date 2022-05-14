@@ -369,12 +369,7 @@ $(".icon-down").innerHTML=="Show More";
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf');
 	$(this).toggleClass('up');
-	if($(this).innerHTML=="Show More"){
-		$(this).innerHTML=="Show Less"
-	}else if($(this).innerHTML=="Show Less")
-	{
-		$(this).innerHTML=="Show More"
-	}
+	$(this).innerHTML == "Show More" ? $(this).innerHTML == "Show Less" : $(this).innerHTML == "Show Less" && $(this).innerHTML == "Show More";
 })
 })
 {% endjavascript %}
