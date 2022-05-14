@@ -377,8 +377,7 @@
 {% javascript %}
 $(function(){
 $(".icon-down").on('click',function(){
-		$(this).previousElementSibling.toggleClass('text-cf');
-		document.getElementById('toggle').classList.('data-iocn-yc');
+		document.getElementById('toggle').classList.remove('text-cf');
 })
 })
 {% endjavascript %}
