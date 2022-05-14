@@ -319,11 +319,20 @@
 
   {% if collection.description != blank and section.settings.coll_desc_pos == 'below' %}
     <div class="container container--reading-width fully-spaced-row" data-cc-animate>
-      <div class="rte cf">{{ collection.description }}</div>
+      <div class="rte cf text-cf">{{ collection.description }}</div>
+      <p class="icon-up data-yc">Show More</p>
     </div>
   {% endif %}
 </div>
 {%- style -%}
+.text-cf{
+	-webkit-line-clamp: 3;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .data-iocn-dj-xs{
 position: relative;
 }
@@ -370,7 +379,6 @@ position: relative;
     margin: auto;
     transform: rotate(180deg);
 }
-
 {%- endstyle -%}
 {% javascript %}
 $(function(){
