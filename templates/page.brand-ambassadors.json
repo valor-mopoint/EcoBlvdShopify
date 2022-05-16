@@ -190,11 +190,19 @@
             "text": "<p>For press and media inquiries, please contact us at: pr@ecoblvd.com<\/p>",
             "enlarge_text": true
           }
+        },
+        "e7d4047b-5c57-44d1-9b05-43ad5d308512": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Advocates, affiliates and ambassadors can contact us using the form above or by email at: affiliate@ecoblvd.com<\/p>",
+            "enlarge_text": true
+          }
         }
       },
       "block_order": [
         "165272749963bb53b0-0",
-        "165272749963bb53b0-1"
+        "165272749963bb53b0-1",
+        "e7d4047b-5c57-44d1-9b05-43ad5d308512"
       ],
       "settings": {
         "height": "medium",
