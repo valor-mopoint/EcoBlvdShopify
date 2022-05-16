@@ -330,19 +330,84 @@
             "enable_image": true,
             "image_width": 350,
             "title": "Brett Hymes",
-            "text": "<p>Copywriter and Researcher<\/p>",
+            "text": "<p>Copywriter and Research Analyst<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "c9c3701c-795f-42d8-a0ef-1da77583d189": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Leslie Aparicio",
+            "text": "<p>Social Media Manager<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "3de0e488-7ab4-4341-87b4-eb42a99094e4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Ming Yin",
+            "text": "<p>Multi-Media Director<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "d8e97f8e-cf85-4263-b05f-d1f95764a42c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Richard Splawski",
+            "text": "<p>Graphic Designer & Customization Specialist<\/p>",
             "button_label": "",
             "link": ""
           }
         },
         "b9ec464c-d4f9-496e-8240-82242f8c147e": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
-            "image_width": 200,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image_width": 350,
+            "title": "Conor Chibnall",
+            "text": "<p>SEO and E-Commerce Manager<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "65e1bae0-d8a1-4fc6-9593-d165bd4b593c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "TBD",
+            "text": "<p>TBD title<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "bd7d5e1b-6503-4677-95bc-5cc1ae098436": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "TBD",
+            "text": "<p>TBD title<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "2c98977e-46df-41c6-9492-8bf6c111b673": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "TBD",
+            "text": "<p>TBD Title<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -352,7 +417,13 @@
         "1652732727d819323e-0",
         "1652732727d819323e-1",
         "1652732727d819323e-2",
-        "b9ec464c-d4f9-496e-8240-82242f8c147e"
+        "c9c3701c-795f-42d8-a0ef-1da77583d189",
+        "3de0e488-7ab4-4341-87b4-eb42a99094e4",
+        "d8e97f8e-cf85-4263-b05f-d1f95764a42c",
+        "b9ec464c-d4f9-496e-8240-82242f8c147e",
+        "65e1bae0-d8a1-4fc6-9593-d165bd4b593c",
+        "bd7d5e1b-6503-4677-95bc-5cc1ae098436",
+        "2c98977e-46df-41c6-9492-8bf6c111b673"
       ],
       "settings": {
         "title": "",
