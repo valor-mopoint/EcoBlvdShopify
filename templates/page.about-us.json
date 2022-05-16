@@ -66,13 +66,173 @@
         "subheading": "",
         "title": "Join us on the #Root2Renew!",
         "use_h1": false,
-        "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.<\/p>",
-        "button_label": "Read more",
+        "text": "<p>The production of everyday essentials has become more convenient and advanced. Yet there is a lack of concern for the planet and the resources that go into their production. The cost of convenience leaves our planet to pay the price, whether through harmful carbon emissions, overflowing landfills, or contaminating our oceans. <\/p><p>Our passion at EcoBlvd is to promote sustainability by providing fashionable accessories that educate, inspire, and help people across the globe maintain a cleaner, greener world.<\/p><p>Since our products are made from renewable and reusable resources, we minimize the impact on the environment and produce goods of the highest possible quality while educating about the positive effects of switching to sustainable products on the environment.<\/p>",
+        "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "image_position": "left",
         "text_alignment": "left",
         "use_alt_bg": false
+      }
+    },
+    "165273206000284f2e": {
+      "type": "rich-text",
+      "blocks": {
+        "1652732060865113e9-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Why We’re on the #Root2Renew",
+            "use_h1": false
+          }
+        },
+        "1652732060865113e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Observing the damage occurring to the planet from our everyday waste led us to decide that enough was enough. Globally, billions of pounds of single-use plastic, food scraps, and even electronic waste are dumped in overflowing landfills, where they rot and release greenhouse gases. It was clear that we had to take action. <\/p><p>Our initiative and call to action, #Root2Renew, works to help renew our relationship with Earth by protecting the environment, eco-systems, and natural resources, as we only have one home.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652732060865113e9-0",
+        "1652732060865113e9-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1652732148aebd097f": {
+      "type": "rich-text",
+      "blocks": {
+        "165273214885d6faba-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Path To Preserving The Planet",
+            "use_h1": false
+          }
+        },
+        "165273214885d6faba-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We aim to offer more than just stylish and sustainable products. We hope to be your new destination and avenue for eco-education, tips, discussions, and, most importantly, fun. To preserve our planet, we must foster creativity and communication.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165273214885d6faba-0",
+        "165273214885d6faba-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "165273218588cce00a": {
+      "type": "rich-text",
+      "blocks": {
+        "1652732185795c131d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainability is a Journey, Not a Destination",
+            "use_h1": false
+          }
+        },
+        "1652732185795c131d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We realize that embracing a whole new sustainable lifestyle requires a lot of change and education. We want you to know that we appreciate any step you take in the direction of sustainability.<\/p><p>A simple swap of your old plastic phone cases, chargers, and cables with our recyclable options will make a more significant impact than you think!<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652732185795c131d-0",
+        "1652732185795c131d-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16527322172ff6f329": {
+      "type": "multi-column",
+      "blocks": {
+        "1652732217f3c3d866-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Community",
+            "text": "<p>To Eliminate Waste, We Must Work Together<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652732217f3c3d866-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Consciousness",
+            "text": "<p>Reducing Our Carbon Footprint With Fashion And Functionality<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652732217f3c3d866-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Creativity",
+            "text": "<p>We Believe In Rooting To Grow<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "ace0ec9b-ae1e-4b1c-9476-fcb89128026a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Courage",
+            "text": "<p>We Stand Out To Make A Difference<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "4d163bcc-75d8-475b-8dd1-6d4c41133506": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Compassion",
+            "text": "<p>We Care About The Earth And All Its Inhabitants<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652732217f3c3d866-0",
+        "1652732217f3c3d866-1",
+        "1652732217f3c3d866-2",
+        "ace0ec9b-ae1e-4b1c-9476-fcb89128026a",
+        "4d163bcc-75d8-475b-8dd1-6d4c41133506"
+      ],
+      "settings": {
+        "title": "Our Values - the 5 C’s",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": true
       }
     }
   },
@@ -80,6 +240,10 @@
     "main",
     "16527281338455ea5b",
     "1652728200ec7aa410",
-    "16527282424043928a"
+    "16527282424043928a",
+    "165273206000284f2e",
+    "1652732148aebd097f",
+    "165273218588cce00a",
+    "16527322172ff6f329"
   ]
 }
