@@ -234,6 +234,70 @@
         "button_style": "primary",
         "use_alt_bg": true
       }
+    },
+    "1652732440b03e1be6": {
+      "type": "gallery",
+      "blocks": {
+        "16527324408db531b9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smiling-strong-woman-together.jpg",
+            "alignment": "top center",
+            "enlarge_image": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "16527324408db531b9-0"
+      ],
+      "settings": {
+        "grid": 2,
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "use_alt_bg": false,
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "16527325346b245c9c": {
+      "type": "rich-text",
+      "blocks": {
+        "16527325344192d75e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Get to know our Eco-Team",
+            "use_h1": false
+          }
+        },
+        "16527325344192d75e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team of eco-conscious leaders, thinkers, dreamers, and activists embody the spirit of collaboration on the #Root2Renew! As a team, we are constantly pushing the limits of sustainable living so that we can enjoy our everyday necessities without creating waste!<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16527325344192d75e-0",
+        "16527325344192d75e-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -244,6 +308,8 @@
     "165273206000284f2e",
     "1652732148aebd097f",
     "165273218588cce00a",
-    "16527322172ff6f329"
+    "16527322172ff6f329",
+    "1652732440b03e1be6",
+    "16527325346b245c9c"
   ]
 }
