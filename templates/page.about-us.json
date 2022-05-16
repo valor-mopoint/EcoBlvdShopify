@@ -298,6 +298,68 @@
         "full_width": false,
         "use_alt_bg": false
       }
+    },
+    "16527327289dc3b579": {
+      "type": "multi-column",
+      "blocks": {
+        "1652732727d819323e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Steven Lu",
+            "text": "<p>Founder<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652732727d819323e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Skylar Evans",
+            "text": "<p>Head of Marketing and Brand Development<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652732727d819323e-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Brett Hymes",
+            "text": "<p>Copywriter and Researcher<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "b9ec464c-d4f9-496e-8240-82242f8c147e": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 200,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652732727d819323e-0",
+        "1652732727d819323e-1",
+        "1652732727d819323e-2",
+        "b9ec464c-d4f9-496e-8240-82242f8c147e"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -310,6 +372,7 @@
     "165273218588cce00a",
     "16527322172ff6f329",
     "1652732440b03e1be6",
-    "16527325346b245c9c"
+    "16527325346b245c9c",
+    "16527327289dc3b579"
   ]
 }
