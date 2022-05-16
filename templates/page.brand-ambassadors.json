@@ -123,8 +123,8 @@
             "enable_image": true,
             "image_width": 700,
             "title": "Ambassador",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
+            "text": "<p>If you feel strongly about our brand, purpose, or mission and want to become an active supporter, you can be an EcoBlvd ambassador. This program is open to anyone, as we want to continue to grow our circle and help the planet! Get early access to new releases and exclusive offers. Plus other perks and opportunities to be announced!<\/p>",
+            "button_label": "Get Started",
             "link": ""
           }
         }
