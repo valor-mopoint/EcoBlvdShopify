@@ -2,12 +2,151 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "full_width": false
+      }
+    },
+    "16527248814db5d378": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/three-people-hold-hands-with-their-arms-to-the-sky.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Become an EcoBlvd \nBrand Ambassador",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": true,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "16527249860ffb0c7e": {
+      "type": "rich-text",
+      "blocks": {
+        "165272498662810467-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Planet Needs Your Help, So We Want To Help You",
+            "use_h1": false
+          }
+        },
+        "165272498662810467-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that each of us is capable of changing the world, although it isn't always easy to figure out where to begin.<strong><br\/><br\/><\/strong>Our plan is to help people sort through all of the available information so they will be able to better understand what they can do and why they should do more to help our planet, every day.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165272498662810467-0",
+        "165272498662810467-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "165272520961ac0355": {
+      "type": "rich-text",
+      "blocks": {
+        "165272520996c9204c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "We're Here To Help You Widen Your Path",
+            "use_h1": false
+          }
+        },
+        "165272520996c9204c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To us, sustainability is about making every little step count, so we’re all about sprouting new connections! <\/p><p>EcoBlvd is actively looking for outgoing individuals who share our vision and would like to join us on the #Root2Renew. Located at the intersection of style and sustainability, we push fashion-forward by being environmentally conscious.<br\/><\/p><p>EcoBlvd ambassadors also serve as ambassadors for the planet.  Our programs are all designed to get you and your audience excited and more involved in environmental conservation and promoting cleaner, greener living.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165272520996c9204c-0",
+        "165272520996c9204c-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16527252697a1c1209": {
+      "type": "multi-column",
+      "blocks": {
+        "16527252698d608619-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Advocate",
+            "text": "<p>Calling all creators and influencers! If you have an active social media presence with an engaging audience,  we'd love to collaborate with you! Promote EcoBlvd's products with your creative style whether it is through image or video content. Help us spread the word with your audience about our products and mission to help clean up our planet! Gifting and commission opportunities available to eligible participants.<\/p>",
+            "button_label": "Learn More",
+            "link": ""
+          }
+        },
+        "16527252698d608619-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Affiliate",
+            "text": "<p>Interested in promoting EcoBlvd on your blog, website or YouTube page? Sign up to become an affiliate today and have the opportunity to earn commission from all sales generated through your tracking link. Get instant access to creative banners and promotional materials. Product seeding available for affiliates that  post a review. <\/p>",
+            "button_label": "Sign Up",
+            "link": ""
+          }
+        },
+        "16527252698d608619-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Ambassador",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16527252698d608619-1",
+        "16527252698d608619-0",
+        "16527252698d608619-2"
+      ],
+      "settings": {
+        "title": "Our Programs:",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16527248814db5d378",
+    "16527249860ffb0c7e",
+    "165272520961ac0355",
+    "16527252697a1c1209"
   ]
 }
