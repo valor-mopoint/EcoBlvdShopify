@@ -172,6 +172,36 @@
         "contact_title": "Questions? Get in touch with us!",
         "contact_text": ""
       }
+    },
+    "1652727499b2b7fa39": {
+      "type": "rich-text",
+      "blocks": {
+        "165272749963bb53b0-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "165272749963bb53b0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For press and media inquiries, please email us at: media@ecoblvd.com<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165272749963bb53b0-0",
+        "165272749963bb53b0-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -180,6 +210,7 @@
     "16527249860ffb0c7e",
     "165272520961ac0355",
     "16527252697a1c1209",
-    "1652727420be7dd615"
+    "1652727420be7dd615",
+    "1652727499b2b7fa39"
   ]
 }
