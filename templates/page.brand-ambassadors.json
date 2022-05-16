@@ -140,6 +140,38 @@
         "button_style": "primary",
         "use_alt_bg": false
       }
+    },
+    "1652727420be7dd615": {
+      "type": "contact-form",
+      "blocks": {
+        "1652727420246cac52-0": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "1652727420246cac52-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "1652727420246cac52-2": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "1652727420246cac52-0",
+        "1652727420246cac52-1",
+        "1652727420246cac52-2"
+      ],
+      "settings": {
+        "contact_title": "Questions? Get in touch with us!",
+        "contact_text": ""
+      }
     }
   },
   "order": [
@@ -147,6 +179,7 @@
     "16527248814db5d378",
     "16527249860ffb0c7e",
     "165272520961ac0355",
-    "16527252697a1c1209"
+    "16527252697a1c1209",
+    "1652727420be7dd615"
   ]
 }
