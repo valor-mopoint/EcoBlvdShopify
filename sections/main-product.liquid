@@ -745,10 +745,12 @@
 {% javascript %}
 $(function(){
 	$(".color-sample").click(function(){
-		$(".color-btn").each(function(){
-		vals+=$(this).val()+',';
-		});
-		alert(vals); 
+
+		var a=document.getElementsByClassName('color-btn');
+		for(var i=0;i<a.lenght;i++){
+        	                             
+        }
+		alert(a);
 	})
 })
 {% endjavascript %}
