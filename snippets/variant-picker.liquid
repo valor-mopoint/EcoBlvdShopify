@@ -80,12 +80,10 @@
             <fieldset class="option-selector-fieldset">
               {% if option.name=='Color' %}
               <div class="opposing-items">
-                {% for product in collection.products %}
-                	{% for variant in product.variants  %}
+                {% for option in variant.options %}
                 <legend class="label">{{variant.option1 | split:'-' | first }}</legend>
                 {{ size_chart_html }}
-                {% endfor %}
-                {% endfor %}
+                {%endfor%}
               </div>
               <div class="option-selector__btns">
                 {%- for value in option.values -%}
