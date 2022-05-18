@@ -68,13 +68,21 @@
             "title": "I didn't receive an order confirmation. Can it be resent?",
             "answer": "<p>Order confirmation emails are automatically sent once the order is received. Please be sure to check your junk and spam folders and move it to your inbox. If you still don't receive anything shortly after the order is placed, please email us at support@ecoblvd.com for further assistance.<\/p>"
           }
+        },
+        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12": {
+          "type": "question",
+          "settings": {
+            "title": "I forgot to apply my discount code. Can it still be applied after the order is placed?",
+            "answer": "<p>Unfortunately once an order the discount code cannot be applied. Please contact us immediately and we will make every effort to assist you but cannot make any guarantees. <\/p>"
+          }
         }
       },
       "block_order": [
         "question-1",
         "question-2",
         "8a91b63e-a506-40b5-9b0a-3969a673feec",
-        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666"
+        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666",
+        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12"
       ],
       "settings": {
         "title": "Ordering"
