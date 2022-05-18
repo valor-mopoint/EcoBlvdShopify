@@ -86,7 +86,7 @@
         "1652885305de7f5458-0": {
           "type": "question",
           "settings": {
-            "title": "How long will the case last? Will it disintegrate while being used?",
+            "title": "How long will the case last? Will it disintegrate",
             "answer": "<p>Compostable is a term used for an organic material that is broken down into sugar or a nutrient-dense mixture called humus. Compostable materials require a specific amount of water, carbon, and nitrogen in order to fully decompose. <\/p>"
           }
         },
@@ -220,13 +220,21 @@
             "title": "How long does shipping take?",
             "answer": "<p>All orders are shipped from Los Angeles, CA. Depending on the shipping address and proximity to the shipment center, it may take anywhere from 3 to 10 business days for delivery once shipped. We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. We kindly ask you to consider offsetting the carbon emmissions of your order by using ShopPay or EcoCart at checkout!<\/p>"
           }
+        },
+        "771b808a-fed7-4f0b-b212-81f008a3b47c": {
+          "type": "question",
+          "settings": {
+            "title": "How do I track my order?",
+            "answer": "<p>Once your order has shipped, you will receive an email confirmation with a tracking number and link. Please check your junk and spam folder. If you still cannot locate the tracking information, please contact us at support@ecoblvd.com for further assistance.<\/p>"
+          }
         }
       },
       "block_order": [
         "question-1",
         "question-2",
         "8d6cdf98-2790-4aae-a4a4-c638da320774",
-        "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da"
+        "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da",
+        "771b808a-fed7-4f0b-b212-81f008a3b47c"
       ],
       "settings": {
         "title": "Shipping"
