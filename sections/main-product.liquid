@@ -746,7 +746,10 @@
 $(function(){
 	$(".color-sample").click(function(){
 		var a=document.getElementsByClassName('color-btn');
-		alert(a);  
+		a.each(function{
+			v+=$(this).val()+',';
+		})
+		alert(v);  
 	})
 })
 {% endjavascript %}
