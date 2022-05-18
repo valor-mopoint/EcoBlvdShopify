@@ -295,12 +295,20 @@
             "title": "Uh-oh! I accidentally broke my case. Does it qualify for a warranty replacement?",
             "answer": "<p>Answer<\/p>"
           }
+        },
+        "f9315875-548f-436c-8011-3f45cfa2a33f": {
+          "type": "question",
+          "settings": {
+            "title": "My phone\/screen broke, does warranty cover repair costs?",
+            "answer": "<p>All EcoBlvd cases are intended to protect your phone against most forms of damage. However, the phone itself is not covered by the warranty. We recommend that you pair our case with a screen protector or purchase insurance coverage through your carrier or a third-party provider.<\/p>"
+          }
         }
       },
       "block_order": [
         "16528868111a4ea200-1",
         "16528868111a4ea200-0",
-        "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb"
+        "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb",
+        "f9315875-548f-436c-8011-3f45cfa2a33f"
       ],
       "settings": {
         "title": "Warranty"
