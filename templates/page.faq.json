@@ -98,6 +98,32 @@
         "title": "Products"
       }
     },
+    "16528871092c5c13ab": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "16528871093c974e7c-0": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "16528871093c974e7c-1": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16528871093c974e7c-0",
+        "16528871093c974e7c-1"
+      ],
+      "settings": {
+        "title": "Roundabout Recycling Program"
+      }
+    },
     "faq-content-2": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -137,7 +163,7 @@
         "16528868111a4ea200-0": {
           "type": "question",
           "settings": {
-            "title": "Question",
+            "title": "How do I file a claim for a replacement?",
             "answer": "<p>Answer<\/p>"
           }
         },
@@ -208,6 +234,7 @@
     "main",
     "faq-content-1",
     "165288530670ec9f40",
+    "16528871092c5c13ab",
     "faq-content-2",
     "165288681175a34db5",
     "contact"
