@@ -54,11 +54,19 @@
             "title": "Can I cancel my order?",
             "answer": "<p>Due to using a 3rd Party Logistics Provider for fulfilment and shipping, we cannot guarentee an order can be canceled once it is received. However, there is a 14 day return window that you can return it to us for a full refund. Regardless, please contact us immediately, and we will do our best to accommodate your request. <\/p>"
           }
+        },
+        "8a91b63e-a506-40b5-9b0a-3969a673feec": {
+          "type": "question",
+          "settings": {
+            "title": "I accidentally ordered the wrong case for my phone. What can I do?",
+            "answer": "<p>Accidents happen, and we want to ensure that you have the case you need and are 100% satisfied with it! Exchanges and returns are available within 14 days of the delivery date.<\/p>"
+          }
         }
       },
       "block_order": [
         "question-1",
-        "question-2"
+        "question-2",
+        "8a91b63e-a506-40b5-9b0a-3969a673feec"
       ],
       "settings": {
         "title": "Ordering"
@@ -96,6 +104,32 @@
       ],
       "settings": {
         "title": "Products"
+      }
+    },
+    "1652889804f42e7b4c": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "165288980441c9a58e-0": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "165288980441c9a58e-1": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165288980441c9a58e-0",
+        "165288980441c9a58e-1"
+      ],
+      "settings": {
+        "title": "Returns & Exchanges"
       }
     },
     "16528871092c5c13ab": {
@@ -163,7 +197,7 @@
         "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da"
       ],
       "settings": {
-        "title": "Shipping, Returns & Exchanges"
+        "title": "Shipping"
       }
     },
     "165288681175a34db5": {
@@ -243,6 +277,7 @@
     "main",
     "faq-content-1",
     "165288530670ec9f40",
+    "1652889804f42e7b4c",
     "16528871092c5c13ab",
     "faq-content-2",
     "165288681175a34db5",
