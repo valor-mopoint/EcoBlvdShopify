@@ -79,12 +79,12 @@
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               <div class="opposing-items">
+                {% if option.name=='Color' %}
                 <legend class="label">{{ option.name }}</legend>
                 {{ size_chart_html }}
               </div>
               <div class="option-selector__btns">
                 {%- for value in option.values -%}
-                {% if option.name=='Color' %}
                   <input class="opt-btn js-option"
                         type="radio"
                         name="{{ option_id }}"
@@ -93,7 +93,13 @@
                         {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                         required>
                   <label class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" style="background-color:{{value | split:'-' | last }}"></span></label>
+                {%- endfor -%}
                 {% else %}
+                 <legend class="label">{{ option.name }}</legend>
+                {{ size_chart_html }}
+              </div>
+              <div class="option-selector__btns">
+                {%- for value in option.values -%}
                 <input class="opt-btn js-option"
                         type="radio"
                         name="{{ option_id }}"
@@ -102,8 +108,8 @@
                         {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                         required>
                   <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value}}</span></label>
-                {% endif %}
                 {%- endfor -%}
+                {% endif %}
               </div>
             </fieldset>
           </div>
