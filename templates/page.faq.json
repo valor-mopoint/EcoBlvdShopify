@@ -48,6 +48,13 @@
             "answer": "<p>We aim to process all orders within 1 business day. However we kindly ask for up to 3 business days to process all orders for shipment. <\/p><p><\/p><p>Note: orders will not be processed during non-business hours, which includes holidays and weekends.<\/p>"
           }
         },
+        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666": {
+          "type": "question",
+          "settings": {
+            "title": "I didn't receive an order confirmation. Can it be resent?",
+            "answer": "<p>Order confirmation emails are automatically sent once the order is received. Please be sure to check your junk and spam folders and move it to your inbox. If you still don't receive anything shortly after the order is placed, please email us at support@ecoblvd.com for further assistance.<\/p>"
+          }
+        },
         "question-2": {
           "type": "question",
           "settings": {
@@ -62,27 +69,28 @@
             "answer": "<p>Accidents happen, and we want to ensure that you have the case you need and are 100% satisfied with it! Exchanges and returns are available within 14 days of the delivery date.<\/p>"
           }
         },
-        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666": {
-          "type": "question",
-          "settings": {
-            "title": "I didn't receive an order confirmation. Can it be resent?",
-            "answer": "<p>Order confirmation emails are automatically sent once the order is received. Please be sure to check your junk and spam folders and move it to your inbox. If you still don't receive anything shortly after the order is placed, please email us at support@ecoblvd.com for further assistance.<\/p>"
-          }
-        },
         "152fa86a-ce21-46a1-8bff-ed38f3fc8b12": {
           "type": "question",
           "settings": {
             "title": "I forgot to apply my discount code. Can it still be applied after the order is placed?",
             "answer": "<p>Unfortunately once an order is submitted the discount code cannot be applied. <\/p>"
           }
+        },
+        "3c03f527-3538-498e-bb59-4013493471b7": {
+          "type": "question",
+          "settings": {
+            "title": "Are there any sales, promotions or discount codes available?",
+            "answer": "<p>We encourage you to sign up to our newsletter for the most up to date information about sales and promotions. There may even be an incentive you receive when you sign up, for first time customers ;) <\/p>"
+          }
         }
       },
       "block_order": [
         "question-1",
+        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666",
         "question-2",
         "8a91b63e-a506-40b5-9b0a-3969a673feec",
-        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666",
-        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12"
+        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12",
+        "3c03f527-3538-498e-bb59-4013493471b7"
       ],
       "settings": {
         "title": "Ordering"
