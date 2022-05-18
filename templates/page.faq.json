@@ -146,12 +146,20 @@
             "title": "Do you ship overseas?",
             "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout.<\/p>"
           }
+        },
+        "8d6cdf98-2790-4aae-a4a4-c638da320774": {
+          "type": "question",
+          "settings": {
+            "title": "Where does the order ship from?",
+            "answer": "<p>All orders are shipped from our fulfilment and shipping partner based in Los Angeles, California. <\/p>"
+          }
         }
       },
       "block_order": [
         "para-1",
         "question-1",
-        "question-2"
+        "question-2",
+        "8d6cdf98-2790-4aae-a4a4-c638da320774"
       ],
       "settings": {
         "title": "Shipping, Returns & Exchanges"
