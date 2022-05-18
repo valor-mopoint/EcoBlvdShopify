@@ -61,12 +61,20 @@
             "title": "I accidentally ordered the wrong case for my phone. What can I do?",
             "answer": "<p>Accidents happen, and we want to ensure that you have the case you need and are 100% satisfied with it! Exchanges and returns are available within 14 days of the delivery date.<\/p>"
           }
+        },
+        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666": {
+          "type": "question",
+          "settings": {
+            "title": "I didn't receive an order confirmation. Can it be resent?",
+            "answer": "<p>Order confirmation emails are automatically sent once the order is received. Please be sure to check your junk and spam folders and move it to your inbox. If you still don't receive anything shortly after the order is placed, please email us at support@ecoblvd.com for further assistance.<\/p>"
+          }
         }
       },
       "block_order": [
         "question-1",
         "question-2",
-        "8a91b63e-a506-40b5-9b0a-3969a673feec"
+        "8a91b63e-a506-40b5-9b0a-3969a673feec",
+        "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666"
       ],
       "settings": {
         "title": "Ordering"
