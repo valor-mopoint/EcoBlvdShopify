@@ -24,7 +24,7 @@
   <div class="cc-accordion-item__panel">
     <div class="cc-accordion-item__content{{ content_class }}">
       {% assign contents =content | split: '<!-- split -->' | first %}
-      {{contents}}
+      {{contents | split:'</p>' | last }}
     </div>
   </div>
 </details>
