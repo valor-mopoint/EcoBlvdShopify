@@ -44,8 +44,8 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "What size should I buy?",
-            "answer": "<p>If you’re not quite sure which size is right for you, refer to our size guides. They’re located underneath the available sizes for each of our products.<\/p>"
+            "title": "How long does it take to process my order?",
+            "answer": "<p>We aim to process all orders within 1 business day. However we kindly ask for at least 3 business days to process all orders for shipment. <\/p><p><\/p><p>Note: orders will not be processed during non-business hours, which includes holidays and weekends.<\/p>"
           }
         },
         "question-2": {
