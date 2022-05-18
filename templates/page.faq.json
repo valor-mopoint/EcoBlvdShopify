@@ -218,7 +218,7 @@
           "type": "question",
           "settings": {
             "title": "How long does shipping take?",
-            "answer": "<p>All orders are shipped from Los Angeles, CA. Depending on the shipping address and proximity to the shipment center, it may take anywhere from 3 to 10 business days for delivery once shipped. Orders shipped to Canada may take 5 to 14 business days.<\/p><p><\/p><p>We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. We kindly ask you to consider offsetting the carbon emmissions of your order by using ShopPay or EcoCart at checkout!<\/p>"
+            "answer": "<p>All orders are shipped from Los Angeles, CA. Depending on the shipping address and proximity to the shipment center, it may take anywhere from 3 to 10 business days for delivery once shipped. Orders shipped to Canada may take 5 to 14 business days.<\/p>"
           }
         },
         "771b808a-fed7-4f0b-b212-81f008a3b47c": {
@@ -227,6 +227,13 @@
             "title": "How do I track my order?",
             "answer": "<p>Once your order has shipped, you will receive an email confirmation with a tracking number and link. Please check your junk and spam folder. If you still cannot locate the tracking information, please contact us at support@ecoblvd.com for further assistance.<\/p>"
           }
+        },
+        "c92e632b-6c1a-4393-a0eb-731b4db987ab": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping?",
+            "answer": "<p>We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. <\/p><p>We kindly ask you to consider offsetting the carbon emmissions of your order by using ShopPay or EcoCart at checkout!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -234,7 +241,8 @@
         "question-2",
         "8d6cdf98-2790-4aae-a4a4-c638da320774",
         "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da",
-        "771b808a-fed7-4f0b-b212-81f008a3b47c"
+        "771b808a-fed7-4f0b-b212-81f008a3b47c",
+        "c92e632b-6c1a-4393-a0eb-731b4db987ab"
       ],
       "settings": {
         "title": "Shipping"
