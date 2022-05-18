@@ -52,7 +52,7 @@
           "type": "question",
           "settings": {
             "title": "Can I cancel my order?",
-            "answer": "<p>We completely get it, we change our minds too! While we wish could, once an order is placed, we are unable to alter or cancel it at this time. We hope to have a cancellation window one day in the future.<\/p><p>Should the item(s) not work out, make sure to exchange for a preferred style or return for a refund. As a reminder, domestic return shipping is free.<\/p>"
+            "answer": "<p>Due to using a 3rd Party Logistics Provider for fulfilment and shipping, we cannot guarentee an order can be canceled once it is received. However, there is a 14 day return window that you can return it to us for a full refund. Regardless, please contact us immediately, and we will do our best to accommodate your request. <\/p>"
           }
         }
       },
