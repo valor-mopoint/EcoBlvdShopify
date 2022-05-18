@@ -45,7 +45,7 @@
           "type": "question",
           "settings": {
             "title": "How long does it take to process my order?",
-            "answer": "<p>We aim to process all orders within 1 business day. However we kindly ask for at least 3 business days to process all orders for shipment. <\/p><p><\/p><p>Note: orders will not be processed during non-business hours, which includes holidays and weekends.<\/p>"
+            "answer": "<p>We aim to process all orders within 1 business day. However we kindly ask for up to 3 business days to process all orders for shipment. <\/p><p><\/p><p>Note: orders will not be processed during non-business hours, which includes holidays and weekends.<\/p>"
           }
         },
         "question-2": {
