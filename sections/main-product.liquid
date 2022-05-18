@@ -745,8 +745,10 @@
 {% javascript %}
 $(function(){
 	$(".color-sample").click(function(){
-		var a=document.getElementsByClassName('color-btn');
-		alert(a.each());
+		$(".color-btn").each(function(){
+		vals+=$(this).val()+',';
+		});
+		alert(vals); 
 	})
 })
 {% endjavascript %}
