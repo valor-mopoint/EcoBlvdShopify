@@ -130,7 +130,7 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "What is the shipping policy?",
+            "title": "What is the Shipping Policy?",
             "answer": "<p>Once your order is placed, you will receive a confirmation email letting you know that our fulfillment team has received your order. Once your order is fulfilled, you will receive an email notification with your tracking information. Shipping fees are non-refundable in the case of returns.<\/p>"
           }
         },
@@ -169,24 +169,24 @@
     "165288681175a34db5": {
       "type": "collapsible-tabs",
       "blocks": {
-        "16528868111a4ea200-0": {
-          "type": "question",
-          "settings": {
-            "title": "How do I file a claim for a replacement?",
-            "answer": "<p>Answer<\/p>"
-          }
-        },
         "16528868111a4ea200-1": {
           "type": "question",
           "settings": {
             "title": "What is the Warranty Policy?",
             "answer": "<p>Answer<\/p>"
           }
+        },
+        "16528868111a4ea200-0": {
+          "type": "question",
+          "settings": {
+            "title": "How do I file a claim for a replacement?",
+            "answer": "<p>Answer<\/p>"
+          }
         }
       },
       "block_order": [
-        "16528868111a4ea200-0",
-        "16528868111a4ea200-1"
+        "16528868111a4ea200-1",
+        "16528868111a4ea200-0"
       ],
       "settings": {
         "title": "Warranty"
