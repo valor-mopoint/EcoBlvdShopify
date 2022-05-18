@@ -147,12 +147,20 @@
             "title": "Where does the order ship from?",
             "answer": "<p>All orders are shipped from our fulfilment and shipping partner based in Los Angeles, California. <\/p>"
           }
+        },
+        "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "answer": "<p>All orders are shipped from Los Angeles, CA. Depending on the shipping address and proximity to the shipment center, it may take anywhere from 3 to 10 business days for delivery once shipped. We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. We kindly ask you to consider offsetting the carbon emmissions of your order by using ShopPay or EcoCart at checkout!<\/p>"
+          }
         }
       },
       "block_order": [
         "question-1",
         "question-2",
-        "8d6cdf98-2790-4aae-a4a4-c638da320774"
+        "8d6cdf98-2790-4aae-a4a4-c638da320774",
+        "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da"
       ],
       "settings": {
         "title": "Shipping, Returns & Exchanges"
