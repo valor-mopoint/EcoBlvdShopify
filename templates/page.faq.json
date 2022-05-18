@@ -232,7 +232,7 @@
           "type": "question",
           "settings": {
             "title": "How much is shipping?",
-            "answer": "<p>We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. <\/p><p>Expedited shipping rates are calculated at checkout based on shipping address.<\/p><p>Orders shipped to Canada are subject to international shipping rates and duties. Cost varies based on location and will be calculated at checkout. <\/p><p>We kindly ask you to consider offsetting the carbon emmissions of your order by using ShopPay or EcoCart at checkout!<\/p>"
+            "answer": "<p>We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. <\/p><p>Expedited shipping rates are calculated at checkout based on shipping address.<\/p><p>Orders shipped to Canada are subject to international shipping rates and duties. Cost varies based on location and will be calculated at checkout. <\/p><p>We kindly ask you to consider offsetting the carbon emmissions of shipping your order by using ShopPay or EcoCart at checkout!<\/p>"
           }
         }
       },
