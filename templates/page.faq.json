@@ -15,7 +15,7 @@
         "title_size": 52,
         "title_size_mobile": 46,
         "use_h1": false,
-        "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).<\/p>",
+        "text": "<p>Find answers to Frequently Asked Questions below. Want to talk with a human? You can reach our Customer Support Team via email or chat. <\/p>",
         "enlarge_text": true,
         "button_label_1": "",
         "button_url_1": "",
@@ -224,11 +224,19 @@
             "title": "How do I file a claim for a replacement?",
             "answer": "<p>Answer<\/p>"
           }
+        },
+        "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb": {
+          "type": "question",
+          "settings": {
+            "title": "Uh-oh! I accidentally broke my case. Does it qualify for a warranty replacement?",
+            "answer": "<p>Answer<\/p>"
+          }
         }
       },
       "block_order": [
         "16528868111a4ea200-1",
-        "16528868111a4ea200-0"
+        "16528868111a4ea200-0",
+        "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb"
       ],
       "settings": {
         "title": "Warranty"
