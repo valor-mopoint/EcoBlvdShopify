@@ -749,7 +749,8 @@ $(function(){
 		var a=document.getElementsByClassName('color-btn');
 		console.log(a.length);
 		for(var i=0;i<a.length;i++){ 
-        	      console.log(a[i].value.split('-')[0]);                          
+            if(a[i].checked==true){
+        	      console.log(a[i].value.split('-')[0]);}                     
         }
 	})
 })
