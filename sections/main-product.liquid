@@ -744,8 +744,10 @@
 {% endstyle %}
 {% javascript %}
 $(function(){
-	var b=a.value;
-	alert(b);
+	$("#a").click(function(){
+		var b=a.value;
+		alert(b);
+	})
 })
 {% endjavascript %}
 {% schema %}
