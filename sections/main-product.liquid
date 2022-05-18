@@ -745,7 +745,7 @@
 {% javascript %}
 $(function(){
 	$(".color-sample").click(function(){
-		var b=a.value;
+		var b={{ option_id }}-opt-{{ forloop.index0 }}.value;
 		alert(b);
 	})
 })
