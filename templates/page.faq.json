@@ -127,12 +127,6 @@
     "faq-content-2": {
       "type": "collapsible-tabs",
       "blocks": {
-        "para-1": {
-          "type": "content",
-          "settings": {
-            "content": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
-          }
-        },
         "question-1": {
           "type": "question",
           "settings": {
@@ -143,8 +137,8 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout.<\/p>"
+            "title": "Do you ship Internationally?",
+            "answer": "<p>At this time we offer shipping to USA, Canada, Mexico and Europe. International shipping rates may apply. <\/p>"
           }
         },
         "8d6cdf98-2790-4aae-a4a4-c638da320774": {
@@ -156,7 +150,6 @@
         }
       },
       "block_order": [
-        "para-1",
         "question-1",
         "question-2",
         "8d6cdf98-2790-4aae-a4a4-c638da320774"
