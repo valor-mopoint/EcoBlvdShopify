@@ -83,7 +83,7 @@
                 <legend class="label">{{ option.name }} 
                   <span>
                     {{ option.selected_value | split:'-' | first }}
-                  	{{ product.selected_variant }}
+                  	{{ product.selected_variant.option1 | split:'-' | first }}
                   </span>
                 </legend>
                 {{ size_chart_html }}
