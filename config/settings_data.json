@@ -1013,31 +1013,31 @@
             "type": "icon",
             "settings": {
               "icon": "truck",
-              "text": "Free shipping",
+              "text": "Free Shipping",
               "link_url": ""
             }
           },
           "1478526645605": {
             "type": "icon",
             "settings": {
-              "icon": "price_tag",
-              "text": "New styles",
+              "icon": "heart",
+              "text": "Plastic-Free Packaging",
               "link_url": ""
             }
           },
           "1478526647261": {
             "type": "icon",
             "settings": {
-              "icon": "gift",
-              "text": "Gift cards",
+              "icon": "leaf",
+              "text": "Sustainable Materials",
               "link_url": ""
             }
           },
           "1478527611164": {
             "type": "icon",
             "settings": {
-              "icon": "star",
-              "text": "5.0 Trustpilot rating",
+              "icon": "check_mark_in_circle",
+              "text": "Customer Satisfaction",
               "link_url": ""
             }
           }
@@ -1049,7 +1049,7 @@
           "1478527611164"
         ],
         "settings": {
-          "visibility": ""
+          "visibility": "all"
         }
       },
       "footer": {
