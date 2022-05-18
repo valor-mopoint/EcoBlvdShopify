@@ -1115,13 +1115,13 @@
         "type": "popup",
         "settings": {
           "mode": "enabled",
-          "popup_delay_seconds": 6,
-          "popup_dismiss_for_days": 2,
+          "popup_delay_seconds": 10,
+          "popup_dismiss_for_days": 3,
           "position": "center",
-          "title": "Sign up and save",
-          "text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
+          "title": "Subscribe and Save",
+          "text": "<p>Sign up to receive sustainability tips, eco news, announcements and more. Plus get 10% off your first order when you subscribe.<\/p>",
           "show_newsletter": true,
-          "show_social_icons": true
+          "show_social_icons": false
         }
       }
     },
