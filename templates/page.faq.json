@@ -138,7 +138,7 @@
           "type": "question",
           "settings": {
             "title": "Do you ship Internationally?",
-            "answer": "<p>At this time we only offer shipping to USA and Canada. Additional shipping rates and customs fees are applied to orders shipped to Canada.<\/p><p>Note: we are working to provide more international shipping options soon!<\/p>"
+            "answer": "<p>At this time we only offer shipping to USA and Canada. Additional shipping rates and customs fees may be applied to orders shipped to Canada.<\/p><p>Note: we are working to provide more international shipping options soon!<\/p>"
           }
         },
         "8d6cdf98-2790-4aae-a4a4-c638da320774": {
