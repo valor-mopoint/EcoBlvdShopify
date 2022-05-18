@@ -737,7 +737,11 @@
 </div>
 
 {% render 'structured-data-product', product: product, current_variant: product.selected_or_first_available_variant %}
-
+{% style %}
+.cc-accordion-item__content strong{
+	display:none;
+}
+{% endstyle %}
 
 {% schema %}
   {
