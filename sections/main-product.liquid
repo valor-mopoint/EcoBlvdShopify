@@ -239,7 +239,7 @@
                     {%- endif -%}
                   {%- endcapture -%}
                 {%- for block in section.blocks -%}
-                  {% render 'accordion', allow_multi_open: true, add_content_class: 'rte cf', first_item_open: block.settings.open_tab, item1_title: block.settings.title, item1_content: product.description %}
+                  {% render 'accordion', allow_multi_open: true, add_content_class: 'rte cf', first_item_open: block.settings.open_tab, item1_title:accordion_title, item1_content: product.description %}
                 {% endfor %}
                 {% else %}
                   <div class="product-description rte cf">
