@@ -80,7 +80,8 @@
             <fieldset class="option-selector-fieldset">
               {% if option.name=='Color' %}
               <div class="opposing-items">
-                <legend class="label">{%- for value in option.values -%}{% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}{{ value | split:'-' | first  }}{% endif %}{% endif %}{%- endfor -%}</legend>
+                <legend class="label">{% for product in collection.products %}
+                  {% for variant in product.variants  %} {{variant.option1 | split:'-' | first }}{% endfor %}{%- endfor -%}</legend>
                 {{ size_chart_html }}
               </div>
               <div class="option-selector__btns">
