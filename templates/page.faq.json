@@ -102,13 +102,21 @@
             "title": "My case arrived warped\/defective. How can I get this fixed?",
             "answer": "<p>Each case leaves our facility through a comprehensive multi-step inspection, but now and then, an odd warped case may slip through. Extreme temperature during shipping transit may also cause warping on rare occasions too.<\/p><p>Our Greenlight Customer Satisfaction Program allows you to request a new case within 90 days of receiving your current one. No exchange is required, no additional charges. As part of our quality improvement process, our customer service team may ask for a photo of the defective case for our records.<\/p>"
           }
+        },
+        "632dff72-79d8-4b7a-9a9c-92ed5ec1f355": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a way to clean the case or remove stains?",
+            "answer": "<p>Answer<\/p>"
+          }
         }
       },
       "block_order": [
         "1652885305de7f5458-0",
         "1652885305de7f5458-1",
         "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4",
-        "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368"
+        "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368",
+        "632dff72-79d8-4b7a-9a9c-92ed5ec1f355"
       ],
       "settings": {
         "title": "Products"
