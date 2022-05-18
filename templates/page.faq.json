@@ -3,20 +3,39 @@
     "heading": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
+        "image_position": "bottom center",
+        "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 400,
         "height_mobile": 300,
+        "image_link": "",
         "subheading": "",
         "title": "Customer Help",
         "title_size": 52,
+        "title_size_mobile": 46,
+        "use_h1": false,
         "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).<\/p>",
+        "enlarge_text": true,
         "button_label_1": "",
-        "button_label_2": ""
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
       }
     },
     "main": {
       "type": "faq-header",
       "settings": {
+        "title": "FAQs",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "How can we help?"
       }
     },
     "faq-content-1": {
@@ -78,6 +97,40 @@
         "title": "Shipping, Returns & Exchanges"
       }
     },
+    "165288530670ec9f40": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1652885305de7f5458-0": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between compostable and biodegradable?",
+            "answer": "<p>Compostable is a term used for an organic material that is broken down into sugar or a nutrient-dense mixture called humus. Compostable materials require a specific amount of water, carbon, and nitrogen in order to fully decompose. Biodegradable is a term used for materials that can be broken down naturally through microorganisms. To eliminate as much waste as possible, EcoBlvd ensures that all of our products are both compostable and biodegradable! We want you to know that your little change to compost or recycle your accessories will make a big difference in ending plastic dependency!<\/p>"
+          }
+        },
+        "1652885305de7f5458-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the proper way to dispose of EcoBlvd accessories?",
+            "answer": "<p>You can either dispose of your case at home using composting or at an industrial composting facility or ship it back to us using the included free shipping label. If you choose to return it to us, you will receive a 20% discount on your new case and your old case will be taken care of. Please contact us if you would like to return it.<\/p>"
+          }
+        },
+        "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4": {
+          "type": "question",
+          "settings": {
+            "title": "What is Prop 65? I see it on your charger and cable packaging.",
+            "answer": "<p>A company selling products in California must comply with California's Proposition 65 law.<\/p><p>In California, the Office of Environmental Health Hazard Assessment (\"OEHHA\") maintains a database of over 800 natural and synthetic chemicals that are known to pose health risks. In accordance with Proposition 65, businesses selling products within the state are required to warn potential consumers when a product contains any listed chemical in an amount that exceeds certain limits.<\/p><p>Prop 65 is not a product safety law, but a law that protects consumers' right to know about their exposure to different chemicals. The warnings are among the world's most stringent and often far more strict than federal standards.<\/p><p>There is a wide range of Prop 65 warnings throughout California - in restaurants, grocery stores, hotels, schools, hospitals, and on a wide variety of consumer products. Prop 65 warnings must also be provided on websites or in catalogs for all products sold by internet and mail order retailers.<br\/><br\/>The warning is because LifeVine cables and PowerPlant chargers contain recycled plastic parts.<\/p><p>Click <a href=\"https:\/\/oehha.ca.gov\/proposition-65\" target=\"_blank\" title=\"https:\/\/oehha.ca.gov\/proposition-65\">here<\/a> for more information on Proposition 65.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652885305de7f5458-0",
+        "1652885305de7f5458-1",
+        "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4"
+      ],
+      "settings": {
+        "title": "Products"
+      }
+    },
     "contact": {
       "type": "rich-text",
       "blocks": {
@@ -90,19 +143,23 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Get in touch"
+            "title": "Get in touch",
+            "use_h1": false
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Have questions about your order, or a general enquiry?<\/p>"
+            "text": "<p>Have questions about your order, or a general enquiry?<\/p>",
+            "enlarge_text": true
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Contact us"
+            "button_label": "Contact us",
+            "button_link": "",
+            "button_style": "primary"
           }
         }
       },
@@ -113,6 +170,9 @@
         "button"
       ],
       "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": true
       }
     }
@@ -122,6 +182,7 @@
     "main",
     "faq-content-1",
     "faq-content-2",
+    "165288530670ec9f40",
     "contact"
   ]
 }
