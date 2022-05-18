@@ -82,7 +82,8 @@
               <div class="opposing-items">
                 <legend class="label">{{ option.name }} 
                   <span>
-                  	{%- for value in option.values -%}{% if option.selected_value == value %}{{ value | split:'-' | first  }}{% endif %}{%- endfor -%}
+                    {{ option.selected_value | split:'-' | first }}
+                  	
                   </span>
                 </legend>
                 {{ size_chart_html }}
