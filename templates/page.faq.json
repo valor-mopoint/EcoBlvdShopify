@@ -51,7 +51,7 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Can I cancel my order?",
+            "title": "How do I cancel my order?",
             "answer": "<p>Due to using a 3rd Party Logistics Provider for fulfilment and shipping, we cannot guarentee an order can be canceled once it is received. However, there is a 14 day return window that you can return it to us for a full refund. Regardless, please contact us immediately, and we will do our best to accommodate your request. <\/p>"
           }
         },
