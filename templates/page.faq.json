@@ -140,6 +140,13 @@
             "title": "My phone broke while using an EcoBlvd case. Is there any insurance coverage?",
             "answer": "<p>Answer<\/p>"
           }
+        },
+        "a57c5b68-8a73-4ba0-bd19-25220f3a2d4a": {
+          "type": "question",
+          "settings": {
+            "title": "What are the phone cases made out of?",
+            "answer": "<p>Answer<\/p>"
+          }
         }
       },
       "block_order": [
@@ -148,7 +155,8 @@
         "632dff72-79d8-4b7a-9a9c-92ed5ec1f355",
         "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368",
         "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4",
-        "55048597-5d05-44a9-a2e7-3a8aa8c453de"
+        "55048597-5d05-44a9-a2e7-3a8aa8c453de",
+        "a57c5b68-8a73-4ba0-bd19-25220f3a2d4a"
       ],
       "settings": {
         "title": "Products"
