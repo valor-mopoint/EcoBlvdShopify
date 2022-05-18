@@ -1055,11 +1055,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "b74721b5-0cdf-44f1-b470-e44959a61d4a": {
-            "type": "menu",
+          "e7cfeebe-1e14-4fbd-9c69-2af28bf67456": {
+            "type": "newsletter",
             "settings": {
-              "title": "SHOP",
-              "menu": "shop-menu"
+              "title": "NEWSLETTER SIGN-UP",
+              "text": "<p>Sign up to receive sustainability tips, eco news, annoucements and more. Plus get 10% off your first order when you subscribe.<\/p>",
+              "button_style": "primary",
+              "show_social_icons": false,
+              "soc_icons_large": false
             }
           },
           "0d857525-cff7-47ed-947f-a93ce92d0044": {
@@ -1083,23 +1086,23 @@
               "menu": "legal-menu"
             }
           },
-          "e7cfeebe-1e14-4fbd-9c69-2af28bf67456": {
-            "type": "newsletter",
+          "1fb61734-46b7-4919-93c1-e4f3897a98b5": {
+            "type": "text",
             "settings": {
-              "title": "NEWSLETTER SIGN-UP",
-              "text": "",
-              "button_style": "primary",
+              "title": "EcoBlvd",
+              "text": "<p>To eliminate waste, we must work together. Meet us at the intersection of style and sustainability to join us on the #Root2Renew. Let's be part of the solution, not the pollution. With every EcoBlvd purchase, a portion of the sale is donated to non-profit organizations that work to protect and conserve our planet. <\/p>",
+              "image_width": 100,
               "show_social_icons": true,
               "soc_icons_large": false
             }
           }
         },
         "block_order": [
-          "b74721b5-0cdf-44f1-b470-e44959a61d4a",
+          "e7cfeebe-1e14-4fbd-9c69-2af28bf67456",
           "0d857525-cff7-47ed-947f-a93ce92d0044",
           "1601374650582",
           "d70fbf15-cd7f-418d-bc14-428c5d3a1d75",
-          "e7cfeebe-1e14-4fbd-9c69-2af28bf67456"
+          "1fb61734-46b7-4919-93c1-e4f3897a98b5"
         ],
         "settings": {
           "lower_menu": "",
