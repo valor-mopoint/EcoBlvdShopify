@@ -73,7 +73,7 @@
           "type": "question",
           "settings": {
             "title": "I forgot to apply my discount code. Can it still be applied after the order is placed?",
-            "answer": "<p>Unfortunately once an order is submitted the discount code cannot be applied. Please contact us immediately and we will make every effort to assist you but cannot make any guarantees. <\/p>"
+            "answer": "<p>Unfortunately once an order is submitted the discount code cannot be applied. <\/p>"
           }
         }
       },
