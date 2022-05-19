@@ -165,6 +165,13 @@
             "answer": "<p>EcoBlvd cases can last the typical lifespan of your phone, or up to 2 years, depending on your usage and wear. Our cases will not disintegrate but are compostable. The cases will only break down in high humidity conditions, such as in a composter or when planted in soil, so you can rest assured that your phone will remain safe even as it goes through everyday wear and tear.<\/p>"
           }
         },
+        "31d3dd0b-0a58-4d80-8d38-9eb9cc0b069c": {
+          "type": "question",
+          "settings": {
+            "title": "What Is The Proper Way To Dispose Of EcoBlvd Cases?",
+            "answer": "<p>You can either dispose of your case at home using composting or at an industrial composting facility or ship it back to us using the included free shipping label as part of our Roundabout Recycling Program. Upon returning it to us, you will receive a 25% discount on your new case and compost your old one to be repurposed! Please contact us if you would like to return it.<\/p>"
+          }
+        },
         "1652885305de7f5458-1": {
           "type": "question",
           "settings": {
@@ -194,6 +201,7 @@
         "ad023341-c766-4f3b-a433-fed16747c89b",
         "632dff72-79d8-4b7a-9a9c-92ed5ec1f355",
         "1652885305de7f5458-0",
+        "31d3dd0b-0a58-4d80-8d38-9eb9cc0b069c",
         "1652885305de7f5458-1",
         "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368",
         "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4"
