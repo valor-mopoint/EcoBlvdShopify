@@ -91,11 +91,49 @@
       "settings": {
         "title": ""
       }
+    },
+    "165299454418349bf5": {
+      "type": "rich-text",
+      "blocks": {
+        "2beefd0d-e1f1-4fa7-a12b-2d14cd89722f": {
+          "type": "icon",
+          "settings": {
+            "icon": "question_mark"
+          }
+        },
+        "1652994544ca5383ac-0": {
+          "type": "heading",
+          "settings": {
+            "title": "You can also check our FAQs for help",
+            "use_h1": false
+          }
+        },
+        "c5d9432c-57e1-46f5-b467-cf48608ae1b8": {
+          "type": "button",
+          "settings": {
+            "button_label": "FAQs",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "2beefd0d-e1f1-4fa7-a12b-2d14cd89722f",
+        "1652994544ca5383ac-0",
+        "c5d9432c-57e1-46f5-b467-cf48608ae1b8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "1652993299912c144e",
     "main",
-    "1652993900fd1008ac"
+    "1652993900fd1008ac",
+    "165299454418349bf5"
   ]
 }
