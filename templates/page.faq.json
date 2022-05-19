@@ -291,22 +291,29 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Do you ship Internationally?",
-            "answer": "<p>At this time we only offer shipping to USA and Canada. Additional shipping rates and customs fees may be applied to orders shipped to Canada.<\/p><p><strong>NOTE<\/strong>: we are working to provide more international shipping options soon!<\/p>"
+            "title": "Do You Ship Internationally?",
+            "answer": "<p>At this time we only offer shipping to USA and Canada. Additional shipping rates and customs fees may be applied to orders shipped to Canada.<\/p><p>We are working to provide more international shipping options soon!<\/p>"
           }
         },
         "8d6cdf98-2790-4aae-a4a4-c638da320774": {
           "type": "question",
           "settings": {
-            "title": "Where does the order ship from?",
-            "answer": "<p>All orders are shipped from our fulfilment and shipping partner based in Los Angeles, California. <\/p>"
+            "title": "Where Do Orders Ship From?",
+            "answer": "<p>All orders are shipped from our fulfillment and shipping partner based in Los Angeles, California.<\/p>"
           }
         },
         "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da": {
           "type": "question",
           "settings": {
-            "title": "How long does shipping take?",
+            "title": "How Long Does Shipping Take?",
             "answer": "<p>All orders are shipped from Los Angeles, CA. Depending on the shipping address and proximity to the shipment center, it may take anywhere from 3 to 10 business days for delivery once shipped. Orders shipped to Canada may take 5 to 14 business days.<\/p>"
+          }
+        },
+        "c92e632b-6c1a-4393-a0eb-731b4db987ab": {
+          "type": "question",
+          "settings": {
+            "title": "What Is the Cost of Shipping?",
+            "answer": "<p>We encourage all customers to take advantage of free domestic ground shipping to curb expedited shipping impacts on the environment. However, we understand you may need your order sooner - so we do offer a rush delivery option.<\/p><p>Expedited shipping rates are calculated at checkout based on the shipping address.<\/p><p>Orders shipped to Canada are subject to international shipping rates and duties. Cost varies based on location and will be calculated at checkout.<\/p><p>We kindly ask you to consider offsetting the carbon emissions of shipping your order by using ShopPay or EcoCart at checkout!<\/p>"
           }
         },
         "771b808a-fed7-4f0b-b212-81f008a3b47c": {
@@ -315,13 +322,6 @@
             "title": "How do I track my order?",
             "answer": "<p>Once your order has shipped, you will receive an email confirmation with a tracking number and link. Please check your junk and spam folder. If you still cannot locate the tracking information, please contact us at support@ecoblvd.com for further assistance.<\/p>"
           }
-        },
-        "c92e632b-6c1a-4393-a0eb-731b4db987ab": {
-          "type": "question",
-          "settings": {
-            "title": "How much is shipping?",
-            "answer": "<p>We encourage all customers to take advantage of free domestic ground shipping to curb expideted shipping impacts on the environment, however, we understand you may need your order sooner - so we do offer a rush delivery option. <\/p><p>Expedited shipping rates are calculated at checkout based on shipping address.<\/p><p>Orders shipped to Canada are subject to international shipping rates and duties. Cost varies based on location and will be calculated at checkout. <\/p><p>We kindly ask you to consider offsetting the carbon emmissions of shipping your order by using ShopPay or EcoCart at checkout!<\/p>"
-          }
         }
       },
       "block_order": [
@@ -329,8 +329,8 @@
         "question-2",
         "8d6cdf98-2790-4aae-a4a4-c638da320774",
         "3ddd2a73-41a6-43cc-bb8f-56a6a700e0da",
-        "771b808a-fed7-4f0b-b212-81f008a3b47c",
-        "c92e632b-6c1a-4393-a0eb-731b4db987ab"
+        "c92e632b-6c1a-4393-a0eb-731b4db987ab",
+        "771b808a-fed7-4f0b-b212-81f008a3b47c"
       ],
       "settings": {
         "title": "Shipping"
