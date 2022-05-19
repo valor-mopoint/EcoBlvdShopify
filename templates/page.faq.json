@@ -221,6 +221,13 @@
     "1652889804f42e7b4c": {
       "type": "collapsible-tabs",
       "blocks": {
+        "da3d3937-ef6e-4b8e-82b5-93c75dbe5d2a": {
+          "type": "question",
+          "settings": {
+            "title": "What Is The Return Policy?",
+            "answer": "<p>Returns are available for only 14 days from the date of delivery. Please notify us as soon as possible if you need to return your item(s) for any reason within the 14 day period. <\/p>"
+          }
+        },
         "165288980441c9a58e-0": {
           "type": "question",
           "settings": {
@@ -237,6 +244,7 @@
         }
       },
       "block_order": [
+        "da3d3937-ef6e-4b8e-82b5-93c75dbe5d2a",
         "165288980441c9a58e-0",
         "41147234-9c83-4175-a3f3-ba7d6a4206d0"
       ],
