@@ -282,13 +282,21 @@
             "title": "How\/Where Does The E-Waste Get Recycled?",
             "answer": "<p>All electronic waste received - including EcoBlvd chargers and charging cables - is recycled by HomeBoy Industries to ensure that old electronics, gadgets, and equipment are disposed of properly and recycled in the most eco-conscious way. A certified B Corporation and a Responsible Recycling certified company, HomeBoy Industries provides employment and training to individuals suffering from barriers to employment.<\/p><p>To learn more about HomeBoy Industries and E-Waste Recycling click <a href=\"https:\/\/homeboyrecycling.com\/certified-recycling\/\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>.<\/p>"
           }
+        },
+        "73d11298-61d7-4820-ae0f-3b5eaa667051": {
+          "type": "question",
+          "settings": {
+            "title": "Is There A Limit To How Much E-Waste\/How Many Cases I Can Send?",
+            "answer": "<p>The included label will allow for up to 1LB, but you are welcome to send more at your own expense and we will be happy to recycle it.<\/p>"
+          }
         }
       },
       "block_order": [
         "16528871093c974e7c-0",
         "16528871093c974e7c-1",
         "a8e63844-e6ab-42bf-80fb-f9389d288876",
-        "c64ca17c-a86a-4aea-8bea-7d7aca58497b"
+        "c64ca17c-a86a-4aea-8bea-7d7aca58497b",
+        "73d11298-61d7-4820-ae0f-3b5eaa667051"
       ],
       "settings": {
         "title": "Roundabout Recycling Program"
