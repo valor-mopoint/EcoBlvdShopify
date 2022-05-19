@@ -227,18 +227,10 @@
             "title": "How Do I Return Or Exchange My Purchase?",
             "answer": "<p>In the event you are unhappy with your purchase or ordered an item in error, please contact us within 14 days of delivery for a refund or exchange.<\/p><p>Customized products returned for any reason other than EcoBlvd error\/defect are subject to a 50% restocking fee. Please double-check your customizations before submitting your order to minimize receiving an undesired design(s).<\/p><p>Once we receive your return, we’ll issue you a full refund within 3 to 5<strong>  <\/strong>business days. <\/p><p>For exchanges, once the item is received, please allow 1 busines day for the replacement to ship out. <\/p>"
           }
-        },
-        "165288980441c9a58e-1": {
-          "type": "question",
-          "settings": {
-            "title": "Question",
-            "answer": "<p>Answer<\/p>"
-          }
         }
       },
       "block_order": [
-        "165288980441c9a58e-0",
-        "165288980441c9a58e-1"
+        "165288980441c9a58e-0"
       ],
       "settings": {
         "title": "Returns & Exchanges"
