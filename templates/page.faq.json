@@ -373,6 +373,13 @@
             "title": "Can I Request A Different Product For The Warranty Replacement?",
             "answer": "<p>If the original product for the warranty is unavailable, we can substitute a product of equal or lesser value.<\/p>"
           }
+        },
+        "123340a4-9df9-4e14-8da4-d8cfe86412b0": {
+          "type": "question",
+          "settings": {
+            "title": "I Received My Accessories As A Gift. Do I Still Qualify For The Warranty?",
+            "answer": "<p>In order to process a warranty claim, we must verify the purchase details. If you do not have your order details or receipt, please ask the person who purchased the item to contact us.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -380,7 +387,8 @@
         "16528868111a4ea200-0",
         "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb",
         "f9315875-548f-436c-8011-3f45cfa2a33f",
-        "5d946b28-b6cf-4a77-a4b7-be904ddbb879"
+        "5d946b28-b6cf-4a77-a4b7-be904ddbb879",
+        "123340a4-9df9-4e14-8da4-d8cfe86412b0"
       ],
       "settings": {
         "title": "Warranty"
