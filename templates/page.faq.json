@@ -96,6 +96,13 @@
             "title": "I Forgot To Apply My Discount Code. Can It Still Be Applied After The Order Is Placed?",
             "answer": "<p>Unfortunately, discount codes cannot be applied once an order is submitted.<\/p>"
           }
+        },
+        "67ed80b4-22a9-4da2-83e0-6d734bf773b6": {
+          "type": "question",
+          "settings": {
+            "title": "The Product I Want Is Out Of Stock. What Should I Do?",
+            "answer": "<p>We are sorry to hear that the product(s) you want is out of stock. However, if you just can't wait and would like to know the earliest availability of the product, you have a few options:<\/p><p>Sign up for our newsletter to get the latest updates.<\/p><p>Alternatively, you can reach out to <a href=\"mailto:support@ecoblvd.com\"><span style=\"text-decoration:underline\">support@ecoblvd.com<\/span><\/a> for more information.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -106,7 +113,8 @@
         "8a91b63e-a506-40b5-9b0a-3969a673feec",
         "3c03f527-3538-498e-bb59-4013493471b7",
         "6972517f-9e21-4caf-af15-e386ea3334b8",
-        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12"
+        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12",
+        "67ed80b4-22a9-4da2-83e0-6d734bf773b6"
       ],
       "settings": {
         "title": "Ordering"
