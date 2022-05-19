@@ -151,6 +151,13 @@
             "answer": "<p>Yes, all EcoBlvd cases support wireless charging. However, our cases are not MagSafe compatible.<\/p>"
           }
         },
+        "632dff72-79d8-4b7a-9a9c-92ed5ec1f355": {
+          "type": "question",
+          "settings": {
+            "title": "What Is The Safest Way To Clean My Case?",
+            "answer": "<p>Hand wash only with warm water and soap. While cleaning, please be gentle.<br\/><strong><br\/><\/strong>Laguna (clear cases) and custom printed cases should not be cleaned with cleaning agents or alcohol.<\/p>"
+          }
+        },
         "1652885305de7f5458-0": {
           "type": "question",
           "settings": {
@@ -163,13 +170,6 @@
           "settings": {
             "title": "Can I literally put the case in dirt and it will break down?",
             "answer": "<p>You can either dispose of your case at home using composting or at an industrial composting facility or ship it back to us using the included free shipping label. If you choose to return it to us, you will receive a 20% discount on your new case and your old case will be taken care of. Please contact us if you would like to return it.<\/p>"
-          }
-        },
-        "632dff72-79d8-4b7a-9a9c-92ed5ec1f355": {
-          "type": "question",
-          "settings": {
-            "title": "What is the safest way to clean my case?",
-            "answer": "<p>Answer<\/p>"
           }
         },
         "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368": {
@@ -192,9 +192,9 @@
         "29903b31-1ac5-41bd-b68f-be7eb8da09b0",
         "3489d4e4-8cc6-406d-b53a-4d1b3cc2daf8",
         "ad023341-c766-4f3b-a433-fed16747c89b",
+        "632dff72-79d8-4b7a-9a9c-92ed5ec1f355",
         "1652885305de7f5458-0",
         "1652885305de7f5458-1",
-        "632dff72-79d8-4b7a-9a9c-92ed5ec1f355",
         "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368",
         "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4"
       ],
