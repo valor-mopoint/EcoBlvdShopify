@@ -44,53 +44,69 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "How long does it take to process my order?",
-            "answer": "<p>We aim to process all orders within 1 business day. However we kindly ask for up to 3 business days to process all orders for shipment. <\/p><p><\/p><p>Note: orders will not be processed during non-business hours, which includes holidays and weekends.<\/p>"
+            "title": "How Long Does It Take To Process My Order?",
+            "answer": "<p>We aim to process all orders within 1 business day. However, we kindly ask for up to 3 business days to process all orders for shipment. <\/p><p><strong>Note<\/strong>: Orders will not be processed during non-business hours, including holidays and weekends.<\/p>"
           }
         },
         "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666": {
           "type": "question",
           "settings": {
-            "title": "I didn't receive an order confirmation. Can it be resent?",
-            "answer": "<p>Order confirmation emails are automatically sent once the order is received. Please be sure to check your junk and spam folders and move it to your inbox. If you still don't receive anything shortly after the order is placed, please email us at support@ecoblvd.com for further assistance.<\/p>"
+            "title": "I Didn’t Receive My Order Confirmation. Can It Be Resent?",
+            "answer": "<p>Order confirmations are automatically sent once the order is received. Please check your junk and spam folders, and if found, move it to your inbox. <\/p><p>If you do not receive anything shortly after your order has been placed, please email us at <a href=\"mailto:support@ecoblvd.com\"><span style=\"text-decoration:underline\">support@ecoblvd.com<\/span><\/a> for further assistance.<\/p>"
+          }
+        },
+        "edfc4faa-ce89-45a6-bc57-352038fb07eb": {
+          "type": "question",
+          "settings": {
+            "title": "How Do I Check My Order Status, And Where Can I Track My Order?",
+            "answer": "<p>Once your order has shipped, you will receive an email confirmation with a tracking number and link. Please check your junk and spam folder. If you still cannot locate the tracking information, please contact us at <a href=\"mailto:support@ecoblvd.com\"><span style=\"text-decoration:underline\">support@ecoblvd.com<\/span><\/a> for further assistance.<\/p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "How do I cancel my order?",
-            "answer": "<p>Unfortunately, once an order has been submitted, we cannot make any guarantees that we can cancel it due to our fast fulfillment process. However, all orders are eligible for a full refund within 14 days of delivery. Should you need to cancel an order after it has been placed, please contact us, and we will make every effort to accommodate you.<\/p>"
+            "title": "How Do I Cancel My Order?",
+            "answer": "<p>Should you need to cancel an order after it has been placed, please contact us, and we will make every effort to accommodate you. However, due to our fast fulfillment process, we cannot guarantee that we can cancel an order once submitted. All orders are eligible for a full refund within 14 days of delivery.<\/p>"
           }
         },
         "8a91b63e-a506-40b5-9b0a-3969a673feec": {
           "type": "question",
           "settings": {
-            "title": "I accidentally ordered the wrong case for my phone. What can I do?",
-            "answer": "<p>Accidents happen, and we want to ensure that you have the case you need and are 100% satisfied with it! Exchanges and returns are available within 14 days of the delivery date.<\/p>"
-          }
-        },
-        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12": {
-          "type": "question",
-          "settings": {
-            "title": "I forgot to apply my discount code. Can it still be applied after the order is placed?",
-            "answer": "<p>Unfortunately once an order is submitted the discount code cannot be applied. <\/p>"
+            "title": "I Accidentally Ordered The Wrong Case For My Phone. What Can I Do?",
+            "answer": "<p>Accidents happen, and we want to make sure you have the case you need and are 100% satisfied with it. Exchanges and returns are available within 14 days of the delivery date.<\/p>"
           }
         },
         "3c03f527-3538-498e-bb59-4013493471b7": {
           "type": "question",
           "settings": {
-            "title": "Are there any sales, promotions or discount codes available?",
-            "answer": "<p>We encourage you to sign up to our newsletter for the most up to date information about sales and promotions. There may even be an incentive you receive when you sign up, for first time customers ;) <\/p>"
+            "title": "Are There Any Sales, Promotions, Or Discount Codes Available?",
+            "answer": "<p>For the most up-to-date information on sales and promotions, we encourage you to sign up for our newsletter. You might even get a surprise reward for signing up ;)<\/p>"
+          }
+        },
+        "6972517f-9e21-4caf-af15-e386ea3334b8": {
+          "type": "question",
+          "settings": {
+            "title": "I Am Unable To Add The Product I Want To My Cart. How Do I Order?",
+            "answer": "<p>If a product listing shows \"Coming Soon,\" we're working hard to make it available as soon as possible. If you want an updated release date, you can email us at <a href=\"mailto:support@ecoblvd.com\"><span style=\"text-decoration:underline\">support@ecoblvd.com<\/span><\/a> or check back within a few days to see if we have received stock of this item.<\/p><p><br\/>If a product listing says \"Out of Stock\", it is likely to return within a few business days. Send us an email, and we'll inform you as soon as this item becomes available.<\/p>"
+          }
+        },
+        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12": {
+          "type": "question",
+          "settings": {
+            "title": "I Forgot To Apply My Discount Code. Can It Still Be Applied After The Order Is Placed?",
+            "answer": "<p>Unfortunately, discount codes cannot be applied once an order is submitted.<\/p>"
           }
         }
       },
       "block_order": [
         "question-1",
         "f0e0a4f2-3d0c-4a8d-aec2-8af24e5e1666",
+        "edfc4faa-ce89-45a6-bc57-352038fb07eb",
         "question-2",
         "8a91b63e-a506-40b5-9b0a-3969a673feec",
-        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12",
-        "3c03f527-3538-498e-bb59-4013493471b7"
+        "3c03f527-3538-498e-bb59-4013493471b7",
+        "6972517f-9e21-4caf-af15-e386ea3334b8",
+        "152fa86a-ce21-46a1-8bff-ed38f3fc8b12"
       ],
       "settings": {
         "title": "Ordering"
