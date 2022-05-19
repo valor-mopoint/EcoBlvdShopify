@@ -268,11 +268,19 @@
             "title": "Do You Recycle & Compost Non-EcoBlvd Products?",
             "answer": "<p>As part of our commitment to reducing waste, we are happy to recycle or compost plastic cases, cables, and chargers from other brands.<\/p>"
           }
+        },
+        "a8e63844-e6ab-42bf-80fb-f9389d288876": {
+          "type": "question",
+          "settings": {
+            "title": "How\/Where Do The Plastic Phone Cases Get Recycled?",
+            "answer": "<p>Plastic cases will be properly recycled or disposed of through our use of TerraCycle's Zero Waste Box program, while other materials will be broken down for reuse. Zero Waste Boxes make it possible to recycle materials that are often not accepted through local curbside recycling services.<\/p><p>For more information on TerraCycle and the Zero Waste Box program, click <a href=\"https:\/\/shop.terracycle.com\/?_ga=2.49530790.1627139195.1652976511-228888215.1652976511\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>.<\/p>"
+          }
         }
       },
       "block_order": [
         "16528871093c974e7c-0",
-        "16528871093c974e7c-1"
+        "16528871093c974e7c-1",
+        "a8e63844-e6ab-42bf-80fb-f9389d288876"
       ],
       "settings": {
         "title": "Roundabout Recycling Program"
