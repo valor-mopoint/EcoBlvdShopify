@@ -232,7 +232,7 @@
           "type": "question",
           "settings": {
             "title": "How Long Does It Take To Get My Refund?",
-            "answer": "<p>A refund can only be issued once we receive the returned product. Please allow 3 to 5 business days from the day we receive the return for the refund to be processed. <\/p><p><strong>Note<\/strong>: once we issue a refund there may be an a delay for it to post to your acount based on your banks policy. If you there are any problems with the refund after we issue it, please contact your bank for additional information.<\/p>"
+            "answer": "<p>A refund can only be issued once we receive the returned product. Please allow 3 to 5 business days from the day we receive the return for the refund to be processed. <\/p><p><strong>Note<\/strong>: Once we issue a refund there may be a delay for it to post to your acount based on your banks policy. If  there are any problems with the refund after we issue it, please contact your bank for additional information.<\/p>"
           }
         }
       },
