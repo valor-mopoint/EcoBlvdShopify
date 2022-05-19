@@ -3,7 +3,8 @@
     "1652993299912c144e": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image_position": "center center",
+        "image": "shopify:\/\/shop_images\/woman-texts-during-autumn-hike.jpg",
+        "image_position": "bottom center",
         "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 400,
