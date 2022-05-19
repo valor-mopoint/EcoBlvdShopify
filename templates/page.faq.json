@@ -275,12 +275,20 @@
             "title": "How\/Where Do The Plastic Phone Cases Get Recycled?",
             "answer": "<p>Plastic cases will be properly recycled or disposed of through our use of TerraCycle's Zero Waste Box program, while other materials will be broken down for reuse. Zero Waste Boxes make it possible to recycle materials that are often not accepted through local curbside recycling services.<\/p><p>For more information on TerraCycle and the Zero Waste Box program, click <a href=\"https:\/\/shop.terracycle.com\/?_ga=2.49530790.1627139195.1652976511-228888215.1652976511\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>.<\/p>"
           }
+        },
+        "c64ca17c-a86a-4aea-8bea-7d7aca58497b": {
+          "type": "question",
+          "settings": {
+            "title": "How\/Where Does The E-Waste Get Recycled?",
+            "answer": "<p>All electronic waste received - including EcoBlvd chargers and charging cables - is recycled by HomeBoy Industries to ensure that old electronics, gadgets, and equipment are disposed of properly and recycled in the most eco-conscious way. A certified B Corporation and a Responsible Recycling certified company, HomeBoy Industries provides employment and training to individuals suffering from barriers to employment.<\/p><p>To learn more about HomeBoy Industries and E-Waste Recycling click <a href=\"https:\/\/homeboyrecycling.com\/certified-recycling\/\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>.<\/p>"
+          }
         }
       },
       "block_order": [
         "16528871093c974e7c-0",
         "16528871093c974e7c-1",
-        "a8e63844-e6ab-42bf-80fb-f9389d288876"
+        "a8e63844-e6ab-42bf-80fb-f9389d288876",
+        "c64ca17c-a86a-4aea-8bea-7d7aca58497b"
       ],
       "settings": {
         "title": "Roundabout Recycling Program"
