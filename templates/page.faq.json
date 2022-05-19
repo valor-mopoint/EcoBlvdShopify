@@ -360,13 +360,6 @@
             "answer": "<p>We will replace your phone case if anything happens within 90 days of purchase!<\/p><p>Rather than causing more waste, having customers ship back damaged or used cases; if there is a problem with the case, we will replace it and send you a new one at no cost! We encourage you to take the damaged case to a composting facility or compost it at home! <br\/><br\/>Click <a href=\"https:\/\/findacomposter.com\/search\"><span style=\"text-decoration:underline\"><strong>HERE<\/strong><\/span><\/a> to search for composting facilities near you! <\/p><p>Feel free to send us some photos of what happened so we can improve our products further!<\/p><p><strong>Note:<\/strong> After 14 days, no refunds will be given; this is a replacement-only warranty. If the original item is not available, we will replace it with one of equal or lesser value. <\/p>"
           }
         },
-        "f9315875-548f-436c-8011-3f45cfa2a33f": {
-          "type": "question",
-          "settings": {
-            "title": "My phone\/screen broke, does the warranty cover repair costs?",
-            "answer": "<p>All EcoBlvd cases are intended to protect your phone against most forms of damage. However, the phone itself is not covered by the warranty. We recommend that you pair our case with a screen protector or purchase insurance coverage through your carrier or a third-party provider.<\/p>"
-          }
-        },
         "5d946b28-b6cf-4a77-a4b7-be904ddbb879": {
           "type": "question",
           "settings": {
@@ -380,15 +373,22 @@
             "title": "I Received My Accessories As A Gift. Do I Still Qualify For The Warranty?",
             "answer": "<p>In order to process a warranty claim, we must verify the purchase details. If you do not have your order details or receipt, please ask the person who purchased the item to contact us.<\/p>"
           }
+        },
+        "f9315875-548f-436c-8011-3f45cfa2a33f": {
+          "type": "question",
+          "settings": {
+            "title": "My Phone\/Screen Broke, Does The Warranty Cover Repair Costs?",
+            "answer": "<p>All EcoBlvd cases are intended to protect your phone against most forms of damage. However, the phone itself is not covered by the warranty. We recommend that you pair our case with a screen protector or purchase insurance coverage through your carrier or a third-party provider.<\/p>"
+          }
         }
       },
       "block_order": [
         "16528868111a4ea200-1",
         "16528868111a4ea200-0",
         "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb",
-        "f9315875-548f-436c-8011-3f45cfa2a33f",
         "5d946b28-b6cf-4a77-a4b7-be904ddbb879",
-        "123340a4-9df9-4e14-8da4-d8cfe86412b0"
+        "123340a4-9df9-4e14-8da4-d8cfe86412b0",
+        "f9315875-548f-436c-8011-3f45cfa2a33f"
       ],
       "settings": {
         "title": "Warranty"
