@@ -123,6 +123,13 @@
     "165288530670ec9f40": {
       "type": "collapsible-tabs",
       "blocks": {
+        "a57c5b68-8a73-4ba0-bd19-25220f3a2d4a": {
+          "type": "question",
+          "settings": {
+            "title": "What Are Your Phone Cases Made Of?",
+            "answer": "<p>Sequoia and Laguna are made from our proprietary corn-based plastic InnoMaize™, a composite of cornstarch, corn sugar, and plant fibers.<br\/><br\/>Mojave cases are made of our bamboo-based plastic Cornbo™, which combines bamboo shoots, leaves, and stalks with cornstarch and corn sugar.<\/p>"
+          }
+        },
         "1652885305de7f5458-0": {
           "type": "question",
           "settings": {
@@ -158,21 +165,22 @@
             "answer": "<p>A company selling products in California must comply with California's Proposition 65 law.<\/p><p>In California, the Office of Environmental Health Hazard Assessment (\"OEHHA\") maintains a database of over 800 natural and synthetic chemicals that are known to pose health risks. In accordance with Proposition 65, businesses selling products within the state are required to warn potential consumers when a product contains any listed chemical in an amount that exceeds certain limits.<\/p><p>Prop 65 is not a product safety law, but a law that protects consumers' right to know about their exposure to different chemicals. The warnings are among the world's most stringent and often far more strict than federal standards.<\/p><p>There is a wide range of Prop 65 warnings throughout California - in restaurants, grocery stores, hotels, schools, hospitals, and on a wide variety of consumer products. Prop 65 warnings must also be provided on websites or in catalogs for all products sold by internet and mail order retailers.<br\/><br\/>The warning is because LifeVine cables and PowerPlant chargers contain recycled plastic parts.<\/p><p>Click <a href=\"https:\/\/oehha.ca.gov\/proposition-65\" target=\"_blank\" title=\"https:\/\/oehha.ca.gov\/proposition-65\">here<\/a> for more information on Proposition 65.<\/p>"
           }
         },
-        "a57c5b68-8a73-4ba0-bd19-25220f3a2d4a": {
+        "29903b31-1ac5-41bd-b68f-be7eb8da09b0": {
           "type": "question",
           "settings": {
-            "title": "What are the phone cases made out of?",
-            "answer": "<p>Answer<\/p>"
+            "title": "How Protective Are Your Cases?",
+            "answer": "<p>We design all our cases with raised bezel edges, raised camera rings, or non-slip grips to ensure that your phone gets edge-to-edge protection against accidental drops, bumps, or damage to the screen and camera. Our Sequoia and Laguna cases are drop-tested up to 6 ft. While the Mojave case is drop-tested up to 12 ft.<\/p>"
           }
         }
       },
       "block_order": [
+        "a57c5b68-8a73-4ba0-bd19-25220f3a2d4a",
         "1652885305de7f5458-0",
         "1652885305de7f5458-1",
         "632dff72-79d8-4b7a-9a9c-92ed5ec1f355",
         "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368",
         "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4",
-        "a57c5b68-8a73-4ba0-bd19-25220f3a2d4a"
+        "29903b31-1ac5-41bd-b68f-be7eb8da09b0"
       ],
       "settings": {
         "title": "Products"
