@@ -50,6 +50,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "title": "Description",
             "show_in_tab": true,
             "open_tab": false,
             "icon": "",
@@ -59,6 +60,7 @@
         "4ca3da20-2084-4568-9fce-76291c9f68f0": {
           "type": "characteristic",
           "settings": {
+            "title": "Features",
             "show_in_tab": true,
             "open_tab": false,
             "icon": "",
@@ -260,9 +262,9 @@
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "title": "You may also like",
+        "title": "You may also like...",
         "show_vendor": false,
-        "grid": 4
+        "grid": 5
       }
     }
   },
