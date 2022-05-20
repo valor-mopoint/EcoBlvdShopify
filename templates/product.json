@@ -94,7 +94,8 @@
     "1652318796c52aa7de": {
       "type": "background-video",
       "settings": {
-        "video": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1652b300530b4dda8cb6899967d8bc83.mov",
+        "placeholder_image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-20_at_11.41.37_AM.png",
         "subheading": "",
         "title": "",
         "title_size": 84,
