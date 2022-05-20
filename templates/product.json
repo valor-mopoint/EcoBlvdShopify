@@ -334,6 +334,61 @@
         "overlay_style": "shadow"
       }
     },
+    "16530697201c2beda8": {
+      "type": "rich-text",
+      "blocks": {
+        "165306972077be5b84-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Charge Wirelessly",
+            "use_h1": false
+          }
+        },
+        "165306972077be5b84-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Keeping your style in check even when you need to charge. All of our Sequoia Collection<em><strong> <\/strong><\/em>cases are Qi-compatible so that you can charge your phone wirelessly. The future of wireless charging is here, so your experience should be seamless.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165306972077be5b84-0",
+        "165306972077be5b84-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "165306980557974021": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
     "1652319454d4c9b7d8": {
       "type": "multi-column",
       "blocks": {
@@ -415,6 +470,8 @@
     "165306948833b9915c",
     "165306956843316440",
     "1653069592f622e127",
+    "16530697201c2beda8",
+    "165306980557974021",
     "1652319454d4c9b7d8",
     "recommendations"
   ]
