@@ -94,7 +94,7 @@
     "1652318796c52aa7de": {
       "type": "background-video",
       "settings": {
-        "video": "https:\/\/cdn-stamplib.casetify.com\/cms\/video\/7a324f81517abdad268ce39412dd3f94.mp4",
+        "video": "",
         "subheading": "",
         "title": "",
         "title_size": 84,
@@ -391,6 +391,7 @@
     },
     "1652319454d4c9b7d8": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "1652319454e9589bca-0": {
           "type": "text_block",
@@ -457,6 +458,28 @@
         "show_vendor": false,
         "grid": 5
       }
+    },
+    "16530698073b50569c": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "subheading": "Tell your story",
+        "title": "Background video",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "<p>Use a video to get a customer's attention<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
     }
   },
   "order": [
@@ -473,6 +496,7 @@
     "16530697201c2beda8",
     "165306980557974021",
     "1652319454d4c9b7d8",
-    "recommendations"
+    "recommendations",
+    "16530698073b50569c"
   ]
 }
