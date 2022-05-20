@@ -94,7 +94,7 @@
     "1653069623adbdc978": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC7069-Mojave-desert-tortoise-Gopherus-agassizii-on-road-near-Jean-Nevada-2_MarcelHuijser-scaled_jpg.webp",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-20_at_11.41.37_AM.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -124,14 +124,14 @@
         "1652319035eef7bf96-0": {
           "type": "heading",
           "settings": {
-            "title": "Keep Your Phone & Wildlife From Going Extinct",
+            "title": "Bring Life To Your Phone & Our Forests",
             "use_h1": false
           }
         },
         "1652319035eef7bf96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For every Mojave collection case purchased, 2% of the sale proceeds are donated to the non-profit organization Mojave Desert Land Trust, which advocates for the protection of the California desert's ecosystems, biodiversity, natural, cultural, and scenic resources.<\/p>",
+            "text": "<p>Every Sequoia Collection case sold results in planting a tree in a national park, thanks to our partnership with the National Forest Foundation, whose mission is to plant 50 million trees to combat climate change and provide habitat for wildlife.<\/p>",
             "enlarge_text": true
           }
         }
@@ -186,7 +186,7 @@
         "1652318974160ea08b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Mojave collection cases are constructed with CornBo™️, corn, and bamboo-based compostable bioplastic. We design our cases to be compostable, but they will only break down when exposed to high humidity, such as in a composter or in soil, so you can rest assured that your phone will remain safe despite everyday wear and tear.<\/p>",
+            "text": "<p>Our Sequoia collection cases are constructed with InnoMaize™️, a compostable bioplastic derived from cornstarch, sugar, and plant-based materials. We design our cases to be compostable but they will only break down when exposed to high humidity, such as in a composter or in soil, so you can rest assured that despite everyday wear and tear, your phone will remain safe.<\/p>",
             "enlarge_text": true
           }
         }
@@ -234,14 +234,14 @@
         "1653069440f5294402-0": {
           "type": "heading",
           "settings": {
-            "title": "Protection Through The Harshest Conditions",
+            "title": "A Complete Fall-Proof Plan",
             "use_h1": false
           }
         },
         "1653069440f5294402-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each aspect of the Mojave has been expertly designed and engineered for maximum protection and superior impact resistance.<\/p>",
+            "text": "<p>Each detail of the Sequoia has been designed for maximum protection, and superior impact resistance.<\/p>",
             "enlarge_text": true
           }
         }
@@ -289,14 +289,14 @@
         "165306956820aebd3c-0": {
           "type": "heading",
           "settings": {
-            "title": "Tough To The Core",
+            "title": "Details You Can Feel",
             "use_h1": false
           }
         },
         "165306956820aebd3c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Raised edges around the charging port, speakers, volume, and power buttons. As well as providing a perfect ergonomic grip in your hand without adding bulk to your phone, the Mojave features a non-slip bumper grip with embossed leaves and a smooth back panel.<\/p>",
+            "text": "<p>Raised edges around the charging port, speakers, volume, and power buttons. The smooth and flexible design ensures an ergonomic hold that's completely comfortable in hand, with embossed leaves detailed on the sides that provide a sturdy non-slip grip.<\/p>",
             "enlarge_text": true
           }
         }
@@ -352,7 +352,7 @@
         "165306972077be5b84-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Keeping your style in check even when you need to charge. All of our Mojave Collection<em><strong> <\/strong><\/em>cases are Qi-compatible so that you can charge your phone wirelessly. The future of wireless charging is here, so your experience should be seamless.<\/p>",
+            "text": "<p>Keeping your style in check even when you need to charge. All of our Sequoia Collection<em><strong> <\/strong><\/em>cases are Qi-compatible so that you can charge your phone wirelessly. The future of wireless charging is here, so your experience should be seamless.<\/p>",
             "enlarge_text": true
           }
         }
