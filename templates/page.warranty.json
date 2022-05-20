@@ -62,11 +62,126 @@
         "full_width": false,
         "use_alt_bg": false
       }
+    },
+    "1653062606c46a00db": {
+      "type": "multi-column",
+      "blocks": {
+        "16530626064e97046e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "14-Day Return or Exchange: All Products",
+            "text": "<p>In the event you are unhappy or ordered an item in error, please contact us within 14 days of delivery for a refund or exchange.*<\/p><p><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16530626064e97046e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "90-Day Product Warranty: Cases",
+            "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16530626064e97046e-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "1-Year Product Warranty: Chargers & Cables",
+            "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530626064e97046e-0",
+        "16530626064e97046e-1",
+        "16530626064e97046e-2"
+      ],
+      "settings": {
+        "title": "Warranty",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "1653063128b82b722c": {
+      "type": "rich-text",
+      "blocks": {
+        "9c663f7e-ffab-48bb-819a-765ebbb98727": {
+          "type": "icon",
+          "settings": {
+            "icon": "star"
+          }
+        },
+        "1653063128ebedfbe6-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1653063128ebedfbe6-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "9c663f7e-ffab-48bb-819a-765ebbb98727",
+        "1653063128ebedfbe6-0",
+        "1653063128ebedfbe6-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1653062612620f3fd1": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1653062612e5cc5ddc-0": {
+          "type": "question",
+          "settings": {
+            "title": "14-Day Return or Exchange",
+            "answer": "<p>- Available within 14 days of order delivery, verified via the tracking link<\/p><p>- Eligible only for products and orders placed directly through ecoblvd.com <\/p><p>- <strong>Note<\/strong>: Customized products returned for any reason other than EcoBlvd error\/defect are subject to a 50% restocking fee. Please double-check your customizations before submitting your order to minimize receiving an undesired design(s).<\/p>"
+          }
+        },
+        "1653062612e5cc5ddc-1": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653062612e5cc5ddc-0",
+        "1653062612e5cc5ddc-1"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "main",
     "1653062065371c052a",
-    "16530624200e69ee0b"
+    "16530624200e69ee0b",
+    "1653062606c46a00db",
+    "1653063128b82b722c",
+    "1653062612620f3fd1"
   ]
 }
