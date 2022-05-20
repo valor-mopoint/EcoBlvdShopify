@@ -33,10 +33,43 @@
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
       }
+    },
+    "1653067830d96c5857": {
+      "type": "contact-form",
+      "blocks": {
+        "165306783096a27d9d-0": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "165306783096a27d9d-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "165306783096a27d9d-2": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "165306783096a27d9d-0",
+        "165306783096a27d9d-1",
+        "165306783096a27d9d-2"
+      ],
+      "settings": {
+        "contact_title": "Looking to sell EcoBlvd at your retail store?",
+        "contact_text": "<p>Complete the form below and a member of our team will get back to you within 3 business days.<\/p>"
+      }
     }
   },
   "order": [
     "main",
-    "16530678279f5949ff"
+    "16530678279f5949ff",
+    "1653067830d96c5857"
   ]
 }
