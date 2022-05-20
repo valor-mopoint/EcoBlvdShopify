@@ -149,7 +149,7 @@
   {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}{%- assign showing_localization = true -%}{%- endif -%}
   <div class="container container--no-max section-footer__row-container {% if showing_localization %}section-footer__row-container--with-localization{% endif %}">
     
-    {% if section.settings.show_payment_icons %}
+    {% if section.settings.social_enabled %}
               	<div class="ss-icone">
                   
                  <a href=" www.instagram.com/ecoblvdofficial"><img src="{{ 'Instagram.png' | asset_img_url }}" title="Instagram"/></a>
