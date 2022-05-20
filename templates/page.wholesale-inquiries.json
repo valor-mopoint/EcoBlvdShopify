@@ -43,10 +43,53 @@
             "half_width": true
           }
         },
+        "798c3945-8e2e-49b8-8a86-801d6b387bb0": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Business Name",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
         "165306783096a27d9d-1": {
           "type": "email_input",
           "settings": {
             "half_width": true
+          }
+        },
+        "238df7d5-7219-4625-a79c-d012b8826689": {
+          "type": "phone_input",
+          "settings": {
+            "required": false,
+            "half_width": true
+          }
+        },
+        "54189f7e-67b5-49bd-82da-a2d21c6aa894": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Type of Business",
+            "type": "text",
+            "required": false,
+            "half_width": false
+          }
+        },
+        "7a1cc917-cc9a-4a90-b38d-b35a21c66483": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Location (City & State)",
+            "type": "text",
+            "required": false,
+            "half_width": false
+          }
+        },
+        "4979025a-4d09-4edd-bd85-d915d64dfc4b": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Interested in Custom Designs? If yes, please describe in detail.",
+            "type": "text",
+            "required": false,
+            "half_width": false
           }
         },
         "165306783096a27d9d-2": {
@@ -58,7 +101,12 @@
       },
       "block_order": [
         "165306783096a27d9d-0",
+        "798c3945-8e2e-49b8-8a86-801d6b387bb0",
         "165306783096a27d9d-1",
+        "238df7d5-7219-4625-a79c-d012b8826689",
+        "54189f7e-67b5-49bd-82da-a2d21c6aa894",
+        "7a1cc917-cc9a-4a90-b38d-b35a21c66483",
+        "4979025a-4d09-4edd-bd85-d915d64dfc4b",
         "165306783096a27d9d-2"
       ],
       "settings": {
