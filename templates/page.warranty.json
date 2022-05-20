@@ -124,7 +124,7 @@
         "1653063128ebedfbe6-0": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "Warranty Details",
             "use_h1": false
           }
         },
@@ -162,14 +162,22 @@
         "1653062612e5cc5ddc-1": {
           "type": "question",
           "settings": {
-            "title": "Question",
-            "answer": "<p>Answer<\/p>"
+            "title": "90-Day Product Warranty: Cases",
+            "answer": "<p>- Eligible for all EcoBlvd phone cases*<\/p><p>- Available within 90-days of purchase<\/p><p>- One-time replacement or exchange offered of equal or lesser value<\/p><p>- Note: Refunds are not provided beyond the 14-Day delivery date<\/p><p><em>*Product defects do not include customized design errors. If there is a design error with a custom case, please contact us within 14 days of delivery for a resolution.<\/em><\/p>"
+          }
+        },
+        "3c33bb17-29a5-45a8-9f08-425dcb80cf2e": {
+          "type": "question",
+          "settings": {
+            "title": "1-Year Product Warranty: Chargers & Cables",
+            "answer": "<p>- Eligible for all EcoBlvd chargers and cables<\/p><p>- Available within 12 months of purchase<\/p><p>- One-time replacement or exchange offered of equal or lesser value<\/p><p>- Note: Refunds are not provided beyond the 14-Day delivery date<\/p>"
           }
         }
       },
       "block_order": [
         "1653062612e5cc5ddc-0",
-        "1653062612e5cc5ddc-1"
+        "1653062612e5cc5ddc-1",
+        "3c33bb17-29a5-45a8-9f08-425dcb80cf2e"
       ],
       "settings": {
         "title": ""
