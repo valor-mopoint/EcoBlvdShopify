@@ -33,10 +33,40 @@
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
       }
+    },
+    "16530624200e69ee0b": {
+      "type": "rich-text",
+      "blocks": {
+        "165306242064b7e9a5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Greenlight Customer Satisfaction Program",
+            "use_h1": false
+          }
+        },
+        "165306242064b7e9a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our products represent both your journey into sustainability and your journey into your own sense of style, and we want to ensure that you are completely satisfied with your purchase.<strong> <\/strong>As part of our Greenlight Customer Satisfaction Program, we offer a 100% satisfaction guarantee and generous warranty coverage. <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165306242064b7e9a5-0",
+        "165306242064b7e9a5-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "main",
-    "1653062065371c052a"
+    "1653062065371c052a",
+    "16530624200e69ee0b"
   ]
 }
