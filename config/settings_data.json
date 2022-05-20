@@ -955,6 +955,12 @@
     "prod_sale_show": true,
     "prod_sold_out_show": true,
     "enable_product_reviews_collection": false,
+    "social_twitter_url": "https:\/\/twitter.com\/ecoblvdofficial",
+    "social_facebook_url": "https:\/\/facebook.com\/ecoblvdofficial",
+    "social_pinterest_url": "https:\/\/pinterest.com\/ecoblvd",
+    "social_youtube_url": "https:\/\/youtube.com\/ecoblvd",
+    "social_instagram_url": "https:\/\/instagram.com\/ecoblvdofficial",
+    "social_tiktok_url": "https:\/\/tiktok.com\/@ecoblvd",
     "search_type": "product",
     "enable_live_search": true,
     "live_search_show_vendor": false,
@@ -1108,7 +1114,8 @@
           "lower_menu": "",
           "show_payment_icons": true,
           "show_country_selector": true,
-          "show_language_selector": true
+          "show_language_selector": true,
+          "social_enabled": true
         }
       },
       "popup": {
