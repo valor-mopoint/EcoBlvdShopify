@@ -1,0 +1,480 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "variant_style": "listed",
+            "disable_unavailable_variants": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": true,
+            "show_pickup_availability": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "Description",
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "4ca3da20-2084-4568-9fce-76291c9f68f0": {
+          "type": "characteristic",
+          "settings": {
+            "title": "Features",
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "vendor",
+        "divider",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "4ca3da20-2084-4568-9fce-76291c9f68f0"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "enable_var_img_grouping": true,
+        "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "1653069623adbdc978": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC7069-Mojave-desert-tortoise-Gopherus-agassizii-on-road-near-Jean-Nevada-2_MarcelHuijser-scaled_jpg.webp",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1652319035fee7637d": {
+      "type": "rich-text",
+      "blocks": {
+        "1652319035eef7bf96-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Keep Your Phone & Wildlife From Going Extinct",
+            "use_h1": false
+          }
+        },
+        "1652319035eef7bf96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For every Mojave collection case purchased, 2% of the sale proceeds are donated to the non-profit organization Mojave Desert Land Trust, which advocates for the protection of the California desert's ecosystems, biodiversity, natural, cultural, and scenic resources.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652319035eef7bf96-0",
+        "1652319035eef7bf96-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "165306980557974021": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165231897492731620": {
+      "type": "rich-text",
+      "blocks": {
+        "1652318974160ea08b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "From The Earth, For The Earth",
+            "use_h1": false
+          }
+        },
+        "1652318974160ea08b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Mojave collection cases are constructed with CornBo™️, corn, and bamboo-based compostable bioplastic. We design our cases to be compostable, but they will only break down when exposed to high humidity, such as in a composter or in soil, so you can rest assured that your phone will remain safe despite everyday wear and tear.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652318974160ea08b-0",
+        "1652318974160ea08b-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "165306948833b9915c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1653069440d5d1b3d3": {
+      "type": "rich-text",
+      "blocks": {
+        "1653069440f5294402-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Protection Through The Harshest Conditions",
+            "use_h1": false
+          }
+        },
+        "1653069440f5294402-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each aspect of the Mojave has been expertly designed and engineered for maximum protection and superior impact resistance.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1653069440f5294402-0",
+        "1653069440f5294402-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1653069592f622e127": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165306956843316440": {
+      "type": "rich-text",
+      "blocks": {
+        "165306956820aebd3c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Tough To The Core",
+            "use_h1": false
+          }
+        },
+        "165306956820aebd3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Raised edges around the charging port, speakers, volume, and power buttons. As well as providing a perfect ergonomic grip in your hand without adding bulk to your phone, the Mojave features a non-slip bumper grip with embossed leaves and a smooth back panel.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165306956820aebd3c-0",
+        "165306956820aebd3c-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1652319180428cef1c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/c8a13fdbe2556171c4879cdfb4b99115.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 260,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "16530697201c2beda8": {
+      "type": "rich-text",
+      "blocks": {
+        "165306972077be5b84-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Charge Wirelessly",
+            "use_h1": false
+          }
+        },
+        "165306972077be5b84-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Keeping your style in check even when you need to charge. All of our Mojave Collection<em><strong> <\/strong><\/em>cases are Qi-compatible so that you can charge your phone wirelessly. The future of wireless charging is here, so your experience should be seamless.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165306972077be5b84-0",
+        "165306972077be5b84-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16530698073b50569c": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "subheading": "Tell your story",
+        "title": "Background video",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "<p>Use a video to get a customer's attention<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "1652319454d4c9b7d8": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "1652319454e9589bca-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652319454e9589bca-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1652319454e9589bca-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "41295847-dfb3-4981-9420-63856e8b5895": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652319454e9589bca-0",
+        "1652319454e9589bca-1",
+        "1652319454e9589bca-2",
+        "41295847-dfb3-4981-9420-63856e8b5895"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "You may also like...",
+        "show_vendor": false,
+        "grid": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653069623adbdc978",
+    "1652319035fee7637d",
+    "165306980557974021",
+    "165231897492731620",
+    "165306948833b9915c",
+    "1653069440d5d1b3d3",
+    "1653069592f622e127",
+    "165306956843316440",
+    "1652319180428cef1c",
+    "16530697201c2beda8",
+    "16530698073b50569c",
+    "1652319454d4c9b7d8",
+    "recommendations"
+  ]
+}
