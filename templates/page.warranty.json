@@ -21,7 +21,7 @@
         "title": "Greenlight Customer Satisfaction Program",
         "title_size": 84,
         "title_size_mobile": 46,
-        "use_h1": false,
+        "use_h1": true,
         "text": "",
         "enlarge_text": true,
         "button_label_1": "",
