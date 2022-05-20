@@ -82,7 +82,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 700,
-            "title": "90-Day Product Warranty: Cases",
+            "title": "60-Day Product Warranty: Cases",
             "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
             "button_label": "",
             "link": ""
@@ -162,7 +162,7 @@
         "1653062612e5cc5ddc-1": {
           "type": "question",
           "settings": {
-            "title": "90-Day Product Warranty: Cases",
+            "title": "60-Day Product Warranty: Cases",
             "answer": "<p>- Eligible for all EcoBlvd phone cases*<\/p><p>- Available within 90-days of purchase<\/p><p>- One-time replacement or exchange offered of equal or lesser value<\/p><p>- Note: Refunds are not provided beyond the 14-Day delivery date<\/p><p><em>*Product defects do not include customized design errors. If there is a design error with a custom case, please contact us within 14 days of delivery for a resolution.<\/em><\/p>"
           }
         },
