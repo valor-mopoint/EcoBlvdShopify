@@ -150,15 +150,12 @@
   <div class="container container--no-max section-footer__row-container {% if showing_localization %}section-footer__row-container--with-localization{% endif %}">
     
     {% if section.settings.social_enabled %}
-              	<div class="ss-icone">
-                  
-                 <a href=" www.instagram.com/ecoblvdofficial"><img src="{{ 'Instagram.png' | asset_img_url }}" title="Instagram"/></a>
-                  <a href="https://www.facebook.com/EcoBlvd-110795884843691"><img src="{{ 'Facebook.png' | asset_img_url }}" title="Facebook"/></a>
-                 <a href="www.tiktok.com/@ecoblvd"><img src="{{ 'TikTok.png' | asset_img_url }}" title="TikTok"/></a>
+              	<div class="ss-icone">                  
+                  <a href=" www.instagram.com/ecoblvdofficial"><img src="{{ 'Instagram.png' | asset_img_url }}" title="Instagram"/></a>
+                  <a href="https://www.facebook.com/EcoBlvd-110795884843691"><img src="{{ 'Facebook.png' | asset_img_url }}" title="Facebook"/></a>        
                   <a href=" www.pinterest.com/@ecoblvd"><img src="{{ 'Pinterest.png' | asset_img_url }}" title="Pinterest"/></a>
-                  <a href="https://twitter.com/ecoblvdofficial"><img src="{{ '' | asset_img_url }}" title="Twitter "/></a>
-                
-                  
+                  <a href="www.tiktok.com/@ecoblvd"><img src="{{ 'TikTok.png' | asset_img_url }}" title="TikTok"/></a>
+                  <a href="https://twitter.com/ecoblvdofficial"><img src="{{ '' | asset_img_url }}" title="Twitter "/></a>                               
               	</div>
     {% endif %}
     
@@ -293,6 +290,22 @@
 
 .fbpayicon {
 	padding: 0px 5px;
+}
+.text-center {
+    text-align: center!important;
+}
+@media (min-width: 768px)
+.ss-icons {
+    justify-content: center;
+    max-width: 250px;
+    margin: auto;
+}
+
+.ss-icons {
+    display: flex;
+    justify-content: center;
+    margin-left: -1%;
+    margin-right: -1%;
 }
 
 {% endstyle %}
