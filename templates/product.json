@@ -95,7 +95,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC09690.jpg",
-        "image_position": "center right",
+        "image_position": "bottom center",
         "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 600,
