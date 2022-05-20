@@ -10,9 +10,9 @@
     "1653062065371c052a": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/paul-marsan-W-5rQTv144w-unsplash.jpg",
+        "image": "shopify:\/\/shop_images\/carlos-alberto-gomez-iniguez-jqiAU_JQGyk-unsplash.jpg",
         "image_position": "center center",
-        "mobile_image_position": "center center",
+        "mobile_image_position": "center top",
         "height": "fixed",
         "height_desktop": 400,
         "height_mobile": 300,
