@@ -978,7 +978,7 @@
           "announcement_link": "",
           "announcement_bar_col": "#9ebd98",
           "announcement_text_col": "#ffffff",
-          "show_social_icons": true,
+          "show_social_icons": false,
           "menu": "",
           "show_country_selector": true,
           "show_language_selector": true
