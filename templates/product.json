@@ -91,35 +91,6 @@
         "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
-    "1652319035fee7637d": {
-      "type": "rich-text",
-      "blocks": {
-        "1652319035eef7bf96-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "use_h1": false
-          }
-        },
-        "1652319035eef7bf96-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "1652319035eef7bf96-0",
-        "1652319035eef7bf96-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
     "1652318796c52aa7de": {
       "type": "background-video",
       "settings": {
@@ -142,20 +113,75 @@
         "overlay_style": "shadow"
       }
     },
+    "1652319035fee7637d": {
+      "type": "rich-text",
+      "blocks": {
+        "1652319035eef7bf96-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Bring Life To Your Phone & Our Forests",
+            "use_h1": false
+          }
+        },
+        "1652319035eef7bf96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every Sequoia Collection case sold results in planting a tree in a national park, thanks to our partnership with the National Forest Foundation, whose mission is to plant 50 million trees to combat climate change and provide habitat for wildlife.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1652319035eef7bf96-0",
+        "1652319035eef7bf96-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1653069623adbdc978": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
     "165231897492731620": {
       "type": "rich-text",
       "blocks": {
         "1652318974160ea08b-0": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "From The Earth, For The Earth",
             "use_h1": false
           }
         },
         "1652318974160ea08b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Our Sequoia collection cases are constructed with InnoMaize™️, a compostable bioplastic derived from cornstarch, sugar, and plant-based materials. <br\/><br\/>We design our cases to be compostable but they will only break down when exposed to high humidity, such as in a composter or in soil, so you can rest assured that despite everyday wear and tear, your phone will remain safe.<\/p>",
             "enlarge_text": true
           }
         }
@@ -191,6 +217,116 @@
         "button_label_1": "",
         "button_url_1": "",
         "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1653069440d5d1b3d3": {
+      "type": "rich-text",
+      "blocks": {
+        "1653069440f5294402-0": {
+          "type": "heading",
+          "settings": {
+            "title": "A Complete Fall-Proof Plan",
+            "use_h1": false
+          }
+        },
+        "1653069440f5294402-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each detail of the Sequoia has been designed for maximum protection, and superior impact resistance.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1653069440f5294402-0",
+        "1653069440f5294402-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "165306948833b9915c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165306956843316440": {
+      "type": "rich-text",
+      "blocks": {
+        "165306956820aebd3c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Details You Can Feel",
+            "use_h1": false
+          }
+        },
+        "165306956820aebd3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Raised edges around the charging port, speakers, volume, and power buttons. The smooth and flexible design ensures an ergonomic hold that's completely comfortable in hand, with embossed leaves detailed on the sides that provide a sturdy non-slip grip.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "165306956820aebd3c-0",
+        "165306956820aebd3c-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1653069592f622e127": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "Tell your story",
+        "title": "Two line\ntext heading",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>And optional subtext<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Shop this",
+        "button_url_1": "",
+        "button_label_2": "Shop all",
         "button_url_2": "",
         "text_alignment": "center center",
         "full_width": true,
@@ -270,10 +406,15 @@
   },
   "order": [
     "main",
-    "1652319035fee7637d",
     "1652318796c52aa7de",
+    "1652319035fee7637d",
+    "1653069623adbdc978",
     "165231897492731620",
     "1652319180428cef1c",
+    "1653069440d5d1b3d3",
+    "165306948833b9915c",
+    "165306956843316440",
+    "1653069592f622e127",
     "1652319454d4c9b7d8",
     "recommendations"
   ]
