@@ -116,7 +116,8 @@
                 <div class="section-footer__newsletter-block__social">
                   {% capture icon_size %}{% if block.settings.soc_icons_large %}x46{% else %}x30{% endif %}{% endcapture %}
                   {% capture container_class %}{% if block.settings.soc_icons_large %}social-links--large{% else %}{% endif %}{% endcapture %}
-                  {% render 'social-icons', icon_setting: settings.social_custom_icon, icon_size: icon_size, container_class: container_class %}               
+                  {% render 'social-icons', icon_setting: settings.social_custom_icon, icon_size: icon_size, container_class: container_class %}    
+                  <div>  <img src="{{ '1ftp_BusinessMember_Vertical_White.PNG' | asset_img_url }}" title="1ftp_BusinessMember_Vertical_White"/></div>
               </div>              
               {% endif %}
 			
