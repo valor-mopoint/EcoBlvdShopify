@@ -120,7 +120,7 @@
                 </div>
               {% endif %}
 
-              {% if section.settings.show_payment_icons %}
+            {% comment %}   {% if section.settings.show_payment_icons %}
               	<div class="section-footer__newsletter-block__payment_icons">
                   
 				  <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'visa.png' | asset_img_url }}" title="Visa"/></div>
@@ -135,7 +135,41 @@
                   <div class="section-footer__newsletter-block__payment_icon_item"><img src="{{ 'Opay.png' | asset_img_url }}" title="Shop Pay"/></div>
                   
               	</div>
-              {% endif %}
+              {% endif %} {% endcomment %}
+              
+               <div class="payment-icons">
+                <li class="payment-li" style="font-size:18px;" data-open-accessibility-text-original="18px">
+                  {%- render 'svg-visa' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-master'-%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-american-express' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-discover' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-paypal' -%}
+                </li> 
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-apple_pay' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-google_pay' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-klarna' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-facebook_pay' -%}
+                </li>
+                <li class="payment-li" data-open-accessibility-text-original="18px"  style="font-size: 18px;">
+                  {%- render 'svg-shopify_pay' -%}
+                </li>
+			</div>
+              
             </div>
 
           {% endcase %}
