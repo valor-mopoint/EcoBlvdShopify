@@ -192,13 +192,6 @@
             "title": "What Is Prop 65? I See It On Your Charger and Cable Packaging.",
             "answer": "<p>Any company selling products in California must comply with California's Proposition 65 law.<\/p><p>In California, the Office of Environmental Health Hazard Assessment (\"OEHHA\") maintains a database of over 800 natural and synthetic chemicals that are known to pose health risks. In accordance with Proposition 65, businesses selling products within the state are required to warn potential consumers when a product contains any listed chemical in an amount that exceeds certain limits.<\/p><p>Prop 65 is not a product safety law but a law that protects consumers' right to know about their exposure to different chemicals. The warnings are among the world's most stringent and often far more strict than federal standards.<\/p><p>There is a wide range of Prop 65 warnings throughout California - in restaurants, grocery stores, hotels, schools, hospitals, and on a wide variety of consumer products. Prop 65 warnings must also be provided on websites or in catalogs for all products sold by internet and mail order retailers.<br\/><br\/>The warning is because LifeVine cables and PowerPlant chargers contain recycled plastic parts.<\/p><p>Click <a href=\"https:\/\/oehha.ca.gov\/proposition-65\"><span style=\"text-decoration:underline\">here<\/span><\/a> for more information on Proposition 65.<\/p>"
           }
-        },
-        "9a9cf52d-7c1c-4ef7-abf2-d23f6f9c3bdc": {
-          "type": "question",
-          "settings": {
-            "title": "My Phone Broke While Using An EcoBlvd Case. Is There Any Warranty Or Insurance Coverage?",
-            "answer": "<p>Unfortunately, EcoBlvd’s warranty only extends to the case and not the phone itself. We recommend purchasing an insurance plan through your carrier or through a third party to ensure that you can have your phone repaired or replaced.<\/p>"
-          }
         }
       },
       "block_order": [
@@ -211,8 +204,7 @@
         "31d3dd0b-0a58-4d80-8d38-9eb9cc0b069c",
         "1652885305de7f5458-1",
         "5de6c3af-72b7-41ec-9d8d-b84f1b2e8368",
-        "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4",
-        "9a9cf52d-7c1c-4ef7-abf2-d23f6f9c3bdc"
+        "ec3a7dcf-e048-4cd6-9301-cec3f225b0d4"
       ],
       "settings": {
         "title": "Products"
@@ -404,6 +396,13 @@
             "title": "My Phone\/Screen Broke, Does The Warranty Cover Repair Costs?",
             "answer": "<p>All EcoBlvd cases are intended to protect your phone against most forms of damage. However, the phone itself is not covered by the warranty. We recommend that you pair our case with a screen protector or purchase insurance coverage through your carrier or a third-party provider.<\/p>"
           }
+        },
+        "51371370-d346-4f00-b9c2-c4041f6384b9": {
+          "type": "question",
+          "settings": {
+            "title": "My Phone Broke While Using An EcoBlvd Case. Is There Any Warranty Or Insurance Coverage?",
+            "answer": "<p>Unfortunately, EcoBlvd’s warranty only extends to the case and not the phone itself. We recommend purchasing an insurance plan through your carrier or through a third party to ensure that you can have your phone repaired or replaced.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -412,7 +411,8 @@
         "bbff5b25-116b-4fc4-bfe4-6069ac9f2fcb",
         "5d946b28-b6cf-4a77-a4b7-be904ddbb879",
         "123340a4-9df9-4e14-8da4-d8cfe86412b0",
-        "f9315875-548f-436c-8011-3f45cfa2a33f"
+        "f9315875-548f-436c-8011-3f45cfa2a33f",
+        "51371370-d346-4f00-b9c2-c4041f6384b9"
       ],
       "settings": {
         "title": "Warranty"
