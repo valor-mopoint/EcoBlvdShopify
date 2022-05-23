@@ -10,8 +10,8 @@
     "1653062065371c052a": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/carlos-alberto-gomez-iniguez-jqiAU_JQGyk-unsplash.jpg",
-        "image_position": "center center",
+        "image": "shopify:\/\/shop_images\/green-traffic-lights-on-office-building-background-2021-08-26-16-34-31-utc.jpg",
+        "image_position": "bottom center",
         "mobile_image_position": "center top",
         "height": "fixed",
         "height_desktop": 400,
@@ -198,6 +198,55 @@
         "text_alignment": "left",
         "use_alt_bg": false
       }
+    },
+    "1653340089e69ec496": {
+      "type": "contact-form",
+      "blocks": {
+        "165334008944a48ca2-0": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "165334008944a48ca2-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "4ab19b14-5c2d-4a0e-87d8-2b0d9c9476f1": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Order #",
+            "type": "text",
+            "required": false,
+            "half_width": false
+          }
+        },
+        "165334008944a48ca2-2": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        },
+        "e8cb8b8a-01ae-496f-97ce-36c45130b940": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We may require additional information from you, so please make sure to check your junk\/spam folders for our response. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165334008944a48ca2-0",
+        "165334008944a48ca2-1",
+        "4ab19b14-5c2d-4a0e-87d8-2b0d9c9476f1",
+        "165334008944a48ca2-2",
+        "e8cb8b8a-01ae-496f-97ce-36c45130b940"
+      ],
+      "settings": {
+        "contact_title": "Need to file a claim? Get in touch with us.",
+        "contact_text": ""
+      }
     }
   },
   "order": [
@@ -207,6 +256,7 @@
     "1653062606c46a00db",
     "1653063128b82b722c",
     "1653062612620f3fd1",
-    "165306370590b7d2b1"
+    "165306370590b7d2b1",
+    "1653340089e69ec496"
   ]
 }
