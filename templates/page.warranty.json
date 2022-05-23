@@ -47,7 +47,7 @@
         "165306242064b7e9a5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our products represent both your journey into sustainability and your journey into your own sense of style, and we want to ensure that you are completely satisfied with your purchase.<strong> <\/strong>As part of our Greenlight Customer Satisfaction Program, we offer a 100% satisfaction guarantee and generous warranty coverage. <\/p>",
+            "text": "<p>Our products represent both your journey into sustainability and your journey into your own sense of style, and we want to ensure that you are completely satisfied with your purchase.<strong> <\/strong>As part of our Greenlight Customer Satisfaction Program, we offer a 100% satisfaction guarantee and warranty on all of our EcoBlvd products.*<\/p>",
             "enlarge_text": true
           }
         }
@@ -247,6 +247,36 @@
         "contact_title": "Need to file a claim? Get in touch with us.",
         "contact_text": ""
       }
+    },
+    "1653342012af7e3892": {
+      "type": "rich-text",
+      "blocks": {
+        "165334201173bb4483-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "165334201173bb4483-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*Excludes the tote bag, hat and stickers. <\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165334201173bb4483-0",
+        "165334201173bb4483-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -257,6 +287,7 @@
     "1653063128b82b722c",
     "1653062612620f3fd1",
     "165306370590b7d2b1",
-    "1653340089e69ec496"
+    "1653340089e69ec496",
+    "1653342012af7e3892"
   ]
 }
