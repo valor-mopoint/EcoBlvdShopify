@@ -148,7 +148,7 @@
             "enable_image": true,
             "image_width": 350,
             "title": "Steven Lu",
-            "text": "<p>Founder and Head of Product Development<\/p>",
+            "text": "<p>Founder and Chief Product Officer<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -159,7 +159,7 @@
             "enable_image": true,
             "image_width": 350,
             "title": "Skylar Evans",
-            "text": "<p>Head of Marketing and Brand Development<\/p>",
+            "text": "<p>Chief Marketing Officer<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -203,7 +203,7 @@
             "enable_image": true,
             "image_width": 350,
             "title": "Richard Splawski",
-            "text": "<p>Graphic Designer & Customization Specialist<\/p>",
+            "text": "<p>Graphic Designer & Print Specialist<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -224,8 +224,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "TBD",
-            "text": "<p>TBD title<\/p>",
+            "title": "Katrina Wang",
+            "text": "<p>Legal Counsel<\/p>",
             "button_label": "",
             "link": ""
           }
