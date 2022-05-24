@@ -147,7 +147,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Steven Lu",
+            "title": "Steven",
             "text": "<p>Founder and Chief Product Officer<\/p>",
             "button_label": "",
             "link": ""
@@ -158,7 +158,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Skylar Evans",
+            "title": "Skylar",
             "text": "<p>Chief Marketing Officer<\/p>",
             "button_label": "",
             "link": ""
@@ -169,7 +169,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Brett Hymes",
+            "title": "Brett",
             "text": "<p>Copywriter and Research Analyst<\/p>",
             "button_label": "",
             "link": ""
@@ -180,7 +180,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Leslie Aparicio",
+            "title": "Leslie",
             "text": "<p>Social Media Manager<\/p>",
             "button_label": "",
             "link": ""
@@ -191,8 +191,19 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Ming Yin",
+            "title": "Ming",
             "text": "<p>Multi-Media Director<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "65e1bae0-d8a1-4fc6-9593-d165bd4b593c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 350,
+            "title": "Katrina",
+            "text": "<p>Legal Counsel<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -202,7 +213,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Richard Splawski",
+            "title": "Richard",
             "text": "<p>Graphic Designer & Print Specialist<\/p>",
             "button_label": "",
             "link": ""
@@ -213,19 +224,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "Conor Chibnall",
+            "title": "Conor",
             "text": "<p>SEO and E-Commerce Manager<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "65e1bae0-d8a1-4fc6-9593-d165bd4b593c": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 350,
-            "title": "Katrina Wang",
-            "text": "<p>Legal Counsel<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -235,8 +235,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "TBD",
-            "text": "<p>TBD title<\/p>",
+            "title": "Jemmy",
+            "text": "<p>Inventory Logisitics<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -246,8 +246,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 350,
-            "title": "TBD",
-            "text": "<p>TBD Title<\/p>",
+            "title": "Emily",
+            "text": "<p>Accounting<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -259,9 +259,9 @@
         "1652732727d819323e-2",
         "c9c3701c-795f-42d8-a0ef-1da77583d189",
         "3de0e488-7ab4-4341-87b4-eb42a99094e4",
+        "65e1bae0-d8a1-4fc6-9593-d165bd4b593c",
         "d8e97f8e-cf85-4263-b05f-d1f95764a42c",
         "b9ec464c-d4f9-496e-8240-82242f8c147e",
-        "65e1bae0-d8a1-4fc6-9593-d165bd4b593c",
         "bd7d5e1b-6503-4677-95bc-5cc1ae098436",
         "2c98977e-46df-41c6-9492-8bf6c111b673"
       ],
