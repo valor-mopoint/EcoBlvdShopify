@@ -157,6 +157,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_7405.jpg",
             "image_width": 350,
             "title": "Skylar",
             "text": "<p>Chief Marketing Officer<\/p>",
