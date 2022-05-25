@@ -148,7 +148,7 @@
             "enable_image": true,
             "image_width": 350,
             "title": "Steven",
-            "text": "<p>Founder and Chief Product Officer<\/p>",
+            "text": "<p>Founder & Chief Product Officer<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -157,7 +157,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/IMG_7405.jpg",
+            "image": "shopify:\/\/shop_images\/1_c1517473-7131-4f24-899a-0ec5502019d4.png",
             "image_width": 350,
             "title": "Skylar",
             "text": "<p>Chief Marketing Officer<\/p>",
@@ -169,6 +169,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_6a0d1ffb-f597-4f47-acba-1d01e7d20b8d.png",
             "image_width": 350,
             "title": "Brett",
             "text": "<p>Copywriter and Research Analyst<\/p>",
