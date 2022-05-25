@@ -247,6 +247,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/EcoBlvd_About_Us_Pics.png",
             "image_width": 350,
             "title": "Emily",
             "text": "<p>Accounting<\/p>",
@@ -418,7 +419,7 @@
         "1652732185795c131d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We realize that embracing a whole new sustainable lifestyle requires a lot of change and education. We want you to know that we appreciate any step you take in the direction of sustainability.<\/p><p>A simple swap of your old plastic phone cases, chargers, and cables with our recyclable options will make a more significant impact than you think!<\/p>",
+            "text": "<p>Sustainable lifestyles may feel overwhelming because there's so much to learn and change. But by making the switch to an eco-friendly, compostable phone case and recycled charger or cable, you are already on the #Root2Renew. <\/p>",
             "enlarge_text": true
           }
         }
