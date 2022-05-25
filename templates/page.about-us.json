@@ -433,6 +433,34 @@
         "full_width": false,
         "use_alt_bg": false
       }
+    },
+    "165349421931cc31f8": {
+      "type": "rich-text",
+      "blocks": {
+        "77d87fdf-afaf-45fe-9754-a2ce79e4654b": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart"
+          }
+        },
+        "13505300-db5c-4c1d-af08-847c32432c7c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We thank you for your support.<\/strong><\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "77d87fdf-afaf-45fe-9754-a2ce79e4654b",
+        "13505300-db5c-4c1d-af08-847c32432c7c"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -446,6 +474,7 @@
     "16527322172ff6f329",
     "165273206000284f2e",
     "1652732148aebd097f",
-    "165273218588cce00a"
+    "165273218588cce00a",
+    "165349421931cc31f8"
   ]
 }
