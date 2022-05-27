@@ -773,6 +773,7 @@
       "blocks": {
         "165125420305372cd3-0": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "star_rating": 5,
             "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
@@ -786,8 +787,9 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
-            "author": "Author's name",
+            "testimonial": "So happy to have found these phone cases! Not only is it eco-friendly but there's so many designs to choose from!",
+            "author": "Andrea V.",
+            "image": "shopify:\/\/shop_images\/IMG_3731.jpg",
             "image_alignment": "center center",
             "image_caption": "",
             "link": ""
