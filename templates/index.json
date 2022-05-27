@@ -586,7 +586,7 @@
       "type": "featured-blog",
       "settings": {
         "title": "An Avenue to Grow",
-        "blog": "",
+        "blog": "news",
         "post_limit": 3,
         "show_author": false,
         "show_date": true,
