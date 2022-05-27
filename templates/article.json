@@ -3,6 +3,15 @@
     "main": {
       "type": "main-article",
       "settings": {
+        "show_date": true,
+        "show_author": false,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_featured_image": true,
+        "full_width_image": true,
+        "featured_image_height": "huge",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
       }
     }
   },
