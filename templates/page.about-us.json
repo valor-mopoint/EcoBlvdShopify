@@ -216,6 +216,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Richard_NatureHeadshot_Image.jpg",
             "image_width": 350,
             "title": "Richard",
             "text": "<p>Graphic Designer & Print Specialist<\/p>",
