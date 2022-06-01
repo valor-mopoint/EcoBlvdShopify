@@ -181,6 +181,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/EcoBlvd_About_Us_Pics-4.png",
             "image_width": 350,
             "title": "Leslie",
             "text": "<p>Social Media Manager<\/p>",
