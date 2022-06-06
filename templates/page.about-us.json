@@ -146,6 +146,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/EcoBlvd_About_Us_Pics-6.png",
             "image_width": 350,
             "title": "Steven",
             "text": "<p>Founder & Chief Product Officer<\/p>",
@@ -205,6 +206,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/EcoBlvd_About_Us_Pics-7.png",
             "image_width": 350,
             "title": "Katrina",
             "text": "<p>Legal Counsel<\/p>",
