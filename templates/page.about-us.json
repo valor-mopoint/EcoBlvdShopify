@@ -228,6 +228,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/EcoBlvd_About_Us_Pics-5.png",
             "image_width": 350,
             "title": "Conor",
             "text": "<p>SEO & E-Commerce Manager<\/p>",
