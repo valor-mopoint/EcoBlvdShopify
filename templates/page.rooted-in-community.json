@@ -154,7 +154,7 @@
       "type": "featured-blog",
       "settings": {
         "title": "A New Avenue to Grow",
-        "blog": "",
+        "blog": "news",
         "post_limit": 3,
         "show_author": false,
         "show_date": true,
