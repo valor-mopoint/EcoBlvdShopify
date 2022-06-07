@@ -64,7 +64,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/1_232c30f3-f115-4feb-8f15-1c55cce176bf.png",
-            "image_width": 400,
+            "image_width": 350,
             "title": "",
             "text": "<p>With one click, you can reduce your carbon footprint from online purchases with EcoCart. A portion of your purchase will be donated to one of their many environmental projects to offset the carbon footprint of your purchase. By providing clean drinking water to drought-stricken communities, funding wind farms, and cleaning up the oceans, EcoCart has offset 25,870,932 pounds of carbon and saved 848,214 trees.<\/p>",
             "button_label": "Learn More",
@@ -76,7 +76,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/2_6e1a0979-ef97-46eb-9192-1fd2fd1528dc.png",
-            "image_width": 400,
+            "image_width": 350,
             "title": "",
             "text": "<p>Shop app users can select ShopPay at checkout, which can be used quickly and securely, storing their shipping preferences and information for convenience. Using Shop, you can even see your individual carbon offsets and eco-footprint directly in the app. To date, Shop's projects have protected more than 11 million trees in the Peruvian rainforest to offset more than 10,000 tons of carbon emissions!<\/p>",
             "button_label": "Learn more",
@@ -101,14 +101,14 @@
         "1651695595d765474d-0": {
           "type": "heading",
           "settings": {
-            "title": "Express Shipping Is Costing the Planet",
+            "title": "The Cost of Fast Shipping",
             "use_h1": false
           }
         },
         "1651695595d765474d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Regardless of how eco-friendly, ethical, low-impact, or zero waste the product you purchase is, shipping your order has an impact on the environment.<\/p><p>Online shopping is theoretically better for the environment since it consolidates many different items and delivers them as a consolidated package to many addresses at the same time.<\/p><p>Yet, we have become accustomed to express shipping that arrives in one or two days, which harms the environment more than standard ground shipping. Due to these rushed delivery options, companies dispatch trucks that aren't fully loaded far more frequently, burning more fuel and contributing to climate change.<\/p><p>According to Miguel Jaller, co-director of UC Davis' Sustainable Freight Research Center, consumers who are aware of the impact of their ordering decisions may think twice before choosing the fastest option.<\/p>",
+            "text": "<p>Regardless of how eco-friendly, ethical, low-impact, or zero waste the product you purchase is, the process of shipping your order has an impact on the environment.<\/p><p>Online shopping is theoretically better for the environment since it consolidates many different items and delivers them as a consolidated package to many addresses at the same time.<\/p><p>Yet, we have become accustomed to express shipping that arrives in one or two days, which harms the environment more than standard ground shipping. Due to these rushed delivery options, companies dispatch trucks that aren't fully loaded far more frequently, burning more fuel and contributing to climate change.<\/p><p>According to Miguel Jaller, co-director of UC Davis' Sustainable Freight Research Center, consumers who are aware of the impact of their ordering decisions may think twice before choosing the fastest option.<\/p>",
             "enlarge_text": false
           }
         }
