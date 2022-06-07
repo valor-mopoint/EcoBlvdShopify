@@ -137,11 +137,12 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "16516987421e53244d": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1651698742618fee98-0": {
           "type": "heading",
@@ -179,6 +180,7 @@
     },
     "1651698905e68999e9": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subheading": "",
@@ -195,6 +197,7 @@
     },
     "1651698949251bb156": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subheading": "",
@@ -211,6 +214,7 @@
     },
     "1651699098b6067af7": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16516990989a4e04e5-0": {
           "type": "heading",
@@ -240,6 +244,7 @@
     },
     "165169925436902062": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "1651699254ab1f2052-0": {
           "type": "text_block",
@@ -301,6 +306,7 @@
     },
     "1651699773752df340": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "1651699773b8a32bf7-0": {
           "type": "text_block",
@@ -350,6 +356,7 @@
     },
     "1651699867d01c4c91": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16516998673a301229-0": {
           "type": "heading",
