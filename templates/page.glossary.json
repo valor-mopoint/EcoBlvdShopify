@@ -66,6 +66,7 @@
     },
     "16516965729c03136b": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "1651696572a64923a2-0": {
           "type": "question",
@@ -476,6 +477,7 @@
     },
     "1651697992934b83c8": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "16516979926fdcdd98-0": {
           "type": "question",
@@ -683,6 +685,12 @@
       "settings": {
         "title": "Eco Terms"
       }
+    },
+    "1654585858ffec21b8": {
+      "type": "glossary-terms",
+      "settings": {
+        "title": "Eco Terms"
+      }
     }
   },
   "order": [
@@ -690,6 +698,7 @@
     "1651696379928ad7e2",
     "1651696570cbb93381",
     "16516965729c03136b",
-    "1651697992934b83c8"
+    "1651697992934b83c8",
+    "1654585858ffec21b8"
   ]
 }
