@@ -1,12 +1,106 @@
+<div data-section-type="collapsible-tabs" data-components="accordion">
+  <div class="container">
+    <div class="collapsible-tabs">
+      {% if section.settings.title != blank %}
+        <h3 class="collapsible-tabs__heading collapsible-tabs__content" id="faq-{{ section.settings.title | handle }}">{{ section.settings.title | escape }}</h3>
+      {% endif %}
+	  {% include 'eco-terms' %}
+      {% assign glossarylist = glossaryTerms | split: '|' %}
+      {% assign listcount = glossarylist | size %}
+      <div class="cc-accordion eco-termsList">
+        {% include 'eco-terms' %}
+      	{% assign glossarylist = glossaryTerms | split: '|' %}
+      	{% for glossaryItem in glossarylist %}
+      		{% assign itemArr = glossaryItem | split: ':' %}
+      		{% assign Question = itemArr[0] %}
+      		{% assign Answer = itemArr[1] %}
+      		<div class="collapsible-tabs__block" glossaryItem="{{ forloop.index }}" {{ block.shopify_attributes }}>
+              <div class="collapsible-tabs__tab">
+                {% render 'accordion-item',
+                    title: Question,
+                    content: Answer,
+                    add_content_class: 'rte',
+                    item_open: false
+                %}
+              </div>
+          </div>
+      	{% endfor %}
+      </div>
+      {% if listcount > 20 %}
+      <a class="more hide">View More</a>
+      {% endif %}
+      {% comment %}
+      {%
+        render "accordion",
+          allow_multi_open: false,
+          content: accordion_content
+      %}
+      {% endcomment %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Glossary terms",
+    "settings": [{
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Collapsible tabs"
+      }],
+	"presets": [
+      {
+        "name": "Glossary terms",
+        "settings": {}
+      }
+    ]
   }
 {% endschema %}
 
 {% stylesheet %}
+	.more{
+      float: right;
+      margin: 20px 0;
+      cursor: pointer;
+	}
+
+	.eco-termsList{
+		
+	}
 {% endstylesheet %}
 
 {% javascript %}
+	function hideGlossaryItem(){
+		$.each($(".collapsible-tabs__block"),function(i,v){
+			if(i>=20){
+				$(this).hide();
+			}
+		});
+	}
+
+	function showGlossaryItem(){
+		$.each($(".collapsible-tabs__block"),function(i,v){
+			if(i>=20){
+				$(this).show();
+			}
+		});
+	}
+
+
+	$(function(){
+		hideGlossaryItem();
+		$(".more").click(function(){
+			console.log($(this).hasClass("hide"))
+			if($(this).hasClass("hide"))
+            {
+				$(this).removeClass("hide");
+				showGlossaryItem();
+            }else
+			{
+				$(this).addClass("hide");
+				hideGlossaryItem();
+			}
+		});
+	})
 {% endjavascript %}
