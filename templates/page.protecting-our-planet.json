@@ -59,7 +59,8 @@
     "1651611958e69ea442": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/1ftp_BusinessMember_Vertical_FullColor.png",
+        "image_width": 250,
         "subheading": "",
         "title": "1% For The Planet",
         "use_h1": false,
