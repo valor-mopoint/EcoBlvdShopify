@@ -162,11 +162,20 @@
             "text": "<p>As a company, we are also on the #Root2Renew and on a mission to meet our ambitious goals of becoming B Corp Certified and Climate Neutral members!<\/p>",
             "enlarge_text": true
           }
+        },
+        "74254d27-1cb7-4f21-b1d8-c29ff57d7c44": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE ABOUT US",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style": "primary"
+          }
         }
       },
       "block_order": [
         "1651612282fde9400b-0",
-        "1651612282fde9400b-1"
+        "1651612282fde9400b-1",
+        "74254d27-1cb7-4f21-b1d8-c29ff57d7c44"
       ],
       "settings": {
         "height": "medium",
