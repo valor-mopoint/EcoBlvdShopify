@@ -478,7 +478,7 @@
 {% javascript %}
 	$(function(){
 		var width=(window.innerHeight>0)?window.innerHeight:screen.Height;
-		if(width<=768){
+		if(width<=768px){
 		$mobileDrawer.on('click', '.child_title_size', function (evt) {
         evt.preventDefault();
         var doOpen = !$(this).parent().hasClass('navigation__item--open');
