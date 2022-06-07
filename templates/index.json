@@ -589,8 +589,8 @@
         "blog": "news",
         "post_limit": 3,
         "show_author": false,
-        "show_date": true,
-        "crop_ratio": "1.78"
+        "show_date": false,
+        "crop_ratio": "0.67"
       }
     },
     "16494023164e709bf7": {
