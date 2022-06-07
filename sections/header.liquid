@@ -475,22 +475,7 @@
 	}
 }
 {%- endstyle -%}
-{% javascript %}
-	$(function(){
-		var width=(window.innerHeight>0)?window.innerHeight:screen.Height;
-		if(width<=1000){
-		$mobileDrawer.on('click', '.child_title_size', function (evt) {
-        evt.preventDefault();
-        var doOpen = !$(this).parent().hasClass('navigation__item--open');
-        if (doOpen) {
-          $(this).parent().addClass('navigation__item--open');
-        } else {
-          $(this).parent().removeClass('navigation__item--open');
-        }
-      });
-                       }
-	})
-{% endjavascript %}
+
 {% schema %}
   {
     "name": "Header",
