@@ -63,8 +63,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ecocartlogo.png",
-            "image_width": 250,
+            "image": "shopify:\/\/shop_images\/1_232c30f3-f115-4feb-8f15-1c55cce176bf.png",
+            "image_width": 400,
             "title": "",
             "text": "<p>With one click, you can reduce your carbon footprint from online purchases with EcoCart. A portion of your purchase will be donated to one of their many environmental projects to offset the carbon footprint of your purchase. By providing clean drinking water to drought-stricken communities, funding wind farms, and cleaning up the oceans, EcoCart has offset 25,870,932 pounds of carbon and saved 848,214 trees.<\/p>",
             "button_label": "Learn More",
@@ -75,8 +75,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/shoppay_logo.png",
-            "image_width": 250,
+            "image": "shopify:\/\/shop_images\/2_6e1a0979-ef97-46eb-9192-1fd2fd1528dc.png",
+            "image_width": 400,
             "title": "",
             "text": "<p>Shop app users can select ShopPay at checkout, which can be used quickly and securely, storing their shipping preferences and information for convenience. Using Shop, you can even see your individual carbon offsets and eco-footprint directly in the app. To date, Shop's projects have protected more than 11 million trees in the Peruvian rainforest to offset more than 10,000 tons of carbon emissions!<\/p>",
             "button_label": "Learn more",
