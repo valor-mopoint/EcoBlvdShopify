@@ -132,7 +132,8 @@
     "16516122210e189cb8": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/roundabout-37887_1280.webp",
+        "image_width": 250,
         "subheading": "",
         "title": "Roundabout Recycling",
         "use_h1": false,
