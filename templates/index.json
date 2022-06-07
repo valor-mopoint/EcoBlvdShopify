@@ -593,6 +593,46 @@
         "crop_ratio": "0.67"
       }
     },
+    "1654618087319fb45f": {
+      "type": "rich-text",
+      "blocks": {
+        "1654618087265842f1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1654618087265842f1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "d6f99174-464b-4f0d-9dc6-27f0e36a40d8": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/blogs\/news",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "1654618087265842f1-0",
+        "1654618087265842f1-1",
+        "d6f99174-464b-4f0d-9dc6-27f0e36a40d8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
     "16494023164e709bf7": {
       "type": "logo-list",
       "blocks": {
@@ -827,6 +867,7 @@
     "16494057386affa936",
     "164991948648d3b28c",
     "16512538532170428d",
+    "1654618087319fb45f",
     "16494023164e709bf7",
     "165050953813cd8798",
     "1650708023180fd918",
