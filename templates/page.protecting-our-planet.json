@@ -99,7 +99,8 @@
     "165161210574bcc0f5": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/IMG_3717_2.jpg",
+        "image_width": 550,
         "subheading": "",
         "title": "Plastic-Free Packaging",
         "use_h1": false,
