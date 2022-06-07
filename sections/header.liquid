@@ -372,7 +372,7 @@
                       <!--<a href="{{ child_link.url }}" class="navigation__link{% if child_link.links != blank %} navigation__column-title{% endif %}" {% if child_link.links != blank %}aria-haspopup="true" aria-expanded="false"{% endif %}>
                         {{- child_link.title -}}
                       </a>-->
-                      <span class="child_title_size navigation__children-toggle" style="color:black">{{- child_link.title -}}</span>
+                      <span class="child_title_size" style="color:black">{{- child_link.title -}}</span>
                       {% if child_link.links != blank %}
                         <a class="navigation__children-toggle" href="#">{% render 'icon-toggle-menu', stroke_width: 1.3 %}</a>
                       {% endif %}
