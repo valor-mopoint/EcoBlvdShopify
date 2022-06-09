@@ -59,8 +59,8 @@
     "1651611958e69ea442": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1ftp_BusinessMember_Vertical_FullColor.png",
-        "image_width": 250,
+        "image": "shopify:\/\/shop_images\/mojave_case_x_1percent_partnership.png",
+        "image_width": 500,
         "subheading": "",
         "title": "1% For The Planet",
         "use_h1": false,
@@ -70,7 +70,7 @@
         "button_style": "primary",
         "image_position": "right",
         "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "main": {
