@@ -106,6 +106,8 @@
                 </div>
               	{%- for collection in collection.products -%}
               		{%- if collection.title==product.title -%}
+              			{%- for product in collection.product -%}
+              			{%- endfor -%}
               		{%- endif -%}
               	{%- endfor -%}
                 <div class="option-selector__btns">
