@@ -3338,7 +3338,7 @@
                   variantHtml += [
                   '<div class="cart-summary-overlay__variant">',
                   '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
-                  '<span class="cart-summary-overlay__variant-value">', addedDataJSON.variant_options[i], '</span>',
+                  '<span class="cart-summary-overlay__variant-value">',  '</span>',
                   '</div>'].join('');
                 }
               }
