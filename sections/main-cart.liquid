@@ -42,7 +42,7 @@
                     <a class="name" href="{{ item.url }}">{{ item.product.title }}</a>
                     <div class="small-text">
                       {% if item.product.variants.size > 1 %}
-                      <div class="variant">{{ item.variant.title }}</div>
+                      <div class="variant">{{ item.variant.title | split:"-" | first }}</div>
                       {% endif %}
 
                       {%- for p in item.properties -%}
