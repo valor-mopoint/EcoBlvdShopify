@@ -105,6 +105,7 @@
                   {{ size_chart_html }}
                 </div>
               	{%- for collection in collection.products -%}
+              	{{collextion}}
               		{%- if collection.title==product.title -%}
               			{%- for product in collection.products -%}
               				{{product.title}}
