@@ -104,8 +104,8 @@
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
-              	{% for collection in products.model %}
-              		{{collection}}
+              	{% for collection in products.variant %}
+              		{{collection.model}}
 				{% endfor %}
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
