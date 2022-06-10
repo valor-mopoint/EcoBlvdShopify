@@ -106,7 +106,7 @@
                 </div>
               	{% assign currentCol = collection.handle %}
     			{% for collection in collections %}
-              		{%- if collection.title = product.title -%}
+              		{%- if collection.title == product.title -%}
               			{{collection.title}}
               		{%- endif -%}
               	{%- endfor -%}
