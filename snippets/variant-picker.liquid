@@ -108,9 +108,7 @@
                   {%- for p in collection.products-%}
                   {{p}}
                   {%- endfor -%}
-                  <select>
-                    <option>{{product.selected_variant.option2}}</option>
-                  </select>
+                  
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
                           type="radio"
