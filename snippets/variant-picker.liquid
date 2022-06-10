@@ -104,11 +104,8 @@
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
-              	{% assign currentCol = collection.handle %}
     			{% for collection in collections %}
-              		{% if collection.handle contains currentCol %}
-         				{{ collection.title }}
-      				{% endif %}
+              		{{collection.title}}
               	{%- endfor -%}
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
