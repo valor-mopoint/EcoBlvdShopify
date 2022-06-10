@@ -105,7 +105,9 @@
                   {{ size_chart_html }}
                 </div>
     			{% for collection in collections %}
-              		{{collection.title}}
+              		{%- for product in collection.products -%}
+              			{{product.title}}
+              		{%- endfor -%}
               	{%- endfor -%}
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
