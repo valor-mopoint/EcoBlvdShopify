@@ -94,10 +94,12 @@
 			if($(this).hasClass("hide"))
             {
 				$(this).removeClass("hide");
+				$(this).text("Show Less");
 				showGlossaryItem();
             }else
 			{
 				$(this).addClass("hide");
+				$(this).text("View More");
 				hideGlossaryItem();
 			}
 		});
