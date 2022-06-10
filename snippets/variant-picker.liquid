@@ -106,7 +106,7 @@
                 </div>
     			{% for collection in collections %}
               		{%- for product in collection.products -%}
-              			{{product.title}}
+              			{{product.title | size}}
               		{%- endfor -%}
               	{%- endfor -%}
                 <div class="option-selector__btns">
