@@ -105,6 +105,9 @@
                   {{ size_chart_html }}
                 </div>
                 <div class="option-selector__btns">
+                  <select>
+                    <option>{{product.selected_variant.option2}}</option>
+                  </select>>
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
                           type="radio"
