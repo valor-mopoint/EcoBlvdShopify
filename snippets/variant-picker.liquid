@@ -107,7 +107,7 @@
               	{% assign currentCol = collection.handle %}
     			{% for collection in collections %}
               		{%- for product in collection["Sequoia Collection"].products -%}
-              			{{prodoct.products}}
+              			{{prodoct | size}}
               		{%- endfor -%}
               	{%- endfor -%}
                 <div class="option-selector__btns">
