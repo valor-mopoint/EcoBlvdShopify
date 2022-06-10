@@ -106,9 +106,9 @@
                 </div>
               	{% assign currentCol = collection.handle %}
     			{% for collection in collections %}
-              		{%- for product in collection.products -%}
-              			{{prodoct | size}}
-              		{%- endfor -%}
+              		{% if collection.handle contains currentCol %}
+         				{{ collection.title }}
+      				{% endif %}
               	{%- endfor -%}
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
