@@ -106,7 +106,7 @@
                 </div>
               	{% assign currentCol = collection.handle %}
     			{% for collection in collections %}
-              		{%- for product in collection.products -%}
+              		{%- for product in collection["Sequoia Collection Case"].products -%}
               			{{prodoct}}
               		{%- endfor -%}
               	{%- endfor -%}
