@@ -109,7 +109,7 @@
                       {%- if c.title==product.title -%}
                           {%- for p in c.products -%}
                               {%- for v in p.options_by_name['Model'].values -%}
-                                  <option style="font-size:18px">{{v}}</option>
+                                  <option>{{v}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
                       {%- endif -%}
