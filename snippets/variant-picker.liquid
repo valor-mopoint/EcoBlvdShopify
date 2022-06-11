@@ -106,7 +106,7 @@
                 </div>
     			{% for product in collection.products %}
              		{% for variant in product.variants  %}
-              			{{variant.option2}}
+              			{{variant.option2 | size}}
               		{% endfor %}
             	{% endfor %}
                 <div class="option-selector__btns">
