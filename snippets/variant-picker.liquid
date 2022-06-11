@@ -106,8 +106,8 @@
                 </div>
               <div>
               	{%- for c in collections.title-%}
-              		1
-              		{%- if collections.title==product.title -%}
+                	{{c.title}}
+              		{%- if c.title==product.title -%}
               			1
               			{%- for p in c.products -%}
               				1
