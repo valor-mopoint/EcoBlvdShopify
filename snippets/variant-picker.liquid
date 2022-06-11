@@ -109,6 +109,7 @@
                       {%- if c.title==product.title -%}
                           {%- for p in c.products -%}
                               {%- for v in p.variants -%}
+                  				  {% assign fruits=v.option2 %}
                                   <option>{{v.option2}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
