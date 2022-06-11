@@ -108,8 +108,8 @@
                   {%- for c in product.collections-%}
                       {%- if c.title==product.title -%}
                           {%- for p in c.products -%}
-                              {%- for v in p.options -%}
-                                  <option>{{v.}}</option>
+                              {%- for v in p.variants -%}
+                                  <option>{{v.option2}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
                       {%- endif -%}
