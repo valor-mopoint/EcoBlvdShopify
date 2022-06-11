@@ -109,7 +109,7 @@
                       {%- if c.title==product.title -%}
                           {%- for p in c.products -%}
                               {%- for v in p.variants -%}
-                                  <option class="opt-label__text">{{v.option2}}</option>
+                                  <option>{{v.option2}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
                       {%- endif -%}
