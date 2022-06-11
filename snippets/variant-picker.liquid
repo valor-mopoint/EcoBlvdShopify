@@ -108,11 +108,8 @@
               	{%- for c in product.collections-%}
                 	{{c.title}}
               		{%- if c.title==product.title -%}
-              			1
               			{%- for p in c.products -%}
-              				1
               				{%- for v in p.variants -%}
-              					1
               					{{v.option2}}
               				{%- endfor -%}
               			{%- endfor -%}
