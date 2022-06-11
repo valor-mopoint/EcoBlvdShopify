@@ -105,9 +105,13 @@
                   {{ size_chart_html }}
                 </div>
               	{%- for c in collection.title-%}
+              		1
               		{%- if collection.title==product.title -%}
+              			1
               			{%- for p in c.products -%}
+              				1
               				{%- for v in p.variants -%}
+              					1
               					{{v.option2}}
               				{%- endfor -%}
               			{%- endfor -%}
