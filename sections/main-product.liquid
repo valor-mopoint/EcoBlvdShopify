@@ -746,7 +746,17 @@ $(function(){
 	$(".color-sample").click(function(){
 		var colortext = $(this).find("span").attr("color");
 		$("#color-label").text(colortext); 
-	})
+	});
+	function addCity(value, text){
+var optionArr = $('#citySelect option');
+for(var i=0;i<optionArr.length;i++){
+if(optionArr[i].text == text || optionArr[i].value == value){
+return false;
+}
+}
+var addOption = "<option value='" + value + "'>" + text + "</option>";
+$('#citySelect').append(addOption);
+}
 })
 {% endjavascript %}
 {% schema %}
