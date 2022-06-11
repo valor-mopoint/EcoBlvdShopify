@@ -108,7 +108,7 @@
             {% for variant in product.variants %}
             <li>
               {% if variant.available %}
-                <option value="{{variant.id}}" selected="selected"><span class="sku">{{ variant.sku }}</span>  {%if variant.title != 'Default' %}{{ variant.title }} for {%endif%}  <span class="price">{{ variant.price | money_with_currency }}</span></option>
+                <option value="{{variant.id}}" selected="selected"><span class="price">{{ variant.model}}</span></option>
               {% else %}
                 <del style="margin-left: 26px">{{ variant.title }}</del>&nbsp;<span>Sold Out!</span>
               {% endif %}
