@@ -117,7 +117,7 @@
                                           value="{{ v | escape }}"
                                           {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == v %}checked{% endif %}{% endif %}
                                           required>-->
-                                  <option for="{{ option_id }}-opt-{{ forloop.index0 }}">{{v}}</option>
+                                  <option for="{{ option_id }}-opt-{{ forloop.index0 }}">{{v.id}}{{v}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
                       {%- endif -%}
