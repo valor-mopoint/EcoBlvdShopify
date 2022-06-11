@@ -746,7 +746,16 @@ $(function(){
 	$(".color-sample").click(function(){
 		var colortext = $(this).find("span").attr("color");
 		$("#color-label").text(colortext); 
-	})
+	});
+	$("#batchId").each(function(i,n){
+		var options = "";
+		$(n).find("option").each(function(j,m){
+          if(options.indexOf($(m)[0].outerHTML) == -1)
+          {
+              options += $(m)[0].outerHTML;
+          }
+		});
+	});
 })
 {% endjavascript %}
 {% schema %}
