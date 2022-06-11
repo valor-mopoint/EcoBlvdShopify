@@ -104,6 +104,7 @@
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
+              <div>
               	{%- for c in collection.title-%}
               		1
               		{%- if collection.title==product.title -%}
@@ -117,6 +118,7 @@
               			{%- endfor -%}
               		{%- endif -%}
               	{%- endfor -%}
+                </div>
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
