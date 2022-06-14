@@ -926,7 +926,7 @@
     "foot_heading_col": "#ffffff",
     "foot_divider_col": "#8b8b8b",
     "type_heading_font": "catamaran_n8",
-    "capitalize_headings": false,
+    "capitalize_headings": true,
     "type_base_font": "open_sans_n4",
     "type_nav_font": "sans-serif",
     "bold_mobile_nav": true,
