@@ -183,7 +183,7 @@
         "title": "Be Part of the Solution. Not the Pollution.",
         "enable_carousel": true,
         "grid": 3,
-        "use_alt_bg": true,
+        "use_alt_bg": false,
         "full_width": true
       }
     },
