@@ -72,7 +72,8 @@
         "16359276425da8ce46-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-13_at_2.25.58_PM.png",
+            "image": "shopify:\/\/shop_images\/ecoblvd_desktop_banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/ecoblvd_mobile_banner.png",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
