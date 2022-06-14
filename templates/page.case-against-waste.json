@@ -124,8 +124,8 @@
         "16516986973bfb4a87-1": {
           "type": "text",
           "settings": {
-            "text": "<p>At EcoBlvd, we are working to combat plastic pollution by offering a stylish and sustainable alternative to plastic phone cases.<\/p><p>Using InnoMaize™, a bioplastic blend of cornstarch and corn sugar, and CornBo™, a mixture of bamboo, corn, and plant fiber, our cases can be composted and repurposed for more products or used as fertilizer.<\/p><p>We design our cases to last and break down only under high humidity conditions, such as in a composter or the dirt. However, your EcoBlvd case is built to last quite a long time before it has to be composted or thrown away.<\/p>",
-            "enlarge_text": true
+            "text": "<p>At EcoBlvd, we are working to combat plastic pollution by offering a stylish and sustainable alternative to plastic phone cases.We design our cases to last and break down only under high humidity conditions, such as in a composter or the dirt. However, your EcoBlvd case is built to last quite a long time before it has to be composted or thrown away.<\/p>",
+            "enlarge_text": false
           }
         }
       },
