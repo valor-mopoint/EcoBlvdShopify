@@ -484,7 +484,7 @@
             "image": "shopify:\/\/shop_images\/custom_homepage.png",
             "image_width": 700,
             "title": "",
-            "text": "<p>Customize your case by adding your name or favorite quote<\/p>",
+            "text": "<p>Customize a case by adding your initials or name.<\/p>",
             "button_label": "Get Started",
             "link": ""
           }
@@ -496,7 +496,7 @@
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-07_at_10.02.11_AM.png",
             "image_width": 700,
             "title": "",
-            "text": "<p>Curated designs available for every taste and style<\/p>",
+            "text": "<p>Curated designs available for every taste and style.<\/p>",
             "button_label": "Shop Now",
             "link": ""
           }
