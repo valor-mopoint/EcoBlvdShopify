@@ -82,8 +82,8 @@
             "title_size_mobile": 40,
             "text": "<p>Bring Life to Your Phone & Our Forests<\/p>",
             "enlarge_text": false,
-            "button_label_1": "",
-            "button_url_1": "",
+            "button_label_1": "Shop Now",
+            "button_url_1": "shopify:\/\/collections\/sequoia-collection",
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "bottom left"
