@@ -970,7 +970,10 @@
     "cart_type": "drawer",
     "product_currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/EcoBlvd_Individual_Logos-01.png",
-    "checkout_sidebar_background_color": "#9ebd98",
+    "checkout_sidebar_background_color": "#dae7e0",
+    "checkout_body_font": "Raleway",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#171717",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
