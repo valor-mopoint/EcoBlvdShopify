@@ -3,7 +3,7 @@
     "main": {
       "type": "main-collection",
       "settings": {
-        "show_image_behind_heading": true,
+        "show_image_behind_heading": false,
         "heading_image_height": "medium",
         "overlay_style": "shadow",
         "coll_num_per_page_int": 24,
