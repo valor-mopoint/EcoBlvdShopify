@@ -87,7 +87,7 @@
           "type": "question",
           "settings": {
             "title": "I Am Unable To Add The Product I Want To My Cart. How Do I Order?",
-            "answer": "<p>If a product listing shows \"Coming Soon,\" we're working hard to make it available as soon as possible. If you want an updated release date, you can email us at <a href=\"mailto:support@ecoblvd.com\"><span style=\"text-decoration:underline\">support@ecoblvd.com<\/span><\/a> or check back within a few days to see if we have received stock of this item.<\/p><p><br\/>If a product listing says \"Out of Stock\", it is likely to return within a few business days. Send us an email, and we'll inform you as soon as this item becomes available.<\/p>"
+            "answer": "<p>If a product listing shows \"Coming Soon,\" we're working hard to make it available as soon as possible. If you want an updated release date, you can email us at <a href=\"mailto:support@ecoblvd.com\"><span style=\"text-decoration:underline\">support@ecoblvd.com<\/span><\/a> or check back within a few days to see if we have received stock of this item.<\/p><p>If a product shows \"Out of Stock\", it is likely to return within 1-2 weeks. Send us an email, and we'll inform you as soon as this item becomes available.<\/p>"
           }
         },
         "152fa86a-ce21-46a1-8bff-ed38f3fc8b12": {
