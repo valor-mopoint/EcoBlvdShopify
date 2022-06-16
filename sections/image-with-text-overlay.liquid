@@ -82,7 +82,7 @@
       </div>
 
       {% if section.settings.mobile_image != blank %}
-        <div class="rimage-outer-wrapper rimage-background lazyload mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+        <div class="image_bj rimage-outer-wrapper rimage-background lazyload mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
               data-bgset="{% render 'bgset', image: section.settings.mobile_image %}"
               data-sizes="auto"
               data-parent-fit="cover"
@@ -168,6 +168,11 @@
 .image-overlay{
 	margin-top:-20px;
 }
+.image_bj{
+	background-attachment: fixed;
+    background-size: cover;
+}
+
 }
 {%- endstyle -%}
 {% schema %}
