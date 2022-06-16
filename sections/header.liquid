@@ -58,6 +58,7 @@
           <button class="button notabutton mobile-nav-toggle" aria-label="{{ 'general.navigation.menu_toggle_aria_label' | t | escape }}" aria-controls="main-nav">
             {% render 'svg-menu' %}
           </button>
+          {% comment %}
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -70,6 +71,7 @@
               {%- endcomment -%}
             </a>
           {% endif %}
+          {% endcomment %}
           {% if section.settings.menu_layout contains 'inline' %}
             <div class="navigation navigation--left" role="navigation" aria-label="{{ 'general.navigation.main_navigation_aria_label' | t | escape }}">
               <div class="navigation__tier-1-container">
