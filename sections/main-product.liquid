@@ -34,6 +34,17 @@
     endfor
   endif
 -%}
+{%- liquid
+assign design_options= product.options_with_values | where: "name", "Design" 
+assign design_option_value="" 
+if design_options.size>0
+	assign design_option=design_options | first 
+    if design_option.values.size>0
+    	assign design_option_value=design_option.values| first
+    endif
+endif
+-%}
+<div{{design_option_value}}></div>
 
 <div data-section-type="main-product" data-components="accordion,custom-select,modal">
   {% if section.settings.show_breadcrumbs %}
