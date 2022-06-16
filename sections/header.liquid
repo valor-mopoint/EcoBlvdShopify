@@ -107,32 +107,32 @@
       <div class="logo-area__right">
         <div class="logo-area__right__inner">
           {% comment %}
-          {% if shop.customer_accounts_enabled %}
-            {% if customer %}
-              <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
-                <span class="desktop-only">{{ 'layout.customer.account' | t | escape }}</span>
-                <span class="mobile-only">{% render 'svg-user' %}</span>
-              </a>
-            {% else %}
-              <a class="header-account-link" href="{{ routes.account_login_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
-                <span class="desktop-only">{{ 'layout.customer.account' | t | escape }}</span>
-                <span class="mobile-only">{% render 'svg-user' %}</span>
+            {% if shop.customer_accounts_enabled %}
+              {% if customer %}
+                <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
+                  <span class="desktop-only">{{ 'layout.customer.account' | t | escape }}</span>
+                  <span class="mobile-only">{% render 'svg-user' %}</span>
+                </a>
+              {% else %}
+                <a class="header-account-link" href="{{ routes.account_login_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
+                  <span class="desktop-only">{{ 'layout.customer.account' | t | escape }}</span>
+                  <span class="mobile-only">{% render 'svg-user' %}</span>
+                </a>
+              {% endif %}
+            {% endif %}
+            {% if section.settings.enable_search %}
+              <a class="show-search-link" href="{{ routes.search_url }}">
+                {%- comment -%}
+                <span class="show-search-link__text">
+                  {{- 'layout.search.open' | t -}}
+                </span>
+                {%- endcomment -%}
+                <span class="show-search-link__icon">
+                  {%- render 'svg-search' -%}
+                </span>
               </a>
             {% endif %}
-          {% endif %}
           {% endcomment %}
-          {% if section.settings.enable_search %}
-            <a class="show-search-link" href="{{ routes.search_url }}">
-              {%- comment -%}
-              <span class="show-search-link__text">
-                {{- 'layout.search.open' | t -}}
-              </span>
-              {%- endcomment -%}
-              <span class="show-search-link__icon">
-                {%- render 'svg-search' -%}
-              </span>
-            </a>
-          {% endif %}
           <a href="{{ routes.cart_url }}" class="cart-link">
             {%- comment -%}
             <span class="cart-link__label">{{ 'layout.header.cart' | t | escape }}</span>
