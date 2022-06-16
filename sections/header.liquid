@@ -108,6 +108,18 @@
 
       <div class="logo-area__right">
         <div class="logo-area__right__inner">
+          {% if section.settings.enable_search %}
+            <a class="show-search-link" href="{{ routes.search_url }}">
+              <span class="show-search-link__icon">
+                {%- render 'svg-search' -%}
+              </span>
+              {%- comment -%}
+              <span class="show-search-link__text">
+                {{- 'layout.search.open' | t -}}
+              </span>
+              {%- endcomment -%}
+            </a>
+          {% endif %}
           {% comment %}
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
@@ -125,14 +137,14 @@
           {% endcomment %}
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
-              <span class="show-search-link__icon">
-                {%- render 'svg-search' -%}
-              </span>
               {%- comment -%}
               <span class="show-search-link__text">
                 {{- 'layout.search.open' | t -}}
               </span>
               {%- endcomment -%}
+              <span class="show-search-link__icon">
+                {%- render 'svg-search' -%}
+              </span>
             </a>
           {% endif %}
           <a href="{{ routes.cart_url }}" class="cart-link">
