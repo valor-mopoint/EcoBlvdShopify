@@ -109,7 +109,7 @@
       <div class="logo-area__right">
         <div class="logo-area__right__inner">
           {% if section.settings.enable_search %}
-            <a class="show-search-link" href="{{ routes.search_url }}" style="visibility:hidden;">
+            <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
                 {%- render 'svg-search' -%}
               </span>
@@ -134,7 +134,6 @@
               </a>
             {% endif %}
           {% endif %}
-          {% endcomment %}
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
               {%- comment -%}
@@ -147,6 +146,7 @@
               </span>
             </a>
           {% endif %}
+          {% endcomment %}
           <a href="{{ routes.cart_url }}" class="cart-link">
             {%- comment -%}
             <span class="cart-link__label">{{ 'layout.header.cart' | t | escape }}</span>
