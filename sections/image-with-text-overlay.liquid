@@ -86,7 +86,7 @@
               data-bgset="{% render 'bgset', image: section.settings.mobile_image %}"
               data-sizes="auto"
               data-parent-fit="cover"
-              style="background-position: {{ section.settings.mobile_image_position }}">
+              style="background-position: {{ section.settings.mobile_image_position }};background-attachment:fixed;background-size:cover">
           {%- if section.settings.height == 'adapt' -%}
             {%- assign aspect_ratio = section.settings.mobile_image.aspect_ratio | default: 2.0 -%}
             <div class="rimage-wrapper THISONE" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
