@@ -13,8 +13,10 @@
   endif
 
   assign cheapest_variant = product.variants | sort: 'price' | first
+  assign variant=cheapest_variant
+  
 -%}
-{% for variant in product.variants  %}
+
 
 <div data-product-id="{{ product.id }}" class="product-block" {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
@@ -253,4 +255,4 @@
     {%- endunless -%}
   {%- endif -%}
 </div>
-{% endfor %}
+
