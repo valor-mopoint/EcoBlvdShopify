@@ -43,8 +43,9 @@ if design_options.size>0
     	assign design_option_value=design_option.values| first
     endif
 endif
+assign design_first_option_value=product.options_by_name['Design'].values | first
 -%}
-
+<div>--------------{{ design_first_option_value }}------------</div>
 
 <div data-section-type="main-product" data-components="accordion,custom-select,modal">
   {% if section.settings.show_breadcrumbs %}
