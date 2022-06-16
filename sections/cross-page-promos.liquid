@@ -72,7 +72,7 @@
                 </div>
 
                 {% if block.settings.text != blank %}
-                <h6 class="icon-with-caption__text align-center" style="font-size: 14px;">{{ block.settings.text | escape }}</h6>
+                <h6 class="icon-with-caption__text align-center">{{ block.settings.text | escape }}</h6>
                 {% endif %}
               </div>
 
@@ -97,6 +97,12 @@
     color: {{ block.settings.overlay_color }};
   }
   {% endif %}
+  @media (max-width: 767px){
+    .flexible-layout.layout-all-quarters .column {
+    	width: 25% !important;
+    }
+    h6{ font-size: 14px;}
+  }
   {% endfor %}
 </style>
 
