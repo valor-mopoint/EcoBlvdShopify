@@ -35,17 +35,20 @@
   endif
 -%}
 {%- liquid
-assign design_options= product.options_with_values | where: "name", "Design" 
-assign design_option_value="" 
-if design_options.size>0
-	assign design_option=design_options | first 
-    if design_option.values.size>0
-    	assign design_option_value=design_option.values| first
-    endif
+assign designSize=0
+assign designOptionName = "Design"
+assign design_first_option_value=product.options_by_name[designOptionName].values | first
+if design_first_option_value!=""
+	for temp_product in all_products
+    	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
+		if design_first_option_value == temp_option_value
+        	assign designSize = designSize | plus: 1
+        endif
+	endfor
 endif
-assign design_first_option_value=product.options_by_name['Design'].values | first
--%}
 
+-%}
+<div>-----------{{designSize}}-----------</div>
 
 <div data-section-type="main-product" data-components="accordion,custom-select,modal">
   {% if section.settings.show_breadcrumbs %}
