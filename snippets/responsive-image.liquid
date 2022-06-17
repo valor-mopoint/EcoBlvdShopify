@@ -20,7 +20,6 @@
 <div class="rimage-outer-wrapper" {% unless local_cover or no_max_width %}style="max-width: {{ max_width }}px"{% endunless %}>
   <div class="rimage-wrapper lazyload--placeholder" style="padding-top:{{ 1 | divided_by: local_aspect_ratio | times: 100 }}%"
        {% if animate %}data-cc-animate="{% if animate_type %}{{ animate_type }}{% endif %}" {% if animate_delay %}data-cc-animate-delay="{{ animate_delay }}"{% endif %}{% endif %}>
-    <div class="overlay-text__rte rte "><p style="z-index:999;">{{ collection.title }}1</p></div>
     {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
     <img class="rimage__image lazyload{% if manual_image_load %}--manual{% endif %} fade-in {% if local_cover %}cover{% endif %}"
       data-src="{{ img_url }}"
@@ -29,9 +28,14 @@
       data-sizes="auto"
       alt="{{ image.alt | escape }}"
       {% if local_cover %}data-parent-fit="cover"{% endif %}>
-    
+    <div class="overlay-text__rte rte "><p style="z-index:999;">{{ collection.title }}1</p></div>
     <noscript>
       <img class="rimage__image" src="{{ image | img_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
     </noscript>
   </div>
+  <div class="overlay-text overlay-text--for-banner overlay--v-center overlay--h-center image-overlay__over">
+        <div class="overlay-text__inner">
+          <div class="overlay-text__text"><p>1</p></div>
+        </div>
+      </div>
 </div>
