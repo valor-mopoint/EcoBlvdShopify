@@ -78,7 +78,7 @@
           "type": "text",
           "settings": {
             "text": "<p>According to Science Advances, 75% of all plastic produced since 1907 has been discarded, but only 9% has been recycled, with 12% being incinerated.<\/p><p>As plastic has an average life cycle of over 500 years, we now have over 5 billion metric tons of plastic clogging up coastlines, creating huge piles in the oceans, accumulating in cities, and taking over landfills. Unfortunately, it is projected that within the next decade alone, plastic production is expected to grow by 40%. <\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         },
         "e03afdc8-20ea-4f9b-908b-64b4bd4da950": {
@@ -98,7 +98,7 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "main": {
@@ -151,7 +151,7 @@
           "type": "text",
           "settings": {
             "text": "<p>By eliminating plastic from our packaging, EcoBlvd will have reduced the production of over 3,000 tons of plastic annually, or the equivalent of over 100,00 plastic bottles stacked in a row, covering more than 4,000 miles!<\/p><p>By using smaller packaging, we reduce CO2 emissions from transportation and materials by 5,000 tons each year, which is equivalent to planting 275,000 trees.*<\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         },
         "ca8e66e2-9d01-4126-af9a-27538559c2ea": {
@@ -171,7 +171,7 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     }
   },
