@@ -23,6 +23,14 @@ assign devices=devicesStr | remove_first: ","  | split:","
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
     <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
+      <div class="opposing-items">
+                  <legend class="label">Model
+                    <span id='color-label'>
+                     
+                    </span>
+                  </legend>
+                  
+       </div>
       <div class="option-selector__btns">
         <select class="opt-label" style="font-size:17px">
           {%- for device in devices-%}
@@ -133,7 +141,7 @@ assign devices=devicesStr | remove_first: ","  | split:","
                   {%- endfor -%}
                 </div>
               {% elsif option.name=='Model' %}
-              	<div>abc</div>
+              
               {% else %}
                 <div class="opposing-items">
                    <legend class="label">{{ option.name }}</legend>
