@@ -128,7 +128,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- endfor -%}
                 </div>
               {% elsif option.name=='Design1'  %}
-              {% elsif option.name=='Model'  %}
+              {% elsif option.name=='Model1'  %}
                  <div class="opposing-items">
                             <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
