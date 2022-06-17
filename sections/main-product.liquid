@@ -51,7 +51,7 @@ if design_first_option_value!=""
 	endfor
 endif
 
-assign devices=devicesStr | split:"," | remove_first: ","
+assign devices=devicesStr | remove_first: ","  | split:","
 
 -%}
 {% for device in devices  %}
