@@ -110,7 +110,7 @@
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
               <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
-              <div class="product-block__title">{{ product.title }}</div>
+              <div class="product-block__title">{{ product.title | split:'-' | first }}</div>
               <div class="product-block__color">{{variant.option1 | split:'-' | first }}</div>
 			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
 
