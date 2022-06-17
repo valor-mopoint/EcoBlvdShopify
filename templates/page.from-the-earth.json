@@ -41,7 +41,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Globally, plastic waste exceeds 300 million tons each year, weighing more than the entire population. The majority of waste generated consists of single-use items, and only 9% of all plastic is recycled; the rest ends up in landfills, dumps, and natural environments. By making plastics and other single-use materials from natural oil, carbon dioxide, and greenhouse gasses are also released into the atmosphere.<\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         },
         "6132d317-743d-4c8d-9762-4989ae2bd718": {
@@ -78,7 +78,7 @@
           "type": "text",
           "settings": {
             "text": "<p>It was essential that we design a material that would endure the most rigorous wear and tear while also composting at the end of its lifespan. The result is something that we feel is truly next-level in sustainable protection. <\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         }
       },
@@ -90,7 +90,7 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "1651083813686d2d3b": {
