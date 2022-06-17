@@ -165,12 +165,12 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- endfor -%}
                 </div>
               {% else %}
-               	<div class="opposing-items">
+               	<div class="opposing-items" style='display:none;'>
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
                
-                <div class="option-selector__btns">
+                <div class="option-selector__btns" style='display:none;'>
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
                           type="radio"
