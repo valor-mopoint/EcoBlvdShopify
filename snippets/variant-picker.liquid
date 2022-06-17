@@ -15,13 +15,14 @@ if design_first_option_value!=""
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_id=temp_product.first_available_variant.id
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
-            	assign device2variantsStr=device2variantsStr | append: "," |  append: temp_device_value | append: first_available_variant_id
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: ","append: first_available_variant_id 
             endfor
         endif
 	endfor
 endif
 
 assign devices=devicesStr | remove_first: ","  | split:"," | uniq
+assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 
 -%}
 <div>{{device2variantsStr}}</div>
@@ -38,13 +39,18 @@ assign devices=devicesStr | remove_first: ","  | split:"," | uniq
             <div class="option-selector__btns">
               <select class="opt-label" style="font-size:17px">
                 {%- for device in devices-%}
-                {% assign deviceLowcase= device | downcase |strip  %}
-                {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
-                {% if current_model_first_option_value_lowcase == deviceLowcase %}
-                <option selected="selected" value="{{device}}">{{device}}</option>
-                {% else %}
-                <option value="{{device}}">{{device}}</option>
-                {% endif %}
+                  {% assign deviceLowcase= device | downcase |strip  %}
+                  {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
+                  {% for device2variant in device2variants%}
+                	{% assign device2variantName=device2variant| split:',' %}
+                	{% assign deviceName=device2variantName[0]| downcase |strip %}
+                	{% assign variantID=device2variantName[1] %}
+                    {% if current_model_first_option_value_lowcase == deviceLowcase and deviceName==deviceLowcase  %}
+                        <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
+                    {% else %}
+                  		<option value="{{device}}">{{device}}-----{{variantID}}</option>
+                  	{% endif %}
+                	{% endfor%}
                 {%- endfor -%}
               </select>
             </div>
