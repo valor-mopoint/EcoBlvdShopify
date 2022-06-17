@@ -4,11 +4,12 @@ assign devicesStr=""
 assign designOptionName = "Design"
 assign deviceOptionName = "Model"
 assign design_first_option_value=product.options_by_name[designOptionName].values | first
+assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
 if design_first_option_value!=""
 	for temp_product in all_cases_collection.products
     	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
-		if design_first_option_value == temp_option_value and temp_product.id!=product.id
+		if design_first_option_value == temp_option_value 
         	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
             assign devicesStr= devicesStr | append: "," | append: deviceNames
         endif
@@ -123,7 +124,11 @@ assign devices=devicesStr | remove_first: ","  | split:","
                	<div class="option-selector__btns">
                 <select class="opt-label" style="font-size:17px">
                   {%- for device in devices-%}
-                        <option value="{{device}}">{{device}}</option>
+                  		{% if current_model_first_option_value == device %}
+                       		 <option selected="selected" value="{{device}}">{{device}}</option>
+                  		{% else %}
+                  			 <option value="{{device}}">{{device}}</option>
+                  		{% endif %}
                   {%- endfor -%}
                 </select>
                 </div>
