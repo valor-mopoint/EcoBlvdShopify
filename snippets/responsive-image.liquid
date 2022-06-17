@@ -28,14 +28,13 @@
       data-sizes="auto"
       alt="{{ image.alt | escape }}"
       {% if local_cover %}data-parent-fit="cover"{% endif %}>
-    <div class="overlay-text__rte rte "><p style="z-index:999;">{{ collection.title }}1</p></div>
     <noscript>
       <img class="rimage__image" src="{{ image | img_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
     </noscript>
   </div>
   <div class="overlay-text overlay-text--for-banner overlay--v-center overlay--h-center image-overlay__over">
         <div class="overlay-text__inner">
-          <div class="overlay-text__text"><p>{{ collection.title }}</p></div>
+          <div class="overlay-text__text"><p>{{ collection.title }}1</p></div>
         </div>
       </div>
 </div>
