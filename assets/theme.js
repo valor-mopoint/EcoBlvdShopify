@@ -7042,6 +7042,18 @@
       console.warn('Barry: No common sections have been registered.');
     }
   });
-
+	function plusReady() {
+	var type = plus.os.name;
+	if(type == "iOS") {
+		plus.navigator.setStatusBarBackground("#9EBD98");
+	} else {
+		plus.navigator.setStatusBarBackground("lime");
+	}
+	}
+    if(window.plus) {
+        plusReady();
+    } else {
+        document.addEventListener("plusready", plusReady, false);
+    } 
 })(theme.jQuery);  
 /* Built with Barry v1.0.8 */
