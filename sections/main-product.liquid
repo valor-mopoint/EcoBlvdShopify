@@ -54,9 +54,7 @@ endif
 assign devices=devicesStr | remove_first: ","  | split:","
 
 -%}
-{% for device in devices  %}
-<div>------------------{{device}}----------------------------------</div>
-{% endfor %}
+
 
 
 <div data-section-type="main-product" data-components="accordion,custom-select,modal">
@@ -326,6 +324,7 @@ assign devices=devicesStr | remove_first: ","  | split:","
 
             {% when 'variant_picker' %}
               <div class="input-row" {{ block.shopify_attributes }}>
+                <div>variant_picker</div>
                 {% render 'variant-picker', section: section, product: product, block: block %}
               </div>
 
