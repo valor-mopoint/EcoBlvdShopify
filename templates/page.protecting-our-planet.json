@@ -100,7 +100,7 @@
       "type": "image-with-text",
       "settings": {
         "image": "shopify:\/\/shop_images\/plastic_free_packaging_ecoblvd.png",
-        "image_width": 550,
+        "image_width": 500,
         "subheading": "",
         "title": "Plastic-Free Packaging",
         "use_h1": false,
