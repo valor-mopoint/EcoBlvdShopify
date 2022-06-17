@@ -16,7 +16,7 @@ if design_first_option_value!=""
 	endfor
 endif
 
-assign devices=devicesStr | remove_first: ","  | split:","
+assign devices=devicesStr | remove_first: ","  | split:"," | uniq
 
 -%}
 {%- if product.has_only_default_variant == false -%}
