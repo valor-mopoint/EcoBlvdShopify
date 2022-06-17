@@ -157,19 +157,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
-                <div class="option-selector__btns">
-                <select class="opt-label" style="font-size:17px">
-                  {%- for c in product.collections-%}
-                      {%- if c.title==product.title -%}
-                          {%- for p in c.products -%}
-                              {%- for v in p.options_by_name['Model'].values -%}
-                                  <option>{{v}}</option>
-                              {%- endfor -%}
-                          {%- endfor -%}
-                      {%- endif -%}
-                  {%- endfor -%}
-                </select>
-                </div>
+             
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
