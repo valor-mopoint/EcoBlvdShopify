@@ -32,7 +32,9 @@ assign devices=devicesStr | remove_first: ","  | split:","
             <div class="option-selector__btns">
               <select class="opt-label" style="font-size:17px">
                 {%- for device in devices-%}
-                {% if current_model_first_option_value | downcase == device | downcase %}
+                {% assign deviceLowcase= device | downcase %}
+                {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase %}
+                {% if current_model_first_option_value_lowcase == deviceLowcase %}
                 <option selected="selected" value="{{device}}">{{device}}</option>
                 {% else %}
                 <option value="{{device}}">{{device}}</option>
