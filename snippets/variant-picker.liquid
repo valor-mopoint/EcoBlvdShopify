@@ -45,11 +45,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                 	{% assign device2variantName=device2variant| split:',' %}
                 	{% assign deviceName=device2variantName[0]| downcase |strip %}
                 	{% assign variantID=device2variantName[1] %}
-                    {% if current_model_first_option_value_lowcase == deviceLowcase and deviceName==deviceLowcase  %}
-                        <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
-                    {% else %}
-                  		<option value="{{device}}">{{device}}-----{{variantID}}</option>
-                  	{% endif %}
+                      {% if deviceName==deviceLowcase %}
+                        {% if current_model_first_option_value_lowcase == deviceLowcase %}
+                            <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
+                        {% else %}
+                            <option value="{{device}}">{{device}}-----{{variantID}}</option>
+                        {% endif %}
+                        {% break %}
+                	  {% endif %}
                 	{% endfor%}
                 {%- endfor -%}
               </select>
