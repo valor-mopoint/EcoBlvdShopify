@@ -99,6 +99,17 @@ assign devices=devicesStr | remove_first: ","  | split:","
         {%- else -%}
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
+               	<div class="option-selector__btns">
+                <select class="opt-label" style="font-size:17px">
+                  {%- for device in devices-%}
+                  		{% if current_model_first_option_value == device %}
+                       		 <option selected="selected" value="{{device}}">{{device}}</option>
+                  		{% else %}
+                  			 <option value="{{device}}">{{device}}</option>
+                  		{% endif %}
+                  {%- endfor -%}
+                </select>
+                </div>
               {% if option.name=='Color' %}
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
@@ -121,17 +132,7 @@ assign devices=devicesStr | remove_first: ","  | split:","
                   {%- endfor -%}
                 </div>
               {% elsif option.name=='Model' %}
-               	<div class="option-selector__btns">
-                <select class="opt-label" style="font-size:17px">
-                  {%- for device in devices-%}
-                  		{% if current_model_first_option_value == device %}
-                       		 <option selected="selected" value="{{device}}">{{device}}</option>
-                  		{% else %}
-                  			 <option value="{{device}}">{{device}}</option>
-                  		{% endif %}
-                  {%- endfor -%}
-                </select>
-                </div>
+              
               {% else %}
                 <div class="opposing-items">
                    <legend class="label">{{ option.name }}</legend>
