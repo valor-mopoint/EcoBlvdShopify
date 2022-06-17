@@ -4,7 +4,7 @@
 <div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
   {% unless blog.empty? %}
 
-    <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
+    <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate></a></h1>
 
     {% if blog.articles.size == 0 %}
 
@@ -49,7 +49,7 @@
 
   {% else %}
 
-    <h1 class="hometitle h4-style align-center"></h1>
+    <h1 class="hometitle h4-style align-center">{{ section.settings.title | escape }}</h1>
 
     <div class="article-list article-layout--columns article-layout--one-row">
       {% for i in (1..section.settings.post_limit) %}
