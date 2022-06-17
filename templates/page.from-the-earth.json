@@ -122,7 +122,7 @@
         "button_style": "primary",
         "image_position": "left",
         "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "1651609136846cd697": {
