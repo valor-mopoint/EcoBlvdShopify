@@ -41,7 +41,7 @@
           "type": "text",
           "settings": {
             "text": "<p>It is easy to underestimate how much waste we are creating when we receive a package. Sadly, the box and its contents are only used to move and store what is inside and are often discarded. In 2018, containers and packaging made up 28.1% of all municipal solid waste generated, weighing 82.2 million tons. Even more worrying, the amount of plastic that was recycled was relatively small at only 8.7%, leaving the rest to end up in landfills or the ocean.<\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         },
         "8de4228d-895a-4316-baf4-e603cb8d37c9": {
