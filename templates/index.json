@@ -170,13 +170,6 @@
           "settings": {
             "collection": "powerplant"
           }
-        },
-        "bf8ed3fb-93ba-4c41-a780-b8ee4b86e84b": {
-          "type": "collection",
-          "settings": {
-            "collection": "laguna-collection",
-            "hoverimage": "shopify:\/\/shop_images\/mojave_case_x_1percent_partnership.png"
-          }
         }
       },
       "block_order": [
@@ -184,8 +177,7 @@
         "ea3d70ad-bb69-431d-b351-df18d3cfadf7",
         "9daa3fe1-1039-4c60-b08f-2ecd92790fea",
         "4cb95410-e666-4b6a-bf6e-8d22ee212796",
-        "da7565a0-a46e-41f1-9d3a-7040d24d27d9",
-        "bf8ed3fb-93ba-4c41-a780-b8ee4b86e84b"
+        "da7565a0-a46e-41f1-9d3a-7040d24d27d9"
       ],
       "settings": {
         "title": "Be Part of the Solution. Not the Pollution.",
