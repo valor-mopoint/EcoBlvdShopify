@@ -25,7 +25,6 @@ assign devices=devicesStr | remove_first: ","  | split:"," | uniq
 assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 
 -%}
-<div>{{device2variantsStr}}</div>
 {%- if product.has_only_default_variant == false -%}
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
