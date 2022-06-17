@@ -126,6 +126,32 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
                   {%- endfor -%}
                 </div>
+              {% elsif option.name=='Model' %}
+                <div class="opposing-items">
+                            <legend class="label">Model
+                            </legend>
+                 </div>
+                <div class="option-selector__btns">
+                  <select class="opt-label" style="font-size:17px">
+                    {%- for device in devices-%}
+                      {% assign deviceLowcase= device | downcase |strip  %}
+                      {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
+                      {% for device2variant in device2variants%}
+                        {% assign device2variantName=device2variant| split:',' %}
+                        {% assign deviceName=device2variantName[0]| downcase |strip %}
+                        {% assign variantID=device2variantName[1] %}
+                          {% if deviceName==deviceLowcase %}
+                            {% if current_model_first_option_value_lowcase == deviceLowcase %}
+                                <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
+                            {% else %}
+                                <option value="{{device}}">{{device}}-----{{variantID}}</option>
+                            {% endif %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor%}
+                    {%- endfor -%}
+                  </select>
+                </div>
               {% else %}
                 <div class="opposing-items">
                    <legend class="label">{{ option.name }}</legend>
