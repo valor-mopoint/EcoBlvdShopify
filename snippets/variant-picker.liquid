@@ -1,3 +1,23 @@
+{%- liquid
+assign designSize=0
+assign devicesStr=""
+assign designOptionName = "Design"
+assign deviceOptionName = "Model"
+assign design_first_option_value=product.options_by_name[designOptionName].values | first
+assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
+if design_first_option_value!=""
+	for temp_product in all_cases_collection.products
+    	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
+		if design_first_option_value == temp_option_value and temp_product.id!=product.id
+        	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+            assign devicesStr= devicesStr | append: "," | append: deviceNames
+        endif
+	endfor
+endif
+
+assign devices=devicesStr | remove_first: ","  | split:","
+
+-%}
 {%- if product.has_only_default_variant == false -%}
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
@@ -98,6 +118,14 @@
                           required>
                     <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
                   {%- endfor -%}
+                </div>
+              {% elsif option.name=='Model' %}
+               	<div class="option-selector__btns">
+                <select class="opt-label" style="font-size:17px">
+                  {%- for device in devices-%}
+                        <option value="{{device}}">{{device}}</option>
+                  {%- endfor -%}
+                </select>
                 </div>
               {% else %}
                 <div class="opposing-items">
