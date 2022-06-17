@@ -156,7 +156,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
                   {%- endfor -%}
                 </div>
-              {% elsif option.name=='Model'  %}
+              {% elsif option.name=='Model' or option.name=='Design' %}
               
               {% else %}
                 <div class="opposing-items">
