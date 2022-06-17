@@ -705,7 +705,6 @@
     },
     "1650708023180fd918": {
       "type": "environmental-act",
-      "disabled": true,
       "blocks": {
         "1650708023e9160b8e-0": {
           "type": "head",
