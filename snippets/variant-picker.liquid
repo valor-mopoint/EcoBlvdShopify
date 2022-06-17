@@ -1,3 +1,30 @@
+{%- liquid
+assign designSize=0
+assign devicesStr=""
+assign device2variantsStr=""
+assign designOptionName = "Design"
+assign deviceOptionName = "Model"
+assign design_first_option_value=product.options_by_name[designOptionName].values | first
+assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
+assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
+if design_first_option_value!=""
+	for temp_product in all_cases_collection.products
+    	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
+		if design_first_option_value == temp_option_value 
+        	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+            assign devicesStr= devicesStr | append: "," | append: deviceNames
+            assign first_available_variant_id=temp_product.first_available_variant.id
+            for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_id 
+            endfor
+        endif
+	endfor
+endif
+
+assign devices=devicesStr | remove_first: ","  | split:"," | uniq
+assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
+
+-%}
 {%- if product.has_only_default_variant == false -%}
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
