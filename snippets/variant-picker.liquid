@@ -127,8 +127,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- endfor -%}
                 </div>
               {% elsif option.name=='Model'  %}
-              {% else %}
-                <div class="opposing-items">
+                 <div class="opposing-items">
                             <legend class="label">Model
                             </legend>
                  </div>
@@ -153,6 +152,8 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     {%- endfor -%}
                   </select>
                 </div>
+              {% else %}
+               
               {% endif %}
             </fieldset>
           </div>
