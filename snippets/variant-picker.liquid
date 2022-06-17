@@ -29,7 +29,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
     <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
-      <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
+      <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" >
             <fieldset class="option-selector-fieldset">
               <div class="opposing-items">
                             <legend class="label">{{ option.name }}</legend>
