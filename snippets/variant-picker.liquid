@@ -15,7 +15,7 @@ if design_first_option_value!=""
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_id=temp_product.first_available_variant.id
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
-            	assign device2variantsStr=device2variantsStr | append: "," |  append: temp_device_value | append first_available_variant_id
+            	assign device2variantsStr=device2variantsStr | append: "," |  append: temp_device_value | append: first_available_variant_id
             endfor
         endif
 	endfor
