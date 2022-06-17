@@ -36,19 +36,27 @@
 -%}
 {%- liquid
 assign designSize=0
+assign devicesStr=""
 assign designOptionName = "Design"
+assign deviceOptionName = "Model"
 assign design_first_option_value=product.options_by_name[designOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
 if design_first_option_value!=""
 	for temp_product in all_cases_collection.products
     	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
 		if design_first_option_value == temp_option_value and temp_product.id!=product.id
-        	assign designSize = designSize | plus: 1
+        	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+            assign devicesStr= devicesStr | append: "," | append: deviceNames
         endif
 	endfor
 endif
 
+assign devices=devicesStr | split:","
+
 -%}
+{% for device in devices  %}
+<div>{{device}}</div>
+{% endfor %}
 
 
 <div data-section-type="main-product" data-components="accordion,custom-select,modal">
