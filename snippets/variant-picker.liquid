@@ -29,7 +29,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
     <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
-      {% assign options_with_values=product.options_with_values  %}
+      {% assign options_with_values=product.options_with_values | sort: 'name' | reverse %}
       {%- for option in options_with_values -%}
         {%- capture option_id -%}{{ section.id }}-{{ product.id }}-{{ option.name | handle }}-selector{%- endcapture -%}
 
