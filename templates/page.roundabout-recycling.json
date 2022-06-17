@@ -69,7 +69,7 @@
         "button_style": "primary",
         "image_position": "left",
         "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "1652129073ea5843c1": {
@@ -101,7 +101,7 @@
         "button_style": "primary",
         "image_position": "left",
         "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "main": {
