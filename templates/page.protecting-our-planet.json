@@ -99,7 +99,7 @@
     "165161210574bcc0f5": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_3717_2.jpg",
+        "image": "shopify:\/\/shop_images\/plastic_free_packaging_ecoblvd.png",
         "image_width": 550,
         "subheading": "",
         "title": "Plastic-Free Packaging",
@@ -110,7 +110,7 @@
         "button_style": "primary",
         "image_position": "right",
         "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "1651612171f81eae4a": {
@@ -143,7 +143,7 @@
         "button_style": "primary",
         "image_position": "right",
         "text_alignment": "left",
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "16516122821bc2a8f9": {
