@@ -15,7 +15,7 @@
       <div class="article-list article-layout--columns article-layout--one-row">
         {% for article in blog.articles limit: section.settings.post_limit %}
         <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
-          <div class="article__inner">
+          <div class="article__inner" style="position:relative;">
             {% if article.image %}
               <div class="article-image">
                 <a href="{{ article.url }}">
@@ -85,7 +85,18 @@
   {% endunless %}
 </div>
 {% style %}
-
+.article__inner .btn_learn{
+	position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+@media (max-width:767px){
+	.article__inner{
+		height:780px;
+	}
+}
 {% endstyle %}
 
 {% schema %}
