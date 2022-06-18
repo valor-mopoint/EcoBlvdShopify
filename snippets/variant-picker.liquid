@@ -48,9 +48,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                       	  {% assign p_url=device2variantName[2] %}
                             {% if deviceName==deviceLowcase %}
                               {% if current_model_first_option_value_lowcase == deviceLowcase %}
-                                  <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}-----{{p_url}}</option>
+                                  <option selected="selected" value="{{device}}">{{device}}</option>
                               {% else %}
-                                  <option value="{{device}}">{{device}}-----{{variantID}}----{{p_url}}</option>
+                                  <option value="{{device}}">{{device}}</option>
                               {% endif %}
                               {% break %}
                             {% endif %}
