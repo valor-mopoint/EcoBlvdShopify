@@ -28,7 +28,7 @@
 
             <div class="rte">
               {{ article.excerpt_or_content }}
-              <div style="text-align: center;"><a href="{{ article.url }}" class="btn btn-default" style="background-color: #6f894e; border: 1px solid #6f894e;">LEARN MORE</a></div>
+              <div class="btn_learn" style="text-align: center;"><a href="{{ article.url }}" class="btn btn-default" style="background-color: #6f894e; border: 1px solid #6f894e;">LEARN MORE</a></div>
             </div>
 
             <div class="meta">
@@ -84,7 +84,9 @@
 
   {% endunless %}
 </div>
-
+{% style %}
+.rte 
+{% endstyle %}
 
 {% schema %}
   {
