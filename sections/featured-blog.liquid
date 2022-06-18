@@ -55,7 +55,7 @@
     <div class="article-list article-layout--columns article-layout--one-row">
       {% for i in (1..section.settings.post_limit) %}
       <div class="article">
-        <div class="article__inner">
+        <div class="article__inner" style="position:relative;">
           <div class="article-image">
             <div class="placeholder-image">{{ 'image' | placeholder_svg_tag }}</div>
           </div>
@@ -86,7 +86,11 @@
 </div>
 {% style %}
 .article__inner .btn_learn{
-	bottom:0;
+	position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 {% endstyle %}
 
