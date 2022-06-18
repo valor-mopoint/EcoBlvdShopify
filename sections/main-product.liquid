@@ -755,8 +755,12 @@ $(function(){
           }
 		});
 	});
+	var i=0;
     $("#customize_model_select").change(function(){
-		window.console.log($("#customize_model_select").val());
+		if(i>0){
+			window.console.log($("#customize_model_select").val());
+		}
+		i++;
 	});
 	
 })
