@@ -1,7 +1,7 @@
 {% assign blog = blogs[section.settings.blog] %}
 {% capture chevron_right %}<span class="icon--small icon-natcol">{% render 'svg-chevron-right' %}</span>{% endcapture %}
 
-<div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
+<div class="container strongly-spaced-row blog-row collection-slider" data-section-type="featured-blog">
   {% unless blog.empty? %}
 
     <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
