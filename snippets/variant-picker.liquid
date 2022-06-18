@@ -110,7 +110,14 @@
                       {%- if c.title==product.title -%}
                           {%- for p in c.products -%}
                               {%- for v in p.options_by_name['Model'].values -%}
-                                  <option>{{v}}</option>
+                                  <!--<input class="opt-btn js-option"
+                                          type="radio"
+                                          name="{{ option_id }}"
+                                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                                          value="{{ v | escape }}"
+                                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == v %}checked{% endif %}{% endif %}
+                                          required>-->
+                                  <option for="{{ option_id }}-opt-{{ forloop.index0 }}">{{v.id}}{{v}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
                       {%- endif -%}
