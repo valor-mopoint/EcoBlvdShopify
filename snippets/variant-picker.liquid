@@ -14,8 +14,9 @@ if design_first_option_value
         	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_id=temp_product.first_available_variant.id
+            assign temp_product_url=temp_product.url
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
-            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_id 
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_id | append: "," | append: temp_product_url
             endfor
         endif
 	endfor
@@ -44,11 +45,12 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% assign device2variantName=device2variant| split:',' %}
                           {% assign deviceName=device2variantName[0]| downcase |strip %}
                           {% assign variantID=device2variantName[1] %}
+                      	  {% assign p_url=device2variantName[2] %}
                             {% if deviceName==deviceLowcase %}
                               {% if current_model_first_option_value_lowcase == deviceLowcase %}
-                                  <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
+                                  <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}-----{{p_url}}</option>
                               {% else %}
-                                  <option value="{{device}}">{{device}}-----{{variantID}}</option>
+                                  <option value="{{device}}">{{device}}-----{{variantID}}----{{p_url}}</option>
                               {% endif %}
                               {% break %}
                             {% endif %}
