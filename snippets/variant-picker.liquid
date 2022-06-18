@@ -48,7 +48,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                               {% if current_model_first_option_value_lowcase == deviceLowcase %}
                                   <option selected="selected" value="{{shop.domain}}{{variantUrl}}">{{device}}</option>
                               {% else %}
-                                  <option value="{{device}}">{{device}}</option>
+                                  <option value="{{shop.domain}}{{variantUrl}}">{{device}}</option>
                               {% endif %}
                               {% break %}
                             {% endif %}
