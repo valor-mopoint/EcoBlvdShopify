@@ -104,17 +104,26 @@
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
-                <select class="opt-label">
+                <div class="option-selector__btns">
+                <select class="opt-label" style="font-size:17px">
                   {%- for c in product.collections-%}
                       {%- if c.title==product.title -%}
                           {%- for p in c.products -%}
-                              {%- for v in p.variants -%}
-                                  <option class="opt-label__text" style="font-size:17px">{{v.option2}}</option>
+                              {%- for v in p.options_by_name['Model'].values -%}
+                                  <!--<input class="opt-btn js-option"
+                                          type="radio"
+                                          name="{{ option_id }}"
+                                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                                          value="{{ v | escape }}"
+                                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == v %}checked{% endif %}{% endif %}
+                                          required>-->
+                                  <option for="{{ option_id }}-opt-{{ forloop.index0 }}">{{v}}</option>
                               {%- endfor -%}
                           {%- endfor -%}
                       {%- endif -%}
                   {%- endfor -%}
                 </select>
+                </div>
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
