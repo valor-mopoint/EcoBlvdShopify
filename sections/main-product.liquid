@@ -755,12 +755,12 @@ $(function(){
           }
 		});
 	});
-	var i=0;
+	var counter_init=0;
     $("#customize_model_select").change(function(){
-		if(i>0){
+		if(counter_init>0){
 			window.console.log($("#customize_model_select").val());
 		}
-		i++;
+		counter_init++;
 	});
 	
 })
