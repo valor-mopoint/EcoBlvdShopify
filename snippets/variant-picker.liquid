@@ -29,12 +29,12 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
     <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
-      <div class="option-selector" >
-              <div class="opposing-items">
+      <div class="option-selector1" >
+              <div class="opposing-items1">
                             <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                  </div>
-                <div class="option-selector__btns">
+                <div class="option-selector__btns1">
                   <select class="opt-label" style="font-size:17px"  >
                     {%- for device in devices-%}
                       {% assign deviceLowcase= device | downcase |strip  %}
