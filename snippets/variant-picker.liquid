@@ -1,8 +1,75 @@
+{%- liquid
+assign designSize=0
+assign devicesStr=""
+assign device2variantsStr=""
+assign designOptionName = "Design"
+assign deviceOptionName = "Model"
+assign design_first_option_value=product.options_by_name[designOptionName].values | first
+assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
+assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
+if design_first_option_value!=""
+	for temp_product in all_cases_collection.products
+    	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
+		if design_first_option_value == temp_option_value 
+        	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+            assign devicesStr= devicesStr | append: "," | append: deviceNames
+            assign first_available_variant_id=temp_product.first_available_variant.id
+            for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_id 
+            endfor
+        endif
+	endfor
+endif
+
+assign devices=devicesStr | remove_first: ","  | split:"," | uniq
+assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
+
+-%}
 {%- if product.has_only_default_variant == false -%}
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
     <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
-      {%- for option in product.options_with_values -%}
+      <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" >
+            <fieldset class="option-selector-fieldset">
+              <div class="opposing-items">
+                            <legend class="label">{{ option.name }}</legend>
+                  {{ size_chart_html }}
+                 </div>
+                <div class="option-selector__btns">
+                  <select class="opt-label" style="font-size:17px"  >
+                    {%- for device in devices-%}
+                      {% assign deviceLowcase= device | downcase |strip  %}
+                      {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
+                      {% for device2variant in device2variants%}
+                        {% assign device2variantName=device2variant| split:',' %}
+                        {% assign deviceName=device2variantName[0]| downcase |strip %}
+                        {% assign variantID=device2variantName[1] %}
+                          {% if deviceName==deviceLowcase %}
+                            {% if current_model_first_option_value_lowcase == deviceLowcase %}
+                                <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
+                            {% else %}
+                                <option value="{{device}}">{{device}}-----{{variantID}}</option>
+                            {% endif %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor%}
+                    {%- endfor -%}
+                  </select>
+                   {%- for value in option.values -%}
+                  <input class="opt-btn js-option"
+                          type="radio"
+                          name="{{ option_id }}"
+                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                          value="{{ value | escape }}"
+                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                          required>
+                    <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value}}</span></label>
+                  {%- endfor -%}
+                </div>
+      		</fieldset>
+       </div>
+      {% assign options_with_values=product.options_with_values %}
+      {%- for option in options_with_values -%}
         {%- capture option_id -%}{{ section.id }}-{{ product.id }}-{{ option.name | handle }}-selector{%- endcapture -%}
 
         {%- liquid
@@ -99,32 +166,50 @@
                     <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
                   {%- endfor -%}
                 </div>
+              {% elsif option.name=='Design1'  %}
+              {% elsif option.name=='Model1'  %}
+                 <div class="opposing-items">
+                            <legend class="label">{{ option.name }}</legend>
+                  {{ size_chart_html }}
+                 </div>
+                <div class="option-selector__btns">
+                  <select class="opt-label" style="font-size:17px"  >
+                    {%- for device in devices-%}
+                      {% assign deviceLowcase= device | downcase |strip  %}
+                      {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
+                      {% for device2variant in device2variants%}
+                        {% assign device2variantName=device2variant| split:',' %}
+                        {% assign deviceName=device2variantName[0]| downcase |strip %}
+                        {% assign variantID=device2variantName[1] %}
+                          {% if deviceName==deviceLowcase %}
+                            {% if current_model_first_option_value_lowcase == deviceLowcase %}
+                                <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
+                            {% else %}
+                                <option value="{{device}}">{{device}}-----{{variantID}}</option>
+                            {% endif %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor%}
+                    {%- endfor -%}
+                  </select>
+                   {%- for value in option.values -%}
+                  <input class="opt-btn js-option"
+                          type="radio"
+                          name="{{ option_id }}"
+                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                          value="{{ value | escape }}"
+                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                          required>
+                    <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value}}</span></label>
+                  {%- endfor -%}
+                </div>
               {% else %}
-                <div class="opposing-items">
+               	<div class="opposing-items" style='display:none;'>
                    <legend class="label">{{ option.name }}</legend>
                   {{ size_chart_html }}
                 </div>
-                <div class="option-selector__btns">
-                <select class="opt-label" style="font-size:17px">
-                  {%- for c in product.collections-%}
-                      {%- if c.title==product.title -%}
-                          {%- for p in c.products -%}
-                              {%- for v in p.options_by_name['Model'].values -%}
-                                  <!--<input class="opt-btn js-option"
-                                          type="radio"
-                                          name="{{ option_id }}"
-                                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
-                                          value="{{ v | escape }}"
-                                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == v %}checked{% endif %}{% endif %}
-                                          required>-->
-                                  <option for="{{ option_id }}-opt-{{ forloop.index0 }}">{{v}}</option>
-                              {%- endfor -%}
-                          {%- endfor -%}
-                      {%- endif -%}
-                  {%- endfor -%}
-                </select>
-                </div>
-                <div class="option-selector__btns">
+               
+                <div class="option-selector__btns" style='display:none;'>
                   {%- for value in option.values -%}
                   <input class="opt-btn js-option"
                           type="radio"
