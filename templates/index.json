@@ -158,7 +158,8 @@
         "9daa3fe1-1039-4c60-b08f-2ecd92790fea": {
           "type": "collection",
           "settings": {
-            "collection": "mojave-collection"
+            "collection": "mojave-collection",
+            "hoverimage": "shopify:\/\/shop_images\/ecoblvd_mobile_banner.png"
           }
         },
         "4cb95410-e666-4b6a-bf6e-8d22ee212796": {
