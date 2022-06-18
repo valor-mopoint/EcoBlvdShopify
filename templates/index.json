@@ -165,13 +165,15 @@
         "4cb95410-e666-4b6a-bf6e-8d22ee212796": {
           "type": "collection",
           "settings": {
-            "collection": "lifevine"
+            "collection": "lifevine",
+            "hoverimage": "shopify:\/\/shop_images\/crosswalk-and-road-through-grassy-hills.jpg"
           }
         },
         "da7565a0-a46e-41f1-9d3a-7040d24d27d9": {
           "type": "collection",
           "settings": {
-            "collection": "powerplant"
+            "collection": "powerplant",
+            "hoverimage": "shopify:\/\/shop_images\/forest-road.jpg"
           }
         }
       },
