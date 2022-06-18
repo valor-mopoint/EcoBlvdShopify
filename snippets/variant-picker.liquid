@@ -13,7 +13,7 @@ if design_first_option_value
 		if design_first_option_value == temp_option_value 
         	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
             assign devicesStr= devicesStr | append: "," | append: deviceNames
-            assign first_available_variant_url=temp_product.first_available_variant.url
+            assign first_available_variant_url=temp_product.first_available_variant.secure_url
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
             	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url 
             endfor
@@ -46,7 +46,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% assign variantUrl=device2variantName[1] %}
                             {% if deviceName==deviceLowcase %}
                               {% if current_model_first_option_value_lowcase == deviceLowcase %}
-                                  <option selected="selected" value="{{shop.domain}}|{{variantUrl}}">{{device}}</option>
+                                  <option selected="selected" value="{{shop.domain}}{{variantUrl}}">{{device}}</option>
                               {% else %}
                                   <option value="{{device}}">{{device}}</option>
                               {% endif %}
