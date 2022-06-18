@@ -30,6 +30,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
     {%- assign variant_style = block.settings.variant_style -%}
     <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
       <div class="option-selector-model" >
+        <fieldset class="option-selector-model-fieldset">
               <div class="opposing-items">
                             <legend class="label">Model</legend>
                  </div>
@@ -54,6 +55,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     {%- endfor -%}
                   </select>
                 </div>
+        </fieldset>
        </div>
       {% assign options_with_values=product.options_with_values %}
       {%- for option in options_with_values -%}
