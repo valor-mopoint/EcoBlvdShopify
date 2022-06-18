@@ -449,8 +449,8 @@
         "mobile_overlay_under": false,
         "overlay_style": "no_background",
         "slide_transition": "fade",
-        "slide_navigation": "arrows",
-        "autoplay": true,
+        "slide_navigation": "none",
+        "autoplay": false,
         "autoplay_speed": 7
       }
     },
