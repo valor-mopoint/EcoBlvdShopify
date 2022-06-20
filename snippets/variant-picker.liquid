@@ -15,7 +15,7 @@ if design_first_option_value
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_url=temp_product.first_available_variant.url
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
-            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url 
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: temp_product.metafields.custom.title_image 
             endfor
         endif
 	endfor
@@ -25,6 +25,14 @@ assign devices=devicesStr | remove_first: ","  | split:"," | uniq
 assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 
 -%}
+{% style%}
+.product-form .option-selector-model {
+  margin-bottom: 20px;
+}
+.option-selector-model-fieldset {
+  margin-bottom: 0;
+}
+{% endstyle%}
 {%- if product.has_only_default_variant == false -%}
   {%- if product.variants.size > 1 or block.settings.show_single -%}
     {%- assign variant_style = block.settings.variant_style -%}
@@ -35,7 +43,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                 <div class="opposing-items">
                               <legend class="label">Model</legend>
                    </div>
-                  <div class="option-selector__btns1">
+                  <div class="option-selector__btns">
                     <select class="opt-label" style="font-size:17px" id="customize_model_select"  >
                       {%- for device in devices-%}
                         {% assign deviceLowcase= device | downcase |strip  %}
@@ -55,6 +63,27 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% endfor%}
                       {%- endfor -%}
                     </select>
+                  </div>
+          </fieldset>
+         </div>
+      {% endif%}
+      
+       {% if device2variants.size>0 %}
+        <div class="option-selector-title-image" >
+          <fieldset class="option-selector-title-image-fieldset">
+                <div class="opposing-items">
+                              <legend class="label">Select Case : </legend>
+                   </div>
+                  <div class="option-selector__btns">
+                        {% for device2variant in device2variants%}
+                          {% assign device2variantName=device2variant| split:',' %}
+                          {% assign titleImage=device2variantName[2] %}
+                            {% if deviceName==current_model_first_option_value_lowcase %}
+                    			<div>
+                                  	{{titleImage|image_tag}}
+                    			</div>
+                            {% endif %}
+                          {% endfor%}
                   </div>
           </fieldset>
          </div>
