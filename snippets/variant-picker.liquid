@@ -82,6 +82,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                             {% if deviceName==current_model_first_option_value_lowcase %}
                     			{% assign titleImageSrc=  titleImage  %}
                     			<div>
+                                  {{ titleImageSrc }}
                                   <img src="{{ titleImageSrc }}" style='width:100px;height:100px;' />
                     			</div>
                             {% endif %}
