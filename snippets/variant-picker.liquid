@@ -15,7 +15,7 @@ if design_first_option_value
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_url=temp_product.first_available_variant.url
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
-                assign title_image_cdn= temp_product.metafields.custom.title_image.value.src | file_img_url
+                assign title_image_cdn= temp_product.metafields.custom.title_image.value.src | file_img_url: '100x100'
             	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn
             endfor
         endif
