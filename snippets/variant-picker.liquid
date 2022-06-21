@@ -103,13 +103,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     <div class="design_wrapper">
                         {% for device2variant in device2variants%}
                           {% assign device2variantName=device2variant| split:',' %}
-                          {% assign titleImage=device2variantName[2] %}
-                    	  {% assign product_id=device2variantName[3] %}
                     	  {% assign deviceName=device2variantName[0]| downcase |strip %}
                       	  {% assign variantUrl=device2variantName[1] %}
+                          {% assign titleImage=device2variantName[2] %}
+                    	  {% assign product_id=device2variantName[3] %}
+                          {% assign variantPrice=device2variantName[4] %}
                             {% if deviceName==current_model_first_option_value_lowcase %}
                     			<div current="{% if product_id == current_product_id %}yes{% else %}no{% endif %}" product-url="{{shop.secure_url}}{{variantUrl}}" class="desgin_title_image{% if product_id == current_product_id %} current{% endif %}">
-                                  <img src="{{ titleImage }}" style='width:100px;height:100px;' />
+                                  <img src="{{ titleImage }}" style='width:100px;height:100px;' />{{variantPrice}}
                       			</div>
                             {% endif %}
                           {% endfor%}
