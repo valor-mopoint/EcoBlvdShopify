@@ -762,13 +762,16 @@ $(function(){
 		//window.history.pushState({status: 0} ,null ,$("#customize_model_select").val());
 		window.location.href=$("#customize_model_select").val();
 	});
-	$(".desgin_title_image").hover(function(obj){
-		if(!$(obj).hasClass("current")){
-			$(obj).addClass("current");
+	$(".desgin_title_image").hover(function(){
+		if(!$(this).hasClass("current")){
+			$(this).addClass("current");
 		}
 	},function(obj){
-		if($(obj).hasClass("current")){
-			$(obj).removeClass("current");
+		if($(this).attr("current")=="yes"){
+			return;
+		}
+		if($(this).hasClass("current")){
+			$(this).removeClass("current");
 		}
 	});
 
