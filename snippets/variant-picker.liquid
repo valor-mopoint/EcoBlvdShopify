@@ -44,7 +44,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 .desgin_title_image:first-child{
 	margin-left:0px;
 }
+
+.design_wrapper .current{
+	border-color: #f15b41!important;
+	border-width: 2px;
+}
   
+  
+#f15b41!important
 {% endstyle%}
 
 {%- if product.has_only_default_variant == false -%}
@@ -89,6 +96,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                               <legend class="label">Select Case : {{current_series_type_value}}  </legend>
                    </div>
                   <div class="option-selector__btns" style="margin-top:5px;">
+                    <div class="design_wrapper">
                         {% for device2variant in device2variants%}
                           {% assign device2variantName=device2variant| split:',' %}
                           {% assign titleImage=device2variantName[2] %}
@@ -100,6 +108,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                       			</div>
                             {% endif %}
                           {% endfor%}
+                    </div>
                   </div>
           </fieldset>
          </div>
