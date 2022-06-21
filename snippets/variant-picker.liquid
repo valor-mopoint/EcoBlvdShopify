@@ -107,7 +107,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
          </div>
       {% endif%}
       
-       {% if device2variants.size>0 and current_series_type_value!=blank %}
+       {% if device2variants.size>0 and design_value!=blank %}
         <div class="option-selector-title-image" >
           <fieldset class="option-selector-title-image-fieldset">
                 <div class="opposing-items">
