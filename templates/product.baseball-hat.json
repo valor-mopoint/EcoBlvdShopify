@@ -94,7 +94,6 @@
     "1653069623adbdc978": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC7069-Mojave-desert-tortoise-Gopherus-agassizii-on-road-near-Jean-Nevada-2_MarcelHuijser-scaled_jpg.webp",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -204,6 +203,7 @@
     },
     "165306948833b9915c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image_position": "center center",
         "mobile_image_position": "center center",
@@ -230,6 +230,7 @@
     },
     "1653069440d5d1b3d3": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1653069440f5294402-0": {
           "type": "heading",
@@ -259,6 +260,7 @@
     },
     "1653069592f622e127": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image_position": "center center",
         "mobile_image_position": "center center",
@@ -285,6 +287,7 @@
     },
     "165306956843316440": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "165306956820aebd3c-0": {
           "type": "heading",
@@ -314,6 +317,7 @@
     },
     "1652319180428cef1c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/c8a13fdbe2556171c4879cdfb4b99115.jpg",
         "image_position": "center center",
@@ -341,6 +345,7 @@
     },
     "16530697201c2beda8": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "165306972077be5b84-0": {
           "type": "heading",
