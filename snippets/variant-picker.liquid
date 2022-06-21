@@ -17,7 +17,7 @@ if design_value !=''
             assign series_type=temp_product.metafields.custom.series_type
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
                 assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
-            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn 
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id 
             endfor
         endif
 	endfor
@@ -34,6 +34,17 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 .option-selector-model-fieldset {
   margin-bottom: 0;
 }
+.desgin_title_image{
+	float:left;
+	margin-left:10px;
+	border:1px solid #000000;
+    border-left-radius:3px;
+	padding:5px;
+}
+.desgin_title_image:first-child{
+	margin-left:0px;
+}
+  
 {% endstyle%}
 
 {%- if product.has_only_default_variant == false -%}
@@ -81,9 +92,12 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                         {% for device2variant in device2variants%}
                           {% assign device2variantName=device2variant| split:',' %}
                           {% assign titleImage=device2variantName[2] %}
+                    	  {% assign product_id=device2variantName[3] %}
                     	  {% assign deviceName=device2variantName[0]| downcase |strip %}
                             {% if deviceName==current_model_first_option_value_lowcase %}
+                    			<div class="desgin_title_image">
                                   <img src="{{ titleImage }}" style='width:100px;height:100px;' />
+                      			</div>
                             {% endif %}
                           {% endfor%}
                   </div>
