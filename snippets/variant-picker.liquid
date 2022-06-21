@@ -105,8 +105,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% assign titleImage=device2variantName[2] %}
                     	  {% assign product_id=device2variantName[3] %}
                     	  {% assign deviceName=device2variantName[0]| downcase |strip %}
+                      	  {% assign variantUrl=device2variantName[1] %}
                             {% if deviceName==current_model_first_option_value_lowcase %}
-                    			<div class="desgin_title_image{% if product_id == current_product_id %} current{% endif %}">
+                    			<div data-current="{% if product_id == current_product_id %}yes{% endif %}" data-image-src="{{shop.secure_url}}{{variantUrl}}" class="desgin_title_image{% if product_id == current_product_id %} current{% endif %}">
                                   <img src="{{ titleImage }}" style='width:100px;height:100px;' />
                       			</div>
                             {% endif %}
@@ -212,43 +213,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                           required>
                     <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
-                  {%- endfor -%}
-                </div>
-              {% elsif option.name=='Design1'  %}
-              {% elsif option.name=='Model1'  %}
-                 <div class="opposing-items">
-                            <legend class="label">{{ option.name }}</legend>
-                  {{ size_chart_html }}
-                 </div>
-                <div class="option-selector__btns">
-                  <select class="opt-label" style="font-size:17px"  >
-                    {%- for device in devices-%}
-                      {% assign deviceLowcase= device | downcase |strip  %}
-                      {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
-                      {% for device2variant in device2variants%}
-                        {% assign device2variantName=device2variant| split:',' %}
-                        {% assign deviceName=device2variantName[0]| downcase |strip %}
-                        {% assign variantID=device2variantName[1] %}
-                          {% if deviceName==deviceLowcase %}
-                            {% if current_model_first_option_value_lowcase == deviceLowcase %}
-                                <option selected="selected" value="{{device}}">{{device}}-----{{variantID}}</option>
-                            {% else %}
-                                <option value="{{device}}">{{device}}-----{{variantID}}</option>
-                            {% endif %}
-                            {% break %}
-                          {% endif %}
-                        {% endfor%}
-                    {%- endfor -%}
-                  </select>
-                   {%- for value in option.values -%}
-                  <input class="opt-btn js-option"
-                          type="radio"
-                          name="{{ option_id }}"
-                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
-                          value="{{ value | escape }}"
-                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
-                          required>
-                    <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value}}</span></label>
                   {%- endfor -%}
                 </div>
               {% else %}
