@@ -774,7 +774,8 @@ $(function(){
 
 
 	$(".desgin_title_image").click(function(obj){
-		window.location.href=$(obj).prop("product-url");
+		window.location.href= $(obj).prop("product-url");
+		console.log($(obj).html());
     });
 	
 })
