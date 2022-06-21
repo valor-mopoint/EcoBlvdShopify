@@ -116,7 +116,8 @@
     "1651612171f81eae4a": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/plastic_free_packaging_ecoblvd-2.png",
+        "image_width": 500,
         "subheading": "",
         "title": "Sustainable Shipping",
         "use_h1": false,
