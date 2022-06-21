@@ -16,7 +16,7 @@ if design_value !=''
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_url=temp_product.first_available_variant.url
             assign series_type=temp_product.metafields.custom.series_type
-            assign variant_price=temp_product.first_available_variant.unit_price | append:""
+            assign variant_price=temp_product.first_available_variant.unit_price 
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
                 assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
             	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append:"," | variant_price
