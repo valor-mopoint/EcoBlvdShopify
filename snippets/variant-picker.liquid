@@ -88,7 +88,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                 <div class="opposing-items">
                               <legend class="label">Select Case : {{current_series_type_value}}  </legend>
                    </div>
-                  <div class="option-selector__btns">
+                  <div class="option-selector__btns" style="margin-top:10px;">
                         {% for device2variant in device2variants%}
                           {% assign device2variantName=device2variant| split:',' %}
                           {% assign titleImage=device2variantName[2] %}
