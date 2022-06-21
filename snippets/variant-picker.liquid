@@ -4,6 +4,7 @@ assign devicesStr=""
 assign device2variantsStr=""
 assign deviceOptionName = "Model"
 assign design_value=product.metafields.custom.design
+assign current_series_type_value=product.metafields.custom.series_type
 assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
 if design_value !=''
@@ -13,9 +14,10 @@ if design_value !=''
         	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_url=temp_product.url
+            assign series_type=temp_product.metafields.custom.series_type
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
                 assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
-            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn
+            	assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn 
             endfor
         endif
 	endfor
@@ -73,7 +75,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
         <div class="option-selector-title-image" >
           <fieldset class="option-selector-title-image-fieldset">
                 <div class="opposing-items">
-                              <legend class="label">Select Case : </legend>
+                              <legend class="label">Select Case : {{current_series_type_value}} </legend>
                    </div>
                   <div class="option-selector__btns">
                         {% for device2variant in device2variants%}
