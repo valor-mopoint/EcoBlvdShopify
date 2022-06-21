@@ -14,7 +14,7 @@ if design_value !=''
 		if design_value == temp_design_value 
         	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
             assign devicesStr= devicesStr | append: "," | append: deviceNames
-            assign first_available_variant_url=temp_product.url
+            assign first_available_variant_url=temp_product.first_available_variant.url
             assign series_type=temp_product.metafields.custom.series_type
             for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
                 assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
