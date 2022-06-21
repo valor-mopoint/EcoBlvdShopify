@@ -4,13 +4,13 @@ assign devicesStr=""
 assign device2variantsStr=""
 assign designOptionName = "Design"
 assign deviceOptionName = "Model"
-assign design_first_option_value=product.options_by_name[designOptionName].values | first
+assign design_value=product.metafields.custom.design
 assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
-if design_first_option_value
+if design_value
 	for temp_product in all_cases_collection.products
-    	assign temp_option_value = temp_product.options_by_name[designOptionName].values | first
-		if design_first_option_value == temp_option_value 
+    	assign temp_design_value = temp_product.metafields.custom.design
+		if design_value == temp_design_value 
         	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
             assign devicesStr= devicesStr | append: "," | append: deviceNames
             assign first_available_variant_url=temp_product.first_available_variant.url
