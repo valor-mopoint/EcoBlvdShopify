@@ -94,7 +94,6 @@
     "1653069623adbdc978": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC7069-Mojave-desert-tortoise-Gopherus-agassizii-on-road-near-Jean-Nevada-2_MarcelHuijser-scaled_jpg.webp",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -124,14 +123,14 @@
         "1652319035eef7bf96-0": {
           "type": "heading",
           "settings": {
-            "title": "Keep Your Phone & Wildlife From Going Extinct",
+            "title": "The Messenger Bag Reimagined",
             "use_h1": false
           }
         },
         "1652319035eef7bf96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For every Mojave collection case purchased, 2% of the sale proceeds are donated to the non-profit organization Mojave Desert Land Trust, which advocates for the protection of the California desert's ecosystems, biodiversity, natural, cultural, and scenic resources.<\/p>",
+            "text": "<p>Outdoors and on the go! Show off your sustainable style boldly with this eco-friendly design printed with natural plant-based green and black ink.<\/p>",
             "enlarge_text": true
           }
         }
@@ -179,14 +178,14 @@
         "1652318974160ea08b-0": {
           "type": "heading",
           "settings": {
-            "title": "From The Earth, For The Earth",
+            "title": "Room To Grow",
             "use_h1": false
           }
         },
         "1652318974160ea08b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Mojave collection cases are constructed with CornBo™️, corn, and bamboo-based compostable bioplastic. We design our cases to be compostable, but they will only break down when exposed to high humidity, such as in a composter or in soil, so you can rest assured that your phone will remain safe despite everyday wear and tear.<\/p>",
+            "text": "<p>The interior pocket expands to an opening of 14 inches, perfect for holding larger items such as a laptop or even a grocery or clothing haul. <\/p>",
             "enlarge_text": true
           }
         }
@@ -234,7 +233,7 @@
         "1653069440f5294402-0": {
           "type": "heading",
           "settings": {
-            "title": "Protection Through The Harshest Conditions",
+            "title": "Protection Through The Harshest Putting an End To Single-Use Bags",
             "use_h1": false
           }
         },
