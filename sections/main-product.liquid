@@ -772,7 +772,10 @@ $(function(){
 		}
 	});
 
-	
+
+	$(".desgin_title_image").click(function(obj){
+		window.location.href=$(obj).attr("data-product-url");
+    });
 	
 })
 {% endjavascript %}
