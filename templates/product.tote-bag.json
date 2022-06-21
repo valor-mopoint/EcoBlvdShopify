@@ -233,14 +233,14 @@
         "1653069440f5294402-0": {
           "type": "heading",
           "settings": {
-            "title": "Protection Through The Harshest Putting an End To Single-Use Bags",
+            "title": "Putting an End To Single-Use Bags",
             "use_h1": false
           }
         },
         "1653069440f5294402-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each aspect of the Mojave has been expertly designed and engineered for maximum protection and superior impact resistance.<\/p>",
+            "text": "<p>With a 100% recycled cotton canvas and double stitching, this tote bag is designed to be used and reused over and over again.<\/p>",
             "enlarge_text": true
           }
         }
@@ -258,6 +258,7 @@
     },
     "1653069592f622e127": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image_position": "center center",
         "mobile_image_position": "center center",
@@ -284,6 +285,7 @@
     },
     "165306956843316440": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "165306956820aebd3c-0": {
           "type": "heading",
@@ -313,6 +315,7 @@
     },
     "1652319180428cef1c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/c8a13fdbe2556171c4879cdfb4b99115.jpg",
         "image_position": "center center",
@@ -340,6 +343,7 @@
     },
     "16530697201c2beda8": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "165306972077be5b84-0": {
           "type": "heading",
