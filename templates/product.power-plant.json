@@ -314,7 +314,6 @@
     "1652319180428cef1c": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/c8a13fdbe2556171c4879cdfb4b99115.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
