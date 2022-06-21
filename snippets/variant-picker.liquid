@@ -23,6 +23,20 @@ if design_value != blank
             endfor
         endif
 	endfor
+elsif current_series_type_value!=blank
+	for temp_product in all_cases_collection.products
+        	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+            assign devicesStr= devicesStr | append: "," | append: deviceNames
+            assign first_available_variant_url=temp_product.first_available_variant.url
+            assign series_type=temp_product.metafields.custom.series_type
+            assign variant_price=temp_product.first_available_variant.price | money
+            if series_type == current_series_type_value
+            	for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
+                	assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
+            		assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price
+            	endfor
+            endif
+	endfor
 endif
 
 assign devices=devicesStr | remove_first: ","  | split:"," | uniq
@@ -93,7 +107,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
          </div>
       {% endif%}
       
-       {% if device2variants.size>0 %}
+       {% if device2variants.size>0 and current_series_type_value!=blank %}
         <div class="option-selector-title-image" >
           <fieldset class="option-selector-title-image-fieldset">
                 <div class="opposing-items">
