@@ -106,7 +106,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                             {% if deviceName==current_model_first_option_value_lowcase %}
                     			<div class="desgin_title_image {%if product_id==product.id%}current{%endif%}">
                                   <img src="{{ titleImage }}" style='width:100px;height:100px;' />
-                                  -----------------{{product_id}}-------------{{product.id}}
+                                  -----------------{{product_id}}-------------{{product.id}}-----
                       			</div>
                             {% endif %}
                           {% endfor%}
