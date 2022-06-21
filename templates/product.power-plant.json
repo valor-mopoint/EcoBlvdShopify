@@ -124,14 +124,14 @@
         "1652319035eef7bf96-0": {
           "type": "heading",
           "settings": {
-            "title": "Keep Your Phone & Wildlife From Going Extinct",
+            "title": "Leading The Charge In Renewing Our Planet",
             "use_h1": false
           }
         },
         "1652319035eef7bf96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For every Mojave collection case purchased, 2% of the sale proceeds are donated to the non-profit organization Mojave Desert Land Trust, which advocates for the protection of the California desert's ecosystems, biodiversity, natural, cultural, and scenic resources.<\/p>",
+            "text": "<p>We donate 2% of each PowerPlant charger sale to nonprofits dedicated to expanding renewable energy options and sources.<\/p>",
             "enlarge_text": true
           }
         }
@@ -179,14 +179,14 @@
         "1652318974160ea08b-0": {
           "type": "heading",
           "settings": {
-            "title": "From The Earth, For The Earth",
+            "title": "Power With A Re-Purpose",
             "use_h1": false
           }
         },
         "1652318974160ea08b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Mojave collection cases are constructed with CornBo™️, corn, and bamboo-based compostable bioplastic. We design our cases to be compostable, but they will only break down when exposed to high humidity, such as in a composter or in soil, so you can rest assured that your phone will remain safe despite everyday wear and tear.<\/p>",
+            "text": "<p>The chip, connector, and even ports are made from Remerge™️ Certified Recycled Material consisting of reclaimed and post-consumer aluminum, steel, and other sustainably sourced materials and housed in a post-consumer plastic casing. Making products from recyclables results in energy savings and keeps our planet in the green! Since recycling requires less energy to find and process new raw materials, it creates less carbon and greenhouse gas emissions<\/p>",
             "enlarge_text": true
           }
         }
@@ -234,14 +234,14 @@
         "1653069440f5294402-0": {
           "type": "heading",
           "settings": {
-            "title": "Protection Through The Harshest Conditions",
+            "title": "Experience Natural Power",
             "use_h1": false
           }
         },
         "1653069440f5294402-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each aspect of the Mojave has been expertly designed and engineered for maximum protection and superior impact resistance.<\/p>",
+            "text": "<p>PowerPlant provides 6X more power than standard plastic chargers using the latest charging technologies - PPS, Power Delivery, and Quick Charge.<\/p>",
             "enlarge_text": true
           }
         }
@@ -289,14 +289,14 @@
         "165306956820aebd3c-0": {
           "type": "heading",
           "settings": {
-            "title": "Tough To The Core",
+            "title": "Fast-Charging Dual Outputs",
             "use_h1": false
           }
         },
         "165306956820aebd3c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Raised edges around the charging port, speakers, volume, and power buttons. As well as providing a perfect ergonomic grip in your hand without adding bulk to your phone, the Mojave features a non-slip bumper grip with embossed leaves and a smooth back panel.<\/p>",
+            "text": "<p>The PowerPlant charger offers 30W USB-C PD\/PPS and 20W USB-A QC 3.0 outputs to fast-charge two devices at once. Even if your devices are not fast-charging compatible, they will still receive the highest output possible! <\/p>",
             "enlarge_text": true
           }
         }
@@ -345,14 +345,14 @@
         "165306972077be5b84-0": {
           "type": "heading",
           "settings": {
-            "title": "Charge Wirelessly",
+            "title": "A Charger That Gets It 100%",
             "use_h1": false
           }
         },
         "165306972077be5b84-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Keeping your style in check even when you need to charge. All of our Mojave Collection<em><strong> <\/strong><\/em>cases are Qi-compatible so that you can charge your phone wirelessly. The future of wireless charging is here, so your experience should be seamless.<\/p>",
+            "text": "<p>Fast-charge the latest iPhones, Androids, and tablets from 0 to 100% in just an hour, or laptops like the MacBook Pro 13\" in 2 hours!<\/p>",
             "enlarge_text": true
           }
         }
@@ -360,6 +360,116 @@
       "block_order": [
         "165306972077be5b84-0",
         "165306972077be5b84-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1655841949ee0c825c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "Tell your story",
+        "title": "Two line\ntext heading",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>And optional subtext<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Shop this",
+        "button_url_1": "",
+        "button_label_2": "Shop all",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1655841934f5d4955d": {
+      "type": "rich-text",
+      "blocks": {
+        "16558419347f8cab69-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Integrated Smart Chip Technology",
+            "use_h1": false
+          }
+        },
+        "16558419347f8cab69-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reduces power wasted in energy transfer to make charging more efficient! By automatically detecting and adjusting the power flow, Smart Chip Technology keeps your devices safe and long-lasting, extending their battery life.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16558419347f8cab69-0",
+        "16558419347f8cab69-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16558420183a5387a9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "Tell your story",
+        "title": "Two line\ntext heading",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>And optional subtext<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Shop this",
+        "button_url_1": "",
+        "button_label_2": "Shop all",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1655842006cd3b6e37": {
+      "type": "rich-text",
+      "blocks": {
+        "1655842006e21a610e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Ultra-Compact & Lightweight",
+            "use_h1": false
+          }
+        },
+        "1655842006e21a610e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The charger discreetly fits any outlet with an incredibly compact and lightweight design without cluttering or blocking access to precious plugs.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1655842006e21a610e-0",
+        "1655842006e21a610e-1"
       ],
       "settings": {
         "height": "medium",
@@ -473,6 +583,10 @@
     "165306956843316440",
     "1652319180428cef1c",
     "16530697201c2beda8",
+    "1655841949ee0c825c",
+    "1655841934f5d4955d",
+    "16558420183a5387a9",
+    "1655842006cd3b6e37",
     "16530698073b50569c",
     "1652319454d4c9b7d8",
     "recommendations"
