@@ -119,7 +119,6 @@
         let startX = 0;
 		let now = 0; 
     	const Range = .3* row.clientWidth;
-		article.innerHTML+=article.innerHTML;
 
 		row.addEventListener("touchstart",({changedTouches})=>{
 			article.style.transition="none";
@@ -148,11 +147,9 @@
         	if(Math.abs(disPoint.x)>Range){ 
             	now -= disPoint.x/Math.abs(disPoint.x);
         	}
-            translateX = -now*row.clientWidth;
-            article.style.transition = ".3s";
             article.style.transform = 'translateX(${translateX}px)';
 		})
-	})
+	}) 
 {% endjavascript %}
 
 {% schema %}
