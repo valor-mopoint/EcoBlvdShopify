@@ -118,7 +118,7 @@
 {% endstyle %}
 
 {% javascript %}
-	$(function(){
+	<!--$(function(){
 		let row=document.querySelector(".blog-row");
 		let article=document.querySelector(".article-layout--one-row");
         let translateX = 0;
@@ -157,7 +157,22 @@
         	article.style.transition = ".3s";
             article.style.transform = 'translateX(${translateX}px)';
 		})
-	})
+	})-->
+	var cName = document.getElementsByClassName("article");
+	var i = 0;
+   
+   function image(){
+		i++;
+		if( i == cName.length ){
+			i = 0;
+		}
+		
+		for(var n=0; n<cName.length; n++){
+			cName[n].style.opacity = "0";
+		}
+		 
+		cName[i].style.opacity = "1";
+   };
 {% endjavascript %}
 
 {% schema %}
