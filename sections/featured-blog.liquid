@@ -111,12 +111,12 @@
 
 {% javascript %}
 	$(function(){
-		let row=document.querySelector(".blog-row")[0];
-		let article=document.querySelector(".article-layout--one-row")[0];
+		let row=document.querySelector(".blog-row");
+		let article=document.querySelector(".article-layout--one-row");
         let translateX = 0;
         let startPoint = {};
         let disPoint = {};
-        let startX = 0;
+        let startX = 0; 
 
 		row.addEventListener("touchstart",({changedTouches})=>{
         	startPoint = {
