@@ -63,7 +63,7 @@
             "text": "<p>A Clear Case for Cleaning Our Oceans<\/p>",
             "enlarge_text": false,
             "button_label_1": "Shop Now",
-            "button_url_1": "shopify:\/\/collections\/laguna-collection",
+            "button_url_1": "shopify:\/\/collections\/laguna-collection-cases",
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "bottom left"
@@ -151,7 +151,7 @@
         "ea3d70ad-bb69-431d-b351-df18d3cfadf7": {
           "type": "collection",
           "settings": {
-            "collection": "laguna-collection",
+            "collection": "laguna-collection-cases",
             "hoverimage": "shopify:\/\/shop_images\/Screen_Shot_2022-06-17_at_2.47.21_PM.png"
           }
         },
@@ -282,7 +282,7 @@
         "164992062390cd15cd-0": {
           "type": "collection",
           "settings": {
-            "collection": "laguna-collection",
+            "collection": "laguna-collection-cases",
             "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
           }
         },
