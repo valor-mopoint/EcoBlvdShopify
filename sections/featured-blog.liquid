@@ -1,7 +1,7 @@
 {% assign blog = blogs[section.settings.blog] %}
 {% capture chevron_right %}<span class="icon--small icon-natcol">{% render 'svg-chevron-right' %}</span>{% endcapture %}
 
-<div class="container strongly-spaced-row blog-row {% if section.settings.enable_carousel %}container--not-mobile{% endif %}" data-section-type="featured-blog">
+<div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
   {% unless blog.empty? %}
 
     <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
@@ -12,9 +12,9 @@
 
     {% else %}
 
-      <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}collection-slider{% endif %}">
+      <div class="article-list article-layout--columns article-layout--one-row">
         {% for article in blog.articles limit: section.settings.post_limit %}
-        <div class="article {% if section.settings.enable_carousel %}carousel{% endif %}" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+        <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
           <div class="article__inner">
             {% if article.image %}
               <div class="article-image">
@@ -118,7 +118,7 @@
 }
 {% endstyle %}
 
-<!--{% javascript %}
+{% javascript %}
 	$(function(){
 		let row=document.querySelector(".blog-row");
 		let article=document.querySelector(".article-layout--one-row");
@@ -168,7 +168,7 @@
             article.style.transform = 'translateX(${translateX}px)';
 		})
 	})
-{% endjavascript %}-->
+{% endjavascript %}
 
 {% schema %}
   {
