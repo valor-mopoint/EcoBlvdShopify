@@ -119,11 +119,11 @@
 
 {% javascript %}
 	$(function(){
-		var row=document.querySelector(".blog-row");
-		var article=document.querySelector(".article-layout--one-row");
-		var articles=document.querySelectorAll(".article-layout--one-row .article");
+		var row=document.querySelector(".article-layout--one-row");
+		var article=document.querySelector(".article");
+		var articles=document.querySelectorAll(".article__inner");
 		var artWidth=article.offsetWidth;
-        var startPoint = 0;
+        var startPoint = 0; 
   		var startEle = 0;
         row.addEventListener("touchstart",function(e){
     		startPoint = e.changedTouches[0].pageX;
