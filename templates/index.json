@@ -135,7 +135,7 @@
         "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection",
+            "collection": "sequoia-collection-cases",
             "image": "shopify:\/\/shop_images\/town-of-colorful-homes-on-a-hillside.jpg",
             "hoverimage": "shopify:\/\/shop_images\/cell-phone-and-earbuds-in-sunlight.jpg"
           }
