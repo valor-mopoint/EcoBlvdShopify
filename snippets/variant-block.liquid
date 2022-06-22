@@ -109,7 +109,7 @@
               {%- if section.settings.show_vendor -%}
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
-              {% if product.metafields.custom.recycled %}
+              {% if product.metafields.custom.recycled == true %}
               	<div class="product-block__recycled">
                   <i class="bi bi-recycle"></i>
                   Recycled
