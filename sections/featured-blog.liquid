@@ -117,11 +117,8 @@
         let startPoint = {};
         let disPoint = {};
         let startX = 0;
-		let now = 0; 
-    	const Range = .3* row.clientWidth;
 
 		row.addEventListener("touchstart",({changedTouches})=>{
-			article.style.transition="none";
         	startPoint = {
             	x: changedTouches[0].pageX,
             	y: changedTouches[0].pageY
@@ -143,14 +140,6 @@
         	translateX = disPoint.x + startX;
         	article.style.transform = `translateX(${translateX}px)`;
     	});
-		row.addEventListener("touchend",()=>{
-        	if(Math.abs(disPoint.x)>Range){ 
-            	now -= disPoint.x/Math.abs(disPoint.x);
-        	}
-			translateX = -now*row.clientWidth;
-        	article.style.transition = ".3s";
-            article.style.transform = 'translateX(${translateX}px)';
-		})
 	})
 {% endjavascript %}
 
