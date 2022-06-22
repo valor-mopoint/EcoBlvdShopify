@@ -119,29 +119,44 @@
 
 {% javascript %}
 	$(function(){
-		var row=document.querySelector(".article-layout--one-row");
-		var article=document.querySelector(".article");
-		var articles=document.querySelectorAll(".article__inner");
-		var artWidth=article.offsetWidth;
-        var startPoint = 0; 
-  		var startEle = 0;
-        row.addEventListener("touchstart",function(e){
-    		startPoint = e.changedTouches[0].pageX;
-    		startEle = article.offsetLeft;
-  		});
-        row.addEventListener("touchmove",function(e){
-          	var currPoint = e.changedTouches[0].pageX;
-          	var disX = currPoint - startPoint;
-          	var left = startEle + disX;
-          	article.style.left = left + 'px';
-        });
-        row.addEventListener("touchend",function(e){
-    		var left = article.offsetLeft; 
-            var currNum = Math.round(-left/artWidth);
-    		currNum = currNum>=(articles.length-1) ? articles.length-1 : currNum;
-    		currNum = currNum<=0 ? 0 : currNum;
-    		article.style.left = -currNum*row.offsetWidth + 'px';
- 	 	})
+		let row=document.querySelector(".blog-row");
+		let article=document.querySelector(".article-layout--one-row");
+        let translateX = 0;
+        let startPoint = {};
+        let disPoint = {};
+        let startX = 0;
+		let now = 0; 
+    	const Range = .3* row.clientWidth; 
+
+		row.addEventListener("touchstart",({changedTouches})=>{
+			article.style.transition="none";
+        	startPoint = {
+            	x: changedTouches[0].pageX,
+            	y: changedTouches[0].pageY
+        	};
+        	startX = translateX;
+    	});
+    	row.addEventListener("touchmove",(e)=>{
+        	let touch = e.changedTouches[0];
+        	let nowPoint = {
+            	x: touch.pageX,
+            	y: touch.pageY
+        	};
+        	disPoint = {
+            	x: nowPoint.x - startPoint.x,
+            	y: nowPoint.y - startPoint.y
+        	};
+        	translateX = disPoint.x + startX;
+        	article.style.transform = `translateX(${translateX}px)`;
+    	});
+		row.addEventListener("touchend",()=>{
+        	if(Math.abs(disPoint.x)>Range){ 
+            	now -= disPoint.x/Math.abs(disPoint.x);
+        	}
+			translateX = -now*row.clientWidth;
+        	article.style.transition = ".3s";
+            article.style.transform = 'translateX(${translateX}px)';
+		})
 	})
 {% endjavascript %}
 
