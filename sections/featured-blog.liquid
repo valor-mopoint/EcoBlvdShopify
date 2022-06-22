@@ -139,8 +139,8 @@
 			if(now===0){
 				now = articles.length;
         	} else if(now === articles.length*2-1){
-            now = articles.length - 1;
-        }
+            	now = articles.length - 1;
+        	}
         	translateX = -now*wrap.clientWidth;
         	article.style.transform = 'translateX(${translateX}px)';
         	startX = translateX;
