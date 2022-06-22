@@ -14,7 +14,7 @@
 
       <div class="article-list article-layout--columns article-layout--one-row">
         {% for article in blog.articles limit: section.settings.post_limit %}
-        <div class="article" id="position" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+        <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
           <div class="article__inner">
             {% if article.image %}
               <div class="article-image">
@@ -101,15 +101,6 @@
 	}
 	.article__inner{
 		margin-bottom:10px;
-	}
-	#position{
-		position:relative;
-	}
-	.btn_learn{
-		position: absolute;
-    	bottom: 0px;
-   		left: 0;
-    	right: 0;
 	}
 }
 @media (min-width:767px){
