@@ -117,9 +117,17 @@
                   Recycled
                 </div>
               {% endif%}
-              <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
-              <div class="product-block__title">{{ product.title | split:'-' | first }}</div>
-              <div class="product-block__color">{{variant.option1 | split:'-' | first }}</div>
+              {% if  product.metafields.custom.is_case==true %}
+              	 <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
+                 {% if product.metafields.custom.series_type != blank %}
+                     <div class="product-block__series-type">{{ product.metafields.custom.series_type }}</div>
+              	 {% endif%}
+              	 {% if product.metafields.custom.design != blank %}
+                    <div class="product-block__design">{{ product.metafields.custom.design }}</div>
+              	 {% endif%}
+              {% else%}
+                 <div class="product-block__title">{{ product.title }}</div>
+              {% endif%}
 			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
 
               {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
