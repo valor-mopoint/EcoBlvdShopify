@@ -109,6 +109,13 @@
 }
 {% endstyle %}
 
+{% javascript %}
+	$(function(){
+		let row=document.querySelectorAll(".blog-row");
+		let article=document.querySelectorAll(".article-layout--one-row");
+	})
+{% endjavascript %}
+
 {% schema %}
   {
     "name": "Blog posts",
