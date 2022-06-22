@@ -84,7 +84,7 @@
             "text": "<p>Bring Life to Your Phone & Our Forests<\/p>",
             "enlarge_text": false,
             "button_label_1": "Shop Now",
-            "button_url_1": "shopify:\/\/collections\/sequoia-collection",
+            "button_url_1": "shopify:\/\/collections\/sequoia-collection-cases",
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "bottom left"
@@ -144,7 +144,7 @@
         "8f97efae-7601-4f58-81f8-ab0c4ccec5da": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection",
+            "collection": "sequoia-collection-cases",
             "hoverimage": "shopify:\/\/shop_images\/Screen_Shot_2022-06-13_at_2.25.58_PM.png"
           }
         },
@@ -289,7 +289,7 @@
         "86d8a850-805c-494b-8774-245ab892c7bd": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection",
+            "collection": "sequoia-collection-cases",
             "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
           }
         },
