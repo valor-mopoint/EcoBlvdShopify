@@ -111,8 +111,8 @@
 
 {% javascript %}
 	$(function(){
-		let row=document.querySelectorAll(".blog-row");
-		let article=document.querySelectorAll(".article-layout--one-row");
+		let row=document.querySelector(".blog-row")[0];
+		let article=document.querySelector(".article-layout--one-row")[0];
         let translateX = 0;
         let startPoint = {};
         let disPoint = {};
