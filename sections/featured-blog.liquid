@@ -86,12 +86,14 @@
 </div>
 {% style %}
 @media (max-width:767px){
-	.article-list article-layout--columns article-layout--one-row { 
-
-transition: all 0.25s ease 0s;
-    width: 4200px;
-    transform: translate3d(-1651px, 0px, 0px);
-}
+	.blog-row{
+		position: relative;
+    	overflow: hidden;
+	}
+	.article-layout--one-row{
+		float:left;
+		display:-webkit-box;
+	}
 }
 @media (min-width:767px){
     .article__inner{
