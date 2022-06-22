@@ -134,8 +134,6 @@
             	x: changedTouches[0].pageX,
             	y: changedTouches[0].pageY
         	};
-			translateX = -now*row.clientWidth;
-        	article.style.transform = 'translateX(${translateX}px)';
         	startX = translateX;
     	});
     	row.addEventListener("touchmove",(e)=>{
