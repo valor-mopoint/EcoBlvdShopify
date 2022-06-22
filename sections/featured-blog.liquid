@@ -118,46 +118,7 @@
 {% endstyle %}
 
 {% javascript %}
-	<!--$(function(){
-		let row=document.querySelector(".blog-row");
-		let article=document.querySelector(".article-layout--one-row");
-        let translateX = 0;
-        let startPoint = {};
-        let disPoint = {};
-        let startX = 0;
-		let now = 0; 
-    	const Range = .3* row.clientWidth;
-
-		row.addEventListener("touchstart",({changedTouches})=>{
-			article.style.transition="none";
-        	startPoint = {
-            	x: changedTouches[0].pageX,
-            	y: changedTouches[0].pageY
-        	};
-        	startX = translateX;
-    	});
-    	row.addEventListener("touchmove",(e)=>{
-        	let touch = e.changedTouches[0];
-        	let nowPoint = {
-            	x: touch.pageX,
-            	y: touch.pageY
-        	};
-        	disPoint = {
-            	x: nowPoint.x - startPoint.x,
-            	y: nowPoint.y - startPoint.y
-        	};
-        	translateX = disPoint.x + startX;
-        	article.style.transform = `translateX(${translateX}px)`;
-    	});
-		row.addEventListener("touchend",()=>{
-        	if(Math.abs(disPoint.x)>Range){ 
-            	now -= disPoint.x/Math.abs(disPoint.x);
-        	}
-			translateX = -now*row.clientWidth;
-        	article.style.transition = ".3s";
-            article.style.transform = 'translateX(${translateX}px)';
-		})
-	})-->
+	 
 	var cName = document.getElementsByClassName("article");
 	var i = 0;
    
