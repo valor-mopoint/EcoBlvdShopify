@@ -113,10 +113,10 @@
 	$(function(){
 		let row=document.querySelectorAll(".blog-row");
 		let article=document.querySelectorAll(".article-layout--one-row");
-        let translateX = 0; //元素的移动位置
-        let startPoint = {}; //摁下时手指坐标
-        let disPoint = {};//手指移动距离
-        let startX = 0;//摁下时元素坐标
+        let translateX = 0;
+        let startPoint = {};
+        let disPoint = {};
+        let startX = 0;
 
 		row.addEventListener("touchstart",({changedTouches})=>{
         	startPoint = {
