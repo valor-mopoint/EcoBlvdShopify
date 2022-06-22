@@ -109,6 +109,12 @@
               {%- if section.settings.show_vendor -%}
                 <div class="vendor">{{ product.vendor }}</div>
               {%- endif -%}
+              {% if product.metafields.custom.recycled %}
+              	<div class="product-block__recycled">
+                  <i class="bi bi-recycle"></i>
+                  Recycled
+                </div>
+              {% endif%}
               <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
               <div class="product-block__title">{{ product.title | split:'-' | first }}</div>
               <div class="product-block__color">{{variant.option1 | split:'-' | first }}</div>
