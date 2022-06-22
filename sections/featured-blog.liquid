@@ -117,8 +117,11 @@
         let startPoint = {};
         let disPoint = {};
         let startX = 0;
+		let now = 0; 
+    	const Range = .3* row.clientWidth;
 
 		row.addEventListener("touchstart",({changedTouches})=>{
+			article.style.transition="none";
         	startPoint = {
             	x: changedTouches[0].pageX,
             	y: changedTouches[0].pageY
@@ -130,14 +133,14 @@
         	let nowPoint = {
             	x: touch.pageX,
             	y: touch.pageY
-        };
-        disPoint = {
-            x: nowPoint.x - startPoint.x,
-            y: nowPoint.y - startPoint.y
-        };
-        translateX = disPoint.x + startX;
-        article.style.transform = `translateX(${translateX}px)`;
-    });
+        	};
+        	disPoint = {
+            	x: nowPoint.x - startPoint.x,
+            	y: nowPoint.y - startPoint.y
+        	};
+        	translateX = disPoint.x + startX;
+        	article.style.transform = `translateX(${translateX}px)`;
+    	});
 	})
 {% endjavascript %}
 
