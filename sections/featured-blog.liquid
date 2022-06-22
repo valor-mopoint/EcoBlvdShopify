@@ -121,12 +121,14 @@
 	$(function(){
 		let row=document.querySelector(".blog-row");
 		let article=document.querySelector(".article-layout--one-row");
+		let articles=document.querySelectorAll(".article-layout--one-row .article");
         let translateX = 0;
         let startPoint = {};
         let disPoint = {};
         let startX = 0;
 		let now = 0; 
     	const Range = .3* row.clientWidth; 
+		article.innerHtml+=article.innerHTML;
 
 		row.addEventListener("touchstart",({changedTouches})=>{
 			article.style.transition="none";
@@ -134,6 +136,13 @@
             	x: changedTouches[0].pageX,
             	y: changedTouches[0].pageY
         	};
+			if(now===0){
+				now = articles.length;
+        	} else if(now === articles.length*2-1){
+            now = articles.length - 1;
+        }
+        translateX = -now*wrap.clientWidth;
+        article.style.transform = 'translateX(${translateX}px)';
         	startX = translateX;
     	});
     	row.addEventListener("touchmove",(e)=>{
