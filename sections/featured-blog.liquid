@@ -119,6 +119,7 @@
         let startX = 0;
 		let now = 0; 
     	const Range = .3* row.clientWidth;
+		article.innerHTML+=article.innerHTML;
 
 		row.addEventListener("touchstart",({changedTouches})=>{
 			article.style.transition="none";
@@ -126,6 +127,8 @@
             	x: changedTouches[0].pageX,
             	y: changedTouches[0].pageY
         	};
+			translateX = -now*row.clientWidth;
+        	article.style.transform = 'translateX(${translateX}px)';
         	startX = translateX;
     	});
     	row.addEventListener("touchmove",(e)=>{
