@@ -147,6 +147,8 @@
         	if(Math.abs(disPoint.x)>Range){ 
             	now -= disPoint.x/Math.abs(disPoint.x);
         	}
+			translateX = -now*row.clientWidth;
+        	article.style.transition = ".3s";
             article.style.transform = 'translateX(${translateX}px)';
 		})
 	})
