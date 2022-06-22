@@ -53,7 +53,7 @@
               {% assign collection = collections[block.settings.collection] %}
 
               {% unless collection == blank %}
-                {% render 'collection-block',custom_hover_image: block.settings.hoverimage,collection: collection, custom_attrs: block.shopify_attributes, manual_image_load: section.settings.enable_carousel, custom_image: block.settings.image, custom_aspect_ratio: chosen_aspect_ratio %}
+                {% render 'collection-block',custom_hover_image: block.settings.hoverimage,collection: collection, custom_attrs: block.shopify_attributes, custom_image: block.settings.image, custom_aspect_ratio: chosen_aspect_ratio %}
               {% else %}
                 {% render 'onboarding-collection-block', forloop: forloop %}
               {% endunless %}
