@@ -121,7 +121,7 @@
 	$(function(){
 		var row=document.querySelector(".blog-row");
 		var article=document.querySelector(".article-layout--one-row");
-		var articles=document.querySelector(".article-layout--one-row .article");
+		var articles=document.querySelectorAll(".article-layout--one-row .article");
 		var artWidth=article.offsetWidth;
 		row.style.height=articles[0].offsetHeight+'px';
 		article.style.width=articles.length*100+'px';
