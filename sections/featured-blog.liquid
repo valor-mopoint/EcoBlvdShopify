@@ -91,20 +91,8 @@
     	overflow: hidden;
 	}
 	.article-layout--one-row{
-		position:absolute;
-		left:0;top:0;padding:0;margin:0;
-	}
-.article-layout--one-row .article{
 		float:left;
-}
-.article-layout--one-row{
-		position: relative;
-    height: 2000px;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+		display:-webkit-box;
 	}
 	.article-list .article{
 		padding-top: 19px;
@@ -152,8 +140,8 @@
           	var left = startEle + disX;
           	article.style.left = left + 'px';
         });
-        row.addEventListener("touchend",function(e){
-    		var left = article.offsetLeft;
+        wrap.addEventListener("touchend",function(e){
+    		var left = article.offsetLeft; 
             var currNum = Math.round(-left/artWidth);
     		currNum = currNum>=(articles.length-1) ? articles.length-1 : currNum;
     		currNum = currNum<=0 ? 0 : currNum;
