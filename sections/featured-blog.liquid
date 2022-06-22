@@ -125,7 +125,7 @@
 		var artWidth=article.offsetWidth;
 		row.style.height=articles[0].offsetHeight+'px';
 		article.style.width=articles.length*100+'px';
-		for(var i=0;i<aLi.length;i++){
+		for(var i=0;i<articles.length;i++){
     		articles[i].style.width = 1/articles.length * 100 + '%';
   		};
         var startPoint = 0;
@@ -140,8 +140,8 @@
           	var left = startEle + disX;
           	article.style.left = left + 'px';
         });
-        wrap.addEventListener("touchend",function(e){
-    		var left = article.offsetLeft;
+        row.addEventListener("touchend",function(e){
+    		var left = article.offsetLeft; 
             var currNum = Math.round(-left/artWidth);
     		currNum = currNum>=(articles.length-1) ? articles.length-1 : currNum;
     		currNum = currNum<=0 ? 0 : currNum;
