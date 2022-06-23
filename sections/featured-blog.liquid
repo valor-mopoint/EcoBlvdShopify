@@ -12,7 +12,9 @@
 
     {% else %}
 
-      <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}carousel{% endif %}">
+      <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}carousel{% endif %} owl-carousel owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+          <div class="owl-stage">
         {% for article in blog.articles limit: section.settings.post_limit %}
         <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
           <div class="article__inner">
@@ -45,6 +47,8 @@
           </div>
         </div>
         {% endfor %}
+            </div>
+          </div>
       </div>
     {% endif %}
 
