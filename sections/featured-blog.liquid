@@ -1,7 +1,7 @@
 {% assign blog = blogs[section.settings.blog] %}
 {% capture chevron_right %}<span class="icon--small icon-natcol">{% render 'svg-chevron-right' %}</span>{% endcapture %}
 
-<div class="container strongly-spaced-row blog-row {% if section.settings.enable_carousel %}collection-slider{% endif %}"" data-section-type="featured-blog">
+<div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
   {% unless blog.empty? %}
 
     <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
@@ -12,12 +12,12 @@
 
     {% else %}
 
-      <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}carousel{% endif %} owl-carousel owl-loaded owl-drag">
+      <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}carousel{% endif %}">
         {% for article in blog.articles limit: section.settings.post_limit %}
-        <div class="article owl-stage" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+        <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
           <div class="article__inner">
             {% if article.image %}
-              <div class="article-image product-block collection-block">
+              <div class="article-image">
                 <a href="{{ article.url }}">
                   {%- render 'responsive-image', image: article.image, aspect_ratio: section.settings.crop_ratio, cover: true -%}
                 </a>
