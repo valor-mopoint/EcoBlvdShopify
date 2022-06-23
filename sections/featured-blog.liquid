@@ -14,7 +14,7 @@
 
       <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}carousel{% endif %}">
         {% for article in blog.articles limit: section.settings.post_limit %}
-        <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+        <div class="article owl-stage" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
           <div class="article__inner">
             {% if article.image %}
               <div class="article-image">
