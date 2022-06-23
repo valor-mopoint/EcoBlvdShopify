@@ -85,25 +85,7 @@
   {% endunless %}
 </div>
 {% style %}
-@media (max-width:767px){
-	.blog-row{
-		position: relative;
-    	overflow: hidden;
-	}
-	.article-layout--one-row{
-		float:left;
-		display:-webkit-box;
-	}
-	.article-list .article{
-		padding-top: 19px;
-    	padding-bottom: 0px;
-    	border-top: 1px solid #e2e2e2;
-		margin-right:10px;
-	}
-	.blog-row h1{
-		margin-bottom:10px;
-	}
-}
+
 @media (min-width:767px){
     .article__inner{
         position:relative;
@@ -117,58 +99,6 @@
 	}
 }
 {% endstyle %}
-
-{% javascript %}
-	$(function(){
-		let row=document.querySelector(".blog-row");
-		let article=document.querySelector(".article-layout--one-row");
-		let articles=document.querySelectorAll(".article-layout--one-row .article");
-        let translateX = 0;
-        let startPoint = {};
-        let disPoint = {}; 
-        let startX = 0;
-		let now = 0; 
-    	const Range = .4* row.clientWidth; 
-		article.innerHtml+=article.innerHTML;
-
-		row.addEventListener("touchstart",({changedTouches})=>{
-			article.style.transition="none";
-        	startPoint = {
-            	x: changedTouches[0].pageX,
-            	y: changedTouches[0].pageY
-        	};
-			if(now === 0){
-				now = articles.length;
-        	} else if(now === articles.length*2-1){
-            	now = articles.length - 1;
-        	} 
-        	translateX = -now*row.clientWidth;
-        	article.style.transform = 'translateX(${translateX}px)';
-        	startX = translateX;
-    	});
-    	row.addEventListener("touchmove",(e)=>{
-        	let touch = e.changedTouches[0];
-        	let nowPoint = {
-            	x: touch.pageX,
-            	y: touch.pageY
-        	};
-        	disPoint = {
-            	x: nowPoint.x - startPoint.x,
-            	y: nowPoint.y - startPoint.y
-        	};
-        	translateX = disPoint.x + startX;
-        	article.style.transform = `translateX(${translateX}px)`;
-    	});
-		row.addEventListener("touchend",()=>{
-        	if(Math.abs(disPoint.x)>Range){ 
-            	now -= disPoint.x/Math.abs(disPoint.x);
-        	}
-			translateX = -now*row.clientWidth;
-        	article.style.transition = ".3s";
-            article.style.transform = 'translateX(${translateX}px)';
-		})
-	})
-{% endjavascript %}
 
 {% schema %}
   {
