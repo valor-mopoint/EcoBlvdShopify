@@ -12,7 +12,7 @@
       <p class="align-center" data-cc-animate>{{ 'onboarding.blog.empty' | t }}</p>
 
     {% else %}
-
+    <div class="collection-listing" data-cc-animate="cc-fade-in-up">
       <div class="article-list article-layout--columns article-layout--one-row {% if section.settings.enable_carousel %}carousel{% endif %} owl-carousel owl-loaded owl-drag">
         <div class="owl-stage-outer">
           <div class="owl-stage">
@@ -50,6 +50,7 @@
         {% endfor %}
             </div>
           </div>
+      </div>
       </div>
     {% endif %}
     </div>
