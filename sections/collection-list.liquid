@@ -48,7 +48,7 @@
                 endfor
               endif
             -%}
-
+			{% comment %}
             {% for block in section.blocks %}
               {% assign collection = collections[block.settings.collection] %}
 
@@ -58,7 +58,11 @@
                 {% render 'onboarding-collection-block', forloop: forloop %}
               {% endunless %}
             {% endfor %}
-
+			{% endcomment %}
+          {% for article in blog.articles limit: section.settings.grid %}
+              {% assign collection = collections[block.settings.collection] %}
+          {% render 'featured-block',custom_hover_image: block.settings.hoverimage,collection: collection, custom_attrs: block.shopify_attributes, manual_image_load: section.settings.enable_carousel, custom_image: block.settings.image, custom_aspect_ratio: chosen_aspect_ratio %}
+          {% endfor %}
           {% else %}
 
             {% for i in (1..6) %}
