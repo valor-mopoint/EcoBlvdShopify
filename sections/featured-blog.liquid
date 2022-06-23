@@ -3,7 +3,6 @@
 
 <div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
   {% unless blog.empty? %}
-  <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
 
     <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
 
@@ -12,10 +11,8 @@
       <p class="align-center" data-cc-animate>{{ 'onboarding.blog.empty' | t }}</p>
 
     {% else %}
-    <div class="collection-listing" data-cc-animate="cc-fade-in-up">
+
       <div class="article-list article-layout--columns article-layout--one-row">
-        <div class="owl-stage-outer">
-          <div class="owl-stage">
         {% for article in blog.articles limit: section.settings.post_limit %}
         <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
           <div class="article__inner">
@@ -48,12 +45,8 @@
           </div>
         </div>
         {% endfor %}
-            </div>
-          </div>
-      </div>
       </div>
     {% endif %}
-    </div>
 
   {% else %}
 
@@ -92,14 +85,13 @@
   {% endunless %}
 </div>
 {% style %}
-{% comment %}
-<!--@media (max-width:767px){
+@media (max-width:767px){
 	.blog-row{
 		position: relative;
     	overflow: hidden;
 	}
 	.article-layout--one-row{
-		float:left; 
+		float:left;
 		display:-webkit-box;
 	}
 	.article-list .article{
@@ -111,8 +103,7 @@
 	.blog-row h1{
 		margin-bottom:10px;
 	}
-}-->
-{% endcomment %}
+}
 @media (min-width:767px){
     .article__inner{
         position:relative;
@@ -126,8 +117,8 @@
 	}
 }
 {% endstyle %}
-{% comment %}
-<!--{% javascript %}
+
+{% javascript %}
 	$(function(){
 		let row=document.querySelector(".blog-row");
 		let article=document.querySelector(".article-layout--one-row");
@@ -177,8 +168,7 @@
             article.style.transform = 'translateX(${translateX}px)';
 		})
 	})
-{% endjavascript %}-->
-{% endcomment %}
+{% endjavascript %}
 
 {% schema %}
   {
@@ -250,23 +240,6 @@
           }
         ],
         "default": "1.78"
-      },
-	  {
-        "type": "select",
-        "id": "prod_thumb_mob_per_row",
-        "label": "Products per row on mobile",
-        "info": "Excludes carousels",
-        "options": [
-          {
-            "value": "1",
-            "label": "1"
-          },
-          {
-            "value": "2",
-            "label": "2"
-          }
-        ],
-        "default": "2"
       }
     ],
     "presets": [
