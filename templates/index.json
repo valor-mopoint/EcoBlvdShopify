@@ -593,11 +593,13 @@
       "type": "featured-blog",
       "settings": {
         "title": "Blog: An Avenue to Grow",
+        "enable_carousel": true,
         "blog": "news",
         "post_limit": 3,
         "show_author": false,
         "show_date": false,
-        "crop_ratio": "0.67"
+        "crop_ratio": "0.67",
+        "prod_thumb_mob_per_row": "1"
       }
     },
     "16494023164e709bf7": {
