@@ -5608,9 +5608,9 @@ body {
 {%- assign heading_font = settings.type_heading_font -%}
 {{ heading_font | font_face: font_display: 'fallback' }}
 h1, .h1-style, h2, h3, h4, h5, h6, .heading-font {
-    font-family: {{ heading_font.family }}, {{ heading_font.fallback_families }};
-    font-weight: {{ heading_font.weight }};
-    font-style: {{ heading_font.style }};
+    font-family: Urbane, {{ heading_font.fallback_families }};
+    font-weight: 700;
+    font-style: normal;
 }
 
 {%- assign logo_font = settings.type_logo_font -%}
