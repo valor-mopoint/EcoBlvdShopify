@@ -147,6 +147,11 @@
 {% else %}
 {% assign prod_inv_low_icon_box_fill = 'none' %}
 {% endif %}
+@font-face {
+  font-family: "Urbane";
+  src: url({{ 'Urbane-DemiBold.woff' | asset_url }}) format("woff"),
+       url({{ 'Urbane-DemiBold.wof2f' | asset_url }}) format("woff2");
+}
 /* Component variables */
 body.cc-popup-no-scroll {
   overflow: hidden;
