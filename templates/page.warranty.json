@@ -82,7 +82,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 700,
-            "title": "60-Day Product Warranty: Cases",
+            "title": "60-Day Warranty: Cases",
             "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
             "button_label": "",
             "link": ""
@@ -93,7 +93,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 700,
-            "title": "1-Year Product Warranty: Chargers & Cables",
+            "title": "1-Year Warranty: Chargers & Cables",
             "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
             "button_label": "",
             "link": ""
