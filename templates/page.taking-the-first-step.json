@@ -3,7 +3,7 @@
     "1651083175d3dae5ac": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/protecting_our_planet-2.png",
+        "image": "shopify:\/\/shop_images\/first_steps.png",
         "image_position": "bottom center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -11,7 +11,7 @@
         "height_mobile": 300,
         "image_link": "",
         "subheading": "",
-        "title": "Protecting Our Planet",
+        "title": "Taking the first Steps Towards Sustainability",
         "title_size": 100,
         "title_size_mobile": 40,
         "use_h1": true,
