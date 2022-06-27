@@ -39,8 +39,9 @@
       "blocks": {
         "165306242064b7e9a5-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "title": "Greenlight Customer Satisfaction Program",
+            "title": "",
             "use_h1": false
           }
         },
