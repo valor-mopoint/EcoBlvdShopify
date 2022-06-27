@@ -132,6 +132,43 @@
         "full_width": false,
         "use_alt_bg": false
       }
+    },
+    "16563626609f6af8ba": {
+      "type": "multi-column",
+      "blocks": {
+        "1656362660d44e4d5a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "Optimize",
+            "text": "<p>In order to optimize, we take into account our actions and ways of living and seek to change them for the most sustainable results. Sustainable living is a journey filled with imperfections, but the ultimate goal is to live while reducing our impact on the environment.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1656362660d44e4d5a-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "transform",
+            "text": "<p>To better ourselves and our planet, we must innovate and change.We consciously become more attuned to sustainable needs by tracking our growth and reviewing what is working and what isn't.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656362660d44e4d5a-0",
+        "1656362660d44e4d5a-1"
+      ],
+      "settings": {
+        "title": "We have the tools to:",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -139,6 +176,7 @@
     "16516122821bc2a8f9",
     "main",
     "1656361964214010d2",
-    "1656362382203bfa88"
+    "1656362382203bfa88",
+    "16563626609f6af8ba"
   ]
 }
