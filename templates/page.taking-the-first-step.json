@@ -48,77 +48,67 @@
         "use_alt_bg": false
       }
     },
-    "1651267590b740ae80": {
-      "type": "rich-text",
-      "blocks": {
-        "1651267590d2bb1151-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Our Communal Role",
-            "use_h1": false
-          }
-        },
-        "1651267590d2bb1151-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Protecting our planet, humanity, and all life requires that we use its resources and environment wisely. EcoBlvd is committed to doing its part to bring the planet back into the green.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "1651267590d2bb1151-0",
-        "1651267590d2bb1151-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "16563618959c22e849": {
-      "type": "rich-text",
-      "blocks": {
-        "1656361895c5dcdba6-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "use_h1": false
-          }
-        },
-        "1656361895c5dcdba6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "1656361895c5dcdba6-0",
-        "1656361895c5dcdba6-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "full_width": true
       }
+    },
+    "1656361964214010d2": {
+      "type": "multi-column",
+      "blocks": {
+        "1656361964b9b96df9-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Envionmental",
+            "text": "<p>To preserve our environment for future generations, we must take environmental responsibility very seriously<strong>. <\/strong>Every individual has a responsibility to consider their impact on the environment and minimize their damage to the planet. We need to turn on the lights at night, turn on the shower in the morning, turn on the air conditioning and possibly drive somewhere, and each action has an inverse effect on the environment, whether we think about it or not. Being responsible for our environment means being aware of our actions and not taking or doing more than we have to!<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1656361964b9b96df9-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Social",
+            "text": "<p>Unless we make a decision to protect the environment, it is impossible to make a choice between individual and collective responsibility. One way to pursue social learning is to encourage everyone to reduce their environmental impact. When we engage in such activities, we should keep our well-being and the planet's well-being in mind. When our values become habits, they reinforce and influence how we understand and appreciate the world.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1656361964b9b96df9-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Economic",
+            "text": "<p>In the face of extreme income inequality, we should avoid quick fixes. Instead, we should look for ways to understand better cultural differences, values, and perceptions to help us transition to a more sustainable global economy. We must develop equitable solutions and practices to benefit business and the economy without harming society, the environment, or culture.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656361964b9b96df9-0",
+        "1656361964b9b96df9-1",
+        "1656361964b9b96df9-2"
+      ],
+      "settings": {
+        "title": "Our Communal Role",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "1651083175d3dae5ac",
     "16516122821bc2a8f9",
-    "1651267590b740ae80",
-    "16563618959c22e849",
-    "main"
+    "main",
+    "1656361964214010d2"
   ]
 }
