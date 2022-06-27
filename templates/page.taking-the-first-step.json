@@ -27,6 +27,27 @@
         "overlay_style": "shadow"
       }
     },
+    "16516122821bc2a8f9": {
+      "type": "rich-text",
+      "blocks": {
+        "1651612282fde9400b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To be sustainable, we must recognize that our environment is limited in resources. To protect the Earth, our planet, humanity, and all life, it is vital that we use the environment and its resources rationally.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1651612282fde9400b-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
     "1651267590b740ae80": {
       "type": "rich-text",
       "blocks": {
@@ -147,55 +168,17 @@
         "text_alignment": "left",
         "use_alt_bg": false
       }
-    },
-    "16516122821bc2a8f9": {
-      "type": "rich-text",
-      "blocks": {
-        "1651612282fde9400b-0": {
-          "type": "heading",
-          "settings": {
-            "title": "...And These Are Just The First Few Steps On Our Journey",
-            "use_h1": false
-          }
-        },
-        "1651612282fde9400b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>As a company, we are also on the #Root2Renew and on a mission to meet our ambitious goals of becoming B Corp Certified and Climate Neutral members!<\/p>",
-            "enlarge_text": true
-          }
-        },
-        "74254d27-1cb7-4f21-b1d8-c29ff57d7c44": {
-          "type": "button",
-          "settings": {
-            "button_label": "LEARN MORE ABOUT US",
-            "button_link": "shopify:\/\/pages\/about-us",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "1651612282fde9400b-0",
-        "1651612282fde9400b-1",
-        "74254d27-1cb7-4f21-b1d8-c29ff57d7c44"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
     }
   },
   "order": [
     "1651083175d3dae5ac",
+    "16516122821bc2a8f9",
     "1651267590b740ae80",
     "1651611958e69ea442",
     "main",
     "165161205580ab8bbb",
     "165161210574bcc0f5",
     "1651612171f81eae4a",
-    "16516122210e189cb8",
-    "16516122821bc2a8f9"
+    "16516122210e189cb8"
   ]
 }
