@@ -103,12 +103,42 @@
         "button_style": "primary",
         "use_alt_bg": false
       }
+    },
+    "1656362382203bfa88": {
+      "type": "rich-text",
+      "blocks": {
+        "1656362382b2143bbb-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Every environmental challenge is a human one",
+            "use_h1": false
+          }
+        },
+        "1656362382b2143bbb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Taking care of our planet also means caring for all its inhabitants and people! Leah Thomas' words and ideas resonate with us, and we embrace intersectional environmentalism as well. In this, we believe in “an inclusive version of environmentalism that advocates for protecting people and the planet.” In order to achieve fair and empowering representation, sustainability cannot come from privileged positions, and all those involved must spread the culture of historically excluded or marginalized groups. In fact, climate change and environmental issues have more adversely affected the BIPOC community, the LGBTQIA+ community, the disabled community, women, and those facing abject poverty. <\/p><p>We work to ensure that a greener future is possible for all people, not just those who can afford it based on their positions or advantages. As we lift each other and our communities, we will also be reshaping the landscape for the future and for environmentalism that is more open, equal, and inclusive!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1656362382b2143bbb-0",
+        "1656362382b2143bbb-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "1651083175d3dae5ac",
     "16516122821bc2a8f9",
     "main",
-    "1656361964214010d2"
+    "1656361964214010d2",
+    "1656362382203bfa88"
   ]
 }
