@@ -3,7 +3,7 @@
     "heading": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
+        "image": "shopify:\/\/shop_images\/FAQs_page.png",
         "image_position": "bottom center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -24,7 +24,7 @@
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "box"
+        "overlay_style": "shadow"
       }
     },
     "main": {
