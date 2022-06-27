@@ -84,7 +84,7 @@
       "type": "image-with-text",
       "settings": {
         "image": "shopify:\/\/shop_images\/warranty_page-2.png",
-        "image_width": 700,
+        "image_width": 500,
         "subheading": "",
         "title": "Plastic Phone Cases Aren't A Style... But A Problem",
         "use_h1": false,
