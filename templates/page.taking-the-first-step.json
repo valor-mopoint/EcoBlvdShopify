@@ -61,7 +61,7 @@
         "1656361964b9b96df9-0": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "image_width": 700,
             "title": "Envionmental",
             "text": "<p>To preserve our environment for future generations, we must take environmental responsibility very seriously<strong>. <\/strong>Every individual has a responsibility to consider their impact on the environment and minimize their damage to the planet. Modern day necessities and luxuries has an inverse effect on the environment, whether we think about it or not. Being responsible for our environment means being aware of our actions and not taking or doing more than we have to!<\/p>",
@@ -72,7 +72,7 @@
         "1656361964b9b96df9-1": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "image_width": 700,
             "title": "Social",
             "text": "<p>Unless we make a decision to protect the environment, it is impossible to make a choice between individual and collective responsibility. One way to pursue social learning is to encourage everyone to reduce their environmental impact. When we engage in such activities, we should keep our well-being and the planet's well-being in mind. When our values become habits, they reinforce and influence how we understand and appreciate the world.<\/p>",
@@ -83,7 +83,7 @@
         "1656361964b9b96df9-2": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "image_width": 700,
             "title": "Economic",
             "text": "<p>In the face of extreme income inequality, we should avoid quick fixes. Instead, we should look for ways to understand better cultural differences, values, and perceptions to help us transition to a more sustainable global economy. We must develop equitable solutions and practices to benefit business and the economy without harming society, the environment, or culture.<\/p>",
