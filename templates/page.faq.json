@@ -1,31 +1,32 @@
 {
   "sections": {
-    "heading": {
-      "type": "image-with-text-overlay",
+    "16563480899559e9ba": {
+      "type": "rich-text",
+      "blocks": {
+        "16563480888d121259-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Customer Support Center",
+            "use_h1": true
+          }
+        },
+        "16563480888d121259-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find answers to Frequently Asked Questions below. Want to talk with a human? You can reach our Customer Support Team via email or chat. <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16563480888d121259-0",
+        "16563480888d121259-1"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FAQs_page.png",
-        "mobile_image": "shopify:\/\/shop_images\/FAQs_page-2.png",
-        "image_position": "bottom center",
-        "mobile_image_position": "center bottom",
-        "height": "fixed",
-        "height_desktop": 400,
-        "height_mobile": 300,
-        "image_link": "",
-        "subheading": "",
-        "title": "Customer Support Center",
-        "title_size": 52,
-        "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "<p>Find answers to Frequently Asked Questions below. Want to talk with a human? You can reach our Customer Support Team via email or chat. <\/p>",
-        "enlarge_text": true,
-        "button_label_1": "",
-        "button_url_1": "",
-        "button_label_2": "",
-        "button_url_2": "",
-        "text_alignment": "center center",
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
       }
     },
     "main": {
@@ -458,7 +459,7 @@
     }
   },
   "order": [
-    "heading",
+    "16563480899559e9ba",
     "main",
     "faq-content-1",
     "165288530670ec9f40",
