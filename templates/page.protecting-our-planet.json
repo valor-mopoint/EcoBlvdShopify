@@ -83,7 +83,8 @@
     "165161205580ab8bbb": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/warranty_page-3.png",
+        "image_width": 500,
         "subheading": "",
         "title": "Our Materials",
         "use_h1": false,
