@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/FAQs_page.png",
         "mobile_image": "shopify:\/\/shop_images\/FAQs_page-2.png",
         "image_position": "bottom center",
-        "mobile_image_position": "center center",
+        "mobile_image_position": "center bottom",
         "height": "fixed",
         "height_desktop": 400,
         "height_mobile": 300,
