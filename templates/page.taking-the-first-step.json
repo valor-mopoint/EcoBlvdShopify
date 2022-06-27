@@ -169,6 +169,57 @@
         "button_style": "primary",
         "use_alt_bg": false
       }
+    },
+    "1656362778d2569598": {
+      "type": "multi-column",
+      "blocks": {
+        "16563627784d3e3802-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "The Journey Begins...",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16563627784d3e3802-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16563627784d3e3802-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16563627784d3e3802-0",
+        "16563627784d3e3802-1",
+        "16563627784d3e3802-2"
+      ],
+      "settings": {
+        "title": "We encourage you to join us on #Root2Renew, as even the smallest step can make a difference!",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -177,6 +228,7 @@
     "main",
     "1656361964214010d2",
     "1656362382203bfa88",
-    "16563626609f6af8ba"
+    "16563626609f6af8ba",
+    "1656362778d2569598"
   ]
 }
