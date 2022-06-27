@@ -54,7 +54,7 @@
         "1651267590d2bb1151-0": {
           "type": "heading",
           "settings": {
-            "title": "Accelerating the Earth From Red To Green",
+            "title": "Our Communal Role",
             "use_h1": false
           }
         },
@@ -77,20 +77,32 @@
         "use_alt_bg": false
       }
     },
-    "1651611958e69ea442": {
-      "type": "image-with-text",
+    "16563618959c22e849": {
+      "type": "rich-text",
+      "blocks": {
+        "1656361895c5dcdba6-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "1656361895c5dcdba6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1656361895c5dcdba6-0",
+        "1656361895c5dcdba6-1"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/onepercentfortheplanet.png",
-        "image_width": 500,
-        "subheading": "",
-        "title": "1% For The Planet",
-        "use_h1": false,
-        "text": "<p>We cannot continue to take from the planet without giving back. We are proud members of 1% for the Planet, in which we are doubling down and committing to donate at least 2% of all revenue to environmental non-profit organizations, such as the National Forest Foundation, Mojave Desert Land Trust, The Ocean Conservancy and more.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "https:\/\/www.onepercentfortheplanet.org\/en\/about",
-        "button_style": "primary",
-        "image_position": "right",
-        "text_alignment": "left",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": false
       }
     },
@@ -100,85 +112,13 @@
       "settings": {
         "full_width": true
       }
-    },
-    "165161205580ab8bbb": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/warranty_page-3.png",
-        "image_width": 500,
-        "subheading": "",
-        "title": "Our Materials",
-        "use_h1": false,
-        "text": "<p>The future lies in plant-based materials. To provide your phone and the planet with the best possible protection, we use compostable plant-based bioplastics, such as our proprietary InnoMaize™, made from corn starch and corn sugar, and CornBo™, made from bamboo and plant fibers, to make our cases.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/from-the-earth-for-the-earth",
-        "button_style": "primary",
-        "image_position": "left",
-        "text_alignment": "left",
-        "use_alt_bg": false
-      }
-    },
-    "165161210574bcc0f5": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/plastic_free_packaging_ecoblvd.png",
-        "image_width": 500,
-        "subheading": "",
-        "title": "Plastic-Free Packaging",
-        "use_h1": false,
-        "text": "<p>We believe packaging is most beautiful when it’s natural! Every component of EcoBlvd packages are made with FSC-certified materials and does not contain any plastic. Through our efforts, we are preserving forests that have been decimated due to deforestation and urbanization.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/packaging-with-purpose",
-        "button_style": "primary",
-        "image_position": "right",
-        "text_alignment": "left",
-        "use_alt_bg": false
-      }
-    },
-    "1651612171f81eae4a": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/plastic_free_packaging_ecoblvd-2.png",
-        "image_width": 500,
-        "subheading": "",
-        "title": "Sustainable Shipping",
-        "use_h1": false,
-        "text": "<p>When our products leave our facility, our commitment to sustainability continues. To offset carbon emissions and reduce waste, we offer a carbon-neutral checkout option and free ground shipping on all orders. <\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/the-greenest-route",
-        "button_style": "primary",
-        "image_position": "left",
-        "text_alignment": "left",
-        "use_alt_bg": false
-      }
-    },
-    "16516122210e189cb8": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/warranty_page-4.png",
-        "image_width": 500,
-        "subheading": "",
-        "title": "Roundabout Recycling",
-        "use_h1": false,
-        "text": "<p>In an effort to reduce our environmental impact, EcoBlvd offers every customer a free prepaid shipping label with each purchase. Just send your old plastic case or charging accessories back to us and we'll recycle it or ensure it's disposed of properly. <\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/roundabout-recycling",
-        "button_style": "primary",
-        "image_position": "right",
-        "text_alignment": "left",
-        "use_alt_bg": false
-      }
     }
   },
   "order": [
     "1651083175d3dae5ac",
     "16516122821bc2a8f9",
     "1651267590b740ae80",
-    "1651611958e69ea442",
-    "main",
-    "165161205580ab8bbb",
-    "165161210574bcc0f5",
-    "1651612171f81eae4a",
-    "16516122210e189cb8"
+    "16563618959c22e849",
+    "main"
   ]
 }
