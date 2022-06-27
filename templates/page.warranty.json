@@ -71,6 +71,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/all_products.png",
             "image_width": 700,
             "title": "14-Day Return or Exchange: All Products",
             "text": "<p>In the event you are unhappy or ordered an item in error, please contact us within 14 days of delivery for a refund or exchange.*<\/p><p><\/p>",
@@ -82,6 +83,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_0cb02ef6-bab8-4a19-8c4e-2587615a1cdd.png",
             "image_width": 700,
             "title": "60-Day Warranty: PHONE Cases",
             "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
@@ -93,6 +95,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3_815f4704-6767-4df2-84c0-ad024c7bcdc5.png",
             "image_width": 700,
             "title": "1-Year Warranty: Chargers & Cables",
             "text": "<p>In the event there is a product defect beyond the 14-Day Return or Exchange window, we will provide a free replacement.*<\/p>",
