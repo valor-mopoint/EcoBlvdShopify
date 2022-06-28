@@ -139,6 +139,32 @@
         "use_alt_bg": false
       }
     },
+    "16521298744572cd71": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1652129874bc679338-0": {
+          "type": "question",
+          "settings": {
+            "title": "Cases",
+            "answer": "<p>If it protects an electronic device, such as a phone, tablet, AirPods, etc, we will accept the case. It doesn't matter who makes it, we will take care of recycling it!<\/p>"
+          }
+        },
+        "1652129874bc679338-1": {
+          "type": "question",
+          "settings": {
+            "title": "Chargers",
+            "answer": "<p>If it powers an electronic device, we will accept it! From wall, car and travel adapters to cables - send it our way so we can properly dispose of it!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652129874bc679338-0",
+        "1652129874bc679338-1"
+      ],
+      "settings": {
+        "title": "What Items are Accepted for the Roundabout Recycling Program?"
+      }
+    },
     "16521298115ab655d0": {
       "type": "rich-text",
       "blocks": {
@@ -178,32 +204,6 @@
         "use_alt_bg": false
       }
     },
-    "16521298744572cd71": {
-      "type": "collapsible-tabs",
-      "blocks": {
-        "1652129874bc679338-0": {
-          "type": "question",
-          "settings": {
-            "title": "Cases",
-            "answer": "<p>If it protects an electronic device, such as a phone, tablet, AirPods, etc, we will accept the case. It doesn't matter who makes it, we will take care of recycling it!<\/p>"
-          }
-        },
-        "1652129874bc679338-1": {
-          "type": "question",
-          "settings": {
-            "title": "Chargers",
-            "answer": "<p>If it powers an electronic device, we will accept it! From wall, car and travel adapters to cables - send it our way so we can properly dispose of it!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1652129874bc679338-0",
-        "1652129874bc679338-1"
-      ],
-      "settings": {
-        "title": "What Items are Accepted for the Roundabout Recycling Program?"
-      }
-    },
     "1652128983d18633d3": {
       "type": "image-with-text",
       "disabled": true,
@@ -228,7 +228,7 @@
         "subheading": "",
         "title": "Let’s Keep Plastic In The Rear View",
         "use_h1": false,
-        "text": "<p>Of the 8.3 billion tons of plastic produced annually, 6.3 billion tons end up as waste. <\/p><p>As a single piece of plastic takes 500 years to degrade, and only 9% of all plastic is recycled, we face a real problem with time. Even worse, when plastic breaks down, it forms smaller pieces known as microplastics that end up in our water, air, and food.<\/p><p>Recent studies have found microplastics in human blood and lungs, giving us yet another reason to be concerned about plastic.<\/p><p>As it stands, we only have a few years before our planet's climate reaches a tipping point we cannot reverse.<\/p><p>It’s time to reduce, reuse, and, more importantly, RENEW! <\/p>",
+        "text": "<p>Of the 8.3 billion tons of plastic produced annually, 6.3 billion tons end up as waste. <\/p><p>As a single piece of plastic takes 500 years to degrade, and only 9% of all plastic is recycled, we face a real problem with time. Even worse, when plastic breaks down, it forms smaller pieces known as microplastics that end up in our water, air, and food.<\/p><p>Recent studies have found microplastics in human blood and lungs, giving us yet another reason to be concerned about plastic.<\/p><p>As it stands, we only have a few years before our planet's climate reaches a tipping point we cannot reverse.<\/p><p>It’s time to reduce, reuse, and, more importantly, RENEW! <\/p><p><em>“<\/em><a href=\"https:\/\/www.nationalgeographic.org\/article\/whopping-91-percent-plastic-isnt-recycled\/#:~:text=The%20new%20study%2C%20published%20Wednesday,nine%20percent%20has%20been%20recycled.\"><span style=\"text-decoration:underline\"><em>A Whopping 91 Percent of Plastic Isn’t Recycled” National Geographic<\/em><\/span><\/a><em>.” 2019, July 5. <\/em><\/p><p><em>“<\/em><a href=\"https:\/\/e360.yale.edu\/digest\/microplastics-found-in-lungs-of-humans-undergoing-surgery\"><span style=\"text-decoration:underline\"><em>Microplastics Found In Lungs of Humans Undergoing Surgery<\/em><\/span><\/a><em>”. Yale Environmental 360. 2022, April 6. <\/em><\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -281,15 +281,16 @@
       "blocks": {
         "1652130292b1174dc0-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "title": "Questions? Comments? Concerns?",
+            "title": "Questions, Comments, or Concerns",
             "use_h1": false
           }
         },
         "1652130292b1174dc0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We're here to help! Send us a message and let us know what questions, comments or concerns we may address.<\/p>",
+            "text": "<p><strong>Questions, Comments or Concerns?<\/strong><\/p><p>We're here to help. <\/p>",
             "enlarge_text": true
           }
         },
@@ -321,8 +322,8 @@
     "16521294187891a606",
     "16564513137d4db5c1",
     "1652129532598301e1",
-    "16521298115ab655d0",
     "16521298744572cd71",
+    "16521298115ab655d0",
     "1652128983d18633d3",
     "1652129073ea5843c1",
     "1652129184c1adbe74",
