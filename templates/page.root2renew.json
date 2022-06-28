@@ -164,8 +164,8 @@
         "1651266421c49cb4b9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It’s important to remember that the burden is not on us alone but collectively. By working together and sharing our sustainability journey, we can create a larger impact. Sustainability is about progress not perfection.<\/p>",
-            "enlarge_text": true
+            "text": "<p>It’s important to remember that the burden is not on us alone but collectively. By working together and sharing our sustainability journey, we can create a larger impact. Sustainability is about progress, not perfection.<\/p>",
+            "enlarge_text": false
           }
         }
       },
