@@ -46,7 +46,8 @@
     "165108354281f5e386": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/11.png",
+        "image_width": 500,
         "subheading": "",
         "title": "Hidden in Plain Sight",
         "use_h1": false,
@@ -62,7 +63,8 @@
     "16510838917af41ce1": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/warranty_page-5.png",
+        "image_width": 500,
         "subheading": "",
         "title": "The Big Problem With Microplastics",
         "use_h1": false,
