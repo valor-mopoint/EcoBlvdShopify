@@ -79,6 +79,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/about_us_team_photo-2.png",
+        "mobile_image": "shopify:\/\/shop_images\/about_us_team_photo_mobile.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
