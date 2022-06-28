@@ -101,14 +101,14 @@
         "1651695595d765474d-0": {
           "type": "heading",
           "settings": {
-            "title": "The Cost of Fast Shipping",
+            "title": "Express Shipping Costs the Planet",
             "use_h1": false
           }
         },
         "1651695595d765474d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Regardless of how eco-friendly, ethical, low-impact, or zero waste the product you purchase is, the process of shipping your order has an impact on the environment.<\/p><p>Online shopping is theoretically better for the environment since it consolidates many different items and delivers them as a consolidated package to many addresses at the same time.<\/p><p>Yet, we have become accustomed to express shipping that arrives in one or two days, which harms the environment more than standard ground shipping. Due to these rushed delivery options, companies dispatch trucks that aren't fully loaded far more frequently, burning more fuel and contributing to climate change.<\/p><p>According to Miguel Jaller, co-director of UC Davis' Sustainable Freight Research Center, consumers who are aware of the impact of their ordering decisions may think twice before choosing the fastest option.<\/p>",
+            "text": "<p>Regardless of how eco-friendly, ethical, low-impact, or zero waste the product you purchase is, shipping your order has an impact on the environment.<\/p><p>It is easy to get used to the convenience of rushed or express shipping. Due to the fact that we expect to receive our items in one to two days, companies must dispatch trucks that aren't fully loaded more frequently, which consumes additional fuel and contributes to climate change.<\/p>",
             "enlarge_text": false
           }
         }
@@ -121,7 +121,7 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "main": {
@@ -138,7 +138,7 @@
         "subheading": "",
         "title": "A Slow & Steady Delivery Plan Is The Best Option",
         "use_h1": false,
-        "text": "<p>165 billion packages are shipped in the U.S. every year. That's 1 billion trees worth of cardboard alone. This statistic ignores other packaging types, such as plastic, which is even less eco-friendly than cardboard.<br\/><br\/>17% of all global carbon emissions will come from shipping by 2050. Currently, freight trucks contribute 161.8 grams of CO2 per ton-mile, whereas airplanes contribute 500 grams of CO2 per metric ton of freight.Despite its small environmental impact, ground shipping is one of the most environmentally friendly methods due to the reduction of routes and emissions. Even though it may take longer, you'll still receive your order within a week, plus it'll help the planet!<\/p>",
+        "text": "<p>By 2050 17% of all global carbon emissions will come from the shipping. As of now, trucks contribute 161.8 grams of CO2 per ton-mile, whereas airplanes contribute 500 grams per metric ton.Ground shipping has small environmental impacts but is considered to be one of the most eco-friendly methods due to fewer routes and fewer emissions.Even though it may take longer, you'll still receive your order within a week, plus it'll help the planet as it has been proven that sustainable shipping can reduce carbon emissions by up to 60%, as per KPMG's Sustainability Services division.<\/p><p><em>Source: “<\/em><a href=\"https:\/\/business.edf.org\/insights\/green-freight-math-how-to-calculate-emissions-for-a-truck-move\/#:~:text=The%20average%20freight%20truck%20in,of%203%2C236%2C000%20grams%20of%20CO2.\"><span style=\"text-decoration:underline\"><em>Green Freight Math: How to Calculate Emissions for a Truck Move<\/em><\/span><\/a><em>.” Environmental Defense Fund. 2015, March 24. <\/em><\/p><p><em>Source: “<\/em><a href=\"https:\/\/www.sourcinghub.io\/air-freight-vs-sea-freight-carbon-footprint\/\"><span style=\"text-decoration:underline\"><em>Air Freight vs. Sea Freight Carbon Footprint \/ Environmental Impact of Shipping<\/em><\/span><\/a><em>.” SourcingHub.IO, 2020, May 12.<\/em><\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -152,9 +152,9 @@
       "settings": {
         "image_width": 700,
         "subheading": "",
-        "title": "From Our Facility To Your Mailbox",
+        "title": "From Our Plant To Your Mailbox",
         "use_h1": false,
-        "text": "<p>It has been proven that sustainable shipping can reduce carbon emissions by up to 60%, as per KPMG's Sustainability Services division. <br\/><br\/>After your order leaves our plant, our commitment to sustainability continues:<br\/><br\/>-Our third-party logistics provider processes orders, stores products, and makes purchases utilizing only green energy. All deliveries are made using the most fuel-efficient routes.<br\/><br\/>-All of our orders include free ground shipping to help offset carbon emissions. We have expedited checkout options available, but we hope you'll use our carbon-neutral checkout options if you need your accessories sooner.<br\/><br\/>-Our Roundabout Recycling Program ensures that every order is packed with recyclable shipping envelopes that can also be used to ship back old products, which doubles its use and purpose. We avoid including promotional materials or extra paper in our packages to reduce waste.<\/p><p>Please allow 2 business days for non-customized orders to be processed and shipped. For customized orders please allow 3 to 5 business days for processing.<\/p>",
+        "text": "<p>After your order leaves our plant, our commitment to sustainability continues:<br\/><br\/>- Our third-party logistics provider processes orders, stores items, and makes purchases only with green energy. All deliveries are made using the most fuel-efficient routes.<br\/><br\/>- All of our orders include free ground shipping to help offset carbon emissions. Although we have expedited checkout options available, we hope you will choose carbon-neutral checkout if you need your order sooner.<br\/><br\/>- Utilizing our <a href=\"https:\/\/eco-blvd.myshopify.com\/pages\/roundabout-recycling\"><span style=\"text-decoration:underline\">Roundabout Recycling Program<\/span><\/a><\/p><p><strong>Please allow 2 business days for non-customized orders to be processed and shipped. For customized orders, please allow 3 to 5 business days for processing.<\/strong><\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
