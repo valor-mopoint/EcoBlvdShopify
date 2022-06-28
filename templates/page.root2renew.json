@@ -27,6 +27,36 @@
         "overlay_style": "shadow"
       }
     },
+    "1656449480d475cba9": {
+      "type": "rich-text",
+      "blocks": {
+        "16564494809fbedfc5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "16564494809fbedfc5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The #Root2Renew is what we consider our mindset here at EcoBlvd. An initiative that starts from the ground up. It is a way of beginning a path towards not only bettering the planet but also bettering ourselves as individuals, by renewing our connection to nature and to ourselves.<\/p><p>At the “root” of the #Root2Renew is just the idea to start living more consciously, and the small steps we take to establish a more responsible lifestyle.<\/p><p>This movement is all about finding a way to renew ourselves and the planet. The steps we take, no matter how small, how frequent, or how life-changing, are what move us forward on our journeys, and despite our differences, we all share the same common ground.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16564494809fbedfc5-0",
+        "16564494809fbedfc5-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
     "165126616164841dfa": {
       "type": "rich-text",
       "blocks": {
@@ -209,6 +239,7 @@
   },
   "order": [
     "1651083175d3dae5ac",
+    "1656449480d475cba9",
     "165126616164841dfa",
     "16510835927f249308",
     "main",
