@@ -123,53 +123,14 @@
             "enable_image": false,
             "image_width": 350,
             "title": "",
-            "text": "<p>1️⃣ Place your old case, charger, or charging cable in its original package (or in the package of the new one).<\/p><p>2️⃣ Attach the prepaid shipping label, and send it off.<br\/><br\/>3️⃣ We will divert and properly dispose of, recycle, or compost all plastics and electronics.<\/p><p>4️⃣ Once we receive your items, we will issue a 25% discount for a future purchase.<\/p><p>Want to learn more about how to compost your EcoBlvd case at home?<\/p>",
-            "button_label": "Click here",
-            "link": "shopify:\/\/blogs\/news"
-          }
-        },
-        "165212953203e96ca6-1": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": false,
-            "image_width": 700,
-            "title": "",
-            "text": "<p>2. Put your old case in the package, attach the prepaid shipping label, and send it off.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "165212953203e96ca6-2": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": false,
-            "image_width": 700,
-            "title": "",
-            "text": "<p>3. Through our use of TerraCycle's Zero Waste Box program, any plastic will be properly disposed of and other materials will be broken down to be reused again. <br\/><br\/>Once you are done using your EcoBlvd Case, you can return it to us, and we will compost and repurpose it! <br\/><br\/>All electronic waste received - including EcoBlvd chargers and charging cables - is recycled by HomeBoy Industries to ensure that old electronics, gadgets, and equipment are disposed of properly and recycled in the most eco-conscious way.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "eb592456-3184-4ce8-ab1b-131f663fa30b": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": false,
-            "image_width": 570,
-            "title": "",
-            "text": "<p>4. Once we receive your items, we will issue a 25% off coupon for a future EcoBlvd purchase.<\/p>",
+            "text": "<p>1️⃣ Place your old case, charger, or charging cable in its original package (or in the package of the new one).<\/p><p>2️⃣ Attach the prepaid shipping label, and send it off.<br\/><br\/>3️⃣ We will divert and properly dispose of, recycle, or compost all plastics and electronics.<\/p><p>4️⃣ Once we receive your items, we will issue a 25% discount for a future purchase.<\/p>",
             "button_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "165212953203e96ca6-0",
-        "165212953203e96ca6-1",
-        "165212953203e96ca6-2",
-        "eb592456-3184-4ce8-ab1b-131f663fa30b"
+        "165212953203e96ca6-0"
       ],
       "settings": {
         "title": "4 Steps To A Full Revolution",
@@ -178,8 +139,74 @@
         "use_alt_bg": false
       }
     },
+    "16521298115ab655d0": {
+      "type": "rich-text",
+      "blocks": {
+        "165212981199eef7c6-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "165212981199eef7c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to compost your EcoBlvd case at home?<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "e6c88176-ff01-4a09-86f4-72c63c60062e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "165212981199eef7c6-0",
+        "165212981199eef7c6-1",
+        "e6c88176-ff01-4a09-86f4-72c63c60062e"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16521298744572cd71": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1652129874bc679338-0": {
+          "type": "question",
+          "settings": {
+            "title": "Cases",
+            "answer": "<p>If it protects an electronic device, such as a phone, tablet, AirPods, etc, we will accept the case. It doesn't matter who makes it, we will take care of recycling it!<\/p>"
+          }
+        },
+        "1652129874bc679338-1": {
+          "type": "question",
+          "settings": {
+            "title": "Chargers",
+            "answer": "<p>If it powers an electronic device, we will accept it! From wall, car and travel adapters to cables - send it our way so we can properly dispose of it!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652129874bc679338-0",
+        "1652129874bc679338-1"
+      ],
+      "settings": {
+        "title": "What Items are Accepted for the Roundabout Recycling Program?"
+      }
+    },
     "1652128983d18633d3": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subheading": "",
@@ -249,71 +276,6 @@
         "use_alt_bg": false
       }
     },
-    "16521298115ab655d0": {
-      "type": "rich-text",
-      "blocks": {
-        "165212981199eef7c6-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Rich text",
-            "use_h1": false
-          }
-        },
-        "165212981199eef7c6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Want to compost your EcoBlvd case at home?<\/p>",
-            "enlarge_text": true
-          }
-        },
-        "e6c88176-ff01-4a09-86f4-72c63c60062e": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "165212981199eef7c6-0",
-        "165212981199eef7c6-1",
-        "e6c88176-ff01-4a09-86f4-72c63c60062e"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "16521298744572cd71": {
-      "type": "collapsible-tabs",
-      "blocks": {
-        "1652129874bc679338-0": {
-          "type": "question",
-          "settings": {
-            "title": "Cases",
-            "answer": "<p>If it protects an electronic device, such as a phone, tablet, AirPods, etc, we will accept the case. It doesn't matter who makes it, we will take care of recycling it!<\/p>"
-          }
-        },
-        "1652129874bc679338-1": {
-          "type": "question",
-          "settings": {
-            "title": "Chargers",
-            "answer": "<p>If it powers an electronic device, we will accept it! From wall, car and travel adapters to cables - send it our way so we can properly dispose of it!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1652129874bc679338-0",
-        "1652129874bc679338-1"
-      ],
-      "settings": {
-        "title": "What Items are Accepted for the Roundabout Recycling Program?"
-      }
-    },
     "1652130292d6bb9bd3": {
       "type": "rich-text",
       "blocks": {
@@ -359,13 +321,13 @@
     "16521294187891a606",
     "16564513137d4db5c1",
     "1652129532598301e1",
+    "16521298115ab655d0",
+    "16521298744572cd71",
     "1652128983d18633d3",
     "1652129073ea5843c1",
     "1652129184c1adbe74",
     "main",
     "1652129272fb978fa9",
-    "16521298115ab655d0",
-    "16521298744572cd71",
     "1652130292d6bb9bd3"
   ]
 }
