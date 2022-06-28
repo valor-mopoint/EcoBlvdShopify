@@ -224,7 +224,8 @@
     "1652129073ea5843c1": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/rearview_mirror.png",
+        "image_width": 500,
         "subheading": "",
         "title": "Let’s Keep Plastic In The Rear View",
         "use_h1": false,
