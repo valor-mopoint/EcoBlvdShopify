@@ -241,7 +241,8 @@
     "1652129184c1adbe74": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/e-waste_problem.png",
+        "image_width": 500,
         "subheading": "",
         "title": "Our Electronics Are Stalling Progress",
         "use_h1": false,
