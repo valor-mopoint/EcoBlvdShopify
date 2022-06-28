@@ -99,8 +99,8 @@
         "1651083592c8987272-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We each begin our sustainability journey within our mind. It starts with the realization that we need to change our lifestyles in order to ensure the longevity of our planet for generations to come. When we come to the realization that we are part of the problem yet also part of the solution, we'll have taken the first step towards a more sustainable lifestyle. Everyone’s personal journey will be filled with challenges, but we will also learn why our goal is so important.<\/p>",
-            "enlarge_text": true
+            "text": "<p>We each begin our sustainability journey within our minds. To ensure the longevity of our planet for generations to come, we must change our lifestyles. We'll have taken the first step towards a more sustainable lifestyle when we realize that we are both parts of the problem and part of the solution. All of our personal journeys are filled with challenges, but we will also learn why our goal is so important.<\/p>",
+            "enlarge_text": false
           }
         }
       },
@@ -112,7 +112,7 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false
       }
     },
     "main": {
@@ -135,7 +135,7 @@
         "1651266332e6feb2da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sustainability aims to minimize an individual's impact on the environment rather than eliminating it entirely. That's why we say we're all on a Root (Route) 2 Renew, as it's not about the destination, rather the actions we take, what we learn and change along the way. <\/p><p><\/p><p>Sustainability does not happen overnight with zero-waste lifestyles or full eco-consciousness, but rather with a step to reduce waste. <\/p><p><\/p><p>The journey toward sustainable development grows as you progress. Rather than focusing on what you can do or should do, it's about what you can accomplish.<\/p>",
+            "text": "<p>Sustainability aims to minimize an individual's impact on the environment rather than eliminate it. We say we're all on a Root (Route) 2 Renew since it's not about the destination, but about what we do and what we learn along the way.<\/p><p>The shift from zero-waste lifestyles to eco-consciousness does not happen overnight, but rather with a few steps.<\/p><p> The journey toward sustainable development grows as you progress.<\/p>",
             "enlarge_text": false
           }
         }
