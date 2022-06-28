@@ -33,15 +33,15 @@
         "1652129036c38f9a3c-0": {
           "type": "heading",
           "settings": {
-            "title": "Revolutionizing Waste",
+            "title": "We Revolve Around Mother Earth",
             "use_h1": false
           }
         },
         "1652129036c38f9a3c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Reduce the 495 million pounds of plastic used each year for phone cases by recycling your old plastic ones and using EcoBlvd cases!<\/p>",
-            "enlarge_text": true
+            "text": "<p>Sustainability involves recognizing that our environment is limited. Our planet, humanity, and all life are at risk if we do not manage its resources and environment rationally. By protecting the environment, preserving the ecosystem, and conserving our natural resources, we can improve the quality of our lives and the planet.<\/p>",
+            "enlarge_text": false
           }
         }
       },
@@ -53,6 +53,128 @@
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16521294187891a606": {
+      "type": "rich-text",
+      "blocks": {
+        "165212941874ea7b2d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Growing Our Circle",
+            "use_h1": false
+          }
+        },
+        "165212941874ea7b2d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EcoBlvd strives for a circular economy where all products can be repurposed or reused rather than discarded. <\/p><p>We include a free pre-paid shipping label with every purchase to take responsibility for the crisis. Even if it's not our product, we make it easy to return your old chargers, phone cases, or cables so they can be properly recycled or composted into even better products.<\/p><p>Together, we will prevent millions of pounds of valuable and renewable resources from decomposing in landfills, and that's just the beginning!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165212941874ea7b2d-0",
+        "165212941874ea7b2d-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16564513137d4db5c1": {
+      "type": "rich-text",
+      "blocks": {
+        "1656451313e0fd3419-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Revolutionizing Waste",
+            "use_h1": false
+          }
+        },
+        "1656451313e0fd3419-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reduce the 495 million pounds of plastic used each year for phone cases by recycling your old plastic ones and using EcoBlvd cases!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1656451313e0fd3419-0",
+        "1656451313e0fd3419-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1652129532598301e1": {
+      "type": "multi-column",
+      "blocks": {
+        "165212953203e96ca6-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 350,
+            "title": "",
+            "text": "<p>1️⃣ Place your old case, charger, or charging cable in its original package (or in the package of the new one).<\/p><p>2️⃣ Attach the prepaid shipping label, and send it off.<br\/><br\/>3️⃣ We will divert and properly dispose of, recycle, or compost all plastics and electronics.<\/p><p>4️⃣ Once we receive your items, we will issue a 25% discount for a future purchase.<\/p><p>Want to learn more about how to compost your EcoBlvd case at home?<\/p>",
+            "button_label": "Click here",
+            "link": "shopify:\/\/blogs\/news"
+          }
+        },
+        "165212953203e96ca6-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "<p>2. Put your old case in the package, attach the prepaid shipping label, and send it off.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "165212953203e96ca6-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "<p>3. Through our use of TerraCycle's Zero Waste Box program, any plastic will be properly disposed of and other materials will be broken down to be reused again. <br\/><br\/>Once you are done using your EcoBlvd Case, you can return it to us, and we will compost and repurpose it! <br\/><br\/>All electronic waste received - including EcoBlvd chargers and charging cables - is recycled by HomeBoy Industries to ensure that old electronics, gadgets, and equipment are disposed of properly and recycled in the most eco-conscious way.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "eb592456-3184-4ce8-ab1b-131f663fa30b": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image_width": 570,
+            "title": "",
+            "text": "<p>4. Once we receive your items, we will issue a 25% off coupon for a future EcoBlvd purchase.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165212953203e96ca6-0",
+        "165212953203e96ca6-1",
+        "165212953203e96ca6-2",
+        "eb592456-3184-4ce8-ab1b-131f663fa30b"
+      ],
+      "settings": {
+        "title": "4 Steps To A Full Revolution",
+        "text_alignment": "center",
+        "button_style": "primary",
         "use_alt_bg": false
       }
     },
@@ -124,96 +246,6 @@
         "button_style": "primary",
         "image_position": "right",
         "text_alignment": "left",
-        "use_alt_bg": false
-      }
-    },
-    "16521294187891a606": {
-      "type": "rich-text",
-      "blocks": {
-        "165212941874ea7b2d-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Growing Our Circle",
-            "use_h1": false
-          }
-        },
-        "165212941874ea7b2d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>EcoBlvd strives for a circular economy where all products can be repurposed or reused rather than discarded, which is why we include a free pre-paid shipping label with every purchase. To take responsibility for the crisis, even if it's not our product, we make it easy to return your old chargers, phone cases, or cables, so they can be properly recycled or composted into even better products.<br\/><br\/>Together, we will prevent millions of pounds of valuable and renewable resources from decomposing in landfills, and that's just the beginning!<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "165212941874ea7b2d-0",
-        "165212941874ea7b2d-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "1652129532598301e1": {
-      "type": "multi-column",
-      "blocks": {
-        "165212953203e96ca6-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 350,
-            "title": "",
-            "text": "<p>1. You can send us back your old case, charger, or charging cable in the same packaging you received your new one in to offset waste.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "165212953203e96ca6-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 700,
-            "title": "",
-            "text": "<p>2. Put your old case in the package, attach the prepaid shipping label, and send it off.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "165212953203e96ca6-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 700,
-            "title": "",
-            "text": "<p>3. Through our use of TerraCycle's Zero Waste Box program, any plastic will be properly disposed of and other materials will be broken down to be reused again. <br\/><br\/>Once you are done using your EcoBlvd Case, you can return it to us, and we will compost and repurpose it! <br\/><br\/>All electronic waste received - including EcoBlvd chargers and charging cables - is recycled by HomeBoy Industries to ensure that old electronics, gadgets, and equipment are disposed of properly and recycled in the most eco-conscious way.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        },
-        "eb592456-3184-4ce8-ab1b-131f663fa30b": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 570,
-            "title": "",
-            "text": "<p>4. Once we receive your items, we will issue a 25% off coupon for a future EcoBlvd purchase.<\/p>",
-            "button_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "165212953203e96ca6-0",
-        "165212953203e96ca6-1",
-        "165212953203e96ca6-2",
-        "eb592456-3184-4ce8-ab1b-131f663fa30b"
-      ],
-      "settings": {
-        "title": "4 Steps To A Full Revolution",
-        "text_alignment": "center",
-        "button_style": "primary",
         "use_alt_bg": false
       }
     },
@@ -324,13 +356,14 @@
   "order": [
     "1651083175d3dae5ac",
     "1652129036e17ad209",
+    "16521294187891a606",
+    "16564513137d4db5c1",
+    "1652129532598301e1",
     "1652128983d18633d3",
     "1652129073ea5843c1",
     "1652129184c1adbe74",
     "main",
     "1652129272fb978fa9",
-    "16521294187891a606",
-    "1652129532598301e1",
     "16521298115ab655d0",
     "16521298744572cd71",
     "1652130292d6bb9bd3"
