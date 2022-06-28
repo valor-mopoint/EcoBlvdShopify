@@ -265,11 +265,12 @@
     "1652129272fb978fa9": {
       "type": "image-with-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/homeboy_e-recycle.png",
         "image_width": 700,
         "subheading": "",
         "title": "Give A New Route To Electronic Waste",
         "use_h1": false,
-        "text": "<p>By eliminating the blockages our outdated technology provides, we can further improve advancements in technology. <br\/><\/p><p>EcoBlvd repurposes old technology with the help of HomeBoy Industries to create new opportunities, not just for our planet, but for everyone! A certified B Corporation and a Responsible Recycling certified company, HomeBoy Industries provides employment and training to individuals suffering from barriers to employment.<\/p><p>Together, we will prevent millions of pounds of electronic waste from jamming up our planet! <\/p><p>Click<strong> <\/strong><a href=\"https:\/\/homeboyrecycling.com\/\"><span style=\"text-decoration:underline\"><strong>HERE<\/strong><\/span><\/a> to learn more about HomeBoy Industries.<\/p>",
+        "text": "<p>By eliminating the blockages our outdated technology provides, we can further improve advancements in technology. <br\/><\/p><p>EcoBlvd repurposes old technology with the help of HomeBoy Industries to create new opportunities, not just for our planet, but for everyone! A certified B Corporation and a Responsible Recycling certified company, HomeBoy Industries provides jobs and training to individuals suffering from barriers to employment.<\/p><p>Together, we will prevent millions of pounds of electronic waste from jamming up our planet! <\/p><p>Click<strong> <\/strong><a href=\"https:\/\/homeboyrecycling.com\/\"><span style=\"text-decoration:underline\"><strong>HERE<\/strong><\/span><\/a> to learn more about HomeBoy Industries.<\/p>",
         "button_label": "Learn More about Homeboy Industries",
         "button_link": "https:\/\/homeboyrecycling.com\/",
         "button_style": "primary",
