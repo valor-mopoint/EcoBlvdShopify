@@ -4,7 +4,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-17_at_2.47.21_PM.png",
-        "image_position": "top center",
+        "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 400,
