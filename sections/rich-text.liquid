@@ -1,6 +1,6 @@
 <div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
   <div class="container">
-    <div class="align-{{ section.settings.text_alignment }} spaced-column image-huadong">
+    <div class="align-{{ section.settings.text_alignment }} spaced-column">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'heading' %}
@@ -22,8 +22,6 @@
             </div>
 
           {% when 'image' %}
-      <div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}">
-          <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
                 {% if block.settings.image != blank %}
@@ -131,15 +129,6 @@
         "label": "Use alternate section color",
         "default": false
       },
-      {
-		"type": "range",
-        "id": "slidershowcount",
-        "min": 2,
-        "max": 4,
-        "step": 1,
-        "label": "Slider Show Count",
-        "default": 4
-	  },
       {
         "type": "checkbox",
         "id": "enable_carousel",
