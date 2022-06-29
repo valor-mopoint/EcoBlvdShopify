@@ -3,9 +3,9 @@
 
 <div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
   {% unless blog.empty? %}
-
+	{% if section.settings.enable_carousel %}<a class="prev" href="#">{% render 'svg-chevron-left' %}</a>{% endif %}
     <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
-
+ {% if section.settings.enable_carousel %}<a class="next" href="#">{% render 'svg-chevron-right' %}</a>{% endif %}
     {% if blog.articles.size == 0 %}
 
       <p class="align-center" data-cc-animate>{{ 'onboarding.blog.empty' | t }}</p>
