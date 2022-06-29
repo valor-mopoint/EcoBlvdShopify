@@ -51,10 +51,10 @@
         "16359276425da8ce46-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-13_at_2.14.50_PM.png",
-            "mobile_image": "shopify:\/\/shop_images\/laguna_mobile_banner.png",
-            "image_position": "bottom center",
-            "mobile_image_position": "center center",
+            "image": "shopify:\/\/shop_images\/laguna_homepage_banner_desktop-2.png",
+            "mobile_image": "shopify:\/\/shop_images\/laguna_home_page_banner_mobile.png",
+            "image_position": "top center",
+            "mobile_image_position": "left center",
             "slide_link": "",
             "subheading": "",
             "title": "The Laguna Collection",
