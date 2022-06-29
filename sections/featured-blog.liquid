@@ -3,7 +3,7 @@
 
 {%- liquid
   if section.settings.enable_carousel
-    assign product_limit = 20
+    assign product_limit = 3
   else
     assign product_limit = section.settings.grid | times: section.settings.rows
   endif
@@ -111,9 +111,6 @@
 	}
 	.blog-row h1{
 		margin-bottom:10px;
-	}
-	.article{
-		width:60%;
 	}
 }
 @media (min-width:767px){
