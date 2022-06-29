@@ -72,9 +72,9 @@
         "16359276425da8ce46-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sequoia_homepage_banner_desktop.png",
+            "image": "shopify:\/\/shop_images\/sequoia_homepage_banner_desktop-2.png",
             "mobile_image": "shopify:\/\/shop_images\/home_page_banners_mobile.png",
-            "image_position": "center center",
+            "image_position": "top center",
             "mobile_image_position": "center center",
             "slide_link": "",
             "subheading": "",
