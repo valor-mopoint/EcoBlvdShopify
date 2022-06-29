@@ -53,7 +53,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/laguna_homepage_banner_desktop-2.png",
             "mobile_image": "shopify:\/\/shop_images\/laguna_home_page_banner_mobile.png",
-            "image_position": "top center",
+            "image_position": "center center",
             "mobile_image_position": "left center",
             "slide_link": "",
             "subheading": "",
