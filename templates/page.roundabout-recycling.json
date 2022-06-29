@@ -4,7 +4,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/roundabout_recycling-2.png",
-        "image_position": "bottom center",
+        "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
         "height_desktop": 400,
