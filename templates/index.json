@@ -75,7 +75,7 @@
             "image": "shopify:\/\/shop_images\/sequoia_homepage_banner_desktop-2.png",
             "mobile_image": "shopify:\/\/shop_images\/home_page_banners_mobile.png",
             "image_position": "top center",
-            "mobile_image_position": "center center",
+            "mobile_image_position": "center bottom",
             "slide_link": "",
             "subheading": "",
             "title": "The Sequoia Collection",
