@@ -1,6 +1,6 @@
 <div class="{% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
   <div class="container">
-    <div class="align-{{ section.settings.text_alignment }} spaced-column">
+    <div class="align-{{ section.settings.text_alignment }} spaced-column image-huadong">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'heading' %}
@@ -70,7 +70,12 @@
 	.inline-width-container{
 		width:32% !important;
 	}
+	.image-huadong{
+		position:relative;
+		overflow:hidden;
+	}
 	.spaced-column .inline-width-container{
+		position:absolute;
 		display:flex;
 	}
 }
