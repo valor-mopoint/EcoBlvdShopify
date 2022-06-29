@@ -59,9 +59,6 @@
 	background-color:#fff;
 	color:#6F894E;
 }
-.lightly-spaced-row .inline-width-container{
-		width:{{ block.settings.image_width }}%;
-	}
 @media (max-width:767px){
 	.lightly-spaced-row-above .anniu{
         width:70%;
@@ -69,6 +66,9 @@
         background-color:#6F894E;
         border:0px;
         font-weight:600;
+	}
+	.inline-width-container{
+		width:32% !important;
 	}
 }
 {%- endstyle -%}
@@ -127,6 +127,12 @@
         "type": "checkbox",
         "id": "use_alt_bg",
         "label": "Use alternate section color",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_carousel",
+        "label": "Enable carousel",
         "default": false
       }
     ],
