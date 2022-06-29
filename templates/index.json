@@ -43,7 +43,7 @@
             "button_url_2": "",
             "text_alignment": "center center",
             "height_desktop": 620,
-            "height_mobile": 540,
+            "height_mobile": 520,
             "full_width": true,
             "overlay_style": "shadow"
           }
