@@ -994,7 +994,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/logo_496b74b1-c551-42e0-90b6-a80e3a5151fb.png",
           "logo_img_width_int": 240,
-          "mobile_logo_img_width_int": 170,
+          "mobile_logo_img_width_int": 150,
           "enable_sticky": true,
           "menu_linklist": "head-menu",
           "menu_layout": "inline-menu-center",
