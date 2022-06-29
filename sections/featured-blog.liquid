@@ -1,20 +1,11 @@
 {% assign blog = blogs[section.settings.blog] %}
 {% capture chevron_right %}<span class="icon--small icon-natcol">{% render 'svg-chevron-right' %}</span>{% endcapture %}
 
-{%- liquid
-  if section.settings.enable_carousel
-    assign product_limit = 3
-  else
-    assign product_limit = section.settings.grid | times: section.settings.rows
-  endif
-  assign collection = collections[section.settings.collection]
--%}
-
 <div class="container strongly-spaced-row blog-row" data-section-type="featured-blog">
   {% unless blog.empty? %}
-	 {% if section.settings.enable_carousel %}<a class="next" href="#">{% render 'svg-chevron-right' %}</a>{% endif %}
+	
     <h1 class="hometitle h4-style align-center"><a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a></h1>
- {% if section.settings.enable_carousel %}<a class="next" href="#">{% render 'svg-chevron-right' %}</a>{% endif %}
+
     {% if blog.articles.size == 0 %}
 
       <p class="align-center" data-cc-animate>{{ 'onboarding.blog.empty' | t }}</p>
