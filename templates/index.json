@@ -73,7 +73,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ecoblvd_desktop_banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/ecoblvd_mobile_banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/home_page_banners_mobile.png",
             "image_position": "center center",
             "mobile_image_position": "center center",
             "slide_link": "",
