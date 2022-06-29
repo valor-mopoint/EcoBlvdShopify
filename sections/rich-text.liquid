@@ -22,6 +22,8 @@
             </div>
 
           {% when 'image' %}
+      <div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}">
+          <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
             <div class="lightly-spaced-row inline-width-container" style="width: {{ block.settings.image_width }}%" {{ block.shopify_attributes }}>
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
                 {% if block.settings.image != blank %}
@@ -129,6 +131,15 @@
         "label": "Use alternate section color",
         "default": false
       },
+      {
+		"type": "range",
+        "id": "slidershowcount",
+        "min": 2,
+        "max": 4,
+        "step": 1,
+        "label": "Slider Show Count",
+        "default": 4
+	  },
       {
         "type": "checkbox",
         "id": "enable_carousel",
