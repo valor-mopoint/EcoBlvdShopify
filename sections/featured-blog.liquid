@@ -12,10 +12,10 @@
 
     {% else %}
 <div class="owl-stage-outer">
-      <div class="article-list article-layout--columns article-layout--one-row">
+      <div class="article-list article-layout--columns article-layout--one-row" style="transition: all 0s ease 0s;width: 440px;;transform: translate3d(-1280px, 0px, 0px);touch-action: manipulation;">
         {% for article in blog.articles limit: section.settings.post_limit %}
         
-        <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s" style="transition: all 0s ease 0s;width: 440px;;transform: translate3d(-1280px, 0px, 0px);touch-action: manipulation;">
+        <div class="article" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s" >
           <div class="article__inner">
             {% if article.image %}
               <div class="article-image">
