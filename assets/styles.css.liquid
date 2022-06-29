@@ -6243,7 +6243,7 @@ h1, .h1-style, h2, .h2-style, h3, .h3-style, h4, .h4-style, h5, .h5-style, h6, .
 }
 
 .small-text {
-  font-size: 13px;
+  font-size: {{ font_size_base_int | times: 0.8 | round }}px;
   line-height: 1.4em;
 }
 
@@ -6253,7 +6253,7 @@ h1, .h1-style, h2, .h2-style, h3, .h3-style, h4, .h4-style, h5, .h5-style, h6, .
 }
 @media (max-width: 767px) {
   .large-text {
-    font-size:14px;
+    font-size:13px;
     line-height: 1.6;
   }
 }
