@@ -12,8 +12,9 @@
         	{% capture placeholder_svg_name %}collection-{{ forloop.index | modulo: 6 | plus: 1 }}{% endcapture %}
         	<div class="placeholder-image placeholder-image--shape-{{ settings.coll_grid_image_shape }}">{{ placeholder_svg_name | placeholder_svg_tag }}</div>
         {% endif %}
-        
+        {% comment %}
         <div class="pro-collection-block__title">{{ 'onboarding.collection.collection_title' | t }}</div>
+        {% endcomment %}
       </div>
     </div>
   </div>
