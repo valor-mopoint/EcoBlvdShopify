@@ -277,41 +277,40 @@
     },
     "16499206234aa91675": {
       "type": "Scroll-Pro",
-      "disabled": true,
       "blocks": {
         "164992062390cd15cd-0": {
           "type": "collection",
           "settings": {
-            "collection": "laguna-collection-cases",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1.png"
           }
         },
         "86d8a850-805c-494b-8774-245ab892c7bd": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection-cases",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2.png"
           }
         },
         "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "image": "shopify:\/\/shop_images\/3.png"
           }
         },
         "516a77aa-e479-4b22-a021-297558f9aab3": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "image": "shopify:\/\/shop_images\/4.png"
           }
         },
         "27e16a61-6a6d-45b5-b3c9-afcd99a3b5ca": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/flatlay-of-a-cell-phone-and-colourful-beaded-string.jpg"
+            "image": "shopify:\/\/shop_images\/5.png"
           }
         }
       },
@@ -326,8 +325,52 @@
         "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
         "scrollprotitle_fontsize": 16,
         "enable_carousel": true,
+        "use_alt_bg1": false,
+        "buttontext": "LEARN MORE",
+        "buttonlink": "shopify:\/\/pages\/protecting-our-planet"
+      }
+    },
+    "164991948648d3b28c": {
+      "type": "Scroll-Pro",
+      "disabled": true,
+      "blocks": {
+        "1649919486f84e552c-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "f5d0a971-292d-4937-9cc3-9d788c922828": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "75759dd2-3bf4-45a0-ac16-2fcb9e825c1c": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "0c96b063-ef36-4e9a-9c0c-d8bee9b11154": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649919486f84e552c-0",
+        "f5d0a971-292d-4937-9cc3-9d788c922828",
+        "75759dd2-3bf4-45a0-ac16-2fcb9e825c1c",
+        "0c96b063-ef36-4e9a-9c0c-d8bee9b11154"
+      ],
+      "settings": {
+        "scrollprotitle": "A New Avenue to Grow",
+        "scrollprotitle_fontsize": 16,
+        "enable_carousel": true,
         "use_alt_bg1": true,
-        "buttontext": "Browse All Product",
+        "buttontext": "Check Out Our Blog",
         "buttonlink": ""
       }
     },
@@ -543,50 +586,6 @@
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "box"
-      }
-    },
-    "164991948648d3b28c": {
-      "type": "Scroll-Pro",
-      "disabled": true,
-      "blocks": {
-        "1649919486f84e552c-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "f5d0a971-292d-4937-9cc3-9d788c922828": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "75759dd2-3bf4-45a0-ac16-2fcb9e825c1c": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "0c96b063-ef36-4e9a-9c0c-d8bee9b11154": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1649919486f84e552c-0",
-        "f5d0a971-292d-4937-9cc3-9d788c922828",
-        "75759dd2-3bf4-45a0-ac16-2fcb9e825c1c",
-        "0c96b063-ef36-4e9a-9c0c-d8bee9b11154"
-      ],
-      "settings": {
-        "scrollprotitle": "A New Avenue to Grow",
-        "scrollprotitle_fontsize": 16,
-        "enable_carousel": true,
-        "use_alt_bg1": true,
-        "buttontext": "Check Out Our Blog",
-        "buttonlink": ""
       }
     },
     "16512538532170428d": {
@@ -828,12 +827,12 @@
     "165125026310db609a",
     "164940614408670ea3",
     "16499206234aa91675",
+    "164991948648d3b28c",
     "164940688295c3885f",
     "1651255128ce6afaff",
     "163592857728b8bdc2",
     "16512573150e10c98c",
     "16494057386affa936",
-    "164991948648d3b28c",
     "16512538532170428d",
     "16494023164e709bf7",
     "165050953813cd8798",
