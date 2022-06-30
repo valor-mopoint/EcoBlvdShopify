@@ -1,8 +1,8 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
   {% if block.settings.use_h1 %}
-        <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
+        <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ section.settings.title | escape }}</h1>
     {% else %}
-        <h2 class="majortitle in-content h1-style" {{ block.shopify_attributes }}>{{settings.title | escape }}:</h2>
+        <h2 class="majortitle in-content h1-style" {{ block.shopify_attributes }}>{{section.settings.title | escape }}:</h2>
     {% endif %}
 	{% comment %}
   <div class="scroll-pro-text">
