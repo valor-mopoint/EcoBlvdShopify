@@ -289,7 +289,7 @@
         "8d2f99c1-c2ee-4e10-a24e-9a0a52ccd08e": {
           "type": "text",
           "settings": {
-            "text": "<p>With each collection, we strive to bring awareness to environmental issues and regions near and dear to our hearts, while donating proceeds to non-profit organizations that inspire and educate communities to protect the natural world.<\/p>",
+            "text": "<p>With each collection, we strive to bring awareness to environmental issues and regions near and dear to our hearts, <\/p><p>while donating proceeds to non-profit organizations that inspire and educate communities to protect the natural world.<\/p>",
             "enlarge_text": true
           }
         },
