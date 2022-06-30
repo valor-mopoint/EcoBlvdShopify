@@ -91,6 +91,7 @@
   </div>
   <div style="text-align:center;">
     {% if section.settings.buttontext != blank %}
+    <a class="anniu btn btn-primary" href="{{ section.settings.buttonlink }}">{{ section.settings.buttontext }}</a>
       <a class="btn btn-scrollpro" {% unless section.settings.buttonlink == blank %}href="{{ section.settings.buttonlink }}"{% endunless %}>{{ section.settings.buttontext }}</a>
     {% endif %}
   </div>
