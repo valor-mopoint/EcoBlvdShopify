@@ -279,6 +279,20 @@
       "type": "Scroll-Pro",
       "disabled": true,
       "blocks": {
+        "8c4d3918-92d6-4430-baf9-6662cb7ca761": {
+          "type": "heading",
+          "settings": {
+            "title": "Dedicated to Mother Earth",
+            "use_h1": false
+          }
+        },
+        "8d2f99c1-c2ee-4e10-a24e-9a0a52ccd08e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With each collection, we strive to bring awareness to environmental issues and regions near and dear to our hearts, while donating proceeds to non-profit organizations that inspire and educate communities to protect the natural world.<\/p>",
+            "enlarge_text": true
+          }
+        },
         "164992062390cd15cd-0": {
           "type": "collection",
           "settings": {
@@ -316,6 +330,8 @@
         }
       },
       "block_order": [
+        "8c4d3918-92d6-4430-baf9-6662cb7ca761",
+        "8d2f99c1-c2ee-4e10-a24e-9a0a52ccd08e",
         "164992062390cd15cd-0",
         "86d8a850-805c-494b-8774-245ab892c7bd",
         "6ac4e7aa-c87f-4ddb-9575-ff21b56700aa",
