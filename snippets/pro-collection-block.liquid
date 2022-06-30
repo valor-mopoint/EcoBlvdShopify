@@ -2,7 +2,7 @@
 
 <div class="product-block collection-block">
   <div class="block-inner">
-    <div class="product-link"style="width:70%">
+    <div class="product-link">
       <div class="image-cont pro-collection-block-image-cont">
         {% if custom_image and custom_image != blank %}
         	<div class="product-block__image product-block__image--primary product-block__image--active">
@@ -24,7 +24,7 @@
 
 <div class="product-block collection-block" data-collection-id="{{ collection.id }}" {{ custom_attrs }} {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
-    <a class="product-link" href="{{ collection.url }}" style="width:70%">
+    <a class="product-link" href="{{ collection.url }}">
       <div class="image-cont pro-collection-block-image-cont">
         {%- liquid
           if custom_image
