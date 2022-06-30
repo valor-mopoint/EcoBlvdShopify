@@ -1,12 +1,6 @@
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.use_alt_bg1 %}use-alt-bg1{% endif %}" data-section-type="featured-collections">
-  
-	{% comment %}
-  <div class="scroll-pro-text">
-    <span class="scrollspan">SCROLL <img class="scroll-span-img" src="{{ 'right.svg' | asset_url  }}" /></span>
-  </div>
-  {% endcomment %}
-  <div class="scroll-pro-title">
-    {% for block in section.blocks %}
+  <div style="text-align:center;">
+  {% for block in section.blocks %}
         {% case block.type %}
           {% when 'heading' %}
             {% if block.settings.use_h1 %}
@@ -20,6 +14,13 @@
 
         {% endcase %}
       {% endfor %}
+  </div>
+	{% comment %}
+  <div class="scroll-pro-text">
+    <span class="scrollspan">SCROLL <img class="scroll-span-img" src="{{ 'right.svg' | asset_url  }}" /></span>
+  </div>
+  {% endcomment %}
+  <div class="scroll-pro-title">
     {% if section.settings.scrollprotitle != blank %}
     {% comment %}
     <div class="scroll-pro-title-box">
