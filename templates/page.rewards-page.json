@@ -1,12 +1,40 @@
 {
   "sections": {
+    "1656709240f62b9092": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "Tell your story",
+        "title": "Two line\ntext heading",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>And optional subtext<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Shop this",
+        "button_url_1": "",
+        "button_label_2": "Shop all",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
     "rewards-page": {
       "type": "rewards",
+      "disabled": true,
       "settings": {
       }
     }
   },
   "order": [
+    "1656709240f62b9092",
     "rewards-page"
   ]
 }
