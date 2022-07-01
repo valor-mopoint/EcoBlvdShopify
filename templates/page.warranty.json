@@ -11,7 +11,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/pedestrian-walk-light.jpg",
-        "image_position": "center center",
+        "image_position": "top center",
         "mobile_image_position": "center top",
         "height": "fixed",
         "height_desktop": 400,
