@@ -28,9 +28,9 @@
               </div>
             {% endif %}
 
-            <h3><a href="{{ article.url }}">{{ article.title | escape }}</a></h3>
+            <h3 style="font-size:8px"><a href="{{ article.url }}">{{ article.title | escape }}</a></h3>
 
-            <div class="rte">
+            <div class="rte" style="font-size:8px">
               {{ article.excerpt_or_content }}
               <div class="btn_learn" style="text-align: center;"><a href="{{ article.url }}">LEARN MORE</a></div>
             </div>
@@ -121,14 +121,15 @@
 		margin-bottom:10px;
 	}
 	.article{
-		width:70%;
+		width:32%;
 	}
 	.btn_learn{
-		width: 70%;
-    	font-weight: 600;
+		width: 100%;
+    	font-weight: 400;
     	background-color: #6F894E;
     	color: #fff;
     	border-radius: 30px;
+		line-height: 30px;
 	}
 }
 
