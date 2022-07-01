@@ -11,7 +11,7 @@
         "height_mobile": 460,
         "image_link": "",
         "subheading": "",
-        "title": "EcoBlvd Milestone Reward Program",
+        "title": "EcoBlvd Milestones Reward Program",
         "title_size": 84,
         "title_size_mobile": 46,
         "use_h1": true,
@@ -70,11 +70,73 @@
         "full_width": false,
         "use_alt_bg": false
       }
+    },
+    "1656709585c674af36": {
+      "type": "multi-column",
+      "blocks": {
+        "1656709585b551ccf5-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 150,
+            "title": "🎉 Birthday",
+            "text": "<p>Earn 500 points for just being born! We want to celebrate you and your special day.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1656709585b551ccf5-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 150,
+            "title": "📝 LEAVE A REVIEW",
+            "text": "<p>Earn 25 points for writing a review for every verified purchase! We value your feedback.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1656709585b551ccf5-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 150,
+            "title": "💵 PURCHASE",
+            "text": "<p>Earn 10 points for every $1 spent! We appreciate your support.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "771ee816-a72d-4546-8cc1-5ef5922b0671": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 150,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656709585b551ccf5-0",
+        "1656709585b551ccf5-1",
+        "1656709585b551ccf5-2",
+        "771ee816-a72d-4546-8cc1-5ef5922b0671"
+      ],
+      "settings": {
+        "title": "How to Reach Your Milestones",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "1656709240f62b9092",
     "rewards-page",
-    "165670937814a98229"
+    "165670937814a98229",
+    "1656709585c674af36"
   ]
 }
