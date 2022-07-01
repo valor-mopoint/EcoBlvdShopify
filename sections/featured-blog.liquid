@@ -32,7 +32,7 @@
 
             <div class="rte">
               {{ article.excerpt_or_content }}
-              <div class="btn_learn" style="text-align: center;"><a href="{{ article.url }}">LEARN MORE</a></div>
+              <div class="btn_learn btn btn-default" style="text-align: center;"><a href="{{ article.url }}" style="background-color: #6f894e; border: 1px solid #6f894e;">LEARN MORE</a></div>
             </div>
 
             <div class="meta">
@@ -89,11 +89,6 @@
   {% endunless %}
 </div>
 {% style %}
-
-	.btn_learn{
-		background-color: #6f894e;
-		border: 1px solid #6f894e;
-	}
 @media (max-width:767px){
 	.blog-row{
 		position: relative;
