@@ -5,9 +5,9 @@
   {% unless blog.empty? %}
 	
     <h1 class="hometitle h4-style align-center">
-    
+    <a class="prev" href="#">{% render 'svg-chevron-left' %}</a>
       <a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a>
-     
+     <a class="next" href="#">{% render 'svg-chevron-right' %}</a>
    </h1>
 
     {% if blog.articles.size == 0 %}
