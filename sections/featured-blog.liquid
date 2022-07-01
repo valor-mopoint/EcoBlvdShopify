@@ -28,7 +28,7 @@
               </div>
             {% endif %}
 
-            <h3 style="font-size:8px"><a href="{{ article.url }}">{{ article.title | escape }}</a></h3>
+            <h3 class="h3size" style="font-size:8px"><a href="{{ article.url }}">{{ article.title | escape }}</a></h3>
 
             <div class="rte" style="font-size:8px">
               {{ article.excerpt_or_content }}
@@ -131,6 +131,8 @@
     	border-radius: 30px;
 		line-height: 30px;
 	}
+.h3size{
+font-size:8px;}
 }
 
 @media (min-width:767px){
