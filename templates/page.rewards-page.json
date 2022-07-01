@@ -3,22 +3,23 @@
     "1656709240f62b9092": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/aerial-photo-of-paved-road-through-the-desert.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 400,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Two line\ntext heading",
+        "subheading": "",
+        "title": "EcoBlvd Milestone Reward Program",
         "title_size": 84,
         "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
+        "use_h1": true,
+        "text": "",
         "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
         "text_alignment": "center center",
         "full_width": true,
@@ -31,10 +32,49 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "165670937814a98229": {
+      "type": "rich-text",
+      "blocks": {
+        "165670937811bd6476-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Celebrate Your Progress With Milestones",
+            "use_h1": false
+          }
+        },
+        "165670937811bd6476-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Every step forward deserves to be celebrated! <\/strong><\/p><p>Our rewards program provides discounts, gifts, and other goodies as you reach Milestones along your #Root2Renew journey.<\/p><p>Milestones are also earned for joining, following us on social media, and special occasions like your birthday! <\/p><p>Earn awesome perks by cashing in your Milestones as you reach your goals! <\/p>",
+            "enlarge_text": false
+          }
+        },
+        "1c453484-51a5-4fff-8891-b03ff07b4855": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join now",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "165670937811bd6476-0",
+        "165670937811bd6476-1",
+        "1c453484-51a5-4fff-8891-b03ff07b4855"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "1656709240f62b9092",
-    "rewards-page"
+    "rewards-page",
+    "165670937814a98229"
   ]
 }
