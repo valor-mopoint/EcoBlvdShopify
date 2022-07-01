@@ -5,9 +5,9 @@
   {% unless blog.empty? %}
 	
     <h1 class="hometitle h4-style align-center">
-    <a class="prev" href="#">{% render 'svg-chevron-left' %}</a>
+     <a class="prev" id="prev" href="#">{% render 'svg-chevron-left' %}</a>
       <a href="{{ blog.url }}" data-cc-animate>{{ section.settings.title | escape }}</a>
-     <a class="next" href="#">{% render 'svg-chevron-right' %}</a>
+     <a class="next" id="next" href="#">{% render 'svg-chevron-right' %}</a>
    </h1>
 
     {% if blog.articles.size == 0 %}
@@ -166,25 +166,25 @@
 	}
 }
 
-.next{
+#next{
 font-size: 80%;
     line-height: 1em;
     margin: 10px 20px;
     padding: 10px;
     display: inline-block !important;
 }
-.next svg{
+#next svg{
 position: relative;
     top: -8px;
 }
-.prev{
+#prev{
 font-size: 80%;
     line-height: 1em;
     margin: 10px 20px;
     padding: 10px;
     display: inline-block !important;
 }
-.prev svg{
+#prev svg{
 position: relative;
     top: -8px;
 }
