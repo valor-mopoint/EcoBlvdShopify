@@ -608,6 +608,49 @@
         "overlay_style": "box"
       }
     },
+    "165672417917a19f7f": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "16567241798511f311-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image_alignment": "center center",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "16567241798511f311-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image_alignment": "center center",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16567241798511f311-0",
+        "16567241798511f311-1"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "use_alt_bg": false,
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "16512538532170428d": {
       "type": "featured-blog",
       "settings": {
@@ -835,7 +878,7 @@
         "quote_text_size_mobile": 20,
         "image_shape": "square",
         "use_alt_bg": false,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5
       }
     }
@@ -853,6 +896,7 @@
     "163592857728b8bdc2",
     "16512573150e10c98c",
     "16494057386affa936",
+    "165672417917a19f7f",
     "16512538532170428d",
     "16494023164e709bf7",
     "165050953813cd8798",
