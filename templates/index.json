@@ -106,7 +106,8 @@
         "slide_transition": "zoom",
         "slide_navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 7
+        "autoplay_speed": 7,
+        "background": "#8d8b84"
       }
     },
     "1649406380522b5937": {
@@ -799,7 +800,6 @@
       "blocks": {
         "165125420305372cd3-0": {
           "type": "testimonial",
-          "disabled": true,
           "settings": {
             "star_rating": 5,
             "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
