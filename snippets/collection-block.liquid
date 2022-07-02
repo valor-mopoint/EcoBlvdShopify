@@ -22,11 +22,14 @@
             {% render 'responsive-image', image: custom_hover_image, manual_image_load: manual_image_load, aspect_ratio: custom_aspect_ratio, cover: true, no_max_width: true %}
           </div>
         {% endif %}
+        {% if custom_hover_image != blank %}
         <div class="overlay-text overlay-text--for-banner overlay--v-center overlay--h-center image-overlay__over">
         <div class="overlay-text__inner">
           <div class="overlay-text__text"><p style="color:#6F894E;font-weight:600;font-size:36px;">{{ collection.title }}</p></div>
         </div>
-      </div>
+      	</div>
+        
+        {% endif %}
       </div>
       <div class="product-info">
         <div class="product-block__title"><a class="button" href="{{ collection.url }}">SHOP NOW{% comment %}{{ collection.title }}{% endcomment %}</a></div>
