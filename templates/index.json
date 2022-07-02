@@ -800,6 +800,7 @@
       "blocks": {
         "165125420305372cd3-0": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "star_rating": 5,
             "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
