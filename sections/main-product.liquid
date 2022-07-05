@@ -782,7 +782,9 @@ $(function(){
 		window.location.href= $(this).attr("product-url");
 		console.log($(this).html());
     });
-	
+	$("#Create_your_own").change(function(){
+		$("#content").hide();
+	})
 })
 {% endjavascript %}
 {% schema %}
