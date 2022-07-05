@@ -338,6 +338,9 @@
                       endif
                     -%}
                     <div class="quantity-submit-row input-row {% if enable_dynamic_payment_button %}has-spb{% endif %}">
+                      <div class="quantity-submit-row__submit input-row">
+                        <button class="button button--large" type="buttom" data-add-to-cart-text="Create Your Own">Create Your Own</button>
+                      </div>
                       {% if block.settings.show_quantity_selector %}
                         <label class="label" for="quantity">{{ 'products.product.quantity' | t }}</label>
                         <div class="quantity-wrapper">
