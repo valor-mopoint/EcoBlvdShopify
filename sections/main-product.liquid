@@ -358,9 +358,11 @@
                           {{- add_to_cart_text -}}
                         </button>
                       </div>
-                      <div class="input-row">
-                        <button class="button" type="buttom" style="background-color:#000" id="Create_your_own">Create Your Own</button>
-                      </div>
+                      {% comment %}
+                        <div class="input-row">
+                          <button class="button" type="buttom" style="background-color:#000" id="Create_your_own">Create Your Own</button>
+                        </div>
+                      {% endcomment %}
                       {% if enable_dynamic_payment_button %}
                         <script class="dynamic-payment-button-template" type="text/template">
                           {{ form | payment_button }}
