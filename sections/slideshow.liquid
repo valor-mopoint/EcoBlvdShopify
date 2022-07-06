@@ -226,8 +226,12 @@
 }
 
 .overlay-text__reveal{
- text-shadow: 2px 2px #8d8b84;
+
+ text-shadow: {{ section.settings.h-shadow}}px; {{ section.settings.v-shadow}}px {{ section.settings.background}};
+
 }
+
+
 {%- endstyle -%}
 {% schema %}
   {
