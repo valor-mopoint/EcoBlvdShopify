@@ -142,7 +142,7 @@
        {%- endif -%}
 
         {%- if show_overlay_text -%}
-          <div class="overlay-text overlay-text--with-reveal overlay-text--for-banner overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over" style="background-color: {{section.settings.background }};opacity: {{section.settings.opacity }};">
+          <div class="overlay-text overlay-text--with-reveal overlay-text--for-banner overlay--v-{{ block.settings.text_alignment | split: ' ' | first }} overlay--h-{{ block.settings.text_alignment | split: ' ' | last }} image-overlay__over" style="background-color: {{section.settings.background }};opacity: {{section.settings.style_tm }};">
             <div class="overlay-text__inner" >
               <div class="overlay-text__text">
                 {%- if block.settings.subheading != blank -%}
