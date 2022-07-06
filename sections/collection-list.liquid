@@ -109,7 +109,7 @@ var slides=document.getElementsByClassName("owl-item active");
     }
  slideIndex++;
  if (slideIndex > slides.length) {slideIndex = 1}    
- slides[slideIndex-1].style.display = "block";  
+ slides[slideIndex-1].innerHTML.display = "block";  
  setTimeout(showSlides, 2000); // 切换时间为 2 秒
 }
 {% endjavascript %}
