@@ -2891,7 +2891,7 @@
           center: false,
           nav: false,
           dots: false,
-          autoplay: true,
+         /* autoplay: true,*/
           responsive: {
             0: {
               items: desktopNumPerRow < 4 ? 1 : 2 },
@@ -2916,7 +2916,7 @@
           items: Math.min($this.children().length, 8),
           center: true,
           nav: false,
-          autoplay: true,
+         /* autoplay: true,*/
           dots: false };
 
       }
