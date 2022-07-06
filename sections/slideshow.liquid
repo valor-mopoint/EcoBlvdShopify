@@ -227,7 +227,7 @@
 
 .overlay-text__reveal{
 
- text-shadow: {{ section.settings.h-shadow}}px {{ section.settings.v-shadow}}px {{ section.settings.color_text }};
+ text-shadow: {{ block.settings.h-shadow}}px {{ block.settings.v-shadow}}px {{ block.settings.color_text }};
 
 }
 {%- endstyle -%}
@@ -384,46 +384,7 @@
         "unit": "s",
         "label": "Change slides every",
         "default": 7
-      },
-{
-        "type": "header",
-        "content": "Text shadow"
-},
-{
-  "type": "color",
-  "id": "color_text",
-  "label": "Color_text",
-  "default": "#8d8b84"
-},
-{
-  "type": "range",
-  "id": "style_tm",
-  "min": 0.5,
-  "max": 1,
-  "step": 0.1,
-  "label": "Opacity",
-  "default": 0.5
-},
-{
-  "type": "range",
-  "id": "h-shadow",
-  "min": 2,
-  "max": 5,
-  "step": 1,
-  "unit": "px",
-  "label": "h-shadow",
-  "default": 2
-},
-{
-  "type": "range",
-  "id": "v-shadow",
-  "min": 2,
-  "max": 5,
-  "step": 1,
-  "unit": "px",
-  "label": "v-shadow",
-  "default": 2
-}
+      }
 
 
     ],
@@ -649,6 +610,46 @@
             ],
             "default": "center center"
           }
+,
+{
+        "type": "header",
+        "content": "Text shadow"
+},
+{
+  "type": "color",
+  "id": "color_text",
+  "label": "Color_text",
+  "default": "#8d8b84"
+},
+{
+  "type": "range",
+  "id": "style_tm",
+  "min": 0.5,
+  "max": 1,
+  "step": 0.1,
+  "label": "Opacity",
+  "default": 0.5
+},
+{
+  "type": "range",
+  "id": "h-shadow",
+  "min": 2,
+  "max": 5,
+  "step": 1,
+  "unit": "px",
+  "label": "h-shadow",
+  "default": 2
+},
+{
+  "type": "range",
+  "id": "v-shadow",
+  "min": 2,
+  "max": 5,
+  "step": 1,
+  "unit": "px",
+  "label": "v-shadow",
+  "default": 2
+}
         ]
       },
 	  {
