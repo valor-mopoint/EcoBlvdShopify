@@ -225,11 +225,20 @@
 	}
 }
 
-.overlay-text__reveal{
+/*.overlay-text__reveal{
+
+ text-shadow: {{ section.settings.h-shadow}}px {{ section.settings.v-shadow}}px {{ section.settings.color_text }};
+
+}*/
+
+  {%- for block in section.blocks -%}
+        .overlay-text__reveal{
 
  text-shadow: {{ block.settings.h-shadow}}px {{ block.settings.v-shadow}}px {{ block.settings.color_text }};
 
 }
+      {%- endfor -%}
+
 {%- endstyle -%}
 {% schema %}
   {
