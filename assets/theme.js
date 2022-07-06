@@ -2883,6 +2883,7 @@
       $this.toggleClass('carousel--fixed-grid-mode', fixedMode);
       if (fixedMode) {
         var desktopNumPerRow = parseInt($(this)[0].className.match(/per-row-(.)/)[1]);
+        var showautoplay = parseInt($(this)[0].className.match(/product-list-autoplay(.)/)[1]);
         carouselOptions = {
           margin: 0,
           loop: false,
@@ -2891,7 +2892,7 @@
           center: false,
           nav: false,
           dots: false,
-         /* autoplay: true,*/
+          autoplay: showautoplay,
           responsive: {
             0: {
               items: desktopNumPerRow < 4 ? 1 : 2 },
@@ -2916,7 +2917,7 @@
           items: Math.min($this.children().length, 8),
           center: true,
           nav: false,
-         /* autoplay: true,*/
+          autoplay: showautoplay,
           dots: false };
 
       }
