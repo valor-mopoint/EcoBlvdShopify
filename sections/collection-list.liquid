@@ -11,7 +11,7 @@
         {% if section.settings.enable_carousel %}<a class="next" href="#">{% render 'svg-chevron-right' %}</a>{% endif %}
       </h1>
       <div class="collection-listing" data-cc-animate="cc-fade-in-up">
-        <div class="product-list product-list--per-row-{{ section.settings.grid }} product-list--per-row-mob-{{ settings.prod_thumb_mob_per_row }} product-list--image-shape-{{ settings.coll_grid_image_shape }} {% if section.settings.enable_carousel %}carousel{% endif %}">
+        <div class="product-list product-list--per-row-{{ section.settings.grid }} product-list--per-row-mob-{{ settings.prod_thumb_mob_per_row }} product-list--image-shape-{{ settings.coll_grid_image_shape }} {% if section.settings.enable_carousel %}carousel{% endif %} product-list-autoplay-{%if section.settings.autoplay %}1{%else%}0{%endif%}">
           {% if section.blocks.size > 0 %}
             {%- liquid
               if settings.coll_grid_image_shape == 'portrait-23'
@@ -153,6 +153,12 @@ var slides=document.getElementsByClassName("owl-item active");
         "id": "full_width",
         "type": "checkbox",
         "label": "Full page width",
+        "default": true
+      },
+	{
+        "id": "autoplay",
+        "type": "checkbox",
+        "label": "Auto play",
         "default": true
       }
     ],
