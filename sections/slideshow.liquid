@@ -227,7 +227,7 @@
 
 .overlay-text__reveal{
 
- text-shadow: {{ section.settings.h-shadow}}px {{ section.settings.v-shadow}}px {{ section.settings.background}};
+ text-shadow: {{ section.settings.h-shadow}}px {{ section.settings.v-shadow}}px {{ section.settings.color_text }};
 
 }
 {%- endstyle -%}
@@ -386,9 +386,13 @@
         "default": 7
       },
 {
+        "type": "header",
+        "content": "Text shadow"
+},
+{
   "type": "color",
-  "id": "background",
-  "label": "Background",
+  "id": "color_text",
+  "label": "Color_text",
   "default": "#8d8b84"
 },
 {
