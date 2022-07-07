@@ -955,6 +955,8 @@
     "prod_sale_show": true,
     "prod_sold_out_show": true,
     "enable_product_reviews_collection": false,
+    "swatch_enabled": false,
+    "swatch_method": "image",
     "social_twitter_url": "https:\/\/twitter.com\/ecoblvdofficial",
     "social_facebook_url": "https:\/\/facebook.com\/ecoblvdofficial",
     "social_pinterest_url": "https:\/\/pinterest.com\/ecoblvd",
