@@ -89,7 +89,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                    </div>
                   <div class="option-selector__btns">
                     <select class="opt-label" style="font-size:17px" id="customize_model_select"  >
-                      {%- for device in devices-%}
+                      {%- for device in devices -%}
                         {% assign deviceLowcase= device | downcase |strip  %}
                         {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
                         {% for device2variant in device2variants%}
