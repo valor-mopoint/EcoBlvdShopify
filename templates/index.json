@@ -127,7 +127,7 @@
         "86d8a850-805c-494b-8774-245ab892c7bd": {
           "type": "collection",
           "settings": {
-            "collection": "mojave-collection-cases",
+            "collection": "mojave-collection-cases-old",
             "image": "shopify:\/\/shop_images\/2.png",
             "hoverimage": "shopify:\/\/shop_images\/mountains-in-the-desert.jpg"
           }
