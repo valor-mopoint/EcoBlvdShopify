@@ -63,7 +63,7 @@
             "text": "<p>A Clear Case for Cleaning Our Oceans<\/p>",
             "enlarge_text": false,
             "button_label_1": "Shop Now",
-            "button_url_1": "shopify:\/\/collections\/laguna-collection-cases",
+            "button_url_1": "shopify:\/\/collections\/laguna-collection-cases-old",
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "bottom left"
@@ -106,8 +106,7 @@
         "slide_transition": "zoom",
         "slide_navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 7,
-        "background": "#8d8b84"
+        "autoplay_speed": 7
       }
     },
     "1649406380522b5937": {
@@ -152,7 +151,7 @@
         "ea3d70ad-bb69-431d-b351-df18d3cfadf7": {
           "type": "collection",
           "settings": {
-            "collection": "laguna-collection-cases",
+            "collection": "laguna-collection-cases-old",
             "hoverimage": "shopify:\/\/shop_images\/Screen_Shot_2022-06-17_at_2.47.21_PM.png"
           }
         },
