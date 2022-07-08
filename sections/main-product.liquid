@@ -115,10 +115,6 @@
             {% if product.metafields.custom.design %}
             	{%- liquid
                 assign media=""
-                assign device1optionName = "Color"
-                assign device2optionName="Model"
-                assign deviceNames=temp_product.options_by_name[device2optionName].values | join : ","
-        		assign devicesStr= devicesStr | append: "," | append: deviceNames
                 -%}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
