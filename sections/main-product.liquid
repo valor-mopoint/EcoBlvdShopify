@@ -96,6 +96,7 @@
 
         {% if product.media.size > 1 %}
           <div class="thumbnails{% unless section.settings.gallery_layout contains 'carousel' %} mobile-only-important{% endunless %}">
+                    {{ProductVariantAppendMediaInput.option1 | size}}
             {% for media in product.media %}
               <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                 {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
@@ -211,7 +212,6 @@
                 </div>
                 {%- if block.settings.enable_product_reviews_by_price and product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 -%}
                   <div class="theme-product-reviews not-in-quickbuy">
-                    {{ProductVariantAppendMediaInput.option1 | size}}
                     <a href="#shopify-product-reviews">
                       {% render 'rating', rating_value: product.metafields.reviews.rating.value %}
                       {% if product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 %}
