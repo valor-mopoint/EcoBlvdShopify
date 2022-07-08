@@ -126,18 +126,26 @@
                   assign type=product.metafields.custom.series_type | split:" " | first
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection
+                  assign types=colorproduct.metafields.custom.series_type | split:" " | first
                   	for variant in colorproduct.variants
                     	for v in variant.option1
+                        	assign colors=v| split:'-'| first
+                        endfor
+                    endfor
+                    for variant in colorproduct.variants
+                    	for v in variant.option2
+                        	assign models=v
                         endfor
                     endfor
                   	if  colorproduct.available == false
                 		continue
             		endif
-                  	if colorproduct.metafields.custom.design == blank and color==color and productmodel==model and producttype==type
+                  	if colorproduct.metafields.custom.design == blank and colors==color and models==model and types==type
                     	assign colorproduct=colorproduct
                     endif
                   endfor
               -%}
+            
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
