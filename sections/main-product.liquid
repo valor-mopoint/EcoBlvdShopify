@@ -96,7 +96,7 @@
 
         {% if product.media.size > 1 %}
           <div class="thumbnails{% unless section.settings.gallery_layout contains 'carousel' %} mobile-only-important{% endunless %}">
-            {{product.Metafields.Design}}
+            {{product.Metafields.Design.size}}
             {% for media in product.media %}
               <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                 {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
