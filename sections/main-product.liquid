@@ -122,6 +122,7 @@
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection.products
                   	assign types=colorproduct.metafields.custom.series_type
+                    assign colors=colorproduct.selected_variant.option1
                     for variant in colorproduct.variants
                     	assign variantid=variant.id
                     	for option in variant.options
