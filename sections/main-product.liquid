@@ -126,6 +126,10 @@
                   assign type=product.metafields.custom.series_type | split:" " | first
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection
+                  	for variant in colorproduct.variants
+                    	for v in variant.option1
+                        endfor
+                    endfor
                   	if  colorproduct.available == false
                 		continue
             		endif
