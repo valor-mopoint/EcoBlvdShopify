@@ -113,7 +113,7 @@
               </a>
             {% endfor %}
             {% if product.metafields.custom.design %}
-            {{product.options_by_name[deviceOptionName].values}}
+            {{product.options_by_name["Color"].values}}
               {%-liquid
                   assign cheapest_variant = product.variants | sort: 'price' | first
                   assign variant=cheapest_variant 
