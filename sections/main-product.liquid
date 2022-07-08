@@ -113,6 +113,10 @@
               </a>
             {% endfor %}
             {% if product.metafields.custom.design %}
+            {%-liquid
+           		assign cheapest_variant = product.variants | sort: 'price' | first
+  				assign variant=cheapest_variant 
+            -%}
             		{{ variant.option1 | split:'-'| first }}
             		{{ variant.option2 | split:'-'| last }}
                     {{ product.metafields.custom.series_type | split:" " | first }}
