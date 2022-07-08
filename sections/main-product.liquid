@@ -211,7 +211,7 @@
                 </div>
                 {%- if block.settings.enable_product_reviews_by_price and product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 -%}
                   <div class="theme-product-reviews not-in-quickbuy">
-                    {{ProductVariantAppendMediaInput.option1}}
+                    {{ProductVariantAppendMediaInput.option1 | size}}
                     <a href="#shopify-product-reviews">
                       {% render 'rating', rating_value: product.metafields.reviews.rating.value %}
                       {% if product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 %}
