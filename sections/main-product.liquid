@@ -113,7 +113,7 @@
               </a>
             {% endfor %}
             {% if product.metafields.custom.design %}
-            {{product.options_by_name["Colos"].values}}
+            {{product.options_by_name["Color"].values}}
               {%-liquid
                   assign cheapest_variant = product.variants | sort: 'price' | first
                   assign variant=cheapest_variant 
@@ -123,7 +123,7 @@
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection.products
                   	assign types=colorproduct.metafields.custom.series_type
-                    assign colors=colorproduct.options_by_name["Colos"].values
+                    assign colors=colorproduct.options_by_name["Color"].values
                     assign models=colorproduct.options_by_name["Model"].values
                     if colorproduct.available == false
                         continue
