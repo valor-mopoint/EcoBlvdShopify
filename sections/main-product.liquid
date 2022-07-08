@@ -114,7 +114,7 @@
             {% endfor %}
             {% if product.metafields.custom.design %}
             {% if product.metafields.custom.series_type != blank %}
-                     <div class="product-block__series-type">{{ product.metafields.custom.series_type }}</div>
+                     <div class="product-block__series-type">{{ product.metafields.custom.series_type | split:" " | first }}</div>
               	 {% endif%}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
