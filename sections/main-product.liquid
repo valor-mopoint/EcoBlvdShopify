@@ -115,7 +115,7 @@
             {% if product.metafields.custom.design %}
             {% for o in product.variants %}
             	{% for i in o.options %}
-            		{{i.option1}}
+            		{{i}}
             	{% endfor %}
             {% endfor %}
               {%-liquid
