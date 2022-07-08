@@ -114,7 +114,7 @@
             {% endfor %}
             {% if product.metafields.custom.design %}
             {% for o in product.variants %}
-            	{% for i in o.options %}
+            	{% for i in o.option1 %}
             		{{i}}
             	{% endfor %}
             {% endfor %}
