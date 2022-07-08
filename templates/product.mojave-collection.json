@@ -205,6 +205,7 @@
     "165306948833b9915c": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Mojave_-_smash.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
