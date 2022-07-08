@@ -122,7 +122,7 @@
                   assign cheapest_variant = product.variants | sort: 'price' | first
                   assign variant=cheapest_variant 
                   assign color=variant.option1 | split:'-'| first
-                  assign model=variant.option2 | split:'-'| last
+                  assign model=variant.option2
                   assign type=product.metafields.custom.series_type | split:" " | first
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection
