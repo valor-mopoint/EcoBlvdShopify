@@ -113,6 +113,7 @@
               </a>
             {% endfor %}
             {% if product.metafields.custom.design %}
+            {{product.option1}}
               {%-liquid
                   assign cheapest_variant = product.variants | sort: 'price' | first
                   assign variant=cheapest_variant 
@@ -124,10 +125,7 @@
                   	if  colorproduct.available == false
                 		continue
             		endif
-                    assign productcolor=colorproduct.options_by_name["Color"].values | split:'-'| first | join : ","
-                    assign productmodel=colorproduct.options_by_name["Model"].values | split:'-'| last | join : ","
-                    assign producttype=product.metafields.custom.series_type | split:" " | first
-                  	if product.metafields.custom.design == blank and productcolor==color and productmodel==model and producttype==type
+                  	if colorproduct.metafields.custom.design == blank and color==color and productmodel==model and producttype==type
                     	assign colorproduct=colorproduct
                     endif
                   endfor
