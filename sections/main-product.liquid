@@ -124,15 +124,14 @@
                   	if  colorproduct.available == false
                 		continue
             		endif
-                    assign productcolor=""
-                    assign productmodel=""
-                    assign producttype=""
+                    assign productcolor=colorproduct.options_by_name["Color"].values | split:'-'| first | join : ","
+                    assign productmodel=colorproduct.options_by_name["Model"].values | split:'-'| last | join : ","
+                    assign producttype=product.metafields.custom.series_type | split:" " | first
                   	if product.metafields.custom.design == blank and productcolor==color and productmodel==model and producttype==type
                     	assign colorproduct=colorproduct
                     endif
                   endfor
               -%}
-            {{colorproduct|size}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
