@@ -137,6 +137,7 @@
                     endif
                   endfor
               -%}
+        <div id="a"></div>
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
@@ -790,6 +791,7 @@ $(function(){
 	$(".color-sample").click(function(){
 		var colortext = $(this).find("span").attr("color");
 		$("#color-label").text(colortext); 
+		$("#a").text(colortext); 
 	});
 	$("#batchId").each(function(i,n){
 		var options = "";
