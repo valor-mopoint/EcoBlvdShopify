@@ -122,7 +122,6 @@
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection.products
                   	assign types=colorproduct.metafields.custom.series_type
-                    assign colors=colorproduct.selected_variant.option1
                     for variant in colorproduct.variants
                     	assign variantid=variant.id
                     	for option in variant.options
@@ -138,6 +137,7 @@
                     endif
                   endfor
               -%}
+            {{color}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
