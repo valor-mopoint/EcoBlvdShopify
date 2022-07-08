@@ -66,7 +66,11 @@
             "button_url_1": "shopify:\/\/collections\/laguna-collection-cases-old",
             "button_label_2": "",
             "button_url_2": "",
-            "text_alignment": "bottom left"
+            "text_alignment": "bottom left",
+            "color_text": "#8d8b84",
+            "style_tm": 0.5,
+            "h-shadow": 2,
+            "v-shadow": 2
           }
         },
         "16359276425da8ce46-0": {
@@ -87,7 +91,11 @@
             "button_url_1": "shopify:\/\/collections\/sequoia-collection-cases-old",
             "button_label_2": "",
             "button_url_2": "",
-            "text_alignment": "bottom left"
+            "text_alignment": "bottom left",
+            "color_text": "#8d8b84",
+            "style_tm": 0.5,
+            "h-shadow": 2,
+            "v-shadow": 2
           }
         }
       },
@@ -144,7 +152,7 @@
         "8f97efae-7601-4f58-81f8-ab0c4ccec5da": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection-cases-old",
+            "collection": "sequoia-collection-cases",
             "hoverimage": "shopify:\/\/shop_images\/Screen_Shot_2022-06-13_at_2.25.58_PM.png"
           }
         },
