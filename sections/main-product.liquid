@@ -116,7 +116,7 @@
               {%-liquid
                   assign cheapest_variant = product.variants | sort: 'price' | first
                   assign variant=cheapest_variant 
-                  assign color=variant.option1
+                  assign color=product.selected_variant.option1
                   assign model=variant.option2
                   assign type=product.metafields.custom.series_type
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
