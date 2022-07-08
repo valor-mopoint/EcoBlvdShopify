@@ -118,6 +118,7 @@
                 assign device1optionName = "Color"
                 assign device2optionName="Model"
                 -%}
+            {{temp_product.options_by_name[device1optionName].values | join : ","}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
