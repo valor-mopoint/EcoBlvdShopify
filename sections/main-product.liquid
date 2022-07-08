@@ -123,11 +123,14 @@
                   for colorproduct in all_cases_collection.products
                   	assign types=colorproduct.metafields.custom.series_type
                     assign colors=colorproduct.options_by_name["Color"].values
+                    for c in colors
+                    assign c=c
+                    endfor 
                     assign models=colorproduct.options_by_name["Model"].values
                     if colorproduct.available == false
                         continue
                     endif
-                    if colorproduct.metafields.custom.design == blank and colors==color and models==model and types==type
+                    if colorproduct.metafields.custom.design == blank and c==color and models==model and types==type
                         assign colorproduct=colorproduct
                     endif
                   endfor
