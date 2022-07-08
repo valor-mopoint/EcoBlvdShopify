@@ -140,6 +140,7 @@
                     endif
                   endfor
               -%}
+            {{colors}}
             {{colorproduct}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
