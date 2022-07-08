@@ -112,6 +112,7 @@
                 {%- endif -%}
               </a>
             {% endfor %}
+            {% comment %}
             {% if product.metafields.custom.design %}
               {%-liquid
                   assign cheapest_variant = product.variants | sort: 'price' | first
@@ -154,6 +155,7 @@
                   </a>
             	{% endfor %}
             {% endif %}
+            {% endcomment %}
           </div>
         {% endif %}
       </div>
