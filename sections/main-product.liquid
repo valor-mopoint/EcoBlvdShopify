@@ -124,17 +124,15 @@
                   	assign types=colorproduct.metafields.custom.series_type
                     assign colors=colorproduct.options_by_name["Colos"].values
                     assign models=colorproduct.options_by_name["Model"].values
-                      if  colorproduct.available == false
-                          continue
-                      endif
-                      if colorproduct.metafields.custom.design == blank and colors==color and models==model and types==type
-                          assign colorproduct=colorproduct
-                      endif
+                    if colorproduct.available == false
+                        continue
+                    endif
+                    if colorproduct.metafields.custom.design == blank and colors==color and models==model and types==type
+                        assign colorproduct=colorproduct
+                    endif
                   endfor
               -%}
-            {% for a in colorproduct%}
-            	{{a}}
-            {% endfor %}
+            	{{color}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
