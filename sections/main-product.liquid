@@ -128,11 +128,10 @@
                         continue
                     endif
                     if colorproduct.metafields.custom.design == blank and colors==color and models==model and types==type
-                        assign p=1
+                        assign p=colorproduct
                     endif
                   endfor
               -%}
-            {{p|size}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
