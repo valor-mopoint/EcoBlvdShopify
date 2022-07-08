@@ -212,13 +212,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
             %}
           </div>
         {%- else -%}
+      {{ product.selected_variant.option1 | split:'-' | first }}
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               {% if option.name=='Color' %}
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
-                      {{ product.selected_variant.option1 | split:'-' | first }}
+                      
                     </span>
                   </legend>
                   {{ size_chart_html }}
