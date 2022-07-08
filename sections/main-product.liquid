@@ -113,11 +113,7 @@
               </a>
             {% endfor %}
             {% if product.metafields.custom.design %}
-            {% for variant in product.variants %}
-            {% for o in variant.options %}
-            {{o}}</div>
-            {% endfor %}
-            {% endfor %}
+           
               {%-liquid
                   assign cheapest_variant = product.variants | sort: 'price' | first
                   assign variant=cheapest_variant 
