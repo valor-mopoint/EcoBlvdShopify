@@ -115,7 +115,7 @@
             {% if product.metafields.custom.design %}
             {% for variant in product.variants %}
             {% for o in variant.options %}
-            <div style="width:10px;height:10px;background-color:#000">{{o}}</div>
+            <div style="width:10px;height:10px;background-color:#000">{{o.option1}}</div>
             {% endfor %}
             {% endfor %}
               {%-liquid
