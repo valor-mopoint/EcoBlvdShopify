@@ -47,8 +47,7 @@ endif
 assign devices=devicesStr | remove_first: ","  | split:"," | uniq
 assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 
--%}
-{{deviceNames}}
+-%}z
 {% style%}
 .product-form .option-selector-model {
   margin-bottom: 20px;
