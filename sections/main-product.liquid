@@ -118,10 +118,10 @@
                   assign variant=cheapest_variant 
                   assign color=variant.option1
                   assign model=variant.option2
-                  assign type=product.metafields.custom.series_type | split:" " | first
+                  assign type=product.metafields.custom.series_type
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection
-                  assign types=colorproduct.metafields.custom.series_type | split:" " | first
+                  assign types=colorproduct.metafields.custom.series_type
                   	for variant in colorproduct.variants
                     	for v in variant.option1
                         	assign colors=v
