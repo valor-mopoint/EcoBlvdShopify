@@ -122,8 +122,8 @@
                   assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
                   for colorproduct in all_cases_collection.products
                   	assign types=colorproduct.metafields.custom.series_type
-                    assign colors=colorproduct.options_by_name["Colos"].values | join : ","
-                    assign models=colorproduct.options_by_name["Model"].values | join : ","
+                    assign colors=colorproduct.options_by_name["Colos"].values
+                    assign models=colorproduct.options_by_name["Model"].values
                     if colorproduct.available == false
                         continue
                     endif
