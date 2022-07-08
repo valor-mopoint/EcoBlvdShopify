@@ -153,13 +153,13 @@
                               {% if value.active %}checked{% endif %}
                               {% if value.count == 0 and value.active == false %}disabled{% endif %}>
 								
-                            {% if {{ filter.label}}="Color"%}
+                          
                             <span class="filter-group__item__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span>
-                           {% else %}
+                         
                             <span class="filter-group__item__text">
                               {{ value.label }}
                             </span>
-                            {%endif%}
+                        
                             {% if section.settings.show_filter_counts and filter_group_is_swatch == false %}
                               <span class="filter-group__item__count">{{ value.count }}</span>
                             {% endif %}
