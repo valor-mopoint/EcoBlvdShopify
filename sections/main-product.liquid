@@ -120,7 +120,6 @@
                 assign deviceNames=temp_product.options_by_name[device2optionName].values | join : ","
         		assign devicesStr= devicesStr | append: "," | append: deviceNames
                 -%}
-            {{devicesStr}}
             	{% for media in product.media %}
                   <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
                     {% render 'responsive-image', image: media.preview_image, min_aspect_ratio: min_aspect_ratio %}
