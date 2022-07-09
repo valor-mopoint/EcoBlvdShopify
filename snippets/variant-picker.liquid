@@ -239,7 +239,13 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
               {%- for option in product.options -%}
               <!-- color swatch -->
                 {%- if option == 'Color' -%}
-                {%- include 'color-and-switch-setting.liquid' -%}
+                {% capture hexList %}
+                  Midnight Black:#333333,
+                  Cascade Blue:#01C6F8,
+                  Foliage Green:#28CE99,
+                  Illuminating Yellow:#F4BC40,
+                  Wildflower Pink:#FF81D9
+                 {% endcapture %}
                   {%- assign hex_obj = hexList | split:"," -%}
                   <div class="option-title">
                     <span class="option-title-title current_color"><span id="current_color"></span></span>
