@@ -223,7 +223,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     Wildflower Pink:#FF81D9
                  {% endcapture %}
                  {%- assign hex_obj = hexList | split:"," -%}
-              {{hex_obj}}
+              {{hex_obj|size}}
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
