@@ -245,8 +245,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                       {%-liquid
                         assign colorName = hex | split: ":" | first
                         assign colorHex = hex | split: ":" | last
-                        assign colorNameVariant = color | split:'-' | first| uniq
-                        assign colorCode = colorNameVariant | strip | replace: " ", "" | downcase 
+                        assign colorNameVariant = color | split:'-' | first
                       -%}
                   {{colorCode}}
                         {% if colorName==colorNameVariant %}
