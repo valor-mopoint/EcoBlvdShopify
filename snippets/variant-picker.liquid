@@ -223,9 +223,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     Wildflower Pink:#FF81D9
                  {% endcapture %}
                  {%- assign hex_obj = hexList | split:"," -%}
-              	{%- for hex in hex_obj -%}
-              		{{hex}}<br/>
-              	{% endfor %}
+              	
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
@@ -235,7 +233,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {{ size_chart_html }}
                 </div>
                 <div class="option-selector__btns">
+                  {%- for hex in hex_obj -%}
                   {%- for value in option.values -%}
+                  {%-liquid
+                  	assign option =value | split:'-' | first
+                    assign color=hex | split:':' | last
+                    assign colortext=hex | split:':' | first
+                  -%}
+                  {% if colortext==option %}
                     <input class="opt-btn js-option color-btn"
                           type="radio"
                           name="{{ option_id }}"
@@ -243,8 +248,10 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           value="{{ value | escape }}"
                           {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                           required>
-                    <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
+                    <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colortext}}" style="background-color:{{color}}"></span></label>
+                  {% endif %}
                   {%- endfor -%}
+              	  {% endfor %}
                 </div>
               {% comment %}
               {%- for option in product.options -%}
