@@ -22,7 +22,7 @@ if design_value != blank
         assign variant_price=temp_product.first_available_variant.price | money
         for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
             assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
-            assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price | append: series_type
+            assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price
         endfor
 	endfor
 elsif current_series_type_value!=blank
@@ -38,7 +38,7 @@ elsif current_series_type_value!=blank
             if series_type == current_series_type_value and temp_product.metafields.custom.design == blank
             	for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
                 	assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
-            		assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price | append: series_type
+            		assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price
             	endfor
             endif
 	endfor
@@ -126,12 +126,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% assign titleImage=device2variantName[2] %}
                     	  {% assign product_id=device2variantName[3] %}
                           {% assign variantPrice=device2variantName[4] %}
-                          {% assign seriesType=device2variantName[5] %}
                             {% if deviceName==current_model_first_option_value_lowcase %}
                     			<div current="{% if product_id == current_product_id %}yes{% else %}no{% endif %}" product-url="{{shop.secure_url}}{{variantUrl}}" class="desgin_title_image{% if product_id == current_product_id %} current{% endif %}">
-                                 
-                                  {{ current_model_first_option_value | append: seriesType | append: ".jpg" | replace: '/', '' | replace: '-', '' | replace: ' ', ''}}
-                                  {{variantPrice}}
+                                  <img src="{{ titleImage }}" style='width:100px;height:100px;' />{{variantPrice}}
                       			</div>
                             {% endif %}
                           {% endfor%}
@@ -226,6 +223,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     Wildflower Pink:#FF81D9
                  {% endcapture %}
                  {%- assign hex_obj = hexList | split:"," -%}
+              	
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
@@ -236,6 +234,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                 </div>
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
+                  {%- for hex in hex_obj -%}
+                  {%-liquid
+                  	assign option =value | split:'-' | first
+                    assign colorName = hex | split: ":" | first
+                    assign colorHex = hex | split: ":" | last
+                  -%}
+                  {{colorHex}}{{colorName}}
+                  {% if colorName==option %}
                     <input class="opt-btn js-option color-btn"
                           type="radio"
                           name="{{ option_id }}"
@@ -243,8 +249,10 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           value="{{ value | escape }}"
                           {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
                           required>
-                    <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
+                    <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colorName}}" style="background-color:{{colorHex}}"></span></label>
+                  {% endif %}
                   {%- endfor -%}
+              	  {% endfor %}
                 </div>
               {% comment %}
               {%- for option in product.options -%}
