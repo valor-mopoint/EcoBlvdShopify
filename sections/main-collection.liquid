@@ -304,8 +304,8 @@
   </div>
 
   {% if header_image_enabled!=true %}
-  <div class="page-header page-header--with-upper-spacing text-cf">
-    <div class="container">
+  <div class="page-header page-header--with-upper-spacing">
+    <div class="container text-cf">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
         <div class="rte cf align-center reading-width clicks" id="toggle">{{ collection.description }}</div>
       <br>
