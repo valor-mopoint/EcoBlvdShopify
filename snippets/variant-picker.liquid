@@ -246,8 +246,8 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                         assign colorName = hex | split: ":" | first
                         assign colorHex = hex | split: ":" | last
                         assign colors = color | split:'-' | first
-                      -%}{{colorName}}
-                        {% if colorName==0 %}
+                      -%}
+                        {% if colorName==colors %}
                   
                   {{colorName}}{{colorHex}}
                           <input class="opt-btn js-option color-btn"
