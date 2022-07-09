@@ -240,7 +240,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     {%- capture color -%}
                        {{ value.options[index] }}
                     {%- endcapture -%}
-                  {{option}}
                     {%- unless colorlist contains color -%}
                       {%- for hex in hex_obj -%}
                       {%-liquid
@@ -248,6 +247,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                         assign colorHex = hex | split: ":" | last
                         assign option = color | split:'-' | first
                       -%}
+                  {{option}}
                         {% if colorName==option %}
                           <input class="opt-btn js-option color-btn"
                                 type="radio"
