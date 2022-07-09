@@ -304,10 +304,10 @@
   </div>
 
   {% if header_image_enabled!=true %}
-  <div class="page-header page-header--with-upper-spacing">
+  <div class="page-header page-header--with-upper-spacing text-cf">
     <div class="container">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
-        <div class="text-cf rte cf align-center reading-width clicks" id="toggle">{{ collection.description }}</div>
+        <div class="rte cf align-center reading-width clicks" id="toggle">{{ collection.description }}</div>
       <br>
      	<p class="icon-down">Show More</p>
       {% endif %}
