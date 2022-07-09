@@ -376,6 +376,11 @@ $(".icon-down").click(function(){
 	$(this).toggleClass('up');
 	$(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
 })
+
+content_excerpt();
+$(window).scroll(function () {
+content_excerpt();
+});
 })
 
 var content_excerpt = function() {
@@ -394,10 +399,7 @@ $p.text($p.text().replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "..."));
 };
 });
 };
-content_excerpt();
-$(window).scroll(function () {
-content_excerpt();
-});
+
 
 {% endjavascript %}
 {% schema %}
