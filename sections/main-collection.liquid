@@ -327,21 +327,20 @@
 </div>
 {%- style -%}
 .text-cf{
-    overflow: hidden;
-    text-overflow: ellipsis;
 	-webkit-line-clamp: 2;
+    text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
  @media (max-width: 767px){
   .text-cf{
-	overflow: hidden; /*超出隐藏*/
-    text-overflow: ellipsis;/*隐藏后添加省略号*/
     -webkit-line-clamp:2;
+    text-overflow: ellipsis;/*隐藏后添加省略号*/
     display:-webkit-box;
     -webkit-box-orient:vertical; 
-    
+    overflow: hidden; /*超出隐藏*/
   }
 
 }
