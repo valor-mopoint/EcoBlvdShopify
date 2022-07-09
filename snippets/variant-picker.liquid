@@ -236,7 +236,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- assign index = forloop.index0 -%}
                   {%- assign colorlist = '' -%}
                   {%- for value in option.values -%}
-                    {%- unless colorlist contains value -%}
                       {%- for hex in hex_obj -%}
                       {%-liquid
                         assign colorName = hex | split: ":" | first
@@ -255,7 +254,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ index }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colorName}}" style="background-color:{{colorHex}}"></span></label>
                         {% endif %}
                       {%- endfor -%}
-                    {%- endunless -%}
               	  {% endfor %}
                 </div>
               {% else %}
