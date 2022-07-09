@@ -326,6 +326,7 @@
   {% endif %}
 </div>
 {%- style -%}
+
 .text-cf{
 overflow: hidden;
 text-overflow: ellipsis;
@@ -337,6 +338,17 @@ display: -webkit-box;
     }   
 
 
+ @media (max-width: 767px){
+.text-cf{
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;   
+  /* autoprefixer: off */ 
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+    }   
+}
 #toggle{
 	text-align:left;
 }
