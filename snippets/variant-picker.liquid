@@ -243,9 +243,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- assign hex_obj = hexList | split:"," -%}
                   <div class="option-title">
                     <span class="option-title-title current_color"><span id="current_color"></span></span>
-                    {%- comment -%}
-                    <span class="option-title-title current_sku">{{"SKU:"}}<span id="current_sku"></span></span>
-                    {%- endcomment -%}
                   </div>
                   <div class="pdp-color-wrapper option-color-wraper">
                     {%- assign index = forloop.index0 -%}
@@ -253,22 +250,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     {%- assign color = '' -%}
                     
                     {%- for variant in product.variants -%}
-                      {%- assign useImage = 0 -%}
-                      {%- assign vsku = variant.sku | handleize -%}
-                      {%- assign skuRow = skuList | split:"," -%}
-                      {%- for skuPair in skuRow -%}
-                          {%- assign skuArr = skuPair | split: ":" -%}
-                          {%- assign skuStr = skuArr[0] | handleize -%}
-                          {%- assign imageFile = skuArr[1] -%}
-                          {%- if vsku == skuStr -%}
-                          {%- assign atitle = variant.title |split: "/" -%}
-                          {%- assign attitleColor = atitle[0] -%}
-                            <a href="##" id="var{{ variant.id }}" data-colorsku="{{ variant.sku }}" variantid="{{ variant.id }}"  class="color-option-item color-option_"  title="{{ attitleColor }} {%- if variant.available == false -%}(Out of stock){%endif%}" p-a="{{variant.available}}" {%- if variant.available == false -%}style="cursor: not-allowed"{%endif%}>
-                              <img src="{{ imageFile | file_url  }}" class="test" alt="{{imageFile | remove: ".png" | replace: "_", " "}}"/>
-                            </a>
-                            {%- assign useImage = 1 -%}
-                          {%- endif -%}
-                      {%- endfor -%}
+                      
                       {%- if useImage == 0 -%}
                         {%- capture color -%}
                           {{ variant.options[index] }}
@@ -285,59 +267,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                               <span class="swtach_panel" style="background-color: #{{colorHex}}"></span>
                             </a>
                           {%- endif -%}
-
-                          {%- if color contains '/' -%}
-                            {%- assign halfcolor = color | split: '/' -%}
-                            {%- assign colorNameVariantLeft = halfcolor[0] | handleize -%}    
-                            {% assign colorNameVariantRight = halfcolor[1] | handleize -%}
-                            {%- assign hexitemLeft = hexitem -%}
-                            {%- assign colorNameLeft = hexitemLeft[0] | handleize -%}
-                            {%- assign colorHexLeft = hexitemLeft[1] | handleize -%}
-                            {%- if colorNameLeft == colorNameVariantLeft -%}
-                                  {%- for hexRight in hex_obj -%}
-                                  {%- assign hexitemRight = hexRight | split: ":"  -%}
-                                  {%- assign colorNameRight = hexitemRight[0] | handleize -%}
-                              {%- assign colorHexRight = hexitemRight[1] | handleize -%}
-                                    {%- if colorNameRight == colorNameVariantRight -%}
-                                      <a id="var{{ variant.id }}" href="##" data-colorsku="{{ variant.sku }}" variantid="{{ variant.id }}"  class="color-option-item color-option_{{colorCode}} duo_color"  title="{{ color | strip }}" >
-                                          <span class="swtach_panel left_swatch" style="background-color: #{{colorHexLeft}}"></span>
-                                          <span class="swtach_panel right_swatch" style="background-color: #{{colorHexRight}}"></span>
-                                      </a>
-                                    {%- endif -%}
-                                  {%- endfor -%}
-                            {%- endif -%}
-                          {%- endif -%}
-
                         {%- endfor -%}
-                        {%- assign sku_obj = hexList | split:"," -%}
-                        {%- for sku in sku_obj -%}
-                          {%- assign s = sku | split: ':' -%}
-                          {%- assign key = s[0] -%}
-                          {%- assign value = s[1] -%}
-                          {%- if key == variant.sku -%}
-                            {{value}}
-                          {%- endif -%}
-                        {%- endfor -%}
-
-                        {%- comment -%}
-                          <span data-colorsku="{{ variant.sku }}" variantid="{{ variant.id }}"  class="color-option-item color-option_{{ color | strip | replace: " ", "-" | downcase}}"  title="{{ color | strip }}" data-hex="">
-                            <img src="{{ color | downcase | strip_newlines | strip_html | remove: '  ' | append: '.png' | replace: ' ', '_' | asset_url }}"
-                             alt="{{ color | strip }}"  />
-                          </span> 
-                        {%- endcomment -%}
-                          {%- capture tempList -%}
-                            {{colorlist | append: color | append: ' '}}
-                          {%- endcapture -%}
-                          {%- assign colorlist = tempList -%}
                         {%- endunless -%}
                       {%- endif -%}
                     {%- endfor -%}
                   </div>
                 {%- endif -%}
               <!-- end color swatch -->
-              {%- endfor -%}    
-            </div>
-          </div>
+              {%- endfor -%}  
               
               {% endcomment %}
               {% else %}
