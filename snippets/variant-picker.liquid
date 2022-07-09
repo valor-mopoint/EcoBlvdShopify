@@ -215,46 +215,25 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               {% if option.name=='Color' %}
-                {% capture hexList %}
-                    Midnight Black:#333333,
-                    Cascade Blue:#01C6F8,
-                    Foliage Green:#28CE99,
-                    Illuminating Yellow:#F4BC40,
-                    Wildflower Pink:#FF81D9
-                 {% endcapture %}
-                 {%- assign hex_obj = hexList | split:"," -%}
-              	
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
-                      {{ product.selected_variant.option1 | split:'-' | first }}
+                      
                     </span>
                   </legend>
                   {{ size_chart_html }}
                 </div>
                 <div class="option-selector__btns">
-                  {%- assign index = forloop.index0 -%}
-                  {%- assign colorlist = '' -%}
                   {%- for value in option.values -%}
-                      {%- for hex in hex_obj -%}
-                      {%-liquid
-                        assign colorName = hex | split: ":" | first | strip
-                        assign colorHex = hex | split: ":" | last
-                        assign colors = value | split:'-' | first | strip
-                      -%}
-                        {% if colorName == colors %}
-                  			
-                          <input class="opt-btn js-option color-btn"
-                                type="radio"
-                                name="{{ option_id }}"
-                                id="{{ option_id }}-opt-{{ index }}"
-                                value="{{ value | escape }}"
-                                {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
-                                required>
-                          <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ index }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colorName}}" style="background-color:{{colorHex}}"></span></label>
-                        {% endif %}
-                      {%- endfor -%}
-              	  {% endfor %}
+                    <input class="opt-btn js-option color-btn"
+                          type="radio"
+                          name="{{ option_id }}"
+                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                          value="{{ value | escape }}"
+                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                          required>
+                    <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
+                  {%- endfor -%}
                 </div>
               {% else %}
                	<div class="opposing-items"  style="display:none;"   >
