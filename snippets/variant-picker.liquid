@@ -236,8 +236,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- endfor -%}
                 </div>
               {% comment %}
-              <div class="selector-wrapper option-wrapper pdp-options">
-            <div class="option-container">
               {%- for option in product.options -%}
               <!-- color swatch -->
                 {%- if option == 'Color' -%}
