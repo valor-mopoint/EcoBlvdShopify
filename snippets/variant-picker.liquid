@@ -215,7 +215,6 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               {% if option.name=='Color' %}
-              {% comment %}
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
@@ -236,7 +235,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{value | split:'-' | first }}" style="background-color:{{value | split:'-' | last }}"></span></label>
                   {%- endfor -%}
                 </div>
-              {% endcomment %}
+              {% comment %}
               <div class="selector-wrapper option-wrapper pdp-options">
             <div class="option-container">
               {%- for option in product.options -%}
@@ -341,6 +340,8 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
               {%- endfor -%}    
             </div>
           </div>
+              
+              {% endcomment %}
               {% else %}
                	<div class="opposing-items"  style="display:none;"   >
                    <legend class="label">{{ option.name }}</legend>
