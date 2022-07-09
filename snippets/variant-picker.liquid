@@ -242,12 +242,12 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     {%- endcapture -%}
                     {%- unless colorlist contains color -%}
                       {%- for hex in hex_obj -%}
+                  {{hex}}
                       {%-liquid
                         assign colorName = hex | split: ":" | first
                         assign colorHex = hex | split: ":" | last
                         assign colors = color | split:'-' | first
                       -%}
-                  {{colorName}},{{colors}}.
                         {% if colorName==colors %}
                           <input class="opt-btn js-option color-btn"
                                 type="radio"
