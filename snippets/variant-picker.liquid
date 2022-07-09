@@ -234,8 +234,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                 </div>
                 <div class="option-selector__btns">
                   {%- for value in option.values -%}
-                  
-                  	%{assign option =value | split:'-' | first%}
+                  	{% assign option =value | split:'-' | first %}
                   {%- for hex in hex_obj -%}
                   {%-liquid
                     assign colorName = hex | split: ":" | first
