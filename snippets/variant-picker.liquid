@@ -242,8 +242,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                         assign colorHex = hex | split: ":" | last
                         assign colors = value | split:'-' | first
                       -%}
-                  <div>{{colorName}}--{{colors}}</div>
+                  
                         {% if colorName == colors %}
+                  <div>{{colorName}}--{{colors}}</div>
                           <input class="opt-btn js-option color-btn"
                                 type="radio"
                                 name="{{ option_id }}"
