@@ -235,18 +235,13 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                 <div class="option-selector__btns">
                   {%- assign index = forloop.index0 -%}
                   {%- assign colorlist = '' -%}
-                  {%- assign color = '' -%}
                   {%- for value in option.values -%}
-                    {%- capture color -%}
-                       {{ value.options[index] }}
-                    {%- endcapture -%}
-                    {%- unless colorlist contains color -%}
+                    {%- unless colorlist contains value -%}
                       {%- for hex in hex_obj -%}
-                  {{value}}
                       {%-liquid
                         assign colorName = hex | split: ":" | first
                         assign colorHex = hex | split: ":" | last
-                        assign colors = color | split:'-' | first
+                        assign colors = value | split:'-' | first
                       -%}
                         {% if colorName==colors %}
                           <input class="opt-btn js-option color-btn"
