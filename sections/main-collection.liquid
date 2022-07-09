@@ -382,44 +382,6 @@ $(".icon-down").click(function(){
 })
 
 })
-window.onload=function(){
-var text=document.getElementById("toggle");
-var str=text.innerHtml;
-window.onresize=function(){
-	overflowhidden('toggle', 2,str);
-}
-overflowhidden('toggle', 2,str);
-}
-
-var overflowhidden = function(id, rows, str){
-    var text = document.getElementById(id);
-    var lineHeight = $("#"+id).css("line-height"); 
-    var at = rows*parseInt(lineHeight);   
-    var tempstr = str;                    
-    text.innerHTML = tempstr;         
-    var len = tempstr.length;
-    var i = 0;
-    if(text.offsetHeight <= at){          
-    }
-    else {                                   
-        var temp = "";
-        text.innerHTML = temp;
-        while(text.offsetHeight <= at){
-            temp = tempstr.substring(0, i+1);
-            i++;
-            text.innerHTML = temp;
-        }
-        var slen = temp.length;
-        tempstr = temp.substring(0, slen-1);
-        len = tempstr.length
-        vm.posterAddress = tempstr.substring(0, len-3) +"...";   
-        text.height = at +"px";                                  
-    }
-
-}
-
-
-
 {% endjavascript %}
 {% schema %}
   {
