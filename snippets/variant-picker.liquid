@@ -215,6 +215,15 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
           <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
             <fieldset class="option-selector-fieldset">
               {% if option.name=='Color' %}
+                {% capture hexList %}
+                    Midnight Black:#333333,
+                    Cascade Blue:#01C6F8,
+                    Foliage Green:#28CE99,
+                    Illuminating Yellow:#F4BC40,
+                    Wildflower Pink:#FF81D9
+                 {% endcapture %}
+                 {%- assign hex_obj = hexList | split:"," -%}
+              {{hex_obj}}
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }} -
                     <span id='color-label'>
