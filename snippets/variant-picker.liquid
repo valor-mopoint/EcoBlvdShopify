@@ -237,28 +237,29 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- assign colorlist = '' -%}
                   {%- assign color = '' -%}
                   {%- for value in  product.variants -%}
-                  {%- capture color -%}
+                    {%- capture color -%}
                        {{ value.options[index] }}
-                  {%- endcapture -%}
-                  {%- unless colorlist contains color -%}
-                  {%- for hex in hex_obj -%}
-                  {%-liquid
-                    assign colorName = hex | split: ":" | first
-                    assign colorHex = hex | split: ":" | last
-                    assign option = color | split:'-' | first
-                  -%}
-                  {% if colorName==option %}
-                    <input class="opt-btn js-option color-btn"
-                          type="radio"
-                          name="{{ option_id }}"
-                          id="{{ option_id }}-opt-{{ index }}"
-                          value="{{ value | escape }}"
-                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
-                          required>
-                    <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ index }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colorName}}" style="background-color:{{colorHex}}"></span></label>
-                  {% endif %}
-                  {%- endfor -%}
-                        {%- endunless -%}
+                    {%- endcapture -%}
+                  {{color}}
+                    {%- unless colorlist contains color -%}
+                      {%- for hex in hex_obj -%}
+                      {%-liquid
+                        assign colorName = hex | split: ":" | first
+                        assign colorHex = hex | split: ":" | last
+                        assign option = color | split:'-' | first
+                      -%}
+                        {% if colorName==option %}
+                          <input class="opt-btn js-option color-btn"
+                                type="radio"
+                                name="{{ option_id }}"
+                                id="{{ option_id }}-opt-{{ index }}"
+                                value="{{ value | escape }}"
+                                {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                                required>
+                          <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ index }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colorName}}" style="background-color:{{colorHex}}"></span></label>
+                        {% endif %}
+                      {%- endfor -%}
+                    {%- endunless -%}
               	  {% endfor %}
                   
                 </div>
