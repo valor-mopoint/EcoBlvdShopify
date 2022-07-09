@@ -261,55 +261,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                       {%- endfor -%}
                     {%- endunless -%}
               	  {% endfor %}
-                  
                 </div>
-              {% comment %}
-              {%- for option in product.options -%}
-              <!-- color swatch -->
-                {%- if option == 'Color' -%}
-                {% capture hexList %}
-                  Midnight Black:#333333,
-                  Cascade Blue:#01C6F8,
-                  Foliage Green:#28CE99,
-                  Illuminating Yellow:#F4BC40,
-                  Wildflower Pink:#FF81D9
-                 {% endcapture %}
-                  {%- assign hex_obj = hexList | split:"," -%}
-                  <div class="option-title">
-                    <span class="option-title-title current_color"><span id="current_color"></span></span>
-                  </div>
-                  <div class="pdp-color-wrapper option-color-wraper">
-                    {%- assign index = forloop.index0 -%}
-                    {%- assign colorlist = '' -%}
-                    {%- assign color = '' -%}
-                    
-                    {%- for variant in product.variants -%}
-                      
-                      {%- if useImage == 0 -%}
-                        {%- capture color -%}
-                          {{ variant.options[index] }}
-                        {%- endcapture -%}
-                        {%- unless colorlist contains color -%}
-                        {%- for hex in hex_obj -%}
-                          {%- assign hexitem = hex | split: ":"  -%}
-                          {%- assign colorName = hexitem[0] | handleize -%}
-                          {%- assign colorHex = hexitem[1] | handleize -%}
-                          {%- assign colorNameVariant = color | handleize -%}
-                          {%- assign colorCode = colorNameVariant | strip | replace: " ", "" | downcase %}
-                          {%- if colorName == colorNameVariant -%}
-                            <a href="##" id="var{{ variant.id }} " data-colorsku="{{ variant.sku }}" variantid="{{ variant.id }}"  class="color-option-item color-option_{{colorCode}} "  title="{{ color | strip }}" >
-                              <span class="swtach_panel" style="background-color: #{{colorHex}}"></span>
-                            </a>
-                          {%- endif -%}
-                        {%- endfor -%}
-                        {%- endunless -%}
-                      {%- endif -%}
-                    {%- endfor -%}
-                  </div>
-                {%- endif -%}
-              <!-- end color swatch -->
-              {%- endfor -%}  
-              {% endcomment %}
               {% else %}
                	<div class="opposing-items"  style="display:none;"   >
                    <legend class="label">{{ option.name }}</legend>
