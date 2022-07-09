@@ -254,7 +254,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                                 name="{{ option_id }}"
                                 id="{{ option_id }}-opt-{{ index }}"
                                 value="{{ value | escape }}"
-                                {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                                {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == color %}checked{% endif %}{% endif %}
                                 required>
                           <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ index }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colorName}}" style="background-color:{{colorHex}}"></span></label>
                         {% endif %}
