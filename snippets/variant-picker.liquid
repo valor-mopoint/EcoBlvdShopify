@@ -240,7 +240,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     {%- capture color -%}
                        {{ value.options[index] }}
                     {%- endcapture -%}
-                  {{color}}
+                  {{option}}
                     {%- unless colorlist contains color -%}
                       {%- for hex in hex_obj -%}
                       {%-liquid
