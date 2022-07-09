@@ -380,13 +380,19 @@ $(".icon-down").click(function(){
 	$(this).toggleClass('up');
 	$(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
 })
-
-this.overflowhidden('toggle', 2,'...');
+this.overflowhidden('toggle', 2,str);
 
 })
+window.onload=function(){
+var text=document.getElementById("toggle");
+var str=text.innerHtml;
+window.onresize=function(){
+	overflowhidden('toggle', 2,str);
+}
+overflowhidden('toggle', 2,str);
+}
 
-
-function overflowhidden(id, rows, str){
+var overflowhidden = function(id, rows, str){
     var text = document.getElementById(id);
     var lineHeight = $("#"+id).css("line-height"); 
     var at = rows*parseInt(lineHeight);   
