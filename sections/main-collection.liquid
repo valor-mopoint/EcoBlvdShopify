@@ -326,7 +326,7 @@
   {% endif %}
 </div>
 {%- style -%}
- @media (max-width: 767px){
+ /*@media (max-width: 767px){
 .text-cf{
 height: auto;
 overflow: hidden;
@@ -337,7 +337,7 @@ white-space: nowrap;
 -webkit-line-clamp: 3;   
 -webkit-box-orient: vertical;
     }   
-}
+}*/
 
 
 #toggle{
@@ -377,6 +377,28 @@ $(".icon-down").click(function(){
 	$(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
 })
 })
+
+var content_excerpt = function() {
+var s_width = $(window).width();
+var s_height = $(window).height();
+if(s_width < s_height){
+$(".box-excerpt").height(58);
+}else{
+$(".box-excerpt").height(40);
+}
+$(".box-excerpt").each(function (i) {
+var divH = $(this).height();
+var $p = $("p", $(this)).eq(0);
+while ($p.outerHeight() > divH) {
+$p.text($p.text().replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "..."));
+};
+});
+};
+content_excerpt();
+$(window).scroll(function () {
+content_excerpt();
+});
+
 {% endjavascript %}
 {% schema %}
   {
