@@ -957,6 +957,8 @@
     "enable_product_reviews_collection": false,
     "swatch_enabled": true,
     "swatch_method": "image",
+    "swatch_style": "icon_circle",
+    "swatch_picker_image_size": 30,
     "social_twitter_url": "https:\/\/twitter.com\/ecoblvdofficial",
     "social_facebook_url": "https:\/\/facebook.com\/ecoblvdofficial",
     "social_pinterest_url": "https:\/\/pinterest.com\/ecoblvd",
