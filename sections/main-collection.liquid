@@ -381,17 +381,17 @@ $(".icon-down").click(function(){
 	$(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
 })
 
-this.overflowhidden('toggle', 2);
+this.overflowhidden('toggle', 2,'...');
 
 })
 
 
 //判断溢出隐藏数
-function overflowhidden(id, rows){
+function overflowhidden(id, rows, str){
     var text = document.getElementById(id);
     var lineHeight = $("#"+id).css("line-height");   //获取到line-height样式设置的值 必须要有
     var at = rows*parseInt(lineHeight);      //计算包含文本的div应该有的高度
-   // var tempstr = str;                       //获取到所有文本
+    var tempstr = str;                       //获取到所有文本
     text.innerHTML = tempstr;                //将所有文本写入html中
     var len = tempstr.length;
     var i = 0;
