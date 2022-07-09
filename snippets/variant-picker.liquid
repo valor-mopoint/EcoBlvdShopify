@@ -238,9 +238,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- for value in option.values -%}
                       {%- for hex in hex_obj -%}
                       {%-liquid
-                        assign colorName = hex | split: ":" | first
+                        assign colorName = hex | split: ":" | first | strip
                         assign colorHex = hex | split: ":" | last
-                        assign colors = value | split:'-' | first
+                        assign colors = value | split:'-' | first | strip
                       -%}
                   <div>{{colorName}}--{{colors}}</div>
                         {% if colorName == colors %}
