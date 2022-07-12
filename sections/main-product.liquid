@@ -402,8 +402,14 @@
                           {{- add_to_cart_text -}}
                         </button>
                       </div>
+                      {% comment %}
                       <a href="">Create Your Own</a>
-                      
+                      <div class="login" style="width: 100%;height: 100%;background-color: aqua;">
+                      <span><a  class="close" href="javascript:void(0);" >关闭</a></span>
+                      </div>
+                      <!-- 遮盖层 -->
+                      <div class="login-bg"></div>
+                      {% endcomment %}
                       {% if enable_dynamic_payment_button %}
                         <script class="dynamic-payment-button-template" type="text/template">
                           {{ form | payment_button }}
@@ -779,11 +785,7 @@
     <div class="product-description rte container cf padded-row not-in-quickbuy">{{ product.description }}</div>
   {% endif %}
 </div>
-<div class="login" style="width: 100%;height: 100%;background-color: aqua;">
-                      <span><a  class="close" href="javascript:void(0);" >关闭</a></span>
-                      </div>
-                      <!-- 遮盖层 -->
-                      <div class="login-bg"></div>
+
 {% render 'structured-data-product', product: product, current_variant: product.selected_or_first_available_variant %}
 {% style %}
 .cc-accordion-item__content strong{
@@ -833,23 +835,6 @@ $(function(){
 	$("#Create_your_own").change(function(){
 		$("#content").hide();
 	})
-
-
-	var link = document.querySelector('#link');
-        var login = document.querySelector('.login');
-        var loginBg = document.querySelector('.login-bg');
-        var close = document.querySelector('.close');
-        link.addEventListener('click', function() {
-            login.style.display = 'block';
-            loginBg.style.display = 'block';	
-			document.getElementsByTagName("body")[0].style.cssText='height:100%;overflow:hidden;';
-        })
- 
-        close.addEventListener('click', function() {
-            login.style.display = 'none';
-            loginBg.style.display = 'none';
-			document.getElementsByTagName("body")[0].style.cssText='';
-        })
 })
 {% endjavascript %}
 {% schema %}
