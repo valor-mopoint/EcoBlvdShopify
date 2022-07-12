@@ -3257,7 +3257,6 @@
           '<div class="cart-summary-overlay__mobile-price-row">',
           '<div class="cart-summary-overlay__mobile-unit-price">[[unit_price]]</div>',
           '<div class="cart-summary-overlay__mobile-quantity">',
-          theme.strings.products_added_notification_quantity,
             '<span class="cart-summary-overlay__quantity">Qty : [[quantity]]</span>',
           '</div>',
           '<div class="cart-summary-overlay__mobile-line-price">[[line_price]]</div>',
@@ -3338,8 +3337,7 @@
               var variantHtml = '';
               if (addedDataJSON.variant_title) {// catches default variant
                 for (var i = 0; i < productData.options.length; i++) {
-                  if(productData.options[i].name=="Color"){
-                    console.log(productData);
+                  if(productData.option1.name=="Color"){
                       variantHtml += [
                       '<div class="cart-summary-overlay__variant">',
                       '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
