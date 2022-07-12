@@ -97,7 +97,7 @@
         "image": "shopify:\/\/shop_images\/DSC7069-Mojave-desert-tortoise-Gopherus-agassizii-on-road-near-Jean-Nevada-2_MarcelHuijser-scaled_jpg.webp",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
