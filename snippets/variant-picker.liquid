@@ -87,7 +87,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                               <legend class="label">Model</legend>
                    </div>
                   <div class="option-selector__btns">
-                    <div>{{devicesStr}}</div>
+                    <div>{{devicesStr}}--{{all_cases_collection.products| size}}</div>
                     <select class="opt-label" style="font-size:17px" id="customize_model_select"  >
                       {%- for device in devices -%}
                         {% assign deviceLowcase= device | downcase |strip  %}
