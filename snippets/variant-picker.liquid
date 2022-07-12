@@ -129,7 +129,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% assign seriesType=device2variantName[5] %}
                             {% if deviceName==current_model_first_option_value_lowcase %}
                     			<div current="{% if product_id == current_product_id %}yes{% else %}no{% endif %}" product-url="{{shop.secure_url}}{{variantUrl}}" class="desgin_title_image{% if product_id == current_product_id %} current{% endif %}">
-                                  <img src="{{ seriesType| append: current_model_first_option_value | replace: ' ','' | replace: '/','' | asset_img_url }}" style='width:100px;height:100px;' />{{variantPrice}}
+                                  <img src="{{ seriesType| append: current_model_first_option_value | replace: ' ','' | replace: '/','' | append: ".jpg" | asset_img_url }}" style='width:100px;height:100px;' />{{variantPrice}}
                       			</div>
                             {% endif %}
                           {% endfor%}
