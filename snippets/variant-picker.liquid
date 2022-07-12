@@ -9,6 +9,7 @@ assign current_series_type_value=product.metafields.custom.series_type
 assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
 if design_value != blank
+paginate all_cases_collection.products by 50
 	for temp_product in all_cases_collection.products
     	assign temp_design_value = temp_product.metafields.custom.design
     	if  temp_product.available == false or design_value != temp_design_value
@@ -25,6 +26,8 @@ if design_value != blank
             assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price| append: "," | append: series_type
         endfor
 	endfor
+endpaginate 
+
 elsif current_series_type_value!=blank
 	for temp_product in all_cases_collection.products
             if  temp_product.available == false
