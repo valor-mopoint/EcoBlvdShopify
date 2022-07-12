@@ -3339,6 +3339,7 @@
                 for (var i = 0; i < productData.options.length; i++) {
                   	variantHtml += [
                       '<div class="cart-summary-overlay__variant">',
+                     /**span class="cart-summary-overlay__variant-option">', productData.options[i],' : ', '</span>',*/
                       '<span class="cart-summary-overlay__variant-value">', productData.options[i],' : ' , (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
                       '</div>'].join('');
                 }
