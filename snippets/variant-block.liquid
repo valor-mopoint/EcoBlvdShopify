@@ -118,14 +118,14 @@
                 </div>
               {% endif%}
               {% if  product.metafields.custom.is_case==true %}
-              	 <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
+              	
                  {% if product.metafields.custom.design != blank %}
                     <div class="product-block__design">{{ product.metafields.custom.design }}</div>
               	 {% endif%}
                  {% if product.metafields.custom.series_type != blank %}
                      <div class="product-block__series-type">{{ product.metafields.custom.series_type }}</div>
               	 {% endif%}
-              	 
+              	  <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
               {% else%}
                  <div class="product-block__title">{{ product.title }}</div>
               {% endif%}
