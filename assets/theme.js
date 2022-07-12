@@ -3225,7 +3225,7 @@
           evt.preventDefault();
           var cartPopupTemplate = [
           '<div id="cart-summary-overlay" class="cart-summary-overlay">',
-          '<div class="cart-summary-overlay__row-head">',
+          /**'<div class="cart-summary-overlay__row-head">',
           '<div class="cart-summary-overlay__column-image">',
           '<div class="cart-summary-overlay__column-title">', theme.strings.products_added_notification_title, '</div>',
           '</div>',
@@ -3246,7 +3246,7 @@
           '<div class="cart-summary-overlay__column-subtotal">',
           '<div class="cart-summary-overlay__column-title">', theme.strings.products_added_notification_subtotal, '</div>',
           '</div>',
-          '</div>',
+          '</div>',*/
           '<div class="cart-summary-overlay__row-body">',
           '<div class="cart-summary-overlay__column-image">',
           '<img src="[[image_url]]" alt="[[encoded-title]]" />',
@@ -3264,13 +3264,13 @@
           '</div>',
           '</div>',
           '<div class="cart-summary-overlay__column-price-region">',
-          '<div class="cart-summary-overlay__column-price">',
+         /** '<div class="cart-summary-overlay__column-price">',
           '<span class="cart-summary-overlay__unit-price">[[unit_price]]</span>',
-          '</div>',
+          '</div>',*/
           '<div class="cart-summary-overlay__column-quantity">',
           '<span class="cart-summary-overlay__quantity">[[quantity]]</span>',
           '</div>',
-          '<div class="cart-summary-overlay__column-total">',
+         /** '<div class="cart-summary-overlay__column-total">',
           '<div class="cart-summary-overlay__line-price">[[line_price]]</div>',
           '</div>',
           '[[line_discount]]',
@@ -3278,7 +3278,7 @@
           '<div class="cart-summary-overlay__column-subtotal">',
           '<span class="cart-summary-overlay__subtotal">[[subtotal]]</span>',
           '<div class="cart-summary-overlay__note">', theme.strings.products_added_notification_shipping_note, '&nbsp;</div>',
-          '</div>',
+          '</div>',*/
           '</div>',
           '<div class="cart-summary-overlay__actions">',
           '<a id="shop-more" class="button altcolour" href="#">', theme.strings.products_added_notification_keep_shopping, '</a>',
