@@ -3337,7 +3337,7 @@
               var variantHtml = '';
               if (addedDataJSON.variant_title) {// catches default variant
                 for (var i = 0; i < productData.options.length; i++) {
-                  if(productData.option1.name=="Color"){
+                  if(productData.options[i].name=="Color"){
                       variantHtml += [
                       '<div class="cart-summary-overlay__variant">',
                       '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
