@@ -3343,6 +3343,12 @@
                       '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
                       '<span class="cart-summary-overlay__variant-value">Color : ' , (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
                       '</div>'].join('');
+                  }else{
+                  	variantHtml += [
+                      '<div class="cart-summary-overlay__variant">',
+                      '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
+                      '<span class="cart-summary-overlay__variant-value">Model : ' , (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
+                      '</div>'].join('');
                   }
                       
                 }
