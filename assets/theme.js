@@ -3274,11 +3274,11 @@
           '<div class="cart-summary-overlay__line-price">[[line_price]]</div>',
           '</div>',
           '[[line_discount]]',
-          '</div>',
+          '</div>',*/
           '<div class="cart-summary-overlay__column-subtotal">',
           '<span class="cart-summary-overlay__subtotal">[[subtotal]]</span>',
           '<div class="cart-summary-overlay__note">', theme.strings.products_added_notification_shipping_note, '&nbsp;</div>',
-          '</div>',*/
+          '</div>',
           '</div>',
           '<div class="cart-summary-overlay__actions">',
           '<a id="shop-more" class="button altcolour" href="#">', theme.strings.products_added_notification_keep_shopping, '</a>',
