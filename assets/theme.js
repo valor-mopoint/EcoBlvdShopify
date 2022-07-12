@@ -3225,7 +3225,7 @@
           evt.preventDefault();
           var cartPopupTemplate = [
           '<div id="cart-summary-overlay" class="cart-summary-overlay">',
-          '<div class="cart-summary-overlay__row-head">',
+          /**'<div class="cart-summary-overlay__row-head">',
           '<div class="cart-summary-overlay__column-image">',
           '<div class="cart-summary-overlay__column-title">', theme.strings.products_added_notification_title, '</div>',
           '</div>',
@@ -3246,7 +3246,7 @@
           '<div class="cart-summary-overlay__column-subtotal">',
           '<div class="cart-summary-overlay__column-title">', theme.strings.products_added_notification_subtotal, '</div>',
           '</div>',
-          '</div>',
+          '</div>',*/
           '<div class="cart-summary-overlay__row-body">',
           '<div class="cart-summary-overlay__column-image">',
           '<img src="[[image_url]]" alt="[[encoded-title]]" />',
