@@ -9,7 +9,7 @@ assign current_series_type_value=product.metafields.custom.series_type
 assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
 if design_value != blank
-paginate all_cases_collection.products by 1000
+paginate all_cases_collection.products by 10000
 	for temp_product in all_cases_collection.products
     	assign temp_design_value = temp_product.metafields.custom.design
     	if  temp_product.available == false or design_value != temp_design_value
@@ -27,8 +27,8 @@ paginate all_cases_collection.products by 1000
         endfor
 	endfor
 endpaginate 
-
 elsif current_series_type_value!=blank
+paginate all_cases_collection.products by 10000
 	for temp_product in all_cases_collection.products
             if  temp_product.available == false
                 continue
@@ -45,6 +45,7 @@ elsif current_series_type_value!=blank
             	endfor
             endif
 	endfor
+endpaginate
 endif
 
 assign devices=devicesStr | remove_first: ","  | split:"," | uniq

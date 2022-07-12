@@ -3337,21 +3337,11 @@
               var variantHtml = '';
               if (addedDataJSON.variant_title) {// catches default variant
                 for (var i = 0; i < productData.options.length; i++) {
-                    if(productData.options[i].name=="Color"){
                       variantHtml += [
                       '<div class="cart-summary-overlay__variant">',
                       '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
-                        '<span class="cart-summary-overlay__variant-value">', productData.options[i].name' : ' , (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
+                        '<span class="cart-summary-overlay__variant-value">', productData.options[i].name,' : ' , (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
                       '</div>'].join('');
-                    }
-                  
-                	else{
-                	 variantHtml += [
-                      '<div class="cart-summary-overlay__variant">',
-                      '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
-                        '<span class="cart-summary-overlay__variant-value">Model : ', (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
-                      '</div>'].join('');
-                    }
                 }
               }
               if (addedDataJSON.selling_plan_allocation && addedDataJSON.selling_plan_allocation.selling_plan.name) {
