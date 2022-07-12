@@ -3341,14 +3341,14 @@
                   variantHtml += [
                   '<div class="cart-summary-overlay__variant">',
                   '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
-                  '<span class="cart-summary-overlay__variant-value">', (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
+                    '<span class="cart-summary-overlay__variant-value">Color : ', (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
                   '</div>'].join('');
                 }
               }
               if (addedDataJSON.selling_plan_allocation && addedDataJSON.selling_plan_allocation.selling_plan.name) {
                 variantHtml += [
                 '<div class="cart-summary-overlay__variant">',
-                '<span class="cart-summary-overlay__variant-value">', addedDataJSON.selling_plan_allocation.selling_plan.name, '</span>',
+                  '<span class="cart-summary-overlay__variant-value">Model : ', addedDataJSON.selling_plan_allocation.selling_plan.name, '</span>',
                 '</div>'].join('');
               }
               if ($form.data('show-preorder-label')) {
