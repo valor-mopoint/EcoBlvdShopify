@@ -318,7 +318,7 @@
         "image": "shopify:\/\/shop_images\/c8a13fdbe2556171c4879cdfb4b99115.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 260,
         "image_link": "",
