@@ -3272,9 +3272,9 @@
           '</div>',
          /** '<div class="cart-summary-overlay__column-total">',
           '<div class="cart-summary-overlay__line-price">[[line_price]]</div>',
-          '</div>',
-          '[[line_discount]]',
           '</div>',*/
+          '[[line_discount]]',
+          '</div>',
           '<div class="cart-summary-overlay__column-subtotal">',
           '<span class="cart-summary-overlay__subtotal">[[subtotal]]</span>',
           '<div class="cart-summary-overlay__note">', theme.strings.products_added_notification_shipping_note, '&nbsp;</div>',
