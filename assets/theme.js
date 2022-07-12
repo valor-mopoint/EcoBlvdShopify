@@ -3341,7 +3341,7 @@
                       variantHtml += [
                       '<div class="cart-summary-overlay__variant">',
                       '<span class="cart-summary-overlay__variant-option">', productData.options[i].name, '</span>',
-                        '<span class="cart-summary-overlay__variant-value">Color : ', (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
+                        '<span class="cart-summary-overlay__variant-value">', productData.options[i].name' : ' , (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
                       '</div>'].join('');
                     }
                   

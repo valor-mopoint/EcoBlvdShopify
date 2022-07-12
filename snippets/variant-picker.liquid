@@ -9,7 +9,7 @@ assign current_series_type_value=product.metafields.custom.series_type
 assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
 assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
 if design_value != blank
-paginate all_cases_collection.products by 50
+paginate all_cases_collection.products by 1000
 	for temp_product in all_cases_collection.products
     	assign temp_design_value = temp_product.metafields.custom.design
     	if  temp_product.available == false or design_value != temp_design_value
