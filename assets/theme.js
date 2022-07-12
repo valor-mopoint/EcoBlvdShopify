@@ -3258,7 +3258,7 @@
           '<div class="cart-summary-overlay__mobile-unit-price">[[unit_price]]</div>',
           '<div class="cart-summary-overlay__mobile-quantity">',
           theme.strings.products_added_notification_quantity,
-          '<span class="cart-summary-overlay__quantity">[[quantity]]</span>',
+            '<span class="cart-summary-overlay__quantity">Qty : [[quantity]]</span>',
           '</div>',
           '<div class="cart-summary-overlay__mobile-line-price">[[line_price]]</div>',
           '</div>',
@@ -3268,7 +3268,7 @@
           '<span class="cart-summary-overlay__unit-price">[[unit_price]]</span>',
           '</div>',*/
           '<div class="cart-summary-overlay__column-quantity">',
-          '<span class="cart-summary-overlay__quantity">[[quantity]]</span>',
+            '<span class="cart-summary-overlay__quantity">Qty : [[quantity]]</span>',
           '</div>',
          /** '<div class="cart-summary-overlay__column-total">',
           '<div class="cart-summary-overlay__line-price">[[line_price]]</div>',
