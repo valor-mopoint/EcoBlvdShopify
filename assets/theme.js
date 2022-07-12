@@ -3255,7 +3255,7 @@
           '<div class="cart-summary-overlay__title">[[title]]</div>',
           '<div class="cart-summary-overlay__variants">[[variants]]</div>',
           '<div class="cart-summary-overlay__mobile-price-row">',
-          '<div class="cart-summary-overlay__mobile-unit-price">[[unit_price]]</div>',
+         /** '<div class="cart-summary-overlay__mobile-unit-price">[[unit_price]]</div>',*/
           '<div class="cart-summary-overlay__mobile-quantity">',
             '<span class="cart-summary-overlay__quantity">Qty : [[quantity]]</span>',
           '</div>',
