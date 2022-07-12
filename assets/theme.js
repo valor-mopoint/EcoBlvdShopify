@@ -3345,7 +3345,7 @@
                         '<span class="cart-summary-overlay__variant-value">Color : ', (addedDataJSON.variant_options[i]).split('-')[0], '</span>',
                       '</div>'].join('');
                     }
-                  }
+                  
                 else
                 {
                 	 variantHtml += [
