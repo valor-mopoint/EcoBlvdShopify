@@ -10656,7 +10656,11 @@ model-viewer .container {
   font-size: {{ font_size_base_int | times: 0.8 | round }}px;
   line-height: 1.4;
 }
-
+  @media (max-width: 767px){
+    .cart-summary-overlay {
+    	height:100%;
+    }
+  }
 .cart-summary-overlay__row-head,
 .cart-summary-overlay__row-body {
   /**display: flex;*/
