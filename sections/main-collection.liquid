@@ -295,7 +295,7 @@
               endif
             -%}
             {% for product in collection.products %}
-             {% render 'variant-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %}
+             {% render 'variant-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true, product_index: forloop.index0 %}
             {% endfor %}
           </div>
         {% endif %}
