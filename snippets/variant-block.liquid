@@ -15,8 +15,8 @@
 
   assign cheapest_variant = product.variants | sort: 'price' | first
   assign variant=cheapest_variant
-  assign variant_size= product.variants |  product.variants | size
-  assign gol_rand = "now" | date: "%d" | Round 
+  assign variant_size= product.variants | size
+  assign gol_rand = "now" | date: "%d" | Round | modulo : variant_size
 -%}
 
 
