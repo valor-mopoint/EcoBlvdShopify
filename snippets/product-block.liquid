@@ -15,7 +15,7 @@
   assign variant_size= product.variants | size
   assign gol_rand = "now" | date: "%d" | Round | plus: 1| modulo : variant_size
   
-  assign cheapest_variant = product.variants[gol_rand]
+  assign cheapest_variant = product.variants[1]
   assign variant=cheapest_variant
 -%}
 <div data-product-id="{{ product.id }}" class="product-block" {% if animate %}data-cc-animate{% endif %}>
