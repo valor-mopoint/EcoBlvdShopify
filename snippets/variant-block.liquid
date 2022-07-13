@@ -13,8 +13,8 @@
   endif
    
   assign variant_size= product.variants | size
-  assign gol_rand = "now" | date: "%d" | Round | modulo : variant_size
-   
+  assign gol_rand = "now" | date: "%d" | Round | plus: product_index| modulo : variant_size
+  
   assign cheapest_variant = product.variants[gol_rand]
   assign variant=cheapest_variant
 -%}
