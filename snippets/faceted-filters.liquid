@@ -259,5 +259,15 @@
   </div>
 </div>
 {% style %}
-
+	.filter_item_color .filter_item_color_count::before{
+		content: "";
+        position: absolute;
+        left: 0;
+        top: 0.8em;
+        margin-top: -9px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border: 1px solid currentColor;
+	}
 {% endstyle %}
