@@ -198,10 +198,22 @@
                               value="{{ value.value | escape }}"
                               {% if value.active %}checked{% endif %}
                               {% if value.count == 0 and value.active == false %}disabled{% endif %}>
-								
-                          
                        
-                         
+                             {% capture hexList %}
+                                Midnight Black:#333333,
+                                Cascade Blue:#01C6F8,
+                                Foliage Green:#28CE99,
+                                Illuminating Yellow:#F4BC40,
+                                Wildflower Pink:#FF81D9
+                             {% endcapture %}
+                             {%- assign hex_obj = hexList | split:"," -%}
+                          {%- for hex in hex_obj -%}
+                              {%-liquid
+                                assign colorName = hex | split: ":" | first | strip
+                                assign colorHex = hex | split: ":" | last
+                                assign colors = value.label | strip
+                              -%}
+                          {% endfor %}
                             <span class="filter-group__item__text filter-group-color_text">
                               {{ value.label }}
                             </span>
