@@ -12,6 +12,7 @@
     assign show_hover_image = false
   endif
 
+
   assign cheapest_variant = product.variants | sort: 'price' | first
   assign variant=cheapest_variant
   
@@ -129,7 +130,7 @@
               {% else%}
                  <div class="product-block__title">{{ product.title }}</div>
               {% endif%}
-			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
+			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors -    {{ "now" | date: "%d" }}</div>
 
               {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
                 <div class="product-block__subtitle">{{ product.metafields.descriptors.subtitle }}</div>
