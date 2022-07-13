@@ -121,8 +121,8 @@
               {% endif%}
               {% if  product.metafields.custom.is_case==true %}
                 <div class="product-block__design">
-              	 {% if variant.option2 != blank %}
-                    {{ variant.option2 }}
+              	 {% if variant.option1 != blank %}
+                    {{ variant.option1 }}
               	 {% endif%}
                  {% if product.metafields.custom.design != blank %}
                     &nbsp;/&nbsp; {{ product.metafields.custom.design }}
