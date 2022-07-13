@@ -216,10 +216,10 @@
                               {% if value.count == 0 and value.active == false %}disabled{% endif %}>
                        
                              
-                            <span class="filter-group__item__text filter-group-color_text">
+                            <label class="filter-group__item__text filter-group-color_text">
                               <span class="filter-group-color" style="background-color:{{ colorHex }}"></span>
                               {{ colorName }}
-                            </span>
+                            </label>
                           {% endif %}
                           {% endfor %}
                             {% if section.settings.show_filter_counts and filter_group_is_swatch == false %}
