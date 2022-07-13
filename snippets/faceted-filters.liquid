@@ -1,6 +1,3 @@
-{%-liquid
-                                assign colorHex = ""
-                              -%}
 <a class="filter-shade" href="#" data-toggle-filters></a>
 <div class="filters{% if section.settings.enable_filtering == false or filter_context.filters == empty %} mobile-only{% endif %}">
   <div class="filters__inner{% if section.settings.enable_sticky_filter %} sticky-content-container{% endif %}">
@@ -276,6 +273,7 @@
     </form>
   </div>
 </div>
+{% comment %}
 {% style %}
    .filter-group-color .filter-group-color_text::before {
       content: "";
@@ -287,6 +285,6 @@
       height: 25px;
       border-radius: 50%;
       border: 1px solid currentColor;
-      background-color:{{ colorHex }};
   }
 {% endstyle %}
+{% endcomment %}
