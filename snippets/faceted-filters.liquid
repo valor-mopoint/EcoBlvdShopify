@@ -289,6 +289,22 @@
     transform: scale(0);
     transition: transform 100ms ease;
 }
+
+.filter-group__item .filter-group__checkbox:checked + .filter-group-color_text::before {
+    background: currentColor;
+}
+.filter-group__item .filter-group-color_text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    margin-top: -9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid currentColor;
+}
+
    .filter-group-color {
       width: 20px;
       height: 20px;
