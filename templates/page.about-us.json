@@ -288,14 +288,38 @@
         "16578357559727c1b4-1": {
           "type": "question",
           "settings": {
-            "title": "Question",
-            "answer": "<p>Answer<\/p>"
+            "title": "Consciousness",
+            "answer": "<p>Reducing our carbon footprint with fashion and functionality<\/p>"
+          }
+        },
+        "aba5011a-2640-4e1f-9182-d0107fa141d3": {
+          "type": "question",
+          "settings": {
+            "title": "Creativity",
+            "answer": "<p>We believe in rooting to grow<\/p>"
+          }
+        },
+        "92921c9d-d6ce-48e2-a6d6-60b8e211724d": {
+          "type": "question",
+          "settings": {
+            "title": "Courage",
+            "answer": "<p>We stand out to make a difference<\/p>"
+          }
+        },
+        "7d92db3e-67bb-4478-bf55-8d9c2d7ea1dc": {
+          "type": "question",
+          "settings": {
+            "title": "Compassion",
+            "answer": "<p>We care about the Earth and all its inhabitants<\/p>"
           }
         }
       },
       "block_order": [
         "16578357559727c1b4-0",
-        "16578357559727c1b4-1"
+        "16578357559727c1b4-1",
+        "aba5011a-2640-4e1f-9182-d0107fa141d3",
+        "92921c9d-d6ce-48e2-a6d6-60b8e211724d",
+        "7d92db3e-67bb-4478-bf55-8d9c2d7ea1dc"
       ],
       "settings": {
         "title": "Our Values - The 5 c's"
@@ -303,6 +327,7 @@
     },
     "16527322172ff6f329": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "1652732217f3c3d866-0": {
           "type": "text_block",
