@@ -19,7 +19,6 @@
   assign variant=cheapest_variant
 -%}
 
-
 <div data-product-id="{{ product.id }}" class="product-block" {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
     <div class="block-inner-inner">
@@ -136,7 +135,7 @@
               {% else%}
                  <div class="product-block__title">{{ product.title }}</div>
               {% endif%}
-			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} {% if product.options_by_name['Color'].values.size!=1 %} Colors {% else %} Color{% endif %}</div>
+			  <div class="product-block__color-size">{{ product.options_by_name['Color'].values.size }} Colors</div>
 
               {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
                 <div class="product-block__subtitle">{{ product.metafields.descriptors.subtitle }}</div>
@@ -148,7 +147,7 @@
                 {% endif %}
                 <span class="product-price__item product-price__amount {% if cheapest_variant.compare_at_price > cheapest_variant.price %}product-price__amount--on-sale{% endif %} theme-money">
                   {%- if settings.product_currency_code_enabled -%}
-                    {{ cheapest_variant.price | money_without_trailing_zeros }}
+                    {{ cheapest_variant.price | money_with_currency }}
                   {%- else -%}
                     {{ cheapest_variant.price | money }}
                   {%- endif -%}
