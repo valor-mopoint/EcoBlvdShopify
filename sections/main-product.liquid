@@ -181,7 +181,7 @@
                   <div class="price-area">
                     {% if current_variant %}
                       <div class="price h4-style {% if current_variant.compare_at_price > current_variant.price %}on-sale{% endif %}">
-                      --bbb---
+               
                         <span class="current-price theme-money">
                           {%- if settings.product_currency_code_enabled -%}
                             {{- current_variant.price | money_without_trailing_zeros -}}
@@ -199,7 +199,7 @@
                     {% else %}
                       {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
                       <div class="price h4-style {% if cheapest_variant.compare_at_price > cheapest_variant.price %}on-sale{% endif %}">
-                      --aa--
+                   
                         {% if product.price_varies %}
                           <span class="price__from">{{ 'products.listing.from' | t }}</span>
                         {% endif %}
