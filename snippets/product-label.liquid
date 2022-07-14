@@ -35,7 +35,7 @@
   {%- if new_label_text -%}
     {%- assign label_count = label_count | plus: 1 -%}
     <span class="product-label product-label--new-in">
-      <span>{{ new_label_text }}</span>
+      <span><img src="{{ 'visa.png' | asset_img_url }}" title="Visa"/></span>
     </span>
   {%- endif -%}
 
