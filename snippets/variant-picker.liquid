@@ -128,9 +128,11 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
        
         <div class="option-selector-title-image" >
           <fieldset class="option-selector-title-image-fieldset">
+                {% if current_series_type_value!=blank  %}
                 <div class="opposing-items">
                               <legend class="label">Case : {{current_series_type_value | split:' '| first }}  </legend>
                    </div>
+                {% endif %}
                   {% if device2variants.size>0 and design_value!=blank %}
                   <div class="option-selector__btns" style="margin-top:5px;">
                     <div class="design_wrapper">
