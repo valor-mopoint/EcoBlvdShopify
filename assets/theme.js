@@ -5046,7 +5046,7 @@
 
       if (variant) {
         //$('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(variant.price, theme.money_format_with_product_code_preference)).appendTo($price);
-        $('<span class="current-price theme-money">').html("$"+Math.ceil(variant.price)).appendTo($price);
+        $('<span class="current-price theme-money">').html("$"+Math.ceil(variant.price/100)).appendTo($price);
         if (variant.compare_at_price > variant.price) {
           $price.append(' ');
           $('<span class="was-price theme-money">').html(theme.Shopify.formatMoney(variant.compare_at_price, theme.money_format)).appendTo($price);
@@ -5078,7 +5078,7 @@
           $price.append(' ');
         }
         //$('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(cheapestVariant.price, theme.money_format_with_product_code_preference)).appendTo($price);
-        $('<span class="current-price theme-money">').html("$"+Math.ceil(cheapestVariant.price)).appendTo($price);
+        $('<span class="current-price theme-money">').html("$"+Math.ceil(cheapestVariant.price/100)).appendTo($price);
 
         if (cheapestVariant.compare_at_price > cheapestVariant.price) {
           $price.addClass('on-sale').append(' ');
