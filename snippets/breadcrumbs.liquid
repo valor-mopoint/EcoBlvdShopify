@@ -191,10 +191,27 @@ endif
         <li class="breadcrumbs-list__item">
           <a class="breadcrumbs-list__link" href="{{ collection.url }}">{{ collection.title | escape }}</a> {{ divider }}
         </li>
+        
       {%- endif -%}
-      <li class="breadcrumbs-list__item">
-        <a class="breadcrumbs-list__link" href="{{ product.url }}" aria-current="page">{{ product.title | escape }}</a>
-      </li>
+      {% if product.metafields.custom.is_case==true %}
+          <li class="breadcrumbs-list__item">
+            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ product.option2 | escape }}</a>
+          </li>
+          {% if product.metafields.custom.design %}
+            <li class="breadcrumbs-list__item">
+              <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ product.metafields.custom.design | escape }}</a>
+            </li>
+          {% else %}
+            <li class="breadcrumbs-list__item">
+              <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ product.metafields.custom.series_type | escape }}</a>
+            </li>
+          {% endif %}
+      {% else %}
+        <li class="breadcrumbs-list__item">
+          <a class="breadcrumbs-list__link" href="{{ product.url }}" aria-current="page">{{ product.title | escape }}</a>
+        </li>
+      {% endif %}
+      
 
     {%- elsif template.name == 'blog' and current_tags -%}
       <li class="breadcrumbs-list__item">
