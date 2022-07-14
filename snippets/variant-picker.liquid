@@ -50,8 +50,17 @@ paginate all_cases_collection.products by 10000
 	endfor
 endpaginate
 endif
-   
-assign seriesTypes= seriesTypesStr | remove_first: ","  | split:"," | uniq
+assign tempSeriesTypes1="Sequoia Cases,Laguna Cases,Mojave Cases"  | split:"," | uniq
+assign tempSeriesTypes2= seriesTypesStr | remove_first: ","  | split:"," | uniq
+assign tempSeriesTypes3=""
+for tempSeriesType1 in tempSeriesTypes1
+  for tempSeriesType2 in tempSeriesTypes2
+      if tempSeriesType1== tempSeriesType2
+        assign tempSeriesTypes3=tempSeriesTypes3 | append: "," | append: tempSeriesType1
+      endif
+  endfor
+endfor
+assign seriesTypes=tempSeriesTypes3 | remove_first: ","  | split:"," | uniq   
 assign devices=devicesStr | remove_first: ","  | split:"," | uniq
 assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 
