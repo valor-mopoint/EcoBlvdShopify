@@ -94,7 +94,7 @@
           {% render 'product-label-detail', product: product, current_variant: current_variant %}
         </div>
 
-        {% if product.media.size > 1 %}
+        {% if product.media.size > 0 %}
           <div class="thumbnails{% unless section.settings.gallery_layout contains 'carousel' %} mobile-only-important{% endunless %}">
             {% for media in product.media %}
               <a class="thumbnail thumbnail--media-{{ media.media_type }}" href="{% if section.settings.enable_zoom %}{{ media.preview_image | img_url: zoom_size }}{% else %}#{% endif %}" data-media-id="{{ media.id }}">
