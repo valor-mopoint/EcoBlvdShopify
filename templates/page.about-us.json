@@ -275,6 +275,32 @@
         "use_alt_bg": false
       }
     },
+    "1657835755ea6efbbb": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "16578357559727c1b4-0": {
+          "type": "question",
+          "settings": {
+            "title": "Community",
+            "answer": "<p>To eliminate waste, we must work together<\/p>"
+          }
+        },
+        "16578357559727c1b4-1": {
+          "type": "question",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16578357559727c1b4-0",
+        "16578357559727c1b4-1"
+      ],
+      "settings": {
+        "title": "Our Values - The 5 c's"
+      }
+    },
     "16527322172ff6f329": {
       "type": "multi-column",
       "blocks": {
@@ -472,6 +498,7 @@
     "1656432112c9fdb9da",
     "16527325346b245c9c",
     "16527327289dc3b579",
+    "1657835755ea6efbbb",
     "16527322172ff6f329",
     "165273206000284f2e",
     "1652732148aebd097f",
