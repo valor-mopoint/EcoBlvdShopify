@@ -260,9 +260,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- for value in option.values -%}
                       {%- for hex in hex_obj -%}
                       {%-liquid
-                        assign colorName = hex | split: ":" | first | remove: "Let's Go" | strip
+                        assign colorName = hex | split: ":" | first | remove: "Let's Go" | split:' ' | last | strip
                         assign colorHex = hex | split: ":" | last
-                        assign colors = value | split:'-' | first | remove: "Let's Go" | strip
+                        assign colors = value | split:'-' | first | remove: "Let's Go" | split:' ' | last | strip
                       -%}
                         {{ colors}}-{{ colorName }}
                         {% if colorName == colors %}
