@@ -22,6 +22,12 @@
         if tags contains 'New'
           assign new_label_text = "sale.svg" | asset_url
         endif
+       if tags == 'SALE'
+          assign new_label_text = "sale.svg" | asset_url
+        endif
+       if tags == 'COMING SOON'
+          assign new_label_text = "sale.svg" | asset_url
+        endif
      endfor
       else
         for collection in product.collections
