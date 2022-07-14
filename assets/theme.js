@@ -5076,8 +5076,8 @@
           $('<span class="price__from">').html(theme.strings.products_listing_from).appendTo($price);
           $price.append(' ');
         }
-
-        $('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(cheapestVariant.price, theme.money_format_with_product_code_preference)).appendTo($price);
+        //$('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(cheapestVariant.price, theme.money_format_with_product_code_preference)).appendTo($price);
+        $('<span class="current-price theme-money">').html("$"+cheapestVariant.price.toFixed(0)).appendTo($price);
 
         if (cheapestVariant.compare_at_price > cheapestVariant.price) {
           $price.addClass('on-sale').append(' ');
