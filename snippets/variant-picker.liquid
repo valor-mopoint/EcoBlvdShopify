@@ -124,12 +124,13 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
          </div>
       {% endif%}
       
-       {% if device2variants.size>0 and design_value!=blank %}
+       
         <div class="option-selector-title-image" >
           <fieldset class="option-selector-title-image-fieldset">
                 <div class="opposing-items">
                               <legend class="label">Select Case : {{current_series_type_value}}  </legend>
                    </div>
+                  {% if device2variants.size>0 and design_value!=blank %}
                   <div class="option-selector__btns" style="margin-top:5px;">
                     <div class="design_wrapper">
                         {% for device2variant in device2variants%}
@@ -151,9 +152,10 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                           {% endfor%}
                     </div>
                   </div>
+                    {% endif%}
           </fieldset>
          </div>
-      {% endif%}
+      
       {% assign options_with_values=product.options_with_values %}
       {%- for option in options_with_values -%}
         {%- capture option_id -%}{{ section.id }}-{{ product.id }}-{{ option.name | handle }}-selector{%- endcapture -%}
