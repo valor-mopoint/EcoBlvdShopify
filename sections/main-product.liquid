@@ -209,7 +209,7 @@
                           {%- endif -%}
                         </span>
                         {% if cheapest_variant.compare_at_price > cheapest_variant.price %}
-                          <span class="was-price theme-money">{{ cheapest_variant.compare_at_price | money }}</span>
+                          <span class="was-price theme-money">{{ cheapest_variant.compare_at_price | money_without_trailing_zeros }}</span>
                         {% endif %}
 
                         {% render 'unit-price', variant: cheapest_variant %}
