@@ -22,6 +22,9 @@
         if tags == 'New in'
           assign new_label_text = 'products.labels.new_in' | t
         endif
+       if tags == 'SALE '
+          assign new_label_text = 'products.labels.new_in' | t
+        endif
        endfor
       else
         for collection in product.collections
