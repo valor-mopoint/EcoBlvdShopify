@@ -191,11 +191,11 @@ endif
         <li class="breadcrumbs-list__item">
           <a class="breadcrumbs-list__link" href="{{ collection.url }}">{{ collection.title | escape }}</a> {{ divider }}
         </li>
-        
       {%- endif -%}
       {% if product.metafields.custom.is_case==true %}
+        {% assign first_variant=product.variants| first %}
           <li class="breadcrumbs-list__item">
-            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ product.option1 | escape }}</a>
+            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ first_variant.option2 | escape }}</a>
           </li>
           {% if product.metafields.custom.design %}
             <li class="breadcrumbs-list__item">
