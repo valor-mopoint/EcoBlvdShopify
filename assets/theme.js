@@ -5042,7 +5042,7 @@
       var $priceArea = $container.find(_.selectors.priceArea);
       $priceArea.removeClass('on-sale');
       var $newPriceArea = $('<div>');
-      var $price = $('<div class="price h4-style">').appendTo($newPriceArea);
+      var $price = $('<div class="price h3-style">').appendTo($newPriceArea);
 
       if (variant) {
         //$('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(variant.price, theme.money_format_with_product_code_preference)).appendTo($price);
