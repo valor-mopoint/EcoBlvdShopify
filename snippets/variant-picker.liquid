@@ -247,7 +247,10 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                  {% endcapture %}
                  {%- assign hex_obj = hexList | split:"," -%}
                 <div class="opposing-items">
-                  <legend class="label">{{ option.name }}:{{ product.variants}}
+                  <legend class="label">{{ option.name }}:
+                    {% for p in product.variants %}
+                      {{ p}}
+                      {% endfor %}
                     <span id='color-label'>
                       {{ product.selected_variant.option1}}
                     </span>
