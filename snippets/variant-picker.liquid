@@ -253,8 +253,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                         {% for product in product.variants %}
                           {{ prduct.option1}}
                         {% endfor %}
+                      {% else %}
+                        {{ product.selected_variant.option1}}
                       {% endif %}
-                      {{ product.selected_variant.option1}}
                     </span>
                   </legend>
                   {{ size_chart_html }}
