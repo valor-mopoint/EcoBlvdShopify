@@ -183,9 +183,9 @@
                       <div class="price h4-style {% if current_variant.compare_at_price > current_variant.price %}on-sale{% endif %}">
                         <span class="current-price theme-money">
                           {%- if settings.product_currency_code_enabled -%}
-                            {{- current_variant.price | money_with_currency -}}
+                            {{- current_variant.price | money_without_trailing_zeros -}}
                           {%- else -%}
-                            {{- current_variant.price | money -}}
+                            {{- current_variant.price | money_without_trailing_zeros -}}
                           {%- endif -%}
                         </span>
                         {% if current_variant.compare_at_price > current_variant.price %}
