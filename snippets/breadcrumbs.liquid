@@ -193,17 +193,17 @@ endif
         </li>
       {%- endif -%}
       {% if product.metafields.custom.is_case==true %}
-        {% assign first_variant=product.variants| first %}
+        {% assign current_variant=product.selected_variant %}
           <li class="breadcrumbs-list__item">
-            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ first_variant.option2 | escape }}</a>{{ divider }}
+            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ current_variant.option2 | escape }}</a>{{ divider }}
           </li>
           {% if product.metafields.custom.design %}
             <li class="breadcrumbs-list__item">
-              <a class="breadcrumbs-list__link" href="{{ product.url }}" aria-current="page">{{ product.metafields.custom.design | escape }}</a>
+              <a class="breadcrumbs-list__link" href="{{ current_variant.url }}" aria-current="page">{{ product.metafields.custom.design | escape }}</a>
             </li>
           {% else %}
             <li class="breadcrumbs-list__item">
-              <a class="breadcrumbs-list__link" href="{{ product.url }}" aria-current="page">{{ product.metafields.custom.series_type | escape }}</a>
+              <a class="breadcrumbs-list__link" href="{{ current_variant.url }}" aria-current="page">{{ product.metafields.custom.series_type | escape }}</a>
             </li>
           {% endif %}
       {% else %}
