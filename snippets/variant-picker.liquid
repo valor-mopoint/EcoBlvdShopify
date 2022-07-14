@@ -243,7 +243,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     Foliage Green:#28CE99,
                     Illuminating Yellow:#F4BC40,
                     Wildflower Pink:#FF81D9,
-                    "Let's Go" Green:#D8F0B3
+                    Let's Go Green:#D8F0B3
                  {% endcapture %}
                  {%- assign hex_obj = hexList | split:"," -%}
                 <div class="opposing-items">
@@ -260,9 +260,9 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   {%- for value in option.values -%}
                       {%- for hex in hex_obj -%}
                       {%-liquid
-                        assign colorName = hex | split: ":" | first | remove: "Let's Go" | split:'""' | last | strip
+                        assign colorName = hex | split: ":" | first | strip
                         assign colorHex = hex | split: ":" | last
-                        assign colors = value | split:'-' | first | remove: "Let's Go" | split:'""' | last | strip
+                        assign colors = value | split:'-' | first | strip
                       -%}
                         {% if colorName == colors %}
                           <input class="opt-btn js-option color-btn"
