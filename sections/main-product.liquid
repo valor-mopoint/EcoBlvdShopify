@@ -173,15 +173,15 @@
             {% when 'title' %}
               <div class="title-row" {{ block.shopify_attributes }}>
                  {% if current_variant %}
-                     <h1 class="title">
+                     <h2 class="title">
                      {% if product.metafields.custom.design %} 
                        {{ product.metafields.custom.design }}
                        {% else %}
                         {{ current_variant.option1 }}
                       {% endif %}
-                   </h1>
+                   </h2>
                   {% else %}
-                     <h1 class="title">{{ product.title }}</h1>
+                     <h2 class="title">{{ product.title }}</h2>
                   {% endif %}
                 
               </div>
