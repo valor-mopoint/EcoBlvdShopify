@@ -5045,7 +5045,8 @@
       var $price = $('<div class="price h4-style">').appendTo($newPriceArea);
 
       if (variant) {
-        $('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(variant.price, theme.money_format_with_product_code_preference)).appendTo($price);
+        //$('<span class="current-price theme-money">').html(theme.Shopify.formatMoney(variant.price, theme.money_format_with_product_code_preference)).appendTo($price);
+        $('<span class="current-price theme-money">').html(theme.Shopify.formatMoney("$"+variant.price.toFixed(0)).appendTo($price);
         if (variant.compare_at_price > variant.price) {
           $price.append(' ');
           $('<span class="was-price theme-money">').html(theme.Shopify.formatMoney(variant.compare_at_price, theme.money_format)).appendTo($price);
