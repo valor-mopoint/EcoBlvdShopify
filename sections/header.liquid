@@ -398,7 +398,7 @@
                           <ul class="navigation__tier-3">
                             {% for child_child_link in child_link.links %}
                             <li class="navigation__item{% if featured_links contains child_child_link.title %} featured-link{% endif %}">
-                              <a class="navigation__link" href="{{ child_child_link.url }}"+"?variant="+"{% if variant.products.size==1 %}variant.id{% endif %}">{{ child_child_link.title }}</a>
+                              <a class="navigation__link" href="{{ child_child_link.url }}{% if variant.products.size==1 %}variant.id{% endif %}">{{ child_child_link.title }}</a>
                             </li>
                             {% endfor %}
                           </ul>
