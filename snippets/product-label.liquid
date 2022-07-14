@@ -20,7 +20,7 @@
       elsif settings.prod_new_method == 'tag'
      for tags in product.tags
         if tags contains 'New'
-          assign new_label_text = 'products.labels.new_in' | t
+          assign new_label_text = "sale.svg" | asset_url
         endif
      endfor
       else
@@ -37,7 +37,7 @@
   {%- if new_label_text -%}
     {%- assign label_count = label_count | plus: 1 -%}
     <span class="product-label product-label--new-in">
-      <span>{% render 'sale'%}</span>
+      <span><img src="{{ new_label_text }}"></span>
     </span>
   {%- endif -%}
 
