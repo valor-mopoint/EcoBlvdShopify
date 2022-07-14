@@ -18,9 +18,11 @@
           assign new_label_text = 'products.labels.new_in' | t
         endif
       elsif settings.prod_new_method == 'tag'
-        if product.tags == 'New in'
+         for tags in product.tags
+        if tags == 'New in'
           assign new_label_text = 'products.labels.new_in' | t
         endif
+       endfor
       else
         for collection in product.collections
           assign split_collection_handle = collection.handle | split: '-'
