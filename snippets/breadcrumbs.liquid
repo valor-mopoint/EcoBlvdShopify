@@ -193,22 +193,33 @@ endif
         </li>
       {%- endif -%}
       {% if product.metafields.custom.is_case==true %}
+        {%liquid 
+          assign product_url=product.url
+          assign current_variant=product.selected_variant 
+          assign first_variant=product.variants | first
+          assign device=first_variant.option2
+          if current_variant   
+            assign device=current_variant.option2
+            assign product_url=current_variant.url
+          endif 
+          
+        %}
         {% assign current_variant=product.selected_variant %}
           <li class="breadcrumbs-list__item">
-            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ current_variant.option2 | escape }}</a>{{ divider }}
+            <a class="breadcrumbs-list__link" href="javascript:void(0);" aria-current="page">{{ device | escape }}</a>{{ divider }}
           </li>
           {% if product.metafields.custom.design %}
             <li class="breadcrumbs-list__item">
-              <a class="breadcrumbs-list__link" href="{{ current_variant.url }}" aria-current="page">{{ product.metafields.custom.design | escape }}</a>
+              <a class="breadcrumbs-list__link" href="{{ product_url }}" aria-current="page">{{ product.metafields.custom.design | escape }}</a>
             </li>
           {% else %}
             <li class="breadcrumbs-list__item">
-              <a class="breadcrumbs-list__link" href="{{ current_variant.url }}" aria-current="page">{{ product.metafields.custom.series_type | escape }}</a>
+              <a class="breadcrumbs-list__link" href="{{ product_url }}" aria-current="page">{{ product.metafields.custom.series_type | escape }}</a>
             </li>
           {% endif %}
       {% else %}
         <li class="breadcrumbs-list__item">
-          <a class="breadcrumbs-list__link" href="{{ product.url }}" aria-current="page">{{ product.title | escape }}</a>
+          <a class="breadcrumbs-list__link" href="{{ product_url }}" aria-current="page">{{ product.title | escape }}</a>
         </li>
       {% endif %}
       
