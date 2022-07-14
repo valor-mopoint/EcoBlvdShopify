@@ -19,7 +19,7 @@
         endif
       elsif settings.prod_new_method == 'tag'
          for tags in product.tags
-        if tags == 'New in'
+        if tags == 'New'
           assign new_label_text = 'products.labels.new_in' | t
         endif
        endfor
