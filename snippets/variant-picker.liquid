@@ -251,7 +251,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                     <span id='color-label'>
                       {% if product.variants.size==1 %}
                         {% for product in product.variants %}
-                          {{ prduct.option1}}
+                          {{ product.option1}}
                         {% endfor %}
                       {% else %}
                         {{ product.selected_variant.option1}}
