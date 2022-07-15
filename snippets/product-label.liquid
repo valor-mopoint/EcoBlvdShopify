@@ -33,7 +33,15 @@
         for collection in product.collections
           assign split_collection_handle = collection.handle | split: '-'
           if split_collection_handle contains 'new'
-            assign new_label_text = 'products.labels.new_in' | t
+            assign new_label_text = "sale.svg" | asset_url
+            break
+          endif
+     if split_collection_handle contains 'sale'
+            assign new_label_text = "sale.svg" | asset_url
+            break
+          endif
+     if split_collection_handle contains 'coming'
+            assign new_label_text = "sale.svg" | asset_url
             break
           endif
         endfor
