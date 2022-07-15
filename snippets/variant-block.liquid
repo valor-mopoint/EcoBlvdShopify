@@ -130,7 +130,7 @@
                  {% endif%}
                 </div>
                  {% if product.metafields.custom.series_type != blank %}
-                     <div class="product-block__series-type">{{ product.metafields.custom.series_type | split:' '| first }}&nbsp; Collection</div>
+                     <div class="product-block__series-type">{{ product.metafields.custom.series_type | split:' '| first }} Collection</div>
               	 {% endif%}
               	  <div class="product-block__model">{{ variant.option2 | split:'-'| last }}</div>
               {% else%}
