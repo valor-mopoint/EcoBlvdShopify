@@ -118,7 +118,7 @@
                 </div>
               {% endif%}
               {% if product.options_by_name['Compatibility'].values.size>0 %}
-                <div class="product-block-compatibility"></div>
+                <div class="product-block-compatibility">{{ variant.option2 }}</div>
               {% endif  %}
               {% if  product.metafields.custom.is_case==true %}
                 <div class="product-block__design">
