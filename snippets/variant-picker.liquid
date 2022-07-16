@@ -1,0 +1,322 @@
+{%- liquid
+assign designSize=0
+assign devicesStr=""
+assign device2variantsStr=""
+assign deviceOptionName = "Model"
+assign current_product_id=product.id | append: ""
+assign design_value=product.metafields.custom.design
+assign current_series_type_value=product.metafields.custom.series_type
+assign current_model_first_option_value=product.options_by_name[deviceOptionName].values | first
+assign all_cases_collection=collections | where : "title", "All iPhone Cases" | first
+assign seriesTypesStr=""
+if design_value != blank
+paginate all_cases_collection.products by 10000
+	for temp_product in all_cases_collection.products
+    	assign temp_design_value = temp_product.metafields.custom.design
+    	if  temp_product.available == false or design_value != temp_design_value
+                continue
+        endif
+    	
+        assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+        assign devicesStr= devicesStr | append: "," | append: deviceNames
+        assign first_available_variant_url=temp_product.first_available_variant.url
+        assign series_type=temp_product.metafields.custom.series_type
+        assign seriesTypesStr=seriesTypesStr | append: "," | append: series_type
+        assign variant_price=temp_product.first_available_variant.price | money_without_trailing_zeros
+        for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
+            assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
+            assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price| append: "," | append: series_type
+        endfor
+	endfor
+endpaginate 
+elsif current_series_type_value!=blank
+paginate all_cases_collection.products by 10000
+	for temp_product in all_cases_collection.products
+            if  temp_product.available == false
+                continue
+            endif
+        	assign deviceNames=temp_product.options_by_name[deviceOptionName].values | join : ","
+            assign devicesStr= devicesStr | append: "," | append: deviceNames
+            assign first_available_variant_url=temp_product.first_available_variant.url
+            assign series_type=temp_product.metafields.custom.series_type
+            assign seriesTypesStr=seriesTypesStr | append: "," | append: series_type
+            assign variant_price=temp_product.first_available_variant.price | money_without_trailing_zeros
+            if series_type == current_series_type_value and temp_product.metafields.custom.design == blank
+            	for temp_device_value in temp_product.options_by_name[deviceOptionName].values 
+                	assign title_image_cdn= temp_product.metafields.custom.title_image | file_url 
+            		assign device2variantsStr=device2variantsStr | append: "|" |  append: temp_device_value| append: "," | append: first_available_variant_url | append: "," | append: title_image_cdn | append: "," | append: temp_product.id | append: "," | append: variant_price| append: "," | append: series_type
+            	endfor
+            endif
+	endfor
+endpaginate
+endif
+assign tempSeriesTypes1="Sequoia Cases,Laguna Cases,Mojave Cases"  | split:"," | uniq
+assign tempSeriesTypes2= seriesTypesStr | remove_first: ","  | split:"," | uniq
+assign tempSeriesTypes3=""
+for tempSeriesType1 in tempSeriesTypes1
+  for tempSeriesType2 in tempSeriesTypes2
+      if tempSeriesType1== tempSeriesType2
+        assign tempSeriesTypes3=tempSeriesTypes3 | append: "," | append: tempSeriesType1
+      endif
+  endfor
+endfor
+assign seriesTypes=tempSeriesTypes3 | remove_first: ","  | split:"," | uniq   
+assign devices=devicesStr | remove_first: ","  | split:"," | uniq
+assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
+
+-%}
+{% style%}
+.product-form .option-selector-model {
+  margin-bottom: 20px;
+}
+.option-selector-model-fieldset {
+  margin-bottom: 0;
+}
+.desgin_title_image{
+	float:left;
+	margin-left:10px;
+	border:1px solid #000000;
+    border-radius:5px;
+	padding:5px;
+	cursor: pointer;
+	width:150px;
+   text-align:center;
+}
+.desgin_title_image:first-child{
+	margin-left:0px;
+}
+
+.design_wrapper .current{
+	border-color: #f15b41!important;
+	border-width: 2px;
+}
+@media (max-width: 767px) {
+.design_wrapper div{
+	margin: 5px 5px 5px 2px;
+    text-align: center;
+}
+.design_wrapper span{
+	
+}
+}  
+  
+{% endstyle%}
+
+{%- if product.has_only_default_variant == false -%}
+  {%- if product.variants.size > 0 or block.settings.show_single -%}
+    {%- assign variant_style = block.settings.variant_style -%}
+    <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
+      {% if device2variants.size>0 %}
+        <div class="option-selector-model" >
+          <fieldset class="option-selector-model-fieldset">
+                <div class="opposing-items">
+                              <legend class="label">Device: </legend>
+                   </div>
+                  <div class="option-selector__btns">
+                  
+                    <select class="opt-label" style="font-size:17px" id="customize_model_select"  >
+                      {%- for device in devices -%}
+                        {% assign deviceLowcase= device | downcase |strip  %}
+                        {% assign current_model_first_option_value_lowcase= current_model_first_option_value | downcase |strip  %}
+                        {% for device2variant in device2variants%}
+                          {% assign device2variantName=device2variant| split:',' %}
+                          {% assign deviceName=device2variantName[0]| downcase |strip %}
+                          {% assign variantUrl=device2variantName[1] %}
+                            {% if deviceName==deviceLowcase %}
+                              {% if current_model_first_option_value_lowcase == deviceLowcase %}
+                                  <option selected="selected" value="{{shop.secure_url}}{{variantUrl}}">{{device}}</option>
+                              {% else %}
+                                  <option value="{{shop.secure_url}}{{variantUrl}}">{{device}}</option>
+                              {% endif %}
+                              {% break %}
+                            {% endif %}
+                          {% endfor%}
+                      {%- endfor -%}
+                    </select>
+                  </div>
+          </fieldset>
+         </div>
+      {% endif%}
+      
+       
+        <div class="option-selector-title-image" >
+          <fieldset class="option-selector-title-image-fieldset">
+                {% if current_series_type_value!=blank  %}
+                <div class="opposing-items">
+                              <legend class="label">Case: {{current_series_type_value | split:' '| first }}  </legend>
+                   </div>
+                {% endif %}
+                  {% if device2variants.size>0 and design_value!=blank %}
+                  <div class="option-selector__btns" style="margin-top:5px;">
+                    <div class="design_wrapper">
+                        {% for orderSeriesType in seriesTypes %}
+                        {% for device2variant in device2variants%}
+                          {% assign device2variantName=device2variant| split:',' %}
+                    	  {% assign deviceName=device2variantName[0]| downcase |strip %}
+                      	  {% assign variantUrl=device2variantName[1] %}
+                          {% assign titleImage=device2variantName[2] %}
+                    	  {% assign product_id=device2variantName[3] %}
+                          {% assign variantPrice=device2variantName[4] %}
+                          {% assign seriesType=device2variantName[5] %}
+                            {% if deviceName==current_model_first_option_value_lowcase and orderSeriesType==seriesType  %}
+                    			<div current="{% if product_id == current_product_id %}yes{% else %}no{% endif %}" product-url="{{shop.secure_url}}{{variantUrl}}" class="desgin_title_image{% if product_id == current_product_id %} current{% endif %}">
+                                  <img src="{{ seriesType| append: current_model_first_option_value | replace: ' ','' | replace: '/','' | append: ".jpg" | asset_url   }}" />
+
+                                  <span>{{variantPrice}}</span>
+                                  
+                      			</div>
+                            {% endif %}
+                        {% endfor%}
+                        {% endfor%}
+                    </div>
+                  </div>
+                    {% endif%}
+          </fieldset>
+         </div>
+      
+      {% assign options_with_values=product.options_with_values %}
+      {%- for option in options_with_values -%}
+        {%- capture option_id -%}{{ section.id }}-{{ product.id }}-{{ option.name | handle }}-selector{%- endcapture -%}
+
+        {%- liquid
+          assign uses_swatches = false
+          if settings.swatch_enabled and settings.swatch_option_name contains option.name
+            assign uses_swatches = true
+            if settings.swatch_style == 'dropdown'
+              assign variant_style = 'dropdown'
+            else
+              assign variant_style = 'listed'
+            endif
+          endif
+        -%}
+
+        {%- if uses_swatches and settings.swatch_method == 'image' -%}
+        <style>
+          {%- assign option_index0 = forloop.index0 -%}
+          {%- assign swatch_image_size = settings.swatch_picker_image_size | times: 2 | append: 'x' -%}
+          {%- for option_value in option.values -%}
+            {%- for variant in product.variants -%}
+              {%- if variant.options[option_index0] == option_value -%}
+                {%- if settings.swatch_style == 'icon_square' -%}.product-form[data-product-id="{{ product.id }}"] [data-swatch="{{ option_value | escape | downcase }}"] { aspect-ratio: {{ variant.featured_media.preview_image.aspect_ratio }} }{%- endif -%}
+                .product-form[data-product-id="{{ product.id }}"] [data-swatch="{{ option_value | escape | downcase }}"] { --swatch-background-image: url({{ variant.featured_media.preview_image | img_url: swatch_image_size }}) }
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endfor -%}
+        </style>
+        {%- endif -%}
+
+        {%- capture size_chart_html -%}
+          {%- if block.settings.show_size_chart and block.settings.size_chart_variant contains option.name and block.settings.size_chart_page != blank -%}
+            <div class="size-chart-container">
+              <a href="{{ pages[block.settings.size_chart_page].url }}" target="_blank" class="size-chart-link cc-modal" data-cc-modal-contentelement="#size-chart-content--{{ section.id }}">
+                <span class="size-chart-link__icon">{%- render 'icon', icon: 'ruler', size: 'small' -%}</span><span class="size-chart-link__text underline">{{- 'products.product.size_chart' | t -}}</span>
+              </a>
+              <div class="size-chart-content hidden" id="size-chart-content--{{ section.id }}">
+                <div class="size-chart">
+                  <div class="size-chart__inner rte">
+                    {{ pages[block.settings.size_chart_page].content }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- if variant_style == 'dropdown' -%}
+          {%- liquid
+            if block.settings.select_first_variant or product.variants.size == 1
+              assign blank_option = false
+              assign selected_value = option.selected_value
+            else
+              assign blank_option = 'products.product.no_selection' | t
+              if product.selected_variant
+                assign selected_value = option.selected_value
+              else
+                assign selected_value = ''
+              endif
+            endif
+          -%}
+          <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="dropdown" data-option-index="{{ forloop.index0 }}">
+            {{ size_chart_html }}
+            {% render 'custom-select',
+              id: option_id,
+              label: option.name,
+              option_values: option.values,
+              selected_value: selected_value,
+              swatches: uses_swatches,
+              blank_option: blank_option
+            %}
+          </div>
+        {%- else -%}
+          <div class="option-selector{% if size_chart_html != empty %} option-selector--with-size-chart{% endif %}{% if uses_swatches %} option-selector--swatch{% endif %}" data-selector-type="listed" data-option-index="{{ forloop.index0 }}">
+            <fieldset class="option-selector-fieldset">
+              {% if option.name=='Color' %}
+                {% capture hexList %}
+                    Midnight Black:#333333,
+                    Cascade Blue:#01C6F8,
+                    Foliage Green:#28CE99,
+                    Illuminating Yellow:#F4BC40,
+                    Wildflower Pink:#FF81D9,
+                    Let's Go Green:#D8F0B3
+                 {% endcapture %}
+                 {%- assign hex_obj = hexList | split:"," -%}
+                <div class="opposing-items">
+                  <legend class="label">{{ option.name }}:
+                    <span id='color-label'>
+                      {{ product.selected_variant.option1}}
+                    </span>
+                  </legend>
+                  {{ size_chart_html }}
+                </div>
+                <div class="option-selector__btns">
+                  {%- assign index = forloop.index0 -%}
+                  {%- assign colorlist = '' -%}
+                  {%- for value in option.values -%}
+                      {%- for hex in hex_obj -%}
+                      {%-liquid
+                        assign colorName = hex | split: ":" | first | strip
+                        assign colorHex = hex | split: ":" | last
+                        assign colors = value | split:'-' | first | strip
+                      -%}
+                        {% if colorName == colors %}
+                          <input class="opt-btn js-option color-btn"
+                                type="radio"
+                                name="{{ option_id }}"
+                                id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                                value="{{ value | escape }}"
+                                {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                                required>
+                          <label  class="color-sample opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}" style="padding:2px;"><span class="text-color opt-label__text" color="{{colors}}" style="background-color:{{colorHex}}"></span></label>
+                        {% endif %}
+                      {%- endfor -%}
+              	  {% endfor %}
+                </div>
+              {% else %}
+               	<div class="opposing-items"  style="display:none;"   >
+                   <legend class="label">{{ option.name }}</legend>
+                  {{ size_chart_html }}
+                </div>
+               
+                <div class="option-selector__btns" style="display:none;" >
+                  {%- for value in option.values -%}
+                  <input class="opt-btn js-option"
+                          type="radio"
+                          name="{{ option_id }}"
+                          id="{{ option_id }}-opt-{{ forloop.index0 }}"
+                          value="{{ value | escape }}"
+                          {% if block.settings.select_first_variant or product.variants.size == 1 or product.selected_variant %}{% if option.selected_value == value %}checked{% endif %}{% endif %}
+                          required>
+                    <label class="opt-label"{% if uses_swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %} for="{{ option_id }}-opt-{{ forloop.index0 }}"><span class="opt-label__text">{{value}}</span></label>
+                  {%- endfor -%}
+                </div>
+              {% endif %}
+            </fieldset>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+{%- endif -%}
+
+
