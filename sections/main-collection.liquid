@@ -779,6 +779,27 @@ $(".icon-down").click(function(){
         "default": "center center"
       },
       {
+        "type": "radio",
+        "id": "prod_new_method",
+        "label": "New in method",
+        "info": "Collection: Will show when a product is in a collection with 'new' in the handle. Tag: Add the tag 'New' to the product.",
+        "default": "collection",
+        "options": [
+          {
+            "value": "collection",
+            "label": "Collection"
+          },
+          {
+            "value": "tag",
+            "label": "Tag"
+          },
+          {
+            "value": "date",
+            "label": "Date"
+          }
+        ]
+      },
+      {
         "type": "select",
         "id": "subcoll_gall_mobile_layout",
         "label": "Mobile layout",
