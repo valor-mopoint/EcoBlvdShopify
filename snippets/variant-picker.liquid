@@ -266,7 +266,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   <legend class="label">{{ option.name }}:
                     <span id='color-label'>
                       {{ product.selected_variant.option1}}
-                {{variant.option1.size}}
+                {{ option.values .size}}
                     </span>
                   </legend>
                   {{ size_chart_html }}
