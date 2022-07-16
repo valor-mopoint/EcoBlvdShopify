@@ -127,6 +127,9 @@
                 	 {% endif%}
                  {% endif%}
                 </div>
+      {% if product.title=='LifeVine Charging Cable' %}
+        <div class="product-block__Compatibility">{{ variant.option2}}</div>
+      {% endif %}
                  {% if product.metafields.custom.series_type != blank %}
                      <div class="product-block__series-type">{{ product.metafields.custom.series_type | split:' '| first }} Collection</div>
               	 {% endif%}
