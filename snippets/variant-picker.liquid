@@ -94,6 +94,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
 .design_wrapper div{
 	margin: 5px 5px 5px 2px;
     text-align: center;
+    width:30%;
 }
 .design_wrapper span{
 	
@@ -265,6 +266,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   <legend class="label">{{ option.name }}:
                     <span id='color-label'>
                       {{ product.selected_variant.option1}}
+                {{variant.option1}}
                     </span>
                   </legend>
                   {{ size_chart_html }}
