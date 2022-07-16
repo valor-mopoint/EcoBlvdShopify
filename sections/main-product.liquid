@@ -183,7 +183,10 @@
                       {% endif  %}
                    
                        </span>
-                       {{ product.metafields.custom.design }}{{ product.options_by_name['Compatibility'].values.size }}
+                   {% for variant in product.variant %}
+                     {{ variant.option1}}
+                     {% endfor %}
+                       {{ product.metafields.custom.design }}
                    </h2>
                   {% else %}
                      <h2 class="title">{{ product.title }}</h2>
