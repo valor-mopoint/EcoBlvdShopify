@@ -266,7 +266,7 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                   <div class="opposing-items">
                   <legend class="label">{{ option.name }}:
                     <span id='color-label'>
-                      {% for colortext in variant.option1 %}
+                      {% for colortext in option.option1 %}
                         {{ colortext }}
                       {% endfor %}
                     </span>
