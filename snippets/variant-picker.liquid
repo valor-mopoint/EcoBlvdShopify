@@ -263,6 +263,14 @@ assign device2variants=device2variantsStr | remove_first: "|" | split:"|" | uniq
                  {% endcapture %}
                  {%- assign hex_obj = hexList | split:"," -%}
                 {% if option.values .size ==1 %}
+                  <div class="opposing-items">
+                  <legend class="label">{{ option.name }}:
+                    <span id='color-label'>
+                      {{ product.option1}}
+                    </span>
+                  </legend>
+                  {{ size_chart_html }}
+                </div>
                 {% else %}
                 <div class="opposing-items">
                   <legend class="label">{{ option.name }}:
