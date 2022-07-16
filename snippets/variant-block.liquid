@@ -117,6 +117,8 @@
                   100% Compostable
                 </div>
               {% endif%}
+              {% if product.options_by_name['Compatibility'].values.size>0 %}
+              {% endif  %}
               {% if  product.metafields.custom.is_case==true %}
                 <div class="product-block__design">
                  {% if product.metafields.custom.design != blank %}
