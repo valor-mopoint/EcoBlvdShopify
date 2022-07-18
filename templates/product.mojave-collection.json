@@ -206,10 +206,10 @@
     "165306948833b9915c": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mojave_-_smash.jpg",
+        "image": "shopify:\/\/shop_images\/Mojave_desert_collection-4.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
