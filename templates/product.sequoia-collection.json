@@ -94,10 +94,10 @@
     "1653069623adbdc978": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-20_at_11.41.37_AM.png",
+        "image": "shopify:\/\/shop_images\/1_9eaaf0ce-d6ed-4f34-9e0a-5d70a85f7c01.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
@@ -150,6 +150,7 @@
     "165306980557974021": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2_e419130e-52ec-44e1-8f2b-b89c58ceb471.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "fixed",
@@ -205,10 +206,10 @@
     "165306948833b9915c": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Sequoia_-_smash.jpg",
+        "image": "shopify:\/\/shop_images\/4_9f4cec35-d6a9-444b-8ccd-c9ad2366f4af.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
@@ -261,9 +262,10 @@
     "1653069592f622e127": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/3_ca20e58c-6f6c-4209-8f36-51d59dd1e45a.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
