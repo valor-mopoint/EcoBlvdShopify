@@ -94,10 +94,10 @@
     "1653069623adbdc978": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/the-rough-wavy-waters-of-the-ocean.jpg",
+        "image": "shopify:\/\/shop_images\/1_a46d27ad-80c8-4ce0-9d11-52b126b3db6f.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
@@ -150,9 +150,10 @@
     "165306980557974021": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2_e419130e-52ec-44e1-8f2b-b89c58ceb471.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
@@ -208,7 +209,7 @@
         "image": "shopify:\/\/shop_images\/Laguna_-_smash.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
@@ -261,9 +262,10 @@
     "1653069592f622e127": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/3_efe3637f-bbdc-4615-a7b9-ed08ae39ca8d.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
