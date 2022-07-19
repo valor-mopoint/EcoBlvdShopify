@@ -307,7 +307,7 @@
                   {% render 'accordion', allow_multi_open: true, add_content_class: 'rte cf', first_item_open: block.settings.open_tab, item1_title: block.settings.title, item1_content: product.description %}
 				
                 {% else %}
-                  <div class="product-description rte cf">
+                  <div class="product-description rte cf" style="font-size:16px">
                     {%- if block.settings.icon == blank -%}
                       {{- product.description -}}
                     {%- else -%}
