@@ -136,7 +136,7 @@
             	assign filter_title=filter.label | escape
             -%}
             {%- if filter_values_to_show_count > 0 -%}
-              {% if filter_title!="Color" and filter_title!="Design" %}
+              {% if filter_title!="Color" or filter_title!="Design" %}
               <div class="filter-group{% if filter_group_is_swatch %} filter-group--swatch filter-group--layout-{{ settings.filter_swatch_layout }}{% elsif section.settings.filter_two_columns and filter.type == "list" %} filter-group--layout-two-column{% endif %}">
                 <a href="#" class="filter-group__heading{% if collapse_filters %} toggle-target-toggler--is-hidden{% endif %}" data-toggle-target=".filter-group--{{ forloop.index | plus: 1 }}">
                   <div class="filter-group__heading__text">{{ filter.label | escape }}</div>
