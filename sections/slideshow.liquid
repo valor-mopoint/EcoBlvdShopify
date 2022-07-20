@@ -149,7 +149,7 @@
                   <div class="overlay-text__reveal"><div class="overlay-text__subheading subheading subheading--over">{{ block.settings.subheading | escape }}</div></div>
                 {%- endif -%}
                 {%- if block.settings.title != blank -%}
-                  <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style" style="font-size: 30px !important;">{{ block.settings.title | newline_to_br }}</h2></div>
+                  <div class="overlay-text__reveal"><h2 class="overlay-text__title h1-style">{{ block.settings.title | newline_to_br }}</h2></div>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="overlay-text__reveal"><div class="overlay-text__rte rte {% if block.settings.enlarge_text %}large-text{% endif %}" style="font-size: 25px;">{{ block.settings.text }}</div></div>
@@ -223,6 +223,9 @@
 	.image-overlay{
 		margin-top:0px !important;
 	}
+  .overlay-text__title h1-style{
+  font-size: 30px !important;
+  }
 }
 /*.overlay-text__reveal{
 
