@@ -29,36 +29,6 @@
         "overlay_style": "shadow"
       }
     },
-    "1652728200ec7aa410": {
-      "type": "rich-text",
-      "blocks": {
-        "1652728200b56d0a8d-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Together, we're building a community at the intersection of style and sustainability",
-            "use_h1": false
-          }
-        },
-        "1652728200b56d0a8d-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "1652728200b56d0a8d-0",
-        "1652728200b56d0a8d-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
     "16527282424043928a": {
       "type": "image-with-text",
       "settings": {
@@ -75,8 +45,30 @@
         "use_alt_bg": false
       }
     },
+    "1652728200ec7aa410": {
+      "type": "rich-text",
+      "blocks": {
+        "1652728200b56d0a8d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "We're building a community at the intersection of style and sustainability",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1652728200b56d0a8d-0"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
     "1656432112c9fdb9da": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/about_us_team_photo-2.png",
         "mobile_image": "shopify:\/\/shop_images\/about_us_team_photo_mobile.png",
@@ -518,8 +510,8 @@
   "order": [
     "main",
     "16527281338455ea5b",
-    "1652728200ec7aa410",
     "16527282424043928a",
+    "1652728200ec7aa410",
     "1656432112c9fdb9da",
     "16527325346b245c9c",
     "16527327289dc3b579",
