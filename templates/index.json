@@ -400,10 +400,10 @@
     "164940688295c3885f": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/AdobeStock_163634120-2560x1458.jpg",
+        "image": "shopify:\/\/shop_images\/1_e90a1139-d66b-440a-9410-c2fb1d36a862.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 720,
         "height_mobile": 840,
         "image_link": "",
@@ -412,7 +412,7 @@
         "title_size": 84,
         "title_size_mobile": 20,
         "use_h1": false,
-        "text": "<p>Currently, only 9% of all plastic waste produced is recycled (UNEP 2022), while the rest ends up in landfills, dumpsters, or the ocean, where it takes hundreds of years to break down.<br\/><br\/><strong>To save our oceans and stop the waste, we must act now.<br\/><\/strong><\/p><p>For our phone cases, we created InnoMaize™, a corn-based plastic blend, and CornBo™, a bamboo-based plastic blend, both of which are 100% compostable, biodegradable and safe for the planet. We repurpose existing plastics to create chargers and charging cables with Remerge™, 100% certified recycled materials.<\/p>",
+        "text": "<p>Only 9% of all plastic waste produced is recycled, while the rest ends up in landfills, dumpsters, or the ocean, where it will take hundreds of years to break down.<br\/><br\/><strong>To save our oceans and stop the waste, we must act now.<\/strong><\/p>",
         "enlarge_text": false,
         "button_label_1": "Learn More",
         "button_url_1": "shopify:\/\/pages\/turning-the-tide-on-plastic",
