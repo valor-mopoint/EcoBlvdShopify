@@ -108,7 +108,7 @@
 
       <div class="logo-area__right">
         <div class="logo-area__right__inner">
-        {% comment %}
+        
           {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -121,7 +121,7 @@
               {%- endcomment -%}
             </a>
           {% endif %}
-          {%- endcomment -%}
+          
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
               <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
