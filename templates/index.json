@@ -153,36 +153,31 @@
         "8f97efae-7601-4f58-81f8-ab0c4ccec5da": {
           "type": "collection",
           "settings": {
-            "collection": "sequoia-collection-cases",
-            "hoverimage": "shopify:\/\/shop_images\/Screen_Shot_2022-06-13_at_2.25.58_PM.png"
+            "collection": "sequoia-collection-cases"
           }
         },
         "ea3d70ad-bb69-431d-b351-df18d3cfadf7": {
           "type": "collection",
           "settings": {
-            "collection": "laguna-collection-cases",
-            "hoverimage": "shopify:\/\/shop_images\/Screen_Shot_2022-06-17_at_2.47.21_PM.png"
+            "collection": "laguna-collection-cases"
           }
         },
         "9daa3fe1-1039-4c60-b08f-2ecd92790fea": {
           "type": "collection",
           "settings": {
-            "collection": "mojave-collection-cases",
-            "hoverimage": "shopify:\/\/shop_images\/ecoblvd_mobile_banner.png"
+            "collection": "mojave-collection-cases"
           }
         },
         "4cb95410-e666-4b6a-bf6e-8d22ee212796": {
           "type": "collection",
           "settings": {
-            "collection": "lifevine",
-            "hoverimage": "shopify:\/\/shop_images\/crosswalk-and-road-through-grassy-hills.jpg"
+            "collection": "lifevine"
           }
         },
         "da7565a0-a46e-41f1-9d3a-7040d24d27d9": {
           "type": "collection",
           "settings": {
-            "collection": "powerplant",
-            "hoverimage": "shopify:\/\/shop_images\/forest-road.jpg"
+            "collection": "powerplant"
           }
         }
       },
