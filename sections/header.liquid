@@ -431,7 +431,10 @@
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
                 {%- render 'svg-search' -%}
-              </span>           
+              </span> 
+              <span class="show-search-link__text">
+                {{- 'layout.search.open' | t -}}
+              </span>
             </a>
           {% endif %}
         </div>
