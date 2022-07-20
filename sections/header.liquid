@@ -109,20 +109,7 @@
 
       <div class="logo-area__right">
         <div class="logo-area__right__inner">
-        
-          {% if section.settings.enable_search %}
-            <a class="header-account-link" href="{{ routes.search_url }}">
-              <span class="show-search-link__icon">
-                {%- render 'svg-search' -%}
-              </span>
-              {%- comment -%}
-              <span class="show-search-link__text">
-                {{- 'layout.search.open' | t -}}
-              </span>
-              {%- endcomment -%}
-            </a>
-          {% endif %}
-          
+
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
               <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
@@ -136,6 +123,20 @@
               </a>
             {% endif %}
           {% endif %}
+          
+          {% if section.settings.enable_search %}
+            <a class="header-account-link" href="{{ routes.search_url }}">
+              <span class="show-search-link__icon">
+                {%- render 'svg-search' -%}
+              </span>
+              {%- comment -%}
+              <span class="show-search-link__text">
+                {{- 'layout.search.open' | t -}}
+              </span>
+              {%- endcomment -%}
+            </a>
+          {% endif %}
+          
           {% comment %}
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
