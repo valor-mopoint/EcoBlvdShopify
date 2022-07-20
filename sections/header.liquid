@@ -418,6 +418,18 @@
                       <li class="navigation__column navigation__column--promotion navigation__column--promotion-count-{{ promo_count }}{% if section.settings.enable_mobile_promo_carousel and link.links.size > 0 %} navigation__column--promotion-carousel{% endif %}">
                         {{ menu_promotion_html }}
                       </li>
+                      <li class="navigation__item">
+                          <div class="logo-area__right__inner">
+                          {% if section.settings.enable_search %}
+                            <a class="header-account-link" href="{{ routes.search_url }}">
+                              <span class="show-search-link__icon">
+                                {%- render 'svg-search' -%}
+                              </span>
+                              
+                            </a>
+                          {% endif %}
+                         </div>
+                      </li>
                     {%- endif -%}
                   </ul>
                 </div>
