@@ -427,7 +427,7 @@
               {% endif %}
             </li>
           {% endfor %}
-        </ul>
+        </ul>{%- comment -%}
         <div class="logo-area__right__inner">
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
@@ -441,7 +441,7 @@
               </span>
             </a>
           {% endif %}
-                         </div>
+                         </div> {%- endcomment -%}
         {% if section.settings.enable_nav_mob_products %}
           <div class="mobile-only navigation__mobile-products">
             <div class="navigation__mobile-products-title">{{ section.settings.nav_mob_products_title | escape }}</div>
