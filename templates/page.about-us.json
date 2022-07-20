@@ -32,7 +32,8 @@
     "16527282424043928a": {
       "type": "image-with-text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/about_us_team_photo_mobile.png",
+        "image_width": 600,
         "subheading": "",
         "title": "Join us on the #Root2Renew!",
         "use_h1": false,
