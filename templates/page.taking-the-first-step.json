@@ -30,15 +30,23 @@
     "16516122821bc2a8f9": {
       "type": "rich-text",
       "blocks": {
+        "472824e9-862c-465b-af3f-26b7ff31df87": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainability From the Ground Up",
+            "use_h1": false
+          }
+        },
         "1651612282fde9400b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>To be sustainable, we must recognize that our environment is limited in resources. We must rationally use the environment and resources to protect the Earth, our planet, and all life. <\/p>",
+            "text": "<p>To be sustainable, we must recognize that our environment is limited in resources. We must rationally use the environment and resources to protect the Earth, our planet, and all life. We can improve our quality of life by protecting the environment, preserving our ecosystem, and conserving our natural resources.<\/p>",
             "enlarge_text": true
           }
         }
       },
       "block_order": [
+        "472824e9-862c-465b-af3f-26b7ff31df87",
         "1651612282fde9400b-1"
       ],
       "settings": {
@@ -53,6 +61,35 @@
       "disabled": true,
       "settings": {
         "full_width": true
+      }
+    },
+    "1658334454a70162a8": {
+      "type": "rich-text",
+      "blocks": {
+        "1658334454f836169f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR COMMUNAL ROLE",
+            "use_h1": false
+          }
+        },
+        "1658334454f836169f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To protect the health of the planet, we must take the following actions: <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1658334454f836169f-0",
+        "1658334454f836169f-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
       }
     },
     "1656361964214010d2": {
@@ -98,7 +135,7 @@
         "1656361964b9b96df9-2"
       ],
       "settings": {
-        "title": "Our Communal Role",
+        "title": "",
         "text_alignment": "center",
         "button_style": "primary",
         "use_alt_bg": false
@@ -200,6 +237,7 @@
     "1651083175d3dae5ac",
     "16516122821bc2a8f9",
     "main",
+    "1658334454a70162a8",
     "1656361964214010d2",
     "1656362382203bfa88",
     "16563626609f6af8ba",
