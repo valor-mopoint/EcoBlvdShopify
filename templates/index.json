@@ -587,10 +587,10 @@
     "16494057386affa936": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/JTG_4267.jpg",
+        "image": "shopify:\/\/shop_images\/2_10041fb6-3505-450f-8464-76d314e6a635.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 280,
         "image_link": "",
