@@ -401,6 +401,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/1_e90a1139-d66b-440a-9410-c2fb1d36a862.png",
+        "mobile_image": "shopify:\/\/shop_images\/1_5a8a5d54-00c4-43d6-a245-0c62e23ed4ae.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "adapt",
@@ -409,7 +410,7 @@
         "image_link": "",
         "subheading": "",
         "title": "TURNING THE TIDE ON PLASTIC",
-        "title_size": 84,
+        "title_size": 56,
         "title_size_mobile": 20,
         "use_h1": false,
         "text": "<p>Only 9% of all plastic waste produced is recycled, while the rest ends up in landfills, dumpsters, or the ocean, where it will take hundreds of years to break down.<br\/><br\/><strong>To save our oceans and stop the waste, we must act now.<\/strong><\/p>",
@@ -421,7 +422,7 @@
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "box"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "1651255128ce6afaff": {
@@ -588,6 +589,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/2_10041fb6-3505-450f-8464-76d314e6a635.png",
+        "mobile_image": "shopify:\/\/shop_images\/JTG_4267.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "adapt",
@@ -596,8 +598,8 @@
         "image_link": "",
         "subheading": "",
         "title": "Rooted in Community",
-        "title_size": 84,
-        "title_size_mobile": 20,
+        "title_size": 56,
+        "title_size_mobile": 28,
         "use_h1": false,
         "text": "<p>We believe that the smallest step, when taken together, has the greatest impact.<\/p>",
         "enlarge_text": true,
@@ -608,7 +610,7 @@
         "text_alignment": "center center",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "box"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "165672417917a19f7f": {
