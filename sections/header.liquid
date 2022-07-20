@@ -14,12 +14,18 @@
    .header_search{
    display: none;
    }
+   .mix_serach{
+    display: block;
+    }
   }
   {%- if section.settings.enable_sticky -%}
   .section-header {
     position: -webkit-sticky;
     position: sticky;
   }
+    .mix_serach{
+    display: none;
+    }
   {%- endif -%}
 {% endstyle %}
 
