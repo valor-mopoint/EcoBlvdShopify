@@ -120,7 +120,7 @@
               {%- endcomment -%}
             </a>
           {% endif %}
-         
+          {% comment %}
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
               <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
@@ -146,7 +146,7 @@
               </span>
             </a>
           {% endif %}
-          
+          {% endcomment %}
           <a href="{{ routes.cart_url }}" class="cart-link">
             {%- comment -%}
             <span class="cart-link__label">{{ 'layout.header.cart' | t | escape }}</span>
