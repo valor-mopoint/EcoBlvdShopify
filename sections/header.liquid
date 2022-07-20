@@ -425,6 +425,17 @@
             </li>
           {% endfor %}
         </ul>
+
+       <div class="mix_serach">
+        {% if section.settings.enable_search %}
+            <a class="header-account-link" href="{{ routes.search_url }}">
+              <span class="show-search-link__icon">
+                {%- render 'svg-search' -%}
+              </span>           
+            </a>
+          {% endif %}
+        </div>
+        
         {% if section.settings.enable_nav_mob_products %}
           <div class="mobile-only navigation__mobile-products">
             <div class="navigation__mobile-products-title">{{ section.settings.nav_mob_products_title | escape }}</div>
