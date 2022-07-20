@@ -124,6 +124,7 @@
             {% endif %}
           {% endif %}
           </div>
+          <div class="header_search">
           {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -136,7 +137,7 @@
               {%- endcomment -%}
             </a>
           {% endif %}
-          
+          </div>
           {% comment %}
           {% if section.settings.enable_search %}
             <a class="show-search-link" href="{{ routes.search_url }}">
