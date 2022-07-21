@@ -42,11 +42,7 @@
       {% comment %} <div class="product-block__title"><a class="button" href="{{ collection.url }}">SHOP NOW{% comment %}{{ collection.title }}{% endcomment %}</a></div>{% endcomment %}
       <div class="product-block__title">
         <h3>{{ collection.title }}</h3>
-        {% if {{ collection.title }} =="PowerPlant Charger" }
-           1        
-        {% else %} 
-        2
-        {% endif %}
+        
       </div>
         {% if settings.coll_grid_show_count and collection.all_products_count > 0 %}
           <div class="small">{{ 'collections.general.product_count' | t: count: collection.all_products_count }}</div>
