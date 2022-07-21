@@ -56,6 +56,10 @@
           <div class="small">{{ 'collections.general.product_count' | t: count: collection.all_products_count }}</div>
         {% endif %}
       </div>
+        {% if settings.coll_grid_show_count and collection.all_products_count > 0 %}
+          <div class="small">{{ 'collections.general.product_count' | t: count: collection.all_products_count }}</div>
+        {% endif %}
+      </div>
     </a>
   </div>
 </div>
