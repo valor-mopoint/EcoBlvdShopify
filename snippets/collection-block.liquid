@@ -1,7 +1,7 @@
 <div class="product-block collection-block" data-collection-id="{{ collection.id }}" {{ custom_attrs }} {% if animate %}data-cc-animate{% endif %}>
   <div class="block-inner">
     <a class="product-link" href="{{ collection.url }}">
-      <div class="image-cont">
+      <div class="image-cont" style="style="border-radius: 50%;">
         {%- liquid
           if custom_image
             assign collection_image = custom_image
