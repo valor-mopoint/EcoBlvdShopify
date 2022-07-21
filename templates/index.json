@@ -156,22 +156,16 @@
             "collection": "sequoia-collection-cases"
           }
         },
-        "ea3d70ad-bb69-431d-b351-df18d3cfadf7": {
-          "type": "collection",
-          "settings": {
-            "collection": "laguna-collection-cases"
-          }
-        },
-        "9daa3fe1-1039-4c60-b08f-2ecd92790fea": {
-          "type": "collection",
-          "settings": {
-            "collection": "mojave-collection-cases"
-          }
-        },
         "4cb95410-e666-4b6a-bf6e-8d22ee212796": {
           "type": "collection",
           "settings": {
             "collection": "lifevine"
+          }
+        },
+        "ea3d70ad-bb69-431d-b351-df18d3cfadf7": {
+          "type": "collection",
+          "settings": {
+            "collection": "laguna-collection-cases"
           }
         },
         "da7565a0-a46e-41f1-9d3a-7040d24d27d9": {
@@ -179,14 +173,20 @@
           "settings": {
             "collection": "powerplant"
           }
+        },
+        "9daa3fe1-1039-4c60-b08f-2ecd92790fea": {
+          "type": "collection",
+          "settings": {
+            "collection": "mojave-collection-cases"
+          }
         }
       },
       "block_order": [
         "8f97efae-7601-4f58-81f8-ab0c4ccec5da",
-        "ea3d70ad-bb69-431d-b351-df18d3cfadf7",
-        "9daa3fe1-1039-4c60-b08f-2ecd92790fea",
         "4cb95410-e666-4b6a-bf6e-8d22ee212796",
-        "da7565a0-a46e-41f1-9d3a-7040d24d27d9"
+        "ea3d70ad-bb69-431d-b351-df18d3cfadf7",
+        "da7565a0-a46e-41f1-9d3a-7040d24d27d9",
+        "9daa3fe1-1039-4c60-b08f-2ecd92790fea"
       ],
       "settings": {
         "title": "Be Part of the Solution.          Not the Pollution.",
