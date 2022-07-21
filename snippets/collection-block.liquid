@@ -36,14 +36,14 @@
     bottom: 0;">{{ collection.title }}</p></div>
           </div>
           </div>
-        {% endif %}
+        {% endif %}{% endcomment %}
       </div>
       <div class="product-info">
-        <div class="product-block__title"><a class="button" href="{{ collection.url }}">SHOP NOW{% comment %}{{ collection.title }}{% endcomment %}</a></div>
+      {% comment %} <div class="product-block__title"><a class="button" href="{{ collection.url }}">SHOP NOW{% comment %}{{ collection.title }}{% endcomment %}</a></div>{% endcomment %}
         {% if settings.coll_grid_show_count and collection.all_products_count > 0 %}
           <div class="small">{{ 'collections.general.product_count' | t: count: collection.all_products_count }}</div>
         {% endif %}
-      </div>{% endcomment %}
+      </div>
     </a>
   </div>
 </div>
