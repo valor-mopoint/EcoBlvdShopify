@@ -459,7 +459,7 @@ color: initial;
             <input type="hidden" name="type" value="{{ settings.search_type }}" />
             <input type="hidden" name="options[prefix]" value="last" />
             <button class="main-search__button button notabutton" type="submit" aria-label="{{ 'layout.header.search_submit' | t }}">{% render 'svg-search' %}</button>
-            <div class="main-search__input-container">
+            <div class="main-search__input-container" style="border-bottom: 1px solid black;">
               <input
                 class="main-search__input"
                 type="text"
