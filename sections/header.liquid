@@ -451,6 +451,28 @@ color: initial;
           {% endif %}
         </div>
      {% endcomment %}   
+
+{% paginate search.results by section.settings.coll_num_per_page_int %}
+     <div class="main-search">
+        <div class="main-search__container">
+          <form class="main-search__form" action="{{ routes.search_url }}" method="get" autocomplete="off">
+            <input type="hidden" name="type" value="{{ settings.search_type }}" />
+            <input type="hidden" name="options[prefix]" value="last" />
+            <button class="main-search__button button notabutton" type="submit" aria-label="{{ 'layout.header.search_submit' | t }}">{% render 'svg-search' %}</button>
+            <div class="main-search__input-container">
+              <input
+                class="main-search__input"
+                type="text"
+                name="q"
+                autocomplete="off"
+                placeholder="{{ 'layout.search.placeholder' | t | escape }}"
+                aria-label="{{ 'layout.search.title' | t | escape }}"
+                value="{{ search.terms | escape }}" />
+            </div>
+          </form>
+        </div>
+      </div>{% endpaginate %}
+      
         {% if section.settings.enable_nav_mob_products %}
           <div class="mobile-only navigation__mobile-products">
             <div class="navigation__mobile-products-title">{{ section.settings.nav_mob_products_title | escape }}</div>
