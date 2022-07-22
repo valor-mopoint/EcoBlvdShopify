@@ -463,11 +463,11 @@ color: initial;
         <div>
           {% if shop.customer_accounts_enabled %}
            
-              <a class="header-account-link" href="{{ routes.account_login_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
+              <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
                 <span class="desktop-only">{{ 'layout.customer.account' | t | escape }}</span>
                 <span class="mobile-only">{% render 'svg-user' %}</span>
               </a>
-            
+       
           {% endif %}
         </div>
       </div>
