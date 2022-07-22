@@ -345,7 +345,7 @@
       "settings": {
         "scrollprotitle": "Be Part of the Solution. Not the Pollution.",
         "scrollprotitle_fontsize": 16,
-        "grid": 4,
+        "grid": 5,
         "enable_carousel": true,
         "use_alt_bg1": false,
         "buttontext": "LEARN MORE",
