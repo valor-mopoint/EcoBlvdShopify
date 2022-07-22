@@ -452,7 +452,7 @@ color: initial;
         </div>
      {% endcomment %}  
 
-{% paginate search.results by section.settings.coll_num_per_page_int %}
+
      <div class="main-search">
         <div class="main-search__container">
           <form class="main-search__form" action="{{ routes.search_url }}" method="get" autocomplete="off">
@@ -472,7 +472,7 @@ color: initial;
           </form>
         </div>
       </div>
-     {% endpaginate %} 
+
      
         {% if section.settings.enable_nav_mob_products %}
           <div class="mobile-only navigation__mobile-products">
