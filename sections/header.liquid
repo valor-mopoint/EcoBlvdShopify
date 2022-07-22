@@ -15,7 +15,7 @@
    .header_search{
    display: none;
    }
-   .mix_serach{
+   .min_serach{
     display: block !important;
     }
   }
@@ -24,7 +24,7 @@
     position: -webkit-sticky;
     position: sticky;
   }
-    .mix_serach{
+    .min_serach{
     display: none;
     }
   {%- endif -%}
@@ -134,7 +134,6 @@
           {% endif %}
           </div>
           <div class="header_search">
-            {% comment %}
           {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -145,18 +144,6 @@
                 {{- 'layout.search.open' | t -}}
               </span>
               {%- endcomment -%}
-            </a>
-          {% endif %}{% endcomment %}
-          {% if section.settings.enable_search %}
-            <a class="show-search-link" href="{{ routes.search_url }}">
-              {%- comment -%}
-              <span class="show-search-link__text">
-                {{- 'layout.search.open' | t -}}
-              </span>
-              {%- endcomment -%}
-              <span class="show-search-link__icon">
-                {%- render 'svg-search' -%}
-              </span>
             </a>
           {% endif %}
           </div>
@@ -446,7 +433,7 @@
           {% endfor %}
         </ul>
 
-       <div class="mix_serach">
+       <div class="min_serach">
         {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -519,7 +506,7 @@
 {% endif %}
 
 {%- style -%}
-.mix_serach{margin-left: 20px;}
+.min_serach{margin-left: 20px;}
 .child_title_size{
 	font-size:16px;
 	font-weight:700;
