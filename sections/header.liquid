@@ -436,7 +436,7 @@ color: initial;
             </li>
           {% endfor %}
         </ul>
-
+{% comment %}
        <div class="min_search">
        
         {% if section.settings.enable_search %}
@@ -450,8 +450,8 @@ color: initial;
             </a>
           {% endif %}
         </div>
-      
-{% comment %}   
+     {% endcomment %}   
+
 {% paginate search.results by section.settings.coll_num_per_page_int %}
      <div class="main-search">
         <div class="main-search__container">
@@ -471,7 +471,7 @@ color: initial;
             </div>
           </form>
         </div>
-      </div>{% endpaginate %}{% endcomment %}   
+      </div>{% endpaginate %}
       
         {% if section.settings.enable_nav_mob_products %}
           <div class="mobile-only navigation__mobile-products">
