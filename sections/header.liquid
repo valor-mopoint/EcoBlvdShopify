@@ -134,6 +134,7 @@
           {% endif %}
           </div>
           <div class="header_search">
+            {% comment %}
           {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -144,6 +145,18 @@
                 {{- 'layout.search.open' | t -}}
               </span>
               {%- endcomment -%}
+            </a>
+          {% endif %}{% endcomment %}
+          {% if section.settings.enable_search %}
+            <a class="show-search-link" href="{{ routes.search_url }}">
+              {%- comment -%}
+              <span class="show-search-link__text">
+                {{- 'layout.search.open' | t -}}
+              </span>
+              {%- endcomment -%}
+              <span class="show-search-link__icon">
+                {%- render 'svg-search' -%}
+              </span>
             </a>
           {% endif %}
           </div>
