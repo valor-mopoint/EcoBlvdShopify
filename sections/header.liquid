@@ -15,10 +15,10 @@
    .header_search{
    display: none;
    }
-   .min_serach{
+   .min_search{
     display: block !important;
     }
-.min_serach svg{
+.min_search svg{
 color: initial;
 }
    
@@ -28,7 +28,7 @@ color: initial;
     position: -webkit-sticky;
     position: sticky;
   }
-    .min_serach{
+    .min_search{
     display: none;
     }
   {%- endif -%}
@@ -437,7 +437,7 @@ color: initial;
           {% endfor %}
         </ul>
 
-       <div class="min_serach">
+       <div class="min_search">
         {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -510,7 +510,7 @@ color: initial;
 {% endif %}
 
 {%- style -%}
-.min_serach{margin-left: 20px;}
+.min_search{margin-left: 20px;}
 .child_title_size{
 	font-size:16px;
 	font-weight:700;
