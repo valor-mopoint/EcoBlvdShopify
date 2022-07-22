@@ -436,8 +436,9 @@ color: initial;
             </li>
           {% endfor %}
         </ul>
-
+{% comment %}
        <div class="min_search">
+       
         {% if section.settings.enable_search %}
             <a class="header-account-link" href="{{ routes.search_url }}">
               <span class="show-search-link__icon">
@@ -449,7 +450,7 @@ color: initial;
             </a>
           {% endif %}
         </div>
-        
+     {% endcomment %}   
         {% if section.settings.enable_nav_mob_products %}
           <div class="mobile-only navigation__mobile-products">
             <div class="navigation__mobile-products-title">{{ section.settings.nav_mob_products_title | escape }}</div>
