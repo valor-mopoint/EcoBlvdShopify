@@ -307,7 +307,7 @@
   <div class="page-header page-header--with-upper-spacing">
     <div class="container">
       {% if collection.description != blank and section.settings.coll_desc_pos == 'above' %}
-      <div class="text-cf rte cf align-center reading-width clicks" id="toggle"><div style="width:70%;margin:auto;font-size:15px;margin-left:320px;">{{ collection.description }}</div></div>
+      <div class="text-cf rte cf align-center reading-width clicks" id="toggle"><div class="description-text" style="width:70%;margin:auto;font-size:15px;">{{ collection.description }}</div></div>
       <br>
      	<p class="icon-down" style="margin-left:320px;">Show More</p>
       {% endif %}
@@ -334,7 +334,12 @@ display: -webkit-box;
 -webkit-line-clamp: 2;   
 -webkit-box-orient: vertical;
  }   
+@media(min-width:1024px){
 
+ .description-text{
+   margin-left:320px;
+ }
+}
  @media (max-width: 767px){
 .text-cf{
 overflow: hidden;
@@ -342,7 +347,8 @@ text-overflow: ellipsis;
 display: -webkit-box;
 -webkit-line-clamp: 2;   
 -webkit-box-orient: vertical;
- } }
+ } 
+ }
 
 #toggle{
 	text-align:left;
