@@ -14,7 +14,7 @@
             <div class="subheading subheading--over lightly-spaced-row-above" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
 
           {% when 'text' %}
-            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }} p_text style="font-size:18px;">{{ block.settings.text }}</div>
+            <div class="rte lightly-spaced-row p_text{% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}  style="font-size:18px;">{{ block.settings.text }}</div>
 
           {% when 'button' %}
             <div class="lightly-spaced-row-above" {{ block.shopify_attributes }}>
