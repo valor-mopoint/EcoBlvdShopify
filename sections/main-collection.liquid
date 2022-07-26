@@ -382,21 +382,20 @@ display: -webkit-box;
 }
 {%- endstyle -%}
 {% javascript %}
+$(document).ready(function(){
+  var design=$('.design_text')
+    for(var i=0;i<design.length;i++){
+      if(i>5){
+        $('.design_text').hide();
+      }
+    }
+})
 $(function(){
 var flag=true;
 $(".icon-down").click(function(){
 	$('#toggle').toggleClass('text-cf ');
 	$(this).toggleClass('up');
 	$(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
-})
-$(".design-icon").click(function(){
-    var design=$('.design_text')
-    for(var i=0;i<design.length;i++){
-      if(i>5){
-        $('.design_text').hide();
-    	$(this).toggleClass('up');
-      }
-    }
 })
 })
 {% endjavascript %}
