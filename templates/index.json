@@ -592,7 +592,7 @@
         "mobile_image": "shopify:\/\/shop_images\/JTG_4267.jpg",
         "image_position": "center right",
         "mobile_image_position": "center center",
-        "height": "fixed",
+        "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "image_link": "",
