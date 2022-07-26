@@ -270,7 +270,7 @@
                           </label>
                         {%- endif -%}
                       {%- endfor -%}
-                      <span class="icon-down design-icon"><span style="width:100%;">Show More</span></span>
+                      <span class="icon-down design-icon" style="margin-left:0px"><span style="width:100%;">Show More</span></span>
                     {% when "price_range" %}
                       {% render 'price-range', filter: filter %}
 
@@ -344,9 +344,5 @@
     margin-right: 10px;
   }
   .design-icon{
-    margin: 0 0 0.5em 0;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
-    padding-right: 85px;
   }
 {% endstyle %}
