@@ -385,9 +385,9 @@ display: -webkit-box;
 $(document).ready(function(){
   var design=$('.design_text_yc')
     for(var i=0;i<design.length;i++){
-      if(design.length>4){
+      if(i>4){
         $('.design_text_yc').addClass("design_yc");
-        console.log(design[i]); 
+        console.log(design[i]);
       } 
     }
 })
