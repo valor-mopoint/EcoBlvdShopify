@@ -403,7 +403,8 @@ $(".design-icon").click(function(){
     for(var i=0;i<design.length;i++){
       if(i>4){
         $(design[i]).toggleClass('design_yc');
-        $(this).toggleClass('up'); 
+        $(this).toggleClass('up');
+        $(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
       } 
     }
 })
