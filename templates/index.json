@@ -404,7 +404,7 @@
         "mobile_image": "shopify:\/\/shop_images\/homepage_banners.png",
         "image_position": "center center",
         "mobile_image_position": "center center",
-        "height": "full",
+        "height": "adapt",
         "height_desktop": 720,
         "height_mobile": 460,
         "image_link": "",
