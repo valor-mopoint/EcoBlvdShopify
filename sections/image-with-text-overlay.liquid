@@ -82,7 +82,7 @@
       </div>
 
       {% if section.settings.mobile_image != blank %}
-        <div class="rimage-outer-wrapper rimage-background lazyload mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+        <div class="rimage-outer-wrapper rimage-background lazyload mobile-only fade-in fixed_image{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
               data-bgset="{% render 'bgset', image: section.settings.mobile_image %}"
               data-sizes="auto"
               data-parent-fit="cover"
@@ -174,7 +174,11 @@
 	.image-overlay--bg-box .overlay-text .overlay-text__text{
 		padding: 20px 20px;
 	}
-
+ @supports(-webkit-touch-callout:inherit){
+  .fixed_image{
+  background-attachment: scroll !important;
+  }
+  }
  .image-with-text-overlay{
  margin-top: 35px;
  margin-bottom: 35px;
