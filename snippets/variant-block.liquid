@@ -145,7 +145,7 @@
                 {% if product.options_by_name['Color'].values.size==1 %}
                   Color NOT Colors
                 {% else %}
-                {{ product.options_by_name['Color'].values.size }} {% if product.options_by_name['Color'].values.size!=1 %} Colors {% else %} Color{% endif %}
+                  {{ product.options_by_name['Color'].values.size }} {% if product.options_by_name['Color'].values.size!=1 %} Colors {% else %} Color{% endif %}
                 {% endif %}
               </div>
 
