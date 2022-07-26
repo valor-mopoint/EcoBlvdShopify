@@ -264,14 +264,13 @@
                             <span class="filter-group__item__text design_text">
                               {{ value.label }}
                             </span>
-                            <p class="icon-down">Show More</p>
                             {% if section.settings.show_filter_counts and filter_group_is_swatch == false %}
                               <span class="filter-group__item__count">{{ value.count }}</span>
                             {% endif %}
                           </label>
                         {%- endif -%}
                       {%- endfor -%}
-
+                      <p class="icon-down">Show More</p>
                     {% when "price_range" %}
                       {% render 'price-range', filter: filter %}
 
