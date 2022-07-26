@@ -389,7 +389,15 @@ $(".icon-down").click(function(){
 	$(this).toggleClass('up');
 	$(this)[0].innerHTML=!$(this).hasClass('up') ? 'Show More':'Show Less';
 })
-
+$(".design-icon").click(function(){
+    var design=$('.design_text')
+    for(var i=0;i<design.length;i++){
+      if(i>5){
+        $('#toggle').toggleClass('text-cf ');
+    	$(this).toggleClass('up');
+      }
+    }
+})
 })
 {% endjavascript %}
 {% schema %}
