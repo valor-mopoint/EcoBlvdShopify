@@ -402,7 +402,7 @@ $(".design-icon").click(function(){
     var design=$('.design_text_yc')
     for(var i=0;i<design.length;i++){
       if(i>4){ 
-        $('.design_text_yc').toggleClass('design_yc');
+        $('design[i]').toggleClass('design_yc');
         $(this).toggleClass('up'); 
       } 
     }
