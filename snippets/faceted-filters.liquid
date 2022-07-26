@@ -344,5 +344,24 @@
     margin-right: 10px;
   }
   .design-icon{
-  }
+	text-align:center !important;
+	cursor:pointer;
+}
+.design-icon:after{
+	content: "";
+    background-image: url({{"bottom.svg" | asset_url }});
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+	
+}
+
+
+.design-icon.up:after{
+    transform: rotate(180deg);
+}
 {% endstyle %}
